@@ -1,0 +1,233 @@
+{
+  "preferredDuration": 240,
+  "listDemoPreferredDuration": 160,
+  "availability": "PREMIUM",
+  "palette": {
+    "choices": [
+      {
+        "color": "#F7F2F2",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#FFFFFF",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "back_photo"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "colorFilterMode": "MULTIPLY",
+      "originalSource": "assets://template-resources/art/TheBestVacation/paper_texture.png",
+      "translationX": 0.184,
+      "translationY": -0.28,
+      "width": "0.8w",
+      "height": "0.6h",
+      "anchorY": "center",
+      "anchorX": "center",
+      "scaleType": "FIT_XY",
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": 12,
+          "to": 0,
+          "duration": 45,
+          "interpolator": "flatIn30expOut"
+        },
+        {
+          "type": "move",
+          "fromY": -0.2,
+          "toY": 0,
+          "fromX": 0.2,
+          "toX": 0,
+          "duration": 45,
+          "interpolator": "flatIn30expOut"
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 45
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "910/1080w",
+      "height": "1240/1920h",
+      "anchorX": "center",
+      "anchorY": "center",
+      "minDuration": "as_template",
+      "medias": [
+        {
+          "type": "image",
+          "id": "back_photo",
+          "width": "match_parent",
+          "height": "match_parent",
+          "isEditable": false,
+          "startFrame": 15,
+          "innerPivotX": 1,
+          "animatorsIn": [
+            {
+              "type": "clip",
+              "duration": 35,
+              "direction": "right_to_left",
+              "interpolator": "flatIn30expOut"
+            }
+          ]
+        },
+        {
+          "isEditable": true,
+          "type": "image",
+          "id": "photo",
+          "startFrame": 25,
+          "demoScale": 1.3,
+          "demoOffsetX": -0.15,
+          "demoOffsetY": -0.15,
+          "backgroundColor": "#ffffff",
+          "demoSource": "https://images.unsplash.com/photo-1593575391244-2f16fcf4cbf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+          "width": "827/910w",
+          "height": "1162/1240h",
+          "anchorX": "center",
+          "anchorY": "center",
+          "animatorsIn": [
+            {
+              "type": "clip",
+              "duration": 30,
+              "direction": "right_to_left",
+              "interpolator": "flatIn30expOut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "colorFilterMode": "MULTIPLY",
+      "translationX": -0.355,
+      "translationY": 0.002,
+      "originalSource": "assets://template-resources/art/TheBestVacation/flower_1.png",
+      "startFrame": 70,
+      "width": "0.28w",
+      "height": "0.31h",
+      "x": "0.005w",
+      "y": "0.204h",
+      "anchorY": "center",
+      "anchorX": "center",
+      "animatorsIn": [
+        {
+          "type": "move",
+          "fromX": 0.14,
+          "toX": 0,
+          "fromY": 0.155,
+          "toY": 0,
+          "duration": 55,
+          "interpolator": "flatIn30expOut"
+        },
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 55,
+          "interpolator": "flatIn30expOut"
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 55
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "minDuration": "as_template",
+      "startFrame": 49,
+      "text": "The best vacation",
+      "textSize": "0.105m",
+      "font": {
+        "fontPath": "anastasia"
+      },
+      "innerGravity": "center",
+      "textColor": "#FFFFFF",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "x": "0.1w",
+      "y": "0.08h",
+      "animationParamIn": {
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 12
+          },
+          {
+            "type": "move_to_x",
+            "from": -0.3,
+            "to": 0,
+            "duration": 36,
+            "interpolator": "flatIn30expOut"
+          },
+          {
+            "type": "clip",
+            "direction": "left_to_right",
+            "duration": 36,
+            "interpolator": "flatIn30expOut"
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "minDuration": "as_template",
+      "text": "you have\nto be yourself ",
+      "textSize": "0.17m",
+      "font": {
+        "fontPath": "made_script"
+      },
+      "startFrame": 65,
+      "lineSpacing": 0.43,
+      "letterSpacing": 0.02,
+      "innerGravity": "right",
+      "textColor": "#9E7B66",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "y": "0.4h",
+      "animationParamIn": {
+        "lineDelay": 6,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 22
+          },
+          {
+            "type": "move_to_x",
+            "from": -0.3,
+            "to": 0,
+            "duration": 36,
+            "interpolator": "flatIn30expOut"
+          }
+        ]
+      }
+    }
+  ]
+}

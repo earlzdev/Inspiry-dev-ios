@@ -1,0 +1,186 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "defaultTextColor": "#ffffff",
+    "backgroundImage": "assets://template-resources/gradient/ShadowsInGradient/bg.jpg",
+    "choices": [
+      {
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          },
+          {
+            "type": "borderColor",
+            "id": "imageWithBorder"
+          },
+          {
+            "type": "pathColor",
+            "id": "pathBorder"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "imageWithBorder",
+      "borderWidth": "4/1080w",
+      "borderType": "inside",
+      "borderColor": "#ffffffff",
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1531464969876-f77a04ca410f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "880/1080w",
+      "height": "1118/1920h",
+      "y": "160/1920h",
+      "anchorX": "center",
+      "anchorY": "bottom",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "bottom_to_top",
+          "duration": 36,
+          "interpolator": "cubicOut"
+        }
+      ]
+    },
+    {
+      "id": "pathBorder",
+      "width": "880/1080w",
+      "height": "1600/1920h",
+      "y": "160/1920h",
+      "anchorX": "center",
+      "type": "path",
+      "color": "#ffffff",
+      "paintStyle": "STROKE",
+      "strokeWidth": "4/1080w",
+      "minDuration": "as_template",
+      "movements": [
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 0,
+          "fromY": 0,
+          "toY": 0,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromY": 0.0,
+          "toY": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 0,
+          "toX": 1,
+          "fromY": 1,
+          "toY": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 1,
+          "fromY": 1,
+          "toY": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "minDuration": "as_template",
+      "startFrame": 36,
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationX": -0.10893798,
+      "translationY": -0.33084664,
+      "type": "text",
+      "innerGravity": "left",
+      "text": "NEW\nPRODUCT",
+      "font": {
+        "fontPath": "mont",
+        "fontStyle": "bold"
+      },
+      "textSize": "0.1m",
+      "textColor": "#ffffff",
+      "capsMode": 2,
+      "animationParamIn": {
+        "lineDelayMillis": 320,
+        "reverse": true,
+        "textAnimators": [
+          {
+            "type": "clip",
+            "duration": 24,
+            "direction": "none"
+          },
+          {
+            "type": "move_to_y",
+            "from": 1,
+            "to": 0,
+            "duration": 24,
+            "interpolator": "cubicOut"
+          }
+        ]
+      }
+    },
+    {
+      "minDuration": "as_template",
+      "startFrame": 30,
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationX": -0.09445149,
+      "translationY": -0.22153458,
+      "type": "text",
+      "innerGravity": "left",
+      "text": "Magic like you've\nnever heard",
+      "font": "mont",
+      "textSize": "0.059m",
+      "textColor": "#ffffff",
+      "capsMode": 2,
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "lineSpacing": 1.06,
+      "animationParamIn": {
+        "lineDelayMillis": 230,
+        "reverse": true,
+        "textAnimators": [
+          {
+            "type": "clip",
+            "duration": 23,
+            "direction": "none"
+          },
+          {
+            "type": "move_to_y",
+            "from": 1,
+            "to": 0,
+            "duration": 23,
+            "interpolator": "cubicOut"
+          }
+        ]
+      }
+    },
+    {
+      "isEditable": false,
+      "type": "image",
+      "width": "1w",
+      "height": "1020/1920h",
+      "originalSource": "assets://template-resources/gradient/ShadowsInGradient/shadows.png"
+    }
+  ]
+}

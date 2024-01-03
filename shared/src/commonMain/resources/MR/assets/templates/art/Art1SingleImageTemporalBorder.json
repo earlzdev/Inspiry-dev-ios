@@ -1,0 +1,247 @@
+{
+  "clipChildren": true,
+  "preferredDuration": 240,
+  "listDemoPreferredDuration": 100,
+  "availability": "FREE",
+  "palette": {
+    "choices": [
+      {
+        "color": "#ffffffff",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "vector",
+            "id": "vectorAsTextBg*text1"
+          }
+        ]
+      },
+      {
+        "color": "#66531D",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text1"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "image",
+            "id": "drops1"
+          },
+          {
+            "type": "image",
+            "id": "drops2"
+          },
+          {
+            "type": "pathColor",
+            "id": "path"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "isEditable": true,
+      "demoSource": "https://images.unsplash.com/photo-1564351983018-60a22e9e2c99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "20/27m",
+      "anchorX": "center",
+      "height": "35/54m",
+      "y": "31/128h",
+      "demoOffsetY": 0.2,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 5
+        },
+        {
+          "type": "fade",
+          "from": 1,
+          "to": 0,
+          "duration": 5,
+          "startFrame": 5
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 40,
+          "startFrame": 10
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale_inner",
+          "startFrame": 0,
+          "duration": 0,
+          "from": 1,
+          "to": 1
+        },
+        {
+          "type": "scale_inner",
+          "startFrame": 5,
+          "duration": "all",
+          "from": 1,
+          "to": 1.2
+        }
+      ]
+    },
+    {
+      "id": "path",
+      "type": "path",
+      "color": "#BF9028",
+      "width": "38/54w",
+      "height": "33/54w",
+      "anchorX": "center",
+      "y": "32/128h",
+      "paintStyle": "STROKE",
+      "movementsConnected": false,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "duration": 10,
+          "from": 1,
+          "to": 1.1
+        }
+      ],
+      "movements": [
+        {
+          "type": "strokeWidth",
+          "from": "0",
+          "to": "4/60w",
+          "duration": 10
+        },
+        {
+          "type": "strokeWidth",
+          "to": "0",
+          "from": "4/60w",
+          "startFrame": 10,
+          "duration": 15
+        },
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 0,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromY": 0,
+          "toY": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 0,
+          "toX": 1,
+          "fromY": 1,
+          "toY": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 1,
+          "fromY": 1,
+          "toY": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": "brushBox",
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "y": "0.11h",
+      "x": "0.025w",
+      "medias": [
+        {
+          "id": "vectorAsTextBg*text1",
+          "type": "vector",
+          "originalSource": "assets://template-resources/art/SingleImageTemporalBorder/brush_center.json",
+          "scaleType": "FIT_XY",
+          "isEditable": false,
+          "colorFilterMode": "MULTIPLY",
+          "width": "match_parent",
+          "height": "match_parent"
+        },
+        {
+          "id": "text1",
+          "startFrame": 6,
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "paddingEnd": "0.16w",
+          "paddingStart": "0.105w",
+          "paddingBottom": "0.05w",
+          "paddingTop": "0.05w",
+          "type": "text",
+          "text": "NEW POST",
+          "innerGravity": "center",
+          "textSize": "0.035s",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "font": {
+            "fontPath": "mont",
+            "fontStyle": "light"
+          },
+          "anchorX": "center",
+          "anchorY": "center",
+          "minDuration": "as_template",
+          "textColor": "#66531D",
+          "animatorsIn": [
+            {
+              "type": "fade",
+              "duration": 15,
+              "from": 0,
+              "to": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drops1",
+      "type": "image",
+      "originalSource": "assets://template-resources/art/SingleImageTemporalBorder/dust_left1.png",
+      "colorFilter": "#E7BD0C",
+      "isEditable": false,
+      "isMovable": true,
+      "keepAspect": true,
+      "colorFilterMode": "MULTIPLY",
+      "width": "353/1080w",
+      "height": "282/1920h",
+      "scaleType": "FIT_XY",
+      "anchorX": "center",
+      "anchorY": "center",
+      "translationX": -0.293,
+      "translationY": -0.246
+    },
+    {
+      "id": "drops2",
+      "type": "image",
+      "translationX": 0.348,
+      "translationY": 0.144,
+      "originalSource": "assets://template-resources/art/SingleImageTemporalBorder/dust_right1.png",
+      "colorFilter": "#E7BD0C",
+      "isEditable": false,
+      "isMovable": true,
+      "keepAspect": true,
+      "colorFilterMode": "MULTIPLY",
+      "width": "210/1080w",
+      "height": "202/1920h",
+      "scaleType": "FIT_XY",
+      "anchorX": "center",
+      "anchorY": "center"
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "timeForEdit": 0,
+  "availability": "PREMIUM",
+  "preferredDuration": 180,
+  "palette": {
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "image",
+            "id": "bottomMask"
+          }
+        ]
+      },
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80",
+      "width": "720",
+      "height": "1110",
+      "anchorY": "bottom",
+      "anchorX": "center",
+      "y": "320",
+      "id": "first",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "move_to_x",
+          "from": -0.68,
+          "to": -1.36,
+          "duration": 30,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale",
+          "from": 0.85,
+          "to": 0.85,
+          "duration": 0,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1527639465243-b78f89155a34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
+      "width": "720",
+      "height": "1110",
+      "anchorY": "bottom",
+      "anchorX": "center",
+      "id": "second",
+      "y": "320",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "move_to_x",
+          "from": 0,
+          "to": -0.68,
+          "duration": 30,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 0.85,
+          "duration": 30,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "move_to_x",
+          "from": -0.68,
+          "to": -1.36,
+          "duration": 30,
+          "startFrame": 60,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1557434648-93da870fc6b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
+      "width": "720",
+      "height": "1110",
+      "anchorY": "bottom",
+      "anchorX": "center",
+      "id": "third",
+      "y": "320",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "move_to_x",
+          "from": 0.68,
+          "to": 0,
+          "duration": 30,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale",
+          "from": 0.85,
+          "to": 1,
+          "duration": 30,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "move_to_x",
+          "from": 0,
+          "to": -0.68,
+          "duration": 30,
+          "startFrame": 60,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 0.85,
+          "duration": 30,
+          "startFrame": 60,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "move_to_x",
+          "from": -0.68,
+          "to": -1.36,
+          "duration": 30,
+          "startFrame": 120,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "width": "720",
+      "height": "1110",
+      "anchorY": "bottom",
+      "anchorX": "center",
+      "y": "320",
+      "duplicate": "first",
+      "isEditable": false,
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "move_to_x",
+          "from": 1.36,
+          "to": 0.68,
+          "duration": 30,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale",
+          "from": 0.85,
+          "to": 0.85,
+          "duration": 0,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "move_to_x",
+          "from": 0.68,
+          "to": 0,
+          "duration": 30,
+          "startFrame": 60,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale",
+          "from": 0.85,
+          "to": 1,
+          "duration": 30,
+          "startFrame": 60,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "move_to_x",
+          "from": 0,
+          "to": -0.68,
+          "duration": 30,
+          "startFrame": 120,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 0.85,
+          "duration": 30,
+          "startFrame": 120,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "width": "720",
+      "height": "1110",
+      "anchorY": "bottom",
+      "anchorX": "center",
+      "y": "320",
+      "demoSource": "https://images.unsplash.com/photo-1596079890687-58c51d24889a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
+      "isEditable": false,
+      "startFrame": 70,
+      "animatorsIn": [
+        {
+          "type": "move_to_x",
+          "from": 1.36,
+          "to": 0.68,
+          "duration": 30,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale",
+          "from": 0.85,
+          "to": 0.85,
+          "duration": 0,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "move_to_x",
+          "from": 0.68,
+          "to": 0,
+          "duration": 30,
+          "startFrame": 60,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale",
+          "from": 0.85,
+          "to": 1,
+          "duration": 30,
+          "startFrame": 60,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "width": "720",
+      "height": "1110",
+      "anchorY": "bottom",
+      "anchorX": "center",
+      "y": "320",
+      "duplicate": "third",
+      "isEditable": false,
+      "startFrame": 130,
+      "animatorsIn": [
+        {
+          "type": "move_to_x",
+          "from": 1.36,
+          "to": 0.68,
+          "duration": 30,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale",
+          "from": 0.85,
+          "to": 0.85,
+          "duration": 0,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "minDuration": "as_template",
+      "text": "INSPIRING PLACES",
+      "anchorY": "top",
+      "anchorX": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "innerGravity": "center",
+      "textColor": "#000000",
+      "font": {
+        "fontPath": "montserrat",
+        "fontStyle": "light"
+      },
+      "textSize": "0.061m",
+      "y": "180"
+    },
+    {
+      "minDuration": "as_template",
+      "type": "text",
+      "text": "travel.com",
+      "anchorY": "top",
+      "anchorX": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "textColor": "#000000",
+      "font": {
+        "fontPath": "montserrat",
+        "fontStyle": "light"
+      },
+      "textSize": "0.04m",
+      "innerGravity": "center",
+      "y": "292"
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "originalSource": "assets://template-resources/minimal/SlideShow/bottom_shadow.png",
+      "width": "match_parent",
+      "height": "599",
+      "id": "bottomMask",
+      "anchorY": "bottom"
+    }
+  ]
+}

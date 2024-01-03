@@ -1,0 +1,406 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "backgroundImage": "assets://template-resources/christmas/Ch2BorderPhotos/back.jpg",
+    "choices": [
+      {
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          },
+          {
+            "type": "borderColor",
+            "id": "img1"
+          },
+          {
+            "type": "borderColor",
+            "id": "img2"
+          },
+          {
+            "type": "image",
+            "id": "star_1"
+          },
+          {
+            "type": "image",
+            "id": "star_2"
+          },
+          {
+            "type": "image",
+            "id": "star_3"
+          },
+          {
+            "type": "image",
+            "id": "star_4"
+          },
+          {
+            "type": "image",
+            "id": "star_5"
+          },
+          {
+            "type": "image",
+            "id": "star_6"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "star_1",
+      "originalSource": "assets://template-resources/christmas/Ch2BorderPhotos/star.png",
+      "width": "138",
+      "height": "138",
+      "anchorX": "end",
+      "x": "147",
+      "y": "432",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 1,
+          "to": 0.5,
+          "duration": 12,
+          "interpolator": "easeIn"
+        },
+        {
+          "type": "fade",
+          "from": 0.5,
+          "to": 1,
+          "duration": 10,
+          "startFrame": 16,
+          "interpolator": "easeOut"
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 12,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "star_2",
+      "originalSource": "assets://template-resources/christmas/Ch2BorderPhotos/star.png",
+      "width": "108",
+      "height": "108",
+      "anchorX": "end",
+      "x": "100",
+      "y": "557",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 15,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 1,
+          "to": 0.5,
+          "duration": 12,
+          "interpolator": "easeIn"
+        },
+        {
+          "type": "fade",
+          "from": 0.5,
+          "to": 1,
+          "duration": 10,
+          "startFrame": 16,
+          "interpolator": "easeOut"
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 12,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "star_3",
+      "originalSource": "assets://template-resources/christmas/Ch2BorderPhotos/star.png",
+      "width": "88",
+      "height": "88",
+      "anchorX": "end",
+      "x": "226",
+      "y": "719",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 1,
+          "to": 0.5,
+          "duration": 12,
+          "interpolator": "easeIn"
+        },
+        {
+          "type": "fade",
+          "from": 0.5,
+          "to": 1,
+          "duration": 10,
+          "startFrame": 16,
+          "interpolator": "easeOut"
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 12,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "star_4",
+      "originalSource": "assets://template-resources/christmas/Ch2BorderPhotos/star.png",
+      "width": "138",
+      "height": "138",
+      "anchorY": "bottom",
+      "x": "72",
+      "y": "398",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 25,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 1,
+          "to": 0.5,
+          "duration": 12,
+          "interpolator": "easeIn"
+        },
+        {
+          "type": "fade",
+          "from": 0.5,
+          "to": 1,
+          "duration": 10,
+          "startFrame": 16,
+          "interpolator": "easeOut"
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 12,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "star_5",
+      "originalSource": "assets://template-resources/christmas/Ch2BorderPhotos/star.png",
+      "width": "90",
+      "height": "90",
+      "anchorY": "bottom",
+      "x": "156",
+      "y": "314",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 30,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 1,
+          "to": 0.5,
+          "duration": 12,
+          "interpolator": "easeIn"
+        },
+        {
+          "type": "fade",
+          "from": 0.5,
+          "to": 1,
+          "duration": 10,
+          "startFrame": 16,
+          "interpolator": "easeOut"
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 12,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "star_6",
+      "originalSource": "assets://template-resources/christmas/Ch2BorderPhotos/star.png",
+      "width": "90",
+      "height": "90",
+      "anchorY": "bottom",
+      "x": "201",
+      "y": "558",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 35,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 1,
+          "to": 0.5,
+          "duration": 12,
+          "interpolator": "easeIn"
+        },
+        {
+          "type": "fade",
+          "from": 0.5,
+          "to": 1,
+          "duration": 10,
+          "startFrame": 16,
+          "interpolator": "easeOut"
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 12,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "img1",
+      "demoSource": "https://images.pexels.com/photos/5618052/pexels-photo-5618052.jpeg?auto=compress&cs=tinysrgb&h=1000&w=700",
+      "width": "613",
+      "height": "710",
+      "y": "320",
+      "x": "57",
+      "rotation": -1,
+      "borderWidth": "27/1080w",
+      "borderColor": "#FFF8D1",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0.9,
+          "to": 1,
+          "duration": 25,
+          "interpolator": "cubicOut"
+        },
+        {
+          "type": "move_to_x",
+          "from": -0.65,
+          "to": 0,
+          "duration": 25,
+          "interpolator": "cubicOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "img2",
+      "demoSource": "https://images.pexels.com/photos/5623616/pexels-photo-5623616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=720&w=480",
+      "width": "664",
+      "height": "828",
+      "anchorY": "bottom",
+      "anchorX": "end",
+      "y": "99",
+      "x": "49",
+      "rotation": 1,
+      "borderWidth": "27/1080w",
+      "borderColor": "#FFF8D1",
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0.9,
+          "to": 1,
+          "duration": 25,
+          "interpolator": "cubicOut"
+        },
+        {
+          "type": "move_to_x",
+          "from": 0.7,
+          "to": 0,
+          "duration": 25,
+          "interpolator": "cubicOut"
+        }
+      ]
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "Happy New Year",
+      "font": "anastasia",
+      "anchorX": "center",
+      "innerGravity": "center",
+      "lineSpacing": 0.72,
+      "textSize": "0.12620361m",
+      "translationY": 0.03430033,
+      "backgroundMarginLeft": 0.25,
+      "backgroundMarginRight": 0.25,
+      "textGradient": {
+        "colors": [
+          "#FFEAB1",
+          "#FC9D09"
+        ]
+      },
+      "startFrame": 5,
+      "minDuration": "as_template",
+      "animationParamIn": {
+        "shuffle": true,
+        "charDelayMillis": 40,
+        "charInterpolator": "easeInOutLight",
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 165
+          },
+          {
+            "type": "scale",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 165
+          }
+        ]
+      }
+    }
+  ]
+}

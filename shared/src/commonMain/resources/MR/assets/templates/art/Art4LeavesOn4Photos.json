@@ -1,0 +1,203 @@
+{
+  "preferredDuration": 180,
+  "listDemoPreferredDuration": 120,
+  "availability": "PREMIUM",
+  "palette": {
+    "backgroundImage": "assets://template-resources/art/LeavesOn4Photos/bg.jpg"
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "478/1080w",
+      "height": "596/1920h",
+      "anchorX": "end",
+      "x": "99/1080w",
+      "y": "345/1920h",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "type": "move_to_x",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut",
+          "from": 0.2,
+          "to": 0
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1558697698-9300a84a6a99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "478/1080w",
+      "height": "596/1920h",
+      "x": "101/1080w",
+      "y": "187/1920h",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "type": "move_to_x",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut",
+          "from": -0.2,
+          "to": 0
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1585604901452-1e4b8cb2b38a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "width": "478/1080w",
+      "height": "596/1920h",
+      "anchorX": "end",
+      "x": "99/1080w",
+      "y": "1047/1920h",
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "type": "move_to_x",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut",
+          "from": 0.2,
+          "to": 0
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1589008828487-ac5e8826e513?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "478/1080w",
+      "height": "596/1920h",
+      "x": "101/1080w",
+      "y": "853/1920h",
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "type": "move_to_x",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut",
+          "from": -0.2,
+          "to": 0
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "originalSource": "assets://template-resources/art/LeavesOn4Photos/flower_1.png",
+      "width": "146/1080s",
+      "height": "207/1080s",
+      "y": "83/1920h",
+      "x": "500/1080w",
+      "isEditable": false,
+      "isMovable": true,
+      "keepAspect": true,
+      "colorFilterMode": "MULTIPLY",
+      "startFrame": 56,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 30,
+          "interpolator": "elegantlySlowOut",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "type": "scale",
+          "duration": 30,
+          "interpolator": "elegantlySlowOut",
+          "from": 0.6,
+          "to": 1
+        },
+        {
+          "type": "move_to_y",
+          "duration": 30,
+          "relativity": "ROOT",
+          "interpolator": "elegantlySlowOut",
+          "from": 0.1,
+          "to": 0
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "originalSource": "assets://template-resources/art/LeavesOn4Photos/flower_2.png",
+      "width": "199/1080s",
+      "height": "254/1080s",
+      "y": "700/1920h",
+      "x": "469/1080w",
+      "isEditable": false,
+      "isMovable": true,
+      "keepAspect": true,
+      "colorFilterMode": "MULTIPLY",
+      "startFrame": 30,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 30,
+          "interpolator": "elegantlySlowOut",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "type": "scale",
+          "duration": 30,
+          "interpolator": "elegantlySlowOut",
+          "from": 0.6,
+          "to": 1
+        },
+        {
+          "type": "move_to_y",
+          "duration": 30,
+          "relativity": "ROOT",
+          "interpolator": "elegantlySlowOut",
+          "from": 0.1,
+          "to": 0
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "NEW IN BLOG",
+      "anchorY": "bottom",
+      "anchorX": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "innerGravity": "center",
+      "textColor": "#0C0C3E",
+      "font": {
+        "fontPath": "spectral",
+        "fontStyle": "regular"
+      },
+      "translationY": -0.04577434,
+      "minDuration": "as_template",
+      "textSize": "0.03672s"
+    }
+  ]
+}

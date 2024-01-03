@@ -1,0 +1,147 @@
+{
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "palette": {
+    "choices": [
+      {
+        "color": "#F2F2F2",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "txt"
+          }
+        ]
+      },
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "borderColor",
+            "id": "img1"
+          },
+          {
+            "type": "borderColor",
+            "id": "img2"
+          },
+          {
+            "type": "borderColor",
+            "id": "img3"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "id": "img1",
+      "demoSource": "https://images.pexels.com/photos/4346016/pexels-photo-4346016.jpeg?auto=compress&cs=tinysrgb&h=620&w=620",
+      "width": "629/1080sw",
+      "height": "629/1080sw",
+      "y": "82",
+      "x": "333",
+      "rotation": -5,
+      "borderWidth": "27/1080w",
+      "borderColor": "#ffffff",
+      "demoOffsetX": 0.02800135,
+      "demoOffsetY": -0.10383703,
+      "startFrame": 16,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 32,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.pexels.com/photos/4346014/pexels-photo-4346014.jpeg?auto=compress&cs=tinysrgb&h=630&w=630",
+      "width": "723/1080sw",
+      "height": "723/1080sw",
+      "x": "47",
+      "y": "52",
+      "id": "img2",
+      "anchorX": "end",
+      "anchorY": "bottom",
+      "borderWidth": "27/1080w",
+      "borderColor": "#ffffff",
+      "demoOffsetY": 0.16621259,
+      "startFrame": 32,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 32,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.pexels.com/photos/4346017/pexels-photo-4346017.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=730&w=730",
+      "width": "619/1080sw",
+      "height": "619/1080sw",
+      "x": "82",
+      "y": "580",
+      "rotation": 8,
+      "id": "img3",
+      "borderWidth": "37/1080sw",
+      "borderColor": "#ffffff",
+      "demoOffsetX": -0.17997645,
+      "demoOffsetY": -0.20985085,
+      "demoScale": 1.3161045,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 32,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "y": "740/1920h",
+      "id": "txt",
+      "translationX": 0.3,
+      "translationY": 0.0266,
+      "lineSpacing": 0.92,
+      "textSize": "0.0675sw",
+      "type": "text",
+      "minDuration": "as_template",
+      "innerGravity": "end",
+      "text": "Share\nthis\nstory",
+      "font": "garamond",
+      "textColor": "#000000",
+      "backgroundMarginLeft": 0.3,
+      "backgroundMarginRight": 0.3,
+      "startFrame": 46,
+      "animationParamIn": {
+        "lineDelay": 8,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "duration": 11,
+            "from": 0,
+            "to": 1
+          }
+        ]
+      }
+    }
+  ]
+}

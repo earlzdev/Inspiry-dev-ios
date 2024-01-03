@@ -1,0 +1,68 @@
+{
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "type": "text",
+  "text": "Raise words to several lines quickly and elegantly",
+  "innerGravity": "center",
+  "font": "nautilus",
+  "textSize": "1/12w",
+  "lineSpacing": 1.1,
+  "backgroundMarginLeft": 0.2,
+  "backgroundMarginRight": 0.2,
+  "animationParamIn": {
+    "wordDelayMillis": 67,
+    "lineDelayMillis": 333,
+    "textAnimators": [
+      {
+        "type": "clip",
+        "duration": 20,
+        "direction": "none"
+      },
+      {
+        "type": "move_to_y",
+        "from": 1,
+        "to": 0,
+        "duration": 20,
+        "interpolator": "slowInExpOut"
+      }
+    ],
+    "backgroundAnimators": [
+      {
+        "type": "clip",
+        "direction": "bottom_to_top",
+        "interpolator": "flatInExpOut",
+        "duration": 10
+      }
+    ]
+  },
+  "animationParamOut": {
+    "lineDelayMillis": 33,
+    "textAnimators": [
+      {
+        "type": "clip",
+        "duration": 8,
+        "direction": "none"
+      },
+      {
+        "type": "move_to_y",
+        "to": -1,
+        "from": 0,
+        "duration": 8,
+        "interpolator": "expIn"
+      }
+    ],
+    "backgroundAnimators": [
+      {
+        "type": "clip",
+        "from": 1,
+        "to": 0,
+        "direction": "bottom_to_top",
+        "interpolator": "cubicIn",
+        "duration": 10
+      }
+    ]
+  }
+}

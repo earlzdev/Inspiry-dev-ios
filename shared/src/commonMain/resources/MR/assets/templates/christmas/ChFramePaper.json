@@ -1,0 +1,180 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "backgroundImage": "assets://template-resources/christmas/ChFramePaper/bg.png"
+  },
+  "medias": [
+    {
+      "id": "vector1",
+      "type": "vector",
+      "width": "1w",
+      "height": "1h",
+      "alignBy": "center",
+      "isMovable": false,
+      "originalSource": "assets://template-resources/christmas/ChFramePaper/bg_snow.json",
+      "minDuration": "as_template",
+      "isLoopEnabled": true,
+      "staticFrameForEdit": "last"
+    },
+    {
+      "type": "group",
+      "width": "890",
+      "height": "1290",
+      "anchorX": "center",
+      "y": "323",
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "duration": 40,
+          "from": 1.6,
+          "to": 1,
+          "interpolator": "easeOut"
+        }
+      ],
+      "medias": [
+        {
+          "type": "image",
+          "isEditable": false,
+          "originalSource": "assets://template-resources/christmas/ChFramePaper/paper.png",
+          "width": "match_parent",
+          "height": "match_parent"
+        },
+        {
+          "type": "vector",
+          "id": "present_1",
+          "isMovable": true,
+          "originalSource": "assets://template-resources/christmas/ChFramePaper/present_1.json",
+          "isLoopEnabled": false,
+          "startFrame": 20,
+          "width": "414",
+          "height": "260",
+          "alignBy": "top_center",
+          "y": "191",
+          "animatorsIn": [
+            {
+              "type": "fade",
+              "duration": 20,
+              "from": 0,
+              "to": 1,
+              "interpolator": "easeOut"
+            }
+          ]
+        },
+        {
+          "type": "vector",
+          "id": "present_2",
+          "isMovable": true,
+          "originalSource": "assets://template-resources/christmas/ChFramePaper/present_2.json",
+          "isLoopEnabled": true,
+          "width": "349",
+          "height": "252",
+          "alignBy": "bottom_center",
+          "y": "176",
+          "animatorsIn": [
+            {
+              "type": "fade",
+              "duration": 20,
+              "from": 0,
+              "to": 1,
+              "interpolator": "easeOut"
+            }
+          ]
+        },
+        {
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "type": "text",
+          "text": "HO! HO! HO!",
+          "font": {
+            "fontPath": "bradley",
+            "fontStyle": "bold"
+          },
+          "anchorX": "center",
+          "anchorY": "top",
+          "innerGravity": "center",
+          "translationY": 0.19969736,
+          "textSize": "0.0745616m",
+          "textColor": "#000000",
+          "minDuration": "as_template",
+          "animationParamIn": {
+            "charDelayMillis": 45,
+            "charInterpolator": "easeOutLight",
+            "textAnimators": [
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "durationMillis": 135
+              }
+            ]
+          }
+        },
+        {
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "type": "text",
+          "text": "You’re invited to a\nHappy Holidays Party!",
+          "font": {
+            "fontPath": "bradley",
+            "fontStyle": "bold"
+          },
+          "anchorX": "center",
+          "anchorY": "center",
+          "innerGravity": "center",
+          "backgroundMarginLeft": 0.25,
+          "backgroundMarginRight": 0.25,
+          "textSize": "0.055691604m",
+          "translationY": -0.00297599,
+          "textColor": "#000000",
+          "minDuration": "as_template",
+          "startFrame": 10,
+          "animationParamIn": {
+            "charDelayMillis": 30,
+            "charInterpolator": "easeOutLight",
+            "textAnimators": [
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "durationMillis": 90
+              }
+            ]
+          }
+        },
+        {
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "type": "text",
+          "text": "Join in the Christmas fun!",
+          "font": {
+            "fontPath": "bradley",
+            "fontStyle": "bold"
+          },
+          "anchorX": "center",
+          "anchorY": "bottom",
+          "backgroundMarginLeft": 0.25,
+          "backgroundMarginRight": 0.25,
+          "innerGravity": "center",
+          "textSize": "0.0428084m",
+          "translationY": -0.22544251,
+          "textColor": "#000000",
+          "minDuration": "as_template",
+          "startFrame": 40,
+          "animationParamIn": {
+            "charDelayMillis": 40,
+            "charInterpolator": "easeOutLight",
+            "textAnimators": [
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "durationMillis": 120
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

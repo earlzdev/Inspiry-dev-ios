@@ -1,0 +1,504 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "defaultTextColor": "#ffffff",
+    "backgroundGradient": {
+      "colors": [
+        "#ff17EAD9",
+        "#ff6078EA"
+      ],
+      "orientation": "TL_BR"
+    },
+    "choices": [
+      {
+        "color": "#4AD0E3",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "circle1"
+          }
+        ]
+      },
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "socialText1"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "socialText2"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "socialText3"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "group",
+      "width": "1w",
+      "height": "715",
+      "startFrame": 10,
+      "cornerRadiusPosition": "only_bottom",
+      "animatorsIn": [
+      ],
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1606772047911-dc41b34e5458?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80",
+          "demoScale": 1.6,
+          "demoOffsetY": 0.2,
+          "demoOffsetX": -0.3,
+          "width": "match_parent",
+          "height": "match_parent",
+          "cornerRadiusPosition": "only_bottom",
+          "startFrame": 10,
+          "animatorsIn": [
+            {
+              "type": "move_inner",
+              "fromY": 1,
+              "toY": 0,
+              "duration": 30,
+              "interpolator": "flatIn30expOut"
+            },
+            {
+              "type": "move_to_y",
+              "from": -1,
+              "to": 0,
+              "duration": 30,
+              "interpolator": "flatIn30expOut"
+            },
+            {
+              "type": "radius",
+              "from": 0.5,
+              "to": 0.5,
+              "duration": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadow1",
+      "isEditable": false,
+      "type": "image",
+      "width": "768/1080w",
+      "height": "384/1920h",
+      "anchorX": "center",
+      "y": "706/1920h",
+      "originalSource": "assets://template-resources/social/Social2RoundFace/glow.png",
+      "startFrame": 30,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "interpolator": "flatIn30expOut",
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "id": "circle1",
+      "isEditable": false,
+      "type": "image",
+      "width": "568/1080w",
+      "height": "568/1080w",
+      "anchorX": "center",
+      "y": "422/1920h",
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "circular",
+          "duration": 30,
+          "interpolator": "flatIn30expOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1580824392768-8fdd1f2853c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "demoScale": 1.6,
+      "width": "548/1080w",
+      "height": "548/1080w",
+      "demoOffsetX": -0.5,
+      "demoOffsetY": 0.0,
+      "startFrame": 30,
+      "anchorX": "center",
+      "y": "432/1920h",
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "circular",
+          "duration": 30,
+          "from": 1,
+          "to": 1
+        },
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "interpolator": "flatIn30expOut",
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Samanta Preston",
+      "y": "1030",
+      "innerGravity": "center",
+      "font": {
+        "fontStyle": "bold",
+        "fontPath": "gilroy"
+      },
+      "textSize": "0.08m",
+      "minDuration": "as_template",
+      "startFrame": 40,
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "animationParamIn": {
+        "wordDelay": 7,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 15
+          },
+          {
+            "type": "move_to_y",
+            "from": 0.5,
+            "to": 0,
+            "duration": 30,
+            "interpolator": "flatIn30expOut"
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "text": "marketing designer",
+      "y": "1128",
+      "innerGravity": "center",
+      "font": {
+        "fontStyle": "normal",
+        "fontPath": "gilroy"
+      },
+      "textSize": "0.056m",
+      "minDuration": "as_template",
+      "startFrame": 50,
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "animationParamIn": {
+        "wordDelay": 7,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 15
+          },
+          {
+            "type": "move_to_y",
+            "from": 1,
+            "to": 0,
+            "duration": 30,
+            "interpolator": "flatIn30expOut"
+          }
+        ]
+      }
+    },
+    {
+      "type": "group",
+      "orientation": "H",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "y": "1291/1920h",
+      "anchorX": "center",
+      "animatorsIn": [
+        {
+          "startFrame": 60,
+          "type": "radius",
+          "from": 0.9,
+          "to": 0.9,
+          "duration": 0
+        },
+        {
+          "startFrame": 60,
+          "type": "backgroundFade",
+          "from": 0,
+          "to": 0.3,
+          "duration": 15
+        }
+      ],
+
+      "medias": [
+        {
+          "type": "vector",
+          "originalSource": "assets://sticker-resources/social/Social_1.json",
+          "width": "100/1080w",
+          "height": "100/1080w",
+          "anchorY": "center",
+          "anchorX": "center",
+          "marginLeft": "0.07w",
+          "isSocialIcon": true,
+          "keepAspect": true,
+          "isLottieAnimEnabled":false,
+          "relativeToParent": false,
+          "startFrame": 65,
+          "animatorsIn": [
+            {
+              "startFrame": 5,
+              "type": "scale",
+              "from": 0,
+              "to": 1,
+              "duration": 15,
+              "interpolator": "flatIn30expOut"
+            },
+            {
+              "type": "move_to_x",
+              "from": 0.32,
+              "to": 0,
+              "startFrame": 10,
+              "duration": 19,
+              "interpolator": "flatIn30expOut"
+            }
+          ]
+        },
+        {
+          "id": "socialText1",
+          "type": "text",
+          "text": "@smiledesign",
+          "innerGravity": "center",
+          "textSize": "0.056m",
+          "width": "650/1080w",
+          "height": "wrap_content",
+          "paddingEnd": "0.025w",
+          "paddingTop": "0.025w",
+          "paddingBottom": "0.025w",
+          "minDuration": "as_template",
+          "startFrame": 75,
+          "anchorX": "center",
+          "anchorY": "center",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "animationParamIn": {
+            "textAnimators": [
+              {
+                "type": "move_to_x",
+                "from": 0.5,
+                "to": 0,
+                "duration": 20,
+                "interpolator": "flatIn30expOut"
+              },
+              {
+                "type": "clip",
+                "direction": "left_to_right",
+                "duration": 20
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "orientation": "H",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "y": "1471/1920h",
+      "anchorX": "center",
+      "animatorsIn": [
+        {
+          "startFrame": 65,
+          "type": "radius",
+          "from": 0.9,
+          "to": 0.9,
+          "duration": 0
+        },
+        {
+          "startFrame": 65,
+          "type": "backgroundFade",
+          "from": 0,
+          "to": 0.3,
+          "duration": 22
+        }
+      ],
+      "medias": [
+        {
+          "type": "vector",
+          "originalSource": "assets://sticker-resources/social/Social_3.json",
+          "width": "100/1080w",
+          "height": "100/1080w",
+          "startFrame": 70,
+          "anchorY": "center",
+          "anchorX": "center",
+          "marginLeft": "0.07w",
+          "isSocialIcon": true,
+          "keepAspect": true,
+          "isLottieAnimEnabled":false,
+          "relativeToParent": false,
+          "animatorsIn": [
+            {
+              "type": "scale",
+              "from": 0,
+              "to": 1,
+              "duration": 15,
+              "interpolator": "flatIn30expOut"
+            },
+            {
+              "type": "move_to_x",
+              "from": 0.32,
+              "to": 0,
+              "startFrame": 10,
+              "duration": 19,
+              "interpolator": "flatIn30expOut"
+            }
+          ]
+        },
+        {
+          "id": "socialText2",
+          "type": "text",
+          "text": "+1-800-511-93-30",
+          "innerGravity": "center",
+          "textSize": "0.056m",
+          "minDuration": "as_template",
+          "startFrame": 80,
+          "width": "650/1080w",
+          "height": "wrap_content",
+          "paddingEnd": "0.025w",
+          "paddingTop": "0.025w",
+          "paddingBottom": "0.025w",
+          "anchorX": "center",
+          "anchorY": "center",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "animationParamIn": {
+            "textAnimators": [
+              {
+                "type": "move_to_x",
+                "from": 0.5,
+                "to": 0,
+                "duration": 20,
+                "interpolator": "flatIn30expOut"
+              },
+              {
+                "type": "clip",
+                "direction": "left_to_right",
+                "duration": 20
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "orientation": "H",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "y": "1651/1920h",
+      "anchorX": "center",
+      "animatorsIn": [
+        {
+          "startFrame": 70,
+          "type": "radius",
+          "from": 0.9,
+          "to": 0.9,
+          "duration": 0
+        },
+        {
+          "startFrame": 70,
+          "type": "backgroundFade",
+          "from": 0,
+          "to": 0.3,
+          "duration": 15
+        }
+      ],
+      "medias": [
+        {
+          "type": "vector",
+          "originalSource": "assets://sticker-resources/social/Social_2.json",
+          "width": "100/1080w",
+          "height": "100/1080w",
+          "marginLeft": "0.07w",
+          "startFrame": 75,
+          "anchorY": "center",
+          "anchorX": "center",
+          "isSocialIcon": true,
+          "keepAspect": true,
+          "isLottieAnimEnabled":false,
+          "relativeToParent": false,
+          "animatorsIn": [
+            {
+              "type": "scale",
+              "from": 0,
+              "to": 1,
+              "duration": 15,
+              "interpolator": "flatIn30expOut"
+            },
+            {
+              "type": "move_to_x",
+              "from": 0.32,
+              "to": 0,
+              "startFrame": 10,
+              "duration": 19,
+              "interpolator": "flatIn30expOut"
+            }
+          ]
+        },
+        {
+          "id": "socialText3",
+          "type": "text",
+          "text": "@samdesign",
+          "innerGravity": "center",
+          "textSize": "0.056m",
+          "minDuration": "as_template",
+          "startFrame": 85,
+          "width": "650/1080w",
+          "height": "wrap_content",
+          "paddingEnd": "0.025w",
+          "paddingTop": "0.025w",
+          "paddingBottom": "0.025w",
+          "anchorX": "center",
+          "anchorY": "center",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "animationParamIn": {
+            "textAnimators": [
+              {
+                "type": "move_to_x",
+                "from": 0.5,
+                "to": 0,
+                "duration": 20,
+                "interpolator": "flatIn30expOut"
+              },
+              {
+                "type": "clip",
+                "direction": "left_to_right",
+                "duration": 20
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

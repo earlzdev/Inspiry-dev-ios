@@ -1,0 +1,39 @@
+{
+  "alignBy": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "backgroundMarginLeft": 0,
+  "backgroundMarginRight": 0,
+  "textColor": "#7B78FF",
+  "type": "text",
+  "text": "Raise words to several lines quickly and elegantly",
+  "innerGravity": "center",
+  "font": {
+    "fontStyle": "bold"
+  },
+  "textSize": "25dp",
+  "animationParamIn": {
+    "wordDelayMillis": 0,
+    "lineDelayMillis": 400,
+    "textAnimators": [
+      {
+        "type": "clip",
+        "duration": 35,
+        "direction": "none"
+      },
+      {
+        "type": "move_to_y",
+        "from": 1,
+        "to": 0,
+        "duration": 35,
+        "interpolator": "slowInExpOut"
+      },
+      {
+        "type": "fade",
+        "from": 0,
+        "to": 1,
+        "duration": 35
+      }
+    ]
+  }
+}

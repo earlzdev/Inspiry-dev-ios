@@ -1,0 +1,286 @@
+{
+  "preferredDuration": 180,
+  "listDemoPreferredDuration": 100,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": true,
+    "choices": [
+      {
+        "color": "#FFFFFF",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "Dot1",
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "keepAspect": true,
+      "colorFilterMode": "MULTIPLY",
+      "width": "321/1080w",
+      "height": "411/1920h",
+      "x": "0.493w",
+      "y": "0.05h",
+      "startFrame": 0,
+      "animatorsIn": [
+        {
+          "type": "scale_inner",
+          "from": 0,
+          "to": 1,
+          "duration": 35,
+          "interpolator": "flatIn30expOut"
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 35,
+          "interpolator": "flatIn30expOut"
+        }
+      ],
+      "originalSource": "assets://template-resources/art/Art2DoublePhotoLight/Dot_1.png"
+    },
+    {
+      "id": "Dot2",
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "keepAspect": true,
+      "colorFilterMode": "MULTIPLY",
+      "width": "321/1080w",
+      "height": "410/1920h",
+      "anchorY": "bottom",
+      "x": "0.2358w",
+      "y": "0.1125w",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "scale_inner",
+          "from": 0,
+          "to": 1,
+          "duration": 35,
+          "interpolator": "flatIn30expOut"
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 35,
+          "interpolator": "flatIn30expOut"
+        }
+      ],
+      "originalSource": "assets://template-resources/art/Art2DoublePhotoLight/Dot_2.png"
+    },
+    {
+      "type": "group",
+      "width": "620/1080w",
+      "height": "791/1920h",
+      "x": "336/1080w",
+      "y": "918/1920h",
+      "medias": [
+        {
+          "id": "photo2",
+          "type": "image",
+          "isEditable": true,
+          "width": "match_parent",
+          "height": "match_parent",
+          "startFrame": 0,
+          "alpha": 0.6,
+          "animatorsIn": [
+            {
+              "startFrame": 10,
+              "type": "clip",
+              "direction": "left_to_right",
+              "duration": 40,
+              "interpolator": "flatIn30expOut"
+            },
+            {
+              "startFrame": 10,
+              "type": "clip",
+              "direction": "bottom_to_top",
+              "duration": 40,
+              "interpolator": "flatIn30expOut"
+            }
+          ],
+          "demoSource": "https://images.unsplash.com/photo-1588021868213-da55ae9c07d1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+        },
+        {
+          "type": "image",
+          "width": "match_parent",
+          "height": "match_parent",
+          "duplicate": "photo2",
+          "startFrame": 3,
+          "alpha": 1,
+          "animatorsIn": [
+            {
+              "startFrame": 10,
+              "type": "clip",
+              "direction": "left_to_right",
+              "duration": 40,
+              "interpolator": "flatIn30expOut"
+            },
+            {
+              "startFrame": 10,
+              "type": "clip",
+              "direction": "bottom_to_top",
+              "duration": 40,
+              "interpolator": "flatIn30expOut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "620/1080w",
+      "height": "703/1920h",
+      "x": "128/1080w",
+      "y": "215/1920h",
+      "medias": [
+        {
+          "id": "photo1",
+          "type": "image",
+          "isEditable": true,
+          "width": "match_parent",
+          "height": "match_parent",
+          "startFrame": 0,
+          "alpha": 0.6,
+          "animatorsIn": [
+            {
+              "type": "clip",
+              "direction": "right_to_left",
+              "duration": 40,
+              "interpolator": "flatIn30expOut"
+            },
+            {
+              "type": "clip",
+              "direction": "top_to_bottom",
+              "duration": 40,
+              "interpolator": "flatIn30expOut"
+            }
+          ],
+          "demoSource": "https://images.unsplash.com/photo-1588021892851-c28fc0a518c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+        },
+        {
+          "type": "image",
+          "width": "match_parent",
+          "height": "match_parent",
+          "duplicate": "photo1",
+          "startFrame": 3,
+          "alpha": 1,
+          "animatorsIn": [
+            {
+              "type": "clip",
+              "direction": "right_to_left",
+              "duration": 40,
+              "interpolator": "flatIn30expOut"
+            },
+            {
+              "type": "clip",
+              "direction": "top_to_bottom",
+              "duration": 40,
+              "interpolator": "flatIn30expOut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Splash1",
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "keepAspect": true,
+      "colorFilterMode": "MULTIPLY",
+      "width": "487/1080w",
+      "height": "768/1920h",
+      "x": "548/1080w",
+      "y": "403/1920h",
+      "startFrame": 35,
+      "animatorsIn": [
+        {
+          "type": "scale_inner",
+          "from": 0.2,
+          "to": 1,
+          "duration": 30,
+          "interpolator": "flatIn30expOut"
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 30,
+          "interpolator": "flatIn30expOut"
+        }
+      ],
+      "originalSource": "assets://template-resources/art/Art2DoublePhotoLight/Splash_1.png"
+    },
+    {
+      "id": "Splash2",
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "keepAspect": true,
+      "colorFilterMode": "MULTIPLY",
+      "width": "393/1080w",
+      "height": "650/1920h",
+      "y": "853/1920h",
+      "startFrame": 45,
+      "animatorsIn": [
+        {
+          "type": "scale_inner",
+          "from": 0.2,
+          "to": 1,
+          "duration": 30,
+          "interpolator": "flatIn30expOut"
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 30,
+          "interpolator": "flatIn30expOut"
+        }
+      ],
+      "originalSource": "assets://template-resources/art/Art2DoublePhotoLight/Splash_2.png"
+    },
+    {
+      "id": "flower",
+      "isEditable": false,
+      "isMovable": true,
+      "colorFilterMode": "DISABLE",
+      "originalSource": "assets://template-resources/art/Art2DoublePhotoLight/Flower_1.png",
+      "keepAspect": true,
+      "width": "247/1080w",
+      "height": "630/1920h",
+      "x": "212/1080w",
+      "y": "703/1920h",
+      "type": "image",
+      "templateMask": {
+        "textures": [
+          {
+            "type": "textureMedia",
+            "scaleType": "FIT_XY",
+            "startFrame": 25,
+            "textureSource": "assets://template-resources/art/Art2DoublePhotoLight/MaskFlower_2.json"
+          }
+        ]
+      },
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.05,
+          "duration": 30,
+          "interpolator": "flatIn30expOut"
+        }
+      ]
+    }
+  ]
+}

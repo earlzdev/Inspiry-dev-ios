@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_bottom_panel_height">64dp</dimen>
+    <dimen name="edit_bottom_icon_width">65dp</dimen>
+
+    <dimen name="item_template_padding">11dp</dimen>
+    <dimen name="item_template_corner_radius">8dp</dimen>
+    <dimen name="text_caps_mode_margin_end">20dp</dimen>
+
+    <dimen name="template_margin_bottom">20dp</dimen>
+    <dimen name="timeline_control_panel_height">36dp</dimen>
+    <dimen name="edit_top_toolbar_height">60dp</dimen>
+    <dimen name="template_container_margin_top">10dp</dimen>
+</resources>

@@ -1,0 +1,243 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "group",
+      "width": "1w",
+      "height": "1h",
+      "templateMask": {
+        "shaderType": "SINGLE_ADDITION",
+        "textures": [
+          {
+            "type": "textureMedia",
+            "isLoopEnabled": true,
+            "textureSource": "assets://template-resources/christmas/Ch1Discount/mask.mp4"
+          }
+        ]
+      },
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.pexels.com/photos/4834893/pexels-photo-4834893.jpeg?auto=compress&cs=tinysrgb&h=1020&w=700",
+          "width": "1w",
+          "height": "1h",
+          "minDuration": "as_template",
+          "animatorsAll": [
+            {
+              "type": "scale_inner",
+              "from": 1,
+              "to": 1.1,
+              "duration": "all"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "isEditable": false,
+          "originalSource": "assets://template-resources/christmas/Ch1Discount/snow_mask.png",
+          "width": "1w",
+          "height": "1h"
+        }
+      ]
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "Best Holiday",
+      "font": {
+        "fontPath": "spectral",
+        "fontStyle": "bold"
+      },
+      "anchorX": "center",
+      "anchorY": "center",
+      "innerGravity": "center",
+      "textSize": "0.13399361m",
+      "translationY": -0.2661465,
+      "textColor": "#ffffff",
+      "shadowOffset": 0.04,
+      "backgroundMarginLeft": 0.3,
+      "backgroundMarginRight": 0.3,
+      "shadowColors": [
+        "#cc000000"
+      ],
+      "startFrame": 5,
+      "minDuration": "as_template",
+      "animationParamIn": {
+        "wordDelay": 15,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 20,
+            "interpolator": "elegantlySlowOut"
+          },
+          {
+            "type": "move_to_y",
+            "from": -1,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "CHRISTMAS\nDISCOUNTS",
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "bold"
+      },
+      "anchorX": "center",
+      "anchorY": "center",
+      "innerGravity": "center",
+      "textSize": "0.0818516m",
+      "translationY": -0.1481275,
+      "backgroundMarginLeft": 0.3,
+      "backgroundMarginRight": 0.3,
+      "textColor": "#ffffff",
+      "shadowOffset": 0.06,
+      "shadowColors": [
+        "#cc000000"
+      ],
+      "startFrame": 20,
+      "minDuration": "as_template",
+      "animationParamIn": {
+        "lineDelay": 15,
+        "reverse": true,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 20,
+            "interpolator": "elegantlySlowOut"
+          },
+          {
+            "type": "move_to_y",
+            "from": -1,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "type": "text",
+      "text": "50%OFF",
+      "innerGravity": "center",
+      "textColor": "#ffffff",
+      "textSize": "0.18781762m",
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "bold"
+      },
+      "backgroundColor": "#a532d8fc",
+      "backgroundGradient": {
+        "colors": [
+          "#a532d8fc",
+          "#a5ffab49"
+        ]
+      },
+      "translationY": 0.08820289,
+      "backgroundMarginTop": 0.10,
+      "backgroundMarginBottom": 0.15,
+      "backgroundMarginLeft": 0.25,
+      "backgroundMarginRight": 0.25,
+      "shadowOffset": 0.02,
+      "shadowColors": [
+        "#cc000000"
+      ],
+      "startFrame": 25,
+      "minDuration": "as_template",
+      "animationParamIn": {
+        "lineDelay": 15,
+        "textAnimators": [
+          {
+            "type": "clip",
+            "duration": 30,
+            "startFrame": 10,
+            "direction": "center_to_left_and_right",
+            "interpolator": "elegantlySlowOut"
+          }
+        ],
+        "backgroundAnimators": [
+          {
+            "type": "radius",
+            "from": 0.6,
+            "to": 0.6,
+            "duration": 0
+          },
+          {
+            "type": "scale",
+            "duration": 30,
+            "fromX": 0,
+            "toX": 1,
+            "fromY": 1,
+            "toY": 1,
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "25-31 december",
+      "font": {
+        "fontPath": "spectral",
+        "fontStyle": "bold"
+      },
+      "anchorX": "center",
+      "anchorY": "center",
+      "innerGravity": "center",
+      "translationY": 0.20335543,
+      "backgroundMarginLeft": 0.3,
+      "backgroundMarginRight": 0.3,
+      "textColor": "#ffffff",
+      "textSize": "0.08900001m",
+      "shadowOffset": 0.05,
+      "shadowColors": [
+        "#cc000000"
+      ],
+      "startFrame": 30,
+      "minDuration": "as_template",
+      "animationParamIn": {
+        "charDelayMillis": 25,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "durationMillis": 50,
+            "from": 0,
+            "to": 1
+          },
+          {
+            "type": "move_to_y",
+            "interpolator": {
+              "type": "spring",
+              "amplitude": 0.12,
+              "frequency": 20
+            },
+            "from": 0.6,
+            "to": 0,
+            "durationMillis": 1800
+          }
+        ]
+      }
+    }
+  ]
+}

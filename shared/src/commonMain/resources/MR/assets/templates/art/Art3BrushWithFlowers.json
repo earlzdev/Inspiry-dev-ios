@@ -1,0 +1,488 @@
+{
+  "preferredDuration": 240,
+  "listDemoPreferredDuration": 200,
+  "imgOrderById": true,
+  "availability": "PREMIUM",
+  "palette": {
+    "choices": [
+      {
+        "color": "#FFFFFF",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#00FFFFFF",
+        "elements": [
+          {
+            "type": "image",
+            "id": "brush1"
+          },
+          {
+            "type": "image",
+            "id": "brush2"
+          },
+          {
+            "type": "image",
+            "id": "brush3"
+          },
+          {
+            "type": "image",
+            "id": "brush4"
+          },
+          {
+            "type": "image",
+            "id": "brush5"
+          },
+          {
+            "type": "image",
+            "id": "brush7"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "brush2",
+      "type": "image",
+      "isEditable": false,
+      "colorFilterMode": "MULTIPLY",
+      "width": "471/1080w",
+      "height": "1299/1920h",
+      "anchorX": "end",
+      "anchorY": "bottom",
+      "translationX": 0.050,
+      "translationY": 0.155,
+      "alpha": 0.7,
+      "innerPivotX": 1,
+      "innerPivotY": 1,
+      "startFrame": 0,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 60
+        },
+        {
+          "type": "scale_inner",
+          "from": 0.5,
+          "to": 1,
+          "duration": 60,
+          "interpolator": "smooth30InOut"
+        }
+      ],
+      "originalSource": "assets://template-resources/art/Art3BrushWithFlowers/Brush_2.png"
+    },
+    {
+      "id": "brush1",
+      "type": "image",
+      "isEditable": false,
+      "colorFilterMode": "MULTIPLY",
+      "width": "468/1080w",
+      "height": "928/1920h",
+      "translationX": -0.01,
+      "translationY": -0.03,
+      "rotation": "6.5",
+      "startFrame": 0,
+      "innerPivotX": 0,
+      "innerPivotY": 0,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 60
+        },
+        {
+          "type": "scale_inner",
+          "from": 0.5,
+          "to": 1,
+          "duration": 60,
+          "interpolator": "smooth30InOut"
+        }
+      ],
+      "originalSource": "assets://template-resources/art/Art3BrushWithFlowers/Brush_1.png"
+    },
+    {
+      "type": "group",
+      "alignBy": "center",
+      "width": "882/1080w",
+      "height": "1384/1920h",
+      "maxCount": 5,
+      "slides": {
+        "startFrame": 10,
+        "startFrameInterval": 45,
+        "predefined": [
+          {
+            "type": "image",
+            "demoScale": "1.44",
+            "demoOffsetX": "-0.17",
+            "demoOffsetY": "-0.236",
+            "demoSource": "https://images.unsplash.com/photo-1588026193712-31163b26c043?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80",
+            "templateMask": {
+              "shaderType": "COMMON_MASK_WITH_OVERLAY",
+              "textures": [
+                {
+                  "type": "textureMedia",
+                  "scaleType": "FIT_XY",
+                  "startFrame": 10,
+                  "textureSource": "assets://template-resources/art/Art3BrushWithFlowers/MaskPhoto_1.json"
+                },
+                {
+                  "type": "textureMedia",
+                  "scaleType": "FIT_XY",
+                  "startFrame": 10,
+                  "textureSource": "assets://template-resources/art/Art3BrushWithFlowers/LineColor_1.json"
+                }
+              ]
+            }
+          },
+          {
+            "type": "image",
+            "alignBy": "center",
+            "demoScale": "1.05",
+            "demoSource": "https://images.unsplash.com/photo-1512981566925-4937ba1d2b2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80",
+            "templateMask": {
+              "shaderType": "COMMON_MASK_WITH_OVERLAY",
+              "textures": [
+                {
+                  "type": "textureMedia",
+                  "scaleType": "FIT_XY",
+                  "startFrame": 55,
+                  "textureSource": "assets://template-resources/art/Art3BrushWithFlowers/MaskPhoto_2.json"
+                },
+                {
+                  "type": "textureMedia",
+                  "scaleType": "FIT_XY",
+                  "startFrame": 55,
+                  "textureSource": "assets://template-resources/art/Art3BrushWithFlowers/LineColor_2.json"
+                }
+              ]
+            }
+          },
+          {
+            "id": "mainPhoto3",
+            "type": "image",
+            "demoScale": "1.077",
+            "demoOffsetX": "-0.154",
+            "demoOffsetY": "-0.0268",
+            "startFrame": 110,
+            "demoSource": "https://images.unsplash.com/photo-1542330952-bffc55e812b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "templateMask": {
+              "shaderType": "COMMON_MASK_WITH_OVERLAY",
+              "textures": [
+                {
+                  "type": "textureMedia",
+                  "scaleType": "FIT_XY",
+                  "startFrame": 110,
+                  "textureSource": "assets://template-resources/art/Art3BrushWithFlowers/MaskPhoto_3.json"
+                },
+                {
+                  "type": "textureMedia",
+                  "scaleType": "FIT_XY",
+                  "startFrame": 110,
+                  "textureSource": "assets://template-resources/art/Art3BrushWithFlowers/LineColor_3.json"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "brush5",
+      "type": "image",
+      "isEditable": false,
+      "colorFilterMode": "MULTIPLY",
+      "width": "400/1080w",
+      "height": "1353/1920h",
+      "anchorY": "bottom",
+      "innerPivotX": 0,
+      "innerPivotY": 1,
+      "startFrame": 75,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 40
+        },
+        {
+          "type": "scale_inner",
+          "from": 0.5,
+          "to": 1,
+          "duration": 40,
+          "interpolator": "smooth30InOut"
+        }
+      ],
+      "originalSource": "assets://template-resources/art/Art3BrushWithFlowers/Brush_5.png"
+    },
+    {
+      "id": "brush4",
+      "type": "image",
+      "colorFilterMode": "MULTIPLY",
+      "isEditable": false,
+      "width": "400/1080w",
+      "height": "1353/1920h",
+      "anchorY": "center",
+      "anchorX": "end",
+      "translationX": 0.056,
+      "innerPivotX": 1,
+      "innerPivotY": 0.5,
+      "startFrame": 65,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 40
+        },
+        {
+          "type": "scale_inner",
+          "from": 0.5,
+          "to": 1,
+          "duration": 40,
+          "interpolator": "smooth30InOut"
+        }
+      ],
+      "originalSource": "assets://template-resources/art/Art3BrushWithFlowers/Brush_4.png"
+    },
+    {
+      "id": "brush3",
+      "type": "image",
+      "colorFilterMode": "MULTIPLY",
+      "isEditable": false,
+      "width": "478/1080w",
+      "height": "1216/1920h",
+      "anchorX": "end",
+      "translationX": 0.05,
+      "translationY": -0.01,
+      "innerPivotX": 1,
+      "innerPivotY": 0,
+      "startFrame": 55,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 40
+        },
+        {
+          "type": "scale_inner",
+          "from": 0.5,
+          "to": 1,
+          "duration": 40,
+          "interpolator": "smooth30InOut"
+        }
+      ],
+      "originalSource": "assets://template-resources/art/Art3BrushWithFlowers/Brush_3.png"
+    },
+    {
+      "id": "brush7",
+      "type": "image",
+      "isEditable": false,
+      "colorFilterMode": "MULTIPLY",
+      "width": "295/1080w",
+      "height": "447/1920h",
+      "translationX": -0.038,
+      "translationY": -0.072,
+      "innerPivotX": 1,
+      "innerPivotY": 1,
+      "startFrame": 135,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 40
+        },
+        {
+          "type": "scale_inner",
+          "from": 0.5,
+          "to": 1,
+          "duration": 40,
+          "interpolator": "smooth30InOut"
+        }
+      ],
+      "originalSource": "assets://template-resources/art/Art3BrushWithFlowers/Brush_7.png"
+    },
+    {
+      "id": "brush6",
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "keepAspect": true,
+      "colorFilterMode": "MULTIPLY",
+      "width": "774/1080w",
+      "height": "333/1920h",
+      "anchorX": "center",
+      "anchorY": "center",
+      "translationY": 0.38422415,
+      "startFrame": 85,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 40,
+          "interpolator": "smooth30InOut"
+        },
+        {
+          "type": "scale_inner",
+          "from": 0.5,
+          "to": 1,
+          "duration": 40,
+          "interpolator": "smooth30InOut"
+        }
+      ],
+      "originalSource": "assets://template-resources/art/Art3BrushWithFlowers/Brush_6.png"
+    },
+    {
+      "isMovable": true,
+      "keepAspect": true,
+      "id": "Flower-1",
+      "type": "vector",
+      "width": "248/1080w",
+      "height": "696/1920h",
+      "translationX": -0.47238174,
+      "translationY": 0.39338085,
+      "anchorY": "center",
+      "anchorX": "center",
+      "minDuration": "as_template",
+      "startFrame": 95,
+      "colorFilter": "#4C313C",
+      "originalSource": "assets://template-resources/art/Art3BrushWithFlowers/Fl_1.json",
+      "staticFrameForEdit": "last"
+    },
+    {
+      "isMovable": true,
+      "keepAspect": true,
+      "id": "Flower-2",
+      "type": "vector",
+      "width": "450/1080w",
+      "height": "432/1920h",
+      "translationX": -0.39378992,
+      "translationY": 0.3992097,
+      "anchorY": "center",
+      "anchorX": "center",
+      "minDuration": "as_template",
+      "startFrame": 90,
+      "scaleType": "FIT_XY",
+      "colorFilter": "#4C313C",
+      "originalSource": "assets://template-resources/art/Art3BrushWithFlowers/Fl_2.json",
+      "staticFrameForEdit": "last"
+    },
+    {
+      "isMovable": true,
+      "keepAspect": true,
+      "id": "Flower-3",
+      "type": "vector",
+      "width": "493/1080w",
+      "height": "246/1920h",
+      "translationX": -0.3940387,
+      "translationY": 0.45544884,
+      "anchorY": "center",
+      "anchorX": "center",
+      "minDuration": "as_template",
+      "startFrame": 85,
+      "scaleType": "FIT_XY",
+      "colorFilter": "#4C313C",
+      "originalSource": "assets://template-resources/art/Art3BrushWithFlowers/Fl_3.json",
+      "staticFrameForEdit": "last"
+    },
+    {
+      "isMovable": true,
+      "keepAspect": true,
+      "id": "Flower-4",
+      "type": "vector",
+      "width": "342/1080w",
+      "height": "251/1920h",
+      "translationX": 0.4028294,
+      "translationY": -0.09010238,
+      "anchorY": "center",
+      "anchorX": "center",
+      "startFrame": 65,
+      "minDuration": "as_template",
+      "scaleType": "FIT_XY",
+      "colorFilter": "#4C313C",
+      "originalSource": "assets://template-resources/art/Art3BrushWithFlowers/Fl_4.json",
+      "staticFrameForEdit": "last"
+    },
+    {
+      "isMovable": true,
+      "keepAspect": true,
+      "id": "Flower-5",
+      "type": "vector",
+      "width": "407/1080w",
+      "height": "168/1920h",
+      "translationX": 0.45029068,
+      "translationY": -0.25904793,
+      "anchorY": "center",
+      "anchorX": "center",
+      "startFrame": 30,
+      "minDuration": "as_template",
+      "scaleType": "FIT_XY",
+      "colorFilter": "#4C313C",
+      "originalSource": "assets://template-resources/art/Art3BrushWithFlowers/Fl_5.json",
+      "staticFrameForEdit": "last"
+    },
+    {
+      "isMovable": true,
+      "keepAspect": true,
+      "id": "Flower-6",
+      "type": "vector",
+      "width": "574/1080w",
+      "height": "163/1920h",
+      "translationX": 0.4333955,
+      "translationY": -0.33478644,
+      "anchorY": "center",
+      "anchorX": "center",
+      "minDuration": "as_template",
+      "startFrame": 27,
+      "scaleType": "FIT_XY",
+      "colorFilter": "#4C313C",
+      "originalSource": "assets://template-resources/art/Art3BrushWithFlowers/Fl_6.json",
+      "staticFrameForEdit": "last"
+    },
+    {
+      "isMovable": true,
+      "keepAspect": true,
+      "id": "Flower-7",
+      "type": "vector",
+      "width": "419/1080w",
+      "height": "294/1920h",
+      "translationX": 0.41078824,
+      "translationY": -0.37871465,
+      "anchorX": "center",
+      "anchorY": "center",
+      "minDuration": "as_template",
+      "startFrame": 25,
+      "scaleType": "FIT_XY",
+      "colorFilter": "#4C313C",
+      "originalSource": "assets://template-resources/art/Art3BrushWithFlowers/Fl_7.json",
+      "staticFrameForEdit": "last"
+    },
+    {
+      "isMovable": true,
+      "keepAspect": true,
+      "id": "ButFly",
+      "type": "vector",
+      "width": "208/1080w",
+      "height": "203/1920h",
+      "translationX": -0.37262264,
+      "translationY": -0.39916757,
+      "startFrame": 150,
+      "minDuration": "as_template",
+      "scaleType": "FIT_XY",
+      "colorFilter": "#4C313C",
+      "anchorX": "center",
+      "anchorY": "center",
+      "originalSource": "assets://template-resources/art/Art3BrushWithFlowers/ButFly.json",
+      "staticFrameForEdit": "last"
+    }
+  ]
+}

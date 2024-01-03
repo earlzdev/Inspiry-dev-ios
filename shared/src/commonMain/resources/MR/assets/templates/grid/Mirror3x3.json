@@ -1,0 +1,104 @@
+{
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "group",
+      "width": "1w",
+      "height": "1h",
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 2,
+          "to": 1,
+          "durationMillis": 3500,
+          "interpolator": "easeInOutQuint"
+        }
+      ],
+      "medias": [
+        {
+          "id": "main",
+          "width": "1/2w",
+          "height": "1/2h",
+          "anchorX": "end",
+          "anchorY": "bottom",
+          "x": "-1/4w",
+          "y": "-1/4h",
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=962&q=80"
+        },
+        {
+          "duplicate": "main",
+          "width": "1/2w",
+          "height": "1/2h",
+          "anchorY": "bottom",
+          "anchorX": "center",
+          "y": "-1/4h",
+          "type": "image"
+        },
+        {
+          "duplicate": "main",
+          "width": "1/2w",
+          "height": "1/2h",
+          "anchorY": "bottom",
+          "x": "-1/4w",
+          "y": "-1/4h",
+          "type": "image"
+        },
+        {
+          "duplicate": "main",
+          "width": "1/2w",
+          "height": "1/2h",
+          "anchorX": "end",
+          "anchorY": "center",
+          "x": "-1/4w",
+          "type": "image"
+        },
+        {
+          "duplicate": "main",
+          "anchorX": "center",
+          "anchorY": "center",
+          "width": "1/2w",
+          "height": "1/2h",
+          "type": "image"
+        },
+        {
+          "duplicate": "main",
+          "width": "1/2w",
+          "height": "1/2h",
+          "anchorY": "center",
+          "x": "-1/4w",
+          "type": "image"
+        },
+        {
+          "duplicate": "main",
+          "width": "1/2w",
+          "height": "1/2h",
+          "anchorX": "end",
+          "x": "-1/4w",
+          "y": "-1/4h",
+          "type": "image"
+        },
+        {
+          "duplicate": "main",
+          "anchorX": "center",
+          "width": "1/2w",
+          "height": "1/2h",
+          "y": "-1/4h",
+          "type": "image"
+        },
+        {
+          "duplicate": "main",
+          "width": "1/2w",
+          "height": "1/2h",
+          "x": "-1/4w",
+          "y": "-1/4h",
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}

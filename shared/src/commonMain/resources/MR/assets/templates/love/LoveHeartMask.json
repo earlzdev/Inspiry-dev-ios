@@ -1,0 +1,328 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "backgroundImage": "https://inspiry-2ee60.web.app/template-resources/love/LoveHeartMask/back.jpeg",
+    "defaultTextColor": "#ffffff",
+    "choices": [
+      {
+        "elements": [
+          {
+            "type": "background",
+            "id": "groupOverlay"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          },
+          {
+            "type": "vector",
+            "id": "line1"
+          },
+          {
+            "type": "vector",
+            "id": "line2"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "vector",
+            "id": "vector1"
+          },
+          {
+            "type": "vector",
+            "id": "vector2"
+          },
+          {
+            "type": "vector",
+            "id": "vector3"
+          },
+          {
+            "type": "vector",
+            "id": "vector4"
+          },
+          {
+            "type": "vector",
+            "id": "vector5"
+          },
+          {
+            "type": "vector",
+            "id": "vector6"
+          },
+          {
+            "type": "vector",
+            "id": "conturLoop"
+          },
+          {
+            "type": "vector",
+            "id": "conturPhoto"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "conturLoop",
+      "type": "vector",
+      "width": "match_parent",
+      "height": "match_parent",
+      "isMovable": false,
+      "isLoopEnabled": true,
+      "originalSource": "assets://template-resources/love/LoveHeartMask/contur_loop.json",
+      "minDuration": "as_template",
+      "startFrame": 10
+    },
+    {
+      "id": "conturPhoto",
+      "type": "vector",
+      "width": "1026",
+      "height": "939",
+      "anchorX": "center",
+      "translationY": 0.27821735,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/love/LoveHeartMask/contur_photo.json",
+      "minDuration": "as_template"
+    },
+    {
+      "type": "image",
+      "width": "998",
+      "height": "920",
+      "y": "545",
+      "alignBy": "top_center",
+      "demoSource": "https://images.pexels.com/photos/4630022/pexels-photo-4630022.jpeg?auto=compress&cs=tinysrgb&h=600&w=600",
+      "demoOffsetX": -0.208,
+      "demoOffsetY": -0.155,
+      "demoScale": 1.155,
+      "startFrame": 5,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 40,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.35,
+            "y1": 0,
+            "x2": 0.15,
+            "y2": 1
+          }
+        }
+      ],
+      "templateMask": {
+        "shaderType": "COMMON_MASK",
+        "textures": [
+          {
+            "type": "textureMedia",
+            "startFrame": 5,
+            "textureSource": "assets://template-resources/love/LoveHeartMask/photo_mask.json"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vector1",
+      "type": "vector",
+      "width": "234",
+      "height": "205",
+      "isMovable": true,
+      "isLoopEnabled": true,
+      "translationX": 0.24281316,
+      "translationY": -0.37211114,
+      "anchorX": "center",
+      "anchorY": "center",
+      "originalSource": "assets://template-resources/love/LoveHeartMask/heart_1.json",
+      "minDuration": "as_template"
+    },
+    {
+      "id": "vector2",
+      "type": "vector",
+      "width": "122",
+      "height": "105",
+      "isMovable": true,
+      "isLoopEnabled": true,
+      "translationX": 0.284415,
+      "translationY": -0.44415295,
+      "anchorX": "center",
+      "anchorY": "center",
+      "originalSource": "assets://template-resources/love/LoveHeartMask/heart_2.json",
+      "minDuration": "as_template",
+      "startFrame": 3
+    },
+    {
+      "id": "vector3",
+      "type": "vector",
+      "width": "69",
+      "height": "61",
+      "isMovable": true,
+      "isLoopEnabled": true,
+      "translationX": 0.16312388,
+      "translationY": -0.47374573,
+      "anchorX": "center",
+      "anchorY": "center",
+      "originalSource": "assets://template-resources/love/LoveHeartMask/heart_3.json",
+      "minDuration": "as_template",
+      "startFrame": 6
+    },
+    {
+      "id": "vector4",
+      "type": "vector",
+      "width": "324",
+      "height": "287",
+      "isMovable": true,
+      "isLoopEnabled": true,
+      "translationX": -0.15777019,
+      "translationY": 0.3937451,
+      "anchorX": "center",
+      "anchorY": "center",
+      "originalSource": "assets://template-resources/love/LoveHeartMask/heart_4.json",
+      "minDuration": "as_template"
+    },
+    {
+      "id": "vector5",
+      "type": "vector",
+      "width": "120",
+      "height": "106",
+      "isMovable": true,
+      "isLoopEnabled": true,
+      "translationX": -0.24431449,
+      "translationY": 0.3108568,
+      "anchorX": "center",
+      "anchorY": "center",
+      "originalSource": "assets://template-resources/love/LoveHeartMask/heart_5.json",
+      "minDuration": "as_template",
+      "startFrame": 3
+    },
+    {
+      "id": "vector6",
+      "type": "vector",
+      "width": "68",
+      "height": "61",
+      "isMovable": true,
+      "isLoopEnabled": true,
+      "translationX": -0.3022268,
+      "translationY": 0.24008131,
+      "anchorX": "center",
+      "anchorY": "center",
+      "originalSource": "assets://template-resources/love/LoveHeartMask/heart_6.json",
+      "minDuration": "as_template",
+      "startFrame": 6
+    },
+    {
+      "id": "line1",
+      "type": "vector",
+      "width": "886",
+      "height": "178",
+      "isMovable": true,
+      "anchorX": "center",
+      "anchorY": "center",
+      "translationX": -0.03179855,
+      "translationY": -0.19065332,
+      "originalSource": "assets://template-resources/love/LoveHeartMask/line_heart_1.json",
+      "minDuration": "as_template",
+      "startFrame": 6
+    },
+    {
+      "id": "line2",
+      "type": "vector",
+      "width": "507",
+      "height": "181",
+      "isMovable": true,
+      "anchorX": "center",
+      "anchorY": "center",
+      "translationY": 0.21608147,
+      "originalSource": "assets://template-resources/love/LoveHeartMask/line_heart_2.json",
+      "minDuration": "as_template",
+      "startFrame": 6
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "Valentine's\nDay",
+      "font": {
+        "fontPath": "playfair",
+        "fontStyle": "bold"
+      },
+      "anchorX": "center",
+      "anchorY": "center",
+      "innerGravity": "center",
+      "translationY": -0.34226477,
+      "textSize": "0.1429396m",
+      "lineSpacing": 0.74,
+      "textColor": "#F6314C",
+      "shadowOffset": 0.02,
+      "shadowColors": [
+        "#761422"
+      ],
+      "startFrame": 20,
+      "minDuration": "as_template",
+      "animationParamIn": {
+        "charDelayMillis": 25,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "durationMillis": 50,
+            "from": 0,
+            "to": 1
+          },
+          {
+            "type": "move_to_y",
+            "interpolator": {
+              "type": "spring",
+              "amplitude": 0.12,
+              "frequency": 20
+            },
+            "from": 0.4,
+            "to": 0,
+            "durationMillis": 1800
+          }
+        ]
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "SAVE MOMENTS",
+      "font": "rythmic",
+      "anchorX": "center",
+      "anchorY": "center",
+      "innerGravity": "center",
+      "translationY": 0.38140768,
+      "textSize": "0.109272406m",
+      "textColor": "#F6314C",
+      "startFrame": 50,
+      "minDuration": "as_template",
+      "animationParamIn": {
+        "charDelayMillis": 25,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "durationMillis": 50,
+            "from": 0,
+            "to": 1
+          },
+          {
+            "type": "move_to_y",
+            "interpolator": {
+              "type": "spring",
+              "amplitude": 0.12,
+              "frequency": 20
+            },
+            "from": 0.6,
+            "to": 0,
+            "durationMillis": 1800
+          }
+        ]
+      }
+    }
+  ]
+}

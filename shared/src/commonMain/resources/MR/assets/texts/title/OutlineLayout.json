@@ -1,0 +1,43 @@
+{
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "type": "text",
+  "text": "STROKE",
+  "innerGravity": "center",
+  "textSize": "0.09w",
+  "font": {
+    "fontPath": "monument",
+    "fontStyle": "bold"
+  },
+  "paintStyle": "STROKE",
+  "strokeWidth": 0.02,
+  "letterSpacing": 0.07,
+  "backgroundMarginLeft": 0.2,
+  "backgroundMarginRight": 0.2,
+  "animationParamIn": {
+    "charInterpolator": {
+      "type": "accelerate",
+      "factor": 0.8
+    },
+    "charDelayMillis": 20,
+    "textAnimators": [
+      {
+        "type": "fade",
+        "from": 0,
+        "to": 1,
+        "durationMillis": 120
+      }
+    ],
+    "backgroundAnimators": [
+      {
+        "type": "clip",
+        "direction": "left_to_right",
+        "interpolator": "expOut",
+        "duration": 16
+      }
+    ]
+  }
+}

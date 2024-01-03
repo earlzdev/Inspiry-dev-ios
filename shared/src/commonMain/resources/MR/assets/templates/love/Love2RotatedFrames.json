@@ -1,0 +1,242 @@
+{
+  "preferredDuration": 240,
+  "availability": "FREE",
+  "palette": {
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "image",
+            "id": "frame2"
+          },
+          {
+            "type": "image",
+            "id": "frame1"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "title"
+          },
+          {
+            "type": "image",
+            "id": "back1"
+          },
+          {
+            "type": "image",
+            "id": "shadow1"
+          },
+          {
+            "type": "image",
+            "id": "shadow2"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "back1",
+      "type": "image",
+      "isEditable": false,
+      "originalSource": "assets://template-resources/love/Love2RotatedFrames/back.png",
+      "width": "match_parent",
+      "height": "match_parent"
+    },
+    {
+      "type": "group",
+      "width": "1022/1080w",
+      "height": "1209/1920h",
+      "alignBy": "top_center",
+      "rotation": -6.17,
+      "y": "-140/1920h",
+      "x": "-20/1080w",
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": -0.05,
+          "to": 0,
+          "duration": 40,
+          "startFrame": 5,
+          "interpolator": "fastOut"
+        }
+      ],
+      "medias": [
+        {
+          "id": "shadow1",
+          "type": "image",
+          "isEditable": false,
+          "originalSource": "assets://template-resources/love/Love2RotatedFrames/blur1.png",
+          "width": "match_parent",
+          "height": "match_parent"
+        },
+        {
+          "startFrame": 5,
+          "type": "image",
+          "width": "0.75w",
+          "height": "0.85w",
+          "alignBy": "center",
+          "y": "-0.025h",
+          "demoSource": "https://images.pexels.com/photos/6124406/pexels-photo-6124406.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=468",
+          "animatorsIn": [
+            {
+              "type": "clip",
+              "duration": 40,
+              "direction": "top_to_bottom",
+              "interpolator": "fastOut"
+            }
+          ]
+        },
+        {
+          "id": "frame1",
+          "type": "image",
+          "isEditable": false,
+          "originalSource": "assets://template-resources/love/Love2RotatedFrames/photo_frame1.png",
+          "width": "match_parent",
+          "height": "match_parent"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "1067/1080w",
+      "height": "1213/1920h",
+      "alignBy": "bottom_center",
+      "rotation": 8,
+      "y": "-105/1920h",
+      "x": "25/1080w",
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": -0.05,
+          "to": 0,
+          "duration": 40,
+          "startFrame": 15,
+          "interpolator": "fastOut"
+        }
+      ],
+      "medias": [
+        {
+          "id": "shadow2",
+          "type": "image",
+          "isEditable": false,
+          "originalSource": "assets://template-resources/love/Love2RotatedFrames/blur2.png",
+          "width": "match_parent",
+          "height": "match_parent"
+        },
+        {
+          "type": "image",
+          "width": "0.8w",
+          "height": "0.8w",
+          "alignBy": "center",
+          "y": "-0.025h",
+          "demoSource": "https://images.pexels.com/photos/6124387/pexels-photo-6124387.jpeg?auto=compress&cs=tinysrgb&h=750&w=468",
+          "startFrame": 15,
+          "animatorsIn": [
+            {
+              "type": "clip",
+              "duration": 40,
+              "direction": "top_to_bottom",
+              "interpolator": "fastOut"
+            }
+          ]
+        },
+        {
+          "id": "frame2",
+          "type": "image",
+          "isEditable": false,
+          "originalSource": "assets://template-resources/love/Love2RotatedFrames/photo_frame2.png",
+          "width": "match_parent",
+          "height": "match_parent"
+        }
+      ]
+    },
+    {
+      "id": "title",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "alignBy": "center",
+      "textColor": "#FF1F00",
+      "startFrame": 25,
+      "type": "text",
+      "text": "Your Smile",
+      "innerGravity": "center",
+      "textSize": "0.132m",
+      "letterSpacing": 0,
+      "font": {
+        "fontPath": "pacifico",
+        "fontStyle": "bold"
+      },
+      "minDuration": "as_template",
+      "rotation": -10.28,
+      "y": "-60/1920h",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "animationParamIn": {
+        "charDelayMillis": 25,
+        "textAnimators": [
+          {
+            "type": "move_to_y",
+            "interpolator": {
+              "type": "spring",
+              "amplitude": 0.12,
+              "frequency": 20
+            },
+            "from": 0.1,
+            "to": 0,
+            "durationMillis": 1800
+          }
+        ],
+        "backgroundAnimators": [
+          {
+            "type": "clip",
+            "direction": "left_to_right",
+            "interpolator": "cubicOut",
+            "duration": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "vector1",
+      "type": "vector",
+      "width": "217/1080w",
+      "height": "201/1920h",
+      "isMovable": true,
+      "isLoopEnabled": false,
+      "y": "75/1920h",
+      "x": "790/1080w",
+      "alignBy": "top_start",
+      "scaleType": "FIT_XY",
+      "startFrame": 45,
+      "originalSource": "assets://template-resources/love/Love2RotatedFrames/heart_1.json",
+      "minDuration": "as_template",
+      "staticFrameForEdit": "last",
+      "blurEasing": true
+    },
+    {
+      "id": "vector2",
+      "type": "vector",
+      "width": "261/1080w",
+      "height": "221/1920h",
+      "isMovable": true,
+      "isLoopEnabled": false,
+      "y": "270/1920h",
+      "x": "780/1080w",
+      "alignBy": "top_start",
+      "scaleType": "FIT_XY",
+      "startFrame": 65,
+      "originalSource": "assets://template-resources/love/Love2RotatedFrames/heart_1.json",
+      "minDuration": "as_template",
+      "staticFrameForEdit": "last",
+      "blurEasing": true
+    }
+  ]
+}

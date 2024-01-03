@@ -1,0 +1,481 @@
+{
+  "preferredDuration": 240,
+  "listDemoPreferredDuration": 120,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": true,
+    "choices": [
+      {
+        "color": "#F4F2FF",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#864586",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text0"
+          },
+          {
+            "type": "textColor",
+            "id": "text1"
+          },
+          {
+            "type": "textColor",
+            "id": "text2"
+          },
+          {
+            "type": "textColor",
+            "id": "text3"
+          },
+          {
+            "type": "textColor",
+            "id": "text4"
+          }
+        ]
+      },
+      {
+        "color": "#FFFFFF",
+        "elements": [
+          {
+            "type": "image",
+            "id": "textback1"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "textback1",
+      "type": "image",
+      "originalSource": "assets://template-resources/removeBg/JewelryCircleBack/circleEdit.png",
+      "width": "1274/1080w",
+      "height": "1408/1920h",
+      "y": "362/1920h",
+      "x": "-127/1080w",
+      "rotation": -2.9,
+      "isEditable": false,
+      "isMovable": true,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 40,
+          "from": 0,
+          "to": 1,
+          "interpolator": "smooth30InOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": -0.25,
+          "to": 0,
+          "duration": 40,
+          "interpolator": "smooth30InOut"
+        },
+        {
+          "type": "scale",
+          "from": 0.5,
+          "to": 1,
+          "duration": 40,
+          "interpolator": "smooth30InOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "assets://template-resources/removeBg/JewelryCircleBack/jewelry_3.png",
+      "removeBgOnInsert": true,
+      "width": "354/1080w",
+      "height": "143/1920h",
+      "x": "100/1080w",
+      "y": "468/1920h",
+      "rotation": -24.15,
+      "isEditable": true,
+      "startFrame": 5,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 25,
+          "from": 0,
+          "to": 1,
+          "interpolator": "fastInSuperfastOut1Invert"
+        },
+        {
+          "type": "scale_inner",
+          "from": 0.1,
+          "to": 1,
+          "duration": 25,
+          "interpolator": "fastInSuperfastOut1Invert"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "assets://template-resources/removeBg/JewelryCircleBack/jewelry_4.png",
+      "removeBgOnInsert": true,
+      "width": "329/1080w",
+      "height": "271/1920h",
+      "startFrame": 10,
+      "x": "619/1080w",
+      "y": "498/1920h",
+      "rotation": 17.93,
+      "isEditable": true,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 25,
+          "from": 0,
+          "to": 1,
+          "interpolator": "fastInSuperfastOut1Invert"
+        },
+        {
+          "type": "scale_inner",
+          "from": 0.1,
+          "to": 1,
+          "duration": 25,
+          "interpolator": "fastInSuperfastOut1Invert"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "assets://template-resources/removeBg/JewelryCircleBack/jewelry_2.png",
+      "removeBgOnInsert": true,
+      "width": "471/1080w",
+      "height": "387/1920h",
+      "x": "46/1080w",
+      "y": "960/1920h",
+      "startFrame": 15,
+      "rotation": 33.82,
+      "isEditable": true,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 25,
+          "from": 0,
+          "to": 1,
+          "interpolator": "fastInSuperfastOut1Invert"
+        },
+        {
+          "type": "scale_inner",
+          "from": 0.1,
+          "to": 1,
+          "duration": 25,
+          "interpolator": "fastInSuperfastOut1Invert"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "assets://template-resources/removeBg/JewelryCircleBack/jewelry_1.png",
+      "removeBgOnInsert": true,
+      "width": "413/1080w",
+      "height": "498/1920h",
+      "x": "560/1080w",
+      "y": "1078/1920h",
+      "startFrame": 20,
+      "rotation": 21.14,
+      "isEditable": true,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 25,
+          "from": 0,
+          "to": 1,
+          "interpolator": "fastInSuperfastOut1Invert"
+        },
+        {
+          "type": "scale_inner",
+          "from": 0.1,
+          "to": 1,
+          "duration": 25,
+          "interpolator": "fastInSuperfastOut1Invert"
+        }
+      ]
+    },
+    {
+      "id": "text0",
+      "type": "text",
+      "text": "Jewelry trends",
+      "alignBy": "top_center",
+      "innerGravity": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "startFrame": 0,
+      "y": "75/1920h",
+      "minDuration": "as_template",
+      "font": {
+        "fontPath": "savoy"
+      },
+      "textSize": "0.180m",
+      "textColor": "#823582",
+      "animationParamIn": {
+        "charDelay": 3,
+        "charInterpolator": {
+          "type": "accelerate",
+          "factor": 0.98
+        },
+        "textAnimators": [
+          {
+            "type": "move_to_y",
+            "from": 0.25,
+            "to": 0,
+            "duration": 12,
+            "interpolator": "flatIn20expOut"
+          },
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 12,
+            "interpolator": "flatIn20expOut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "text1",
+      "type": "text",
+      "text": "small ring",
+      "innerGravity": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "y": "672/1920h",
+      "x": "126/1080w",
+      "minDuration": "as_template",
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "bold"
+      },
+      "startFrame": 5,
+      "textSize": "0.060m",
+      "textColor": "#864586",
+      "backgroundColor": "#EAE6FF",
+      "backgroundMarginTop": -0.55,
+      "backgroundMarginBottom": -0.05,
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "animationParamIn": {
+        "lineDelayMillis": 200,
+        "textAnimators": [
+          {
+            "type": "move_to_x",
+            "duration": 25,
+            "from": -3,
+            "to": 0,
+            "interpolator": "elegantlySlowOut"
+          }
+        ],
+        "backgroundAnimatorGroups": [
+          {
+            "group": "uneven_not_first",
+            "animators": [
+              {
+                "type": "fade",
+                "duration": 0,
+                "from": 0,
+                "to": 0
+              }
+            ]
+          },
+          {
+            "group": "even_or_first",
+            "animators": [
+              {
+                "type": "clip",
+                "startTimeMillis": 150,
+                "duration": 30,
+                "direction": "right_to_left",
+                "interpolator": "elegantlySlowOut"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "text2",
+      "type": "text",
+      "text": "earrings",
+      "innerGravity": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "y": "843/1920h",
+      "x": "639/1080w",
+      "minDuration": "as_template",
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "bold"
+      },
+      "startFrame": 10,
+      "textSize": "0.060m",
+      "textColor": "#864586",
+      "backgroundColor": "#EAE6FF",
+      "backgroundMarginTop": -0.55,
+      "backgroundMarginBottom": -0.05,
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "animationParamIn": {
+        "lineDelayMillis": 200,
+        "textAnimators": [
+          {
+            "type": "move_to_x",
+            "duration": 25,
+            "from": 3,
+            "to": 0,
+            "interpolator": "elegantlySlowOut"
+          }
+        ],
+        "backgroundAnimatorGroups": [
+          {
+            "group": "uneven_not_first",
+            "animators": [
+              {
+                "type": "fade",
+                "duration": 0,
+                "from": 0,
+                "to": 0
+              }
+            ]
+          },
+          {
+            "group": "even_or_first",
+            "animators": [
+              {
+                "type": "clip",
+                "startTimeMillis": 150,
+                "duration": 30,
+                "direction": "right_to_left",
+                "interpolator": "elegantlySlowOut"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "text3",
+      "type": "text",
+      "text": "soft chain",
+      "innerGravity": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "y": "1444/1920h",
+      "x": "113/1080w",
+      "minDuration": "as_template",
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "bold"
+      },
+      "startFrame": 15,
+      "textSize": "0.060m",
+      "textColor": "#864586",
+      "backgroundColor": "#EAE6FF",
+      "backgroundMarginTop": -0.55,
+      "backgroundMarginBottom": -0.05,
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "animationParamIn": {
+        "lineDelayMillis": 200,
+        "textAnimators": [
+          {
+            "type": "move_to_x",
+            "duration": 25,
+            "from": -3,
+            "to": 0,
+            "interpolator": "elegantlySlowOut"
+          }
+        ],
+        "backgroundAnimatorGroups": [
+          {
+            "group": "uneven_not_first",
+            "animators": [
+              {
+                "type": "fade",
+                "duration": 0,
+                "from": 0,
+                "to": 0
+              }
+            ]
+          },
+          {
+            "group": "even_or_first",
+            "animators": [
+              {
+                "type": "clip",
+                "startTimeMillis": 150,
+                "duration": 30,
+                "direction": "right_to_left",
+                "interpolator": "elegantlySlowOut"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "text4",
+      "type": "text",
+      "text": "earrings cross",
+      "innerGravity": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "y": "1556/1920h",
+      "x": "493/1080w",
+      "startFrame": 20,
+      "minDuration": "as_template",
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "bold"
+      },
+      "textSize": "0.060m",
+      "textColor": "#864586",
+      "backgroundColor": "#EAE6FF",
+      "backgroundMarginTop": -0.55,
+      "backgroundMarginBottom": -0.05,
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "animationParamIn": {
+        "lineDelayMillis": 200,
+        "textAnimators": [
+          {
+            "type": "move_to_x",
+            "duration": 25,
+            "from": 3,
+            "to": 0,
+            "interpolator": "elegantlySlowOut"
+          }
+        ],
+        "backgroundAnimatorGroups": [
+          {
+            "group": "uneven_not_first",
+            "animators": [
+              {
+                "type": "fade",
+                "duration": 0,
+                "from": 0,
+                "to": 0
+              }
+            ]
+          },
+          {
+            "group": "even_or_first",
+            "animators": [
+              {
+                "type": "clip",
+                "startTimeMillis": 150,
+                "duration": 30,
+                "direction": "right_to_left",
+                "interpolator": "elegantlySlowOut"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

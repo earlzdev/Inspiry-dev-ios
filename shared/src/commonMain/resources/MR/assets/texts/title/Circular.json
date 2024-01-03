@@ -1,0 +1,59 @@
+{
+  "id": "circular",
+  "forPremium":true,
+  "alignBy": "center",
+  "type": "text",
+  "text": "TEXT WRAPPED AROUND CIRCLE ",
+  "width": "0.447w",
+  "height": "0.447w",
+  "innerGravity": "center",
+  "maxLines": 1,
+  "keepAspect": true,
+  "minDuration": "as_template",
+  "textSize": "0.33m",
+  "letterSpacing": 1,
+  "font": {
+    "fontStyle": "bold"
+  },
+  "textColor": "#FFFFFF",
+  "startFrame": 0,
+  "animationParamIn": {
+    "charsOnCircle": true
+  },
+  "animatorsAll": [
+    {
+      "type": "rotate",
+      "from": 0,
+      "step": -1,
+      "duration": "all"
+    }
+  ],
+  "animatorsIn": [
+    {
+      "type": "scale",
+      "from": 0.7,
+      "to": 1,
+      "duration": 20,
+      "interpolator": {
+        "type": "path",
+        "x1": 0.15,
+        "y1": 0,
+        "x2": 0.15,
+        "y2": 1
+      }
+    },
+    {
+      "type": "fade",
+      "from": 0,
+      "to": 1,
+      "interpolator": {
+        "type": "path",
+        "x1": 0.15,
+        "y1": 0,
+        "x2": 0.15,
+        "y2": 1
+      },
+      "duration": 20
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "timeForEdit": 0,
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "group",
+      "width": "1w",
+      "height": "1h",
+      "animatorsIn": [
+        {
+          "startFrame": 20,
+          "duration": 40,
+          "from": 0,
+          "to": -0.627,
+          "interpolator": "elegantlySlowOut",
+          "type": "move_to_y"
+        },
+        {
+          "startFrame": 70,
+          "duration": 40,
+          "from": -0.627,
+          "to": -1.254,
+          "interpolator": "elegantlySlowOut",
+          "type": "move_to_y"
+        },
+        {
+          "startFrame": 120,
+          "duration": 40,
+          "from": -1.254,
+          "to": -1.881,
+          "interpolator": "elegantlySlowOut",
+          "type": "move_to_y"
+        }
+      ],
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1535276120455-84c8ada2414b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1080&q=80",
+          "width": "1w",
+          "height": "1197/1920h",
+          "id": "first"
+        },
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1519891289766-8e94a0893d3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1080&q=80",
+          "width": "1w",
+          "height": "1197/1920h",
+          "id": "second",
+          "y": "1197/1920h"
+        },
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1535365751156-45e3b6060cc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1080&q=80",
+          "width": "1w",
+          "height": "1197/1920h",
+          "id": "third",
+          "y": "2394/1920h"
+        },
+        {
+          "type": "image",
+          "width": "1w",
+          "height": "1197/1920h",
+          "duplicate": "first",
+          "y": "3611/1920h"
+        },
+        {
+          "type": "image",
+          "width": "1w",
+          "height": "1197/1920h",
+          "duplicate": "second",
+          "y": "4813/1920h"
+        },
+        {
+          "type": "image",
+          "originalSource": "assets://template-resources/film/SlidingBlueGradient/frame.png",
+          "isEditable": false,
+          "width": "1w",
+          "y": "-2/1920h",
+          "height": "5985/1920h"
+        }
+      ]
+    }
+  ]
+}

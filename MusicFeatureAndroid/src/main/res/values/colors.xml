@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5C59FC</color>
+    <color name="colorPrimaryDark">#4C49EC</color>
+    <color name="colorAccent">#4C8BFD</color>
+    <color name="library_background_color">#1A1A1A</color>
+
+    <color name="play_wave_form_color">#FF76E9</color>
+    <color name="highlighted_area_wave_from_color">#EEEEEE</color>
+    <color name="unselected_area_wave_form_color">#828282</color>
+    <color name="background_wave_form_color">#4F4F4F</color>
+    <color name="background_button_play_color">#333333</color>
+    <color name="length_track_text_view_color">#BDBDBD</color>
+</resources>

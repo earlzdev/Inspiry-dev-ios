@@ -1,0 +1,256 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-parcelize'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'kotlinx-serialization'
+
+android {
+    compileSdkVersion 32
+    buildToolsVersion "31.0.0"
+    defaultConfig {
+        applicationId "app.inspiry"
+        minSdkVersion min_sdk_version
+        targetSdkVersion 32
+        versionCode 70
+        versionName '7.0.1'
+        archivesBaseName = "$applicationId-b$versionCode-v$versionName"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // The following argument makes the Android Test Orchestrator run its
+        // "pm clear" command after each test invocation. This command ensures
+        // that the app's state is completely cleared between tests.
+        testInstrumentationRunnerArguments clearPackageData: 'true'
+
+        ndk {
+            abiFilters "armeabi-v7a", "x86", "x86_64", "arm64-v8a"
+        }
+        externalNativeBuild {
+            cmake {
+                cppFlags ''
+            }
+        }
+    }
+
+    testOptions {
+        execution 'ANDROIDX_TEST_ORCHESTRATOR'
+    }
+
+//    signingConfigs {
+//        release {
+//            storeFile file("../keys.jks")
+//            storePassword "123456abc"
+//            keyAlias "key0"
+//            keyPassword "123456"
+//        }
+//    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            //signingConfig signingConfigs.release
+
+            firebaseCrashlytics {
+                mappingFileUploadEnabled false
+            }
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            //signingConfig signingConfigs.release
+
+            firebaseCrashlytics {
+                mappingFileUploadEnabled true
+            }
+        }
+    }
+    buildFeatures {
+        compose true
+        viewBinding true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion compose_compiler_version
+    }
+
+    sourceSets {
+
+        main {
+            jniLibs.srcDirs = ["src/main/libs"]
+        }
+
+
+        test {
+            java.srcDirs += "$projectDir/src/testShared"
+        }
+
+        androidTest {
+            java.srcDirs += "$projectDir/src/testShared"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+
+    packagingOptions {
+        resources {
+            excludes += ['META-INF/AL2.0', 'META-INF/LGPL2.1']
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path file('src/main/cpp/CMakeLists.txt')
+            version '3.10.2'
+        }
+    }
+    lint {
+        abortOnError false
+    }
+}
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:$kotlinx_serialization_json_version"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+
+    implementation "androidx.compose.ui:ui:$androidx_compose_version"
+    implementation "androidx.compose.ui:ui-tooling:$androidx_compose_version"
+    implementation "androidx.compose.foundation:foundation:$androidx_compose_version"
+    implementation "androidx.compose.material:material:$androidx_compose_version"
+    implementation "androidx.compose.animation:animation:$androidx_compose_version"
+    implementation "androidx.compose.animation:animation-core:$androidx_compose_version"
+    implementation "androidx.compose.compiler:compiler:$compose_compiler_version"
+    implementation "androidx.compose.runtime:runtime:$androidx_compose_version"
+    implementation "androidx.activity:activity-compose:$activity_compose_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycle_viewmodel_compose_version"
+    implementation "com.google.accompanist:accompanist-pager:$accompanist_version"
+    implementation "com.google.accompanist:accompanist-insets:$accompanist_version"
+    implementation "com.google.accompanist:accompanist-systemuicontroller:$accompanist_version"
+
+    implementation "io.ktor:ktor-client-okhttp:$ktorVersion"
+    implementation "io.ktor:ktor-client-json:$ktorVersion"
+    implementation "io.ktor:ktor-client-serialization-jvm:$ktorVersion"
+    implementation "io.ktor:ktor-client-logging-jvm:$ktorVersion"
+    implementation "io.ktor:ktor-client-mock:$ktorVersion"
+
+    implementation "io.insert-koin:koin-core:$koin_version"
+    implementation "io.insert-koin:koin-android:$koin_version"
+    implementation "io.insert-koin:koin-androidx-compose:$koin_version"
+    testImplementation "io.insert-koin:koin-test:$koin_version"
+
+    implementation "androidx.appcompat:appcompat:$appcompat_version"
+    implementation "androidx.core:core-ktx:$app_compat_core_ktx_version"
+    implementation "androidx.constraintlayout:constraintlayout:$constraint_layout_version"
+
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_extensions_version"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_extensions_version"
+
+    implementation "androidx.recyclerview:recyclerview:$androidX_recyclerview_version"
+    implementation "androidx.fragment:fragment-ktx:$fragment_ktx_version"
+    implementation "androidx.activity:activity-ktx:$androidx_activity_ktx"
+    implementation "androidx.coordinatorlayout:coordinatorlayout:$coordinator_layout_version"
+    implementation "com.google.android.material:material:$android_material_version"
+
+    implementation platform("com.google.firebase:firebase-bom:$firebase_bom_version")
+    implementation "com.google.firebase:firebase-analytics"
+    implementation "com.google.firebase:firebase-crashlytics"
+    implementation "com.google.firebase:firebase-messaging"
+    implementation "com.google.firebase:firebase-config-ktx"
+    implementation 'com.google.firebase:firebase-inappmessaging-display-ktx'
+
+    implementation "com.google.android.play:core:$android_play_core_version"
+    implementation "com.google.android.play:core-ktx:$android_play_core_ktx_version"
+
+    implementation "com.squareup.okio:okio:$okio_version"
+    implementation "com.squareup.okhttp3:okhttp:$okhttp3_okhttp_version"
+
+    // noinspection GradleDependency
+    // implementation "com.squareup.picasso:picasso:$picasso_version"
+    implementation "io.coil-kt:coil:$coil_version"
+    implementation "io.coil-kt:coil-gif:$coil_version"
+    implementation "io.coil-kt:coil-video:$coil_version"
+    implementation "io.coil-kt:coil-svg:$coil_version"
+    implementation "io.coil-kt:coil-compose:$coil_version"
+
+    implementation "com.afollestad.material-dialogs:core:$afollestad_material_dialogs"
+    implementation "com.afollestad.material-dialogs:input:$afollestad_material_dialogs"
+    implementation "com.afollestad.material-dialogs:bottomsheets:$afollestad_material_dialogs"
+    implementation "com.afollestad.material-dialogs:lifecycle:$afollestad_material_dialogs"
+    //noinspection GradleDependency
+    implementation "com.github.sephiroth74:android-target-tooltip:$android_target_tooltip_version"
+
+    implementation "net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:$keyboardvisibilityevent_version"
+    implementation "com.google.android.exoplayer:exoplayer-core:$exoplayer_version"
+    implementation "com.airbnb.android:lottie:$android_lottie_version"
+    implementation "com.airbnb.android:lottie-compose:$android_lottie_compose_version"
+
+    implementation "com.facebook.android:facebook-core:$facebook_core_version"
+    implementation "com.amplitude:android-sdk:$amplitude_android_sdk_version"
+    implementation "com.github.adaptyteam:AdaptySDK-Android:$adapty_sdk_android_version"
+    implementation "com.android.billingclient:billing:$billingclient_billing_version"
+    implementation "com.appsflyer:af-android-sdk:$af_android_sdk_version"
+    implementation "com.android.installreferrer:installreferrer:$installreferrer_version"
+
+    implementation("com.russhwolf:multiplatform-settings:$multiplatform_settings_version")
+
+    implementation project(path: ':matisse')
+    implementation project(path: ':colorPicker')
+    implementation project(path: ':shared')
+    implementation project(path: ':MusicFeatureAndroid')
+    implementation project(path: ':androidUtilities')
+
+    implementation("dev.icerock.moko:graphics:$moko_graphics_version")
+    implementation("dev.icerock.moko:mvvm-core:$moko_mvvm_core_version")
+    implementation("dev.icerock.moko:parcelize:$moko_parcelize_version")
+    implementation(moko_resources_dependency)
+    implementation("dev.icerock.moko:permissions:$moko_permissions_version")
+
+    implementation "com.soywiz.korlibs.klock:klock:$klockVersion"
+    implementation "ai.proba.probasdk:probasdk:$proba_version"
+    implementation "com.github.krottv:compose-sliders:$compose_sliders_version"
+
+    // debugImplementation "com.facebook.flipper:flipper:$flipper_version"
+    // debugImplementation "com.facebook.soloader:soloader:$soloader_version"
+
+    debugImplementation ("androidx.fragment:fragment-testing:$fragment_ktx_version") {
+        exclude group: 'androidx.test', module: 'core'
+    }
+
+    testImplementation "junit:junit:$junit_version"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutines_version"
+    testImplementation "com.russhwolf:multiplatform-settings-test:$multiplatform_settings_version"
+
+    androidTestUtil "androidx.test:orchestrator:$android_test_orchestrator"
+    androidTestImplementation "androidx.test:runner:$android_test_runner"
+    androidTestImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutines_version"
+    androidTestImplementation "com.russhwolf:multiplatform-settings-test:$multiplatform_settings_version"
+    androidTestImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutines_version"
+    androidTestImplementation "androidx.test.ext:junit-ktx:$androidX_test_junit_version"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$androidX_text_espresso_version"
+    androidTestImplementation "androidx.test:core-ktx:$androidX_test_core_version"
+
+}
+
+tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+    kotlinOptions {
+        jvmTarget = "1.8"
+        freeCompilerArgs += "-Xjvm-default=all"
+    }
+}

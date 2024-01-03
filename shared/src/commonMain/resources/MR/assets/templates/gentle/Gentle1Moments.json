@@ -1,0 +1,184 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "choices": [
+      {
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#ff7d3535",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text1"
+          },
+          {
+            "type": "textColor",
+            "id": "text2"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "mainImage",
+      "type": "image",
+      "width": "833",
+      "height": "1374",
+      "x": "123",
+      "y": "143",
+      "demoSource": "https://images.pexels.com/photos/11045307/pexels-photo-11045307.jpeg?auto=compress&cs=tinysrgb&h=800&w=500",
+      "minDuration": "as_template",
+      "slidesEnabled": true,
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "to": 0.72
+        },
+        {
+          "duration": 70,
+          "interpolator": "fastOut",
+          "type": "scale",
+          "fromX": 2,
+          "toX": 1,
+          "fromY": 2,
+          "toY": 1
+        },
+        {
+          "duration": 70,
+          "interpolator": "fastOut",
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "clipDefault": true,
+          "stickCorners": true
+        }
+      ]
+    },
+    {
+      "id": "line_blur",
+      "type": "image",
+      "width": "1178/1080w",
+      "height": "1178/1920h",
+      "x": "-150/1080w",
+      "y": "920/1920h",
+      "isEditable": false,
+      "isMovable": true,
+      "keepAspect": true,
+      "touchAlphaThreshold": 0,
+      "colorFilterMode": "MULTIPLY",
+      "animatorsIn": [
+        {
+          "duration": 50,
+          "type": "fade",
+          "interpolator": "fastOut"
+        },
+        {
+          "duration": 50,
+          "interpolator": "fastOut",
+          "type": "scale",
+          "fromX": 2,
+          "toX": 1,
+          "fromY": 2,
+          "toY": 1
+        }
+      ],
+      "startFrame": 60,
+      "originalSource": "assets://template-resources/gentle/Gentle1Moments/line_blur.png",
+      "minDuration": "as_template"
+    },
+    {
+      "id": "text1",
+      "minDuration": "as_template",
+      "startFrame": 60,
+      "animatorsIn": [
+        {
+          "duration": 30,
+          "type": "fade",
+          "interpolator": "fastOut"
+        },
+        {
+          "duration": 30,
+          "interpolator": "fastOut",
+          "type": "move_to_y",
+          "from": 0.12
+        }
+      ],
+      "text": "Moments Title",
+      "font": "afjat",
+      "innerGravity": "center",
+      "width": "744",
+      "height": "155",
+      "x": "168",
+      "y": "1545",
+      "type": "text"
+    },
+    {
+      "id": "text2",
+      "minDuration": "as_template",
+      "startFrame": 80,
+      "animatorsIn": [
+        {
+          "duration": 30,
+          "type": "fade",
+          "interpolator": "fastOut"
+        },
+        {
+          "duration": 30,
+          "interpolator": "fastOut",
+          "type": "move_to_y",
+          "from": 0.12
+        }
+      ],
+      "text": "enjoy every moment",
+      "lineSpacing": 1.1152338,
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "light"
+      },
+      "innerGravity": "center",
+      "width": "0.51478446w",
+      "height": "0.071949055h",
+      "x": "281.5",
+      "y": "1652",
+      "type": "text"
+    },
+    {
+      "id": "flower_blur",
+      "type": "image",
+      "width": "822/1080w",
+      "height": "784/1920h",
+      "x": "362/1080w",
+      "y": "-200/1920w",
+      "isEditable": false,
+      "isMovable": true,
+      "keepAspect": true,
+      "touchAlphaThreshold": 0,
+      "colorFilterMode": "MULTIPLY",
+      "animatorsIn": [
+        {
+          "duration": 50,
+          "type": "fade",
+          "interpolator": "fastOut"
+        },
+        {
+          "duration": 50,
+          "interpolator": "fastOut",
+          "type": "scale",
+          "fromX": 2,
+          "toX": 1,
+          "fromY": 2,
+          "toY": 1
+        }
+      ],
+      "startFrame": 40,
+      "originalSource": "assets://template-resources/gentle/Gentle1Moments/flower_blur.png",
+      "minDuration": "as_template"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "forPremium": true,
+  "type": "text",
+  "text": "A sliding text",
+  "innerGravity": "center",
+  "textSize": "1/10w",
+  "letterSpacing": 0.07,
+  "font": {
+    "fontStyle": "bold"
+  },
+
+  "backgroundMarginLeft": 0.2,
+  "backgroundMarginRight": 0.2,
+  "animationParamIn": {
+    "charDelayMillis": 25,
+    "textAnimators": [
+      {
+        "type": "fade",
+        "durationMillis": 50,
+        "from": 0,
+        "to": 1
+      },
+      {
+        "type": "move_to_y",
+        "interpolator": {
+          "type": "spring",
+          "amplitude": 0.12,
+          "frequency": 20
+        },
+        "from": 0.6,
+        "to": 0,
+        "durationMillis": 1800
+      }
+    ],
+    "backgroundAnimators": [
+      {
+        "type": "clip",
+        "direction": "left_to_right",
+        "interpolator": "cubicOut",
+        "duration": 20
+      }
+    ]
+  }
+}

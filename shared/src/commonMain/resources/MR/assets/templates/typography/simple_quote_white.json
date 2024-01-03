@@ -1,0 +1,64 @@
+{
+  "backgroundColor": "#ffffff",
+  "availability": "FREE",
+  "palette": {
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text1"
+          },
+          {
+            "type": "textColor",
+            "id": "text2"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "text1",
+      "type": "text",
+      "text": "Life has no limits. Except the ones you make.",
+      "innerGravity": "left",
+      "font": "playfair",
+      "textSize": "1/12m",
+      "width": "0.43431637w",
+      "height": "0.14013676h",
+      "translationX": 0.18218541,
+      "translationY": 0.35800114,
+      "textColor": "#000000",
+      "delayBeforeEnd": 60,
+      "animationParamIn": {
+        "charDelayMillis": 60,
+        "charDelayBetweenWords": false
+      }
+    },
+    {
+      "id": "text2",
+      "type": "text",
+      "text": "- Les Brown",
+      "anchorX": "end",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "innerGravity": "center",
+      "font": "playfair",
+      "textSize": "0.049m",
+      "textColor": "#000000",
+      "minDuration": "as_template",
+      "translationX": -0.09178856,
+      "translationY": 0.56227887
+    }
+  ]
+}

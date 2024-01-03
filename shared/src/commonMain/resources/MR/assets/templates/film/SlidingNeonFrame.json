@@ -1,0 +1,87 @@
+{
+  "timeForEdit": 0,
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "group",
+      "width": "1w",
+      "height": "1h",
+      "animatorsIn": [
+        {
+          "duration": 20,
+          "from": -0.5,
+          "to": -0.1,
+          "interpolator": "elegantlySlowOut",
+          "type": "move_to_y"
+        },
+        {
+          "startFrame": 20,
+          "duration": 20,
+          "from": -0.1,
+          "to": -0.09,
+          "type": "move_to_y"
+        },
+        {
+          "startFrame": 40,
+          "duration": 30,
+          "from": -0.09,
+          "to": 0.384,
+          "interpolator": "elegantlySlowOut",
+          "type": "move_to_y"
+        },
+        {
+          "startFrame": 70,
+          "duration": 80,
+          "from": 0.384,
+          "to": 0,
+          "type": "move_to_y"
+        },
+        {
+          "startFrame": 150,
+          "duration": 30,
+          "from": 0,
+          "to": -0.5,
+          "interpolator": "elegantlySlowOut",
+          "type": "move_to_y"
+        }
+      ],
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1521168062294-dee574d61415?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+          "width": "1w",
+          "height": "1352/1920h",
+          "id": "first",
+          "y": "-1063/1920h"
+        },
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1520634222887-a2baa539fab3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+          "width": "1w",
+          "height": "1352/1920h",
+          "id": "second",
+          "y": "280/1920h"
+        },
+        {
+          "type": "image",
+          "width": "1w",
+          "height": "1352/1920h",
+          "duplicate": "first",
+          "y": "1631/1920h"
+        },
+        {
+          "type": "image",
+          "originalSource": "assets://template-resources/film/SlidingNeonFrame/frame.png",
+          "isEditable": false,
+          "width": "1w",
+          "height": "3840/1920h",
+          "y": "-0.485h"
+        }
+      ]
+    }
+  ]
+}

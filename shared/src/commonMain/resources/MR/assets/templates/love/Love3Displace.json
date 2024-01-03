@@ -1,0 +1,269 @@
+{
+  "preferredDuration": 210,
+  "availability": "PREMIUM",
+  "timeForEdit": 100,
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "defaultTextColor": "#ffffff",
+    "choices": [
+      {
+        "elements": [
+          {
+            "type": "vector",
+            "id": "vectorOverlay"
+          },
+          {
+            "type": "vector",
+            "id": "vector1"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "onlyForYou"
+          },
+          {
+            "type": "textColor",
+            "id": "saleNow"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "vector",
+            "id": "vectorAsTextBg*vectorText1"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1601235159248-2779437e6717?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+      "width": "1w",
+      "height": "640",
+      "anchorY": "top",
+      "innerPivotY": 1,
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 10,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": 0.1666,
+          "to": 0,
+          "duration": 40,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1601235159248-2779437e6717?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+      "width": "1w",
+      "height": "640",
+      "anchorY": "bottom",
+      "innerPivotY": 0,
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 10,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": -0.1666,
+          "to": 0,
+          "duration": 40,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "width": "1w",
+      "height": "640",
+      "anchorY": "center",
+      "minDuration": "as_template",
+      "startFrame": 5,
+      "demoSource": "https://images.unsplash.com/photo-1601235159248-2779437e6717?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+      "isPixelSizeAvailable": true,
+      "templateMask": {
+        "shaderType": "DISPLACEMENT",
+        "textures": [
+          {
+            "type": "textureMedia",
+            "textureSource": "assets://template-resources/love/Love3Displace/displace.json"
+          }
+        ]
+      },
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 1.6,
+          "to": 1,
+          "duration": 35,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "id": "vector1",
+      "type": "vector",
+      "width": "335",
+      "height": "427",
+      "isMovable": true,
+      "isLoopEnabled": true,
+      "translationX": 0.14539273,
+      "translationY": 0.7644493,
+      "originalSource": "assets://template-resources/love/Love3Displace/hearts.json",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 30,
+      "startFrame": 10
+    },
+    {
+      "id": "vectorOverlay",
+      "type": "vector",
+      "width": "268",
+      "height": "match_parent",
+      "isMovable": true,
+      "originalSource": "assets://template-resources/love/Love3Displace/plane.json",
+      "minDuration": "as_template"
+    },
+    {
+      "type": "text",
+      "text": "ONLY FOR YOU",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "innerGravity": "center",
+      "alignBy":"center",
+      "translationX": -0.356,
+      "textSize": "0.1089056m",
+      "font": "hero",
+      "textColor": "#B7FBFF",
+      "minDuration": "as_template",
+      "rotation": 90,
+      "shadowColors": [
+        "#FF7899"
+      ],
+      "shadowOffsetY": 0.3
+    },
+    {
+      "type": "text",
+      "text": "SALE\nNOW",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "innerGravity": "left",
+      "translationX": 0.05151436,
+      "translationY": 0.87455696,
+      "textSize": "0.065704405m",
+      "lineSpacing": 0.72,
+      "font": {
+        "fontPath": "notcourier",
+        "fontStyle": "bold"
+      },
+      "textColor": "#B7FBFF",
+      "minDuration": "as_template",
+      "startFrame": 10,
+      "animationParamIn": {
+        "charDelay": 3,
+        "textAnimators": [
+          {
+            "type": "move_to_y",
+            "from": 1,
+            "to": 0,
+            "duration": 4,
+            "interpolator": "beautyOut"
+          },
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 4,
+            "interpolator": "beautyOut"
+          }
+        ]
+      }
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "translationX": -0.2403336,
+      "translationY": -0.4097812,
+      "startFrame": 30,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": -0.2,
+          "to": -0.05,
+          "duration": 8
+        },
+        {
+          "type": "rotate",
+          "from": 30,
+          "to": 15,
+          "duration": 8
+        },
+        {
+          "type": "move_to_y",
+          "from": -0.05,
+          "to": 0,
+          "startFrame": 8,
+          "duration": 4
+        },
+        {
+          "type": "rotate",
+          "from": 15,
+          "to": -10,
+          "startFrame": 8,
+          "duration": 4
+        }
+      ],
+      "medias": [
+        {
+          "type": "vector",
+          "id": "vectorAsTextBg*vectorText1",
+          "width": "match_parent",
+          "height": "match_parent",
+          "minDuration": "as_template",
+          "scaleType": "FIT_XY",
+          "originalSource": "assets://template-resources/love/Love3Displace/num_back.json"
+        },
+        {
+          "type": "text",
+          "text": "-70%",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "innerGravity": "center",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "textSize": "0.0785824m",
+          "font": {
+            "fontPath": "notcourier"
+          },
+          "paddingBottom": "0.02w",
+          "paddingTop": "0.02w",
+          "paddingStart": "0.1w",
+          "paddingEnd": "0.1w",
+          "textColor": "#000000",
+          "minDuration": "as_template"
+        }
+      ]
+    }
+  ]
+}

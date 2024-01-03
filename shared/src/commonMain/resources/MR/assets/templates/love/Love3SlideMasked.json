@@ -1,0 +1,341 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "choices": [
+      {
+        "elements": [
+          {
+            "type": "vector",
+            "id": "vectorTopLeft",
+            "colorFilter": {
+              "addHue": 11,
+              "addLightness": 0.23
+            }
+          },
+          {
+            "type": "vector",
+            "id": "vectorTopRight",
+            "colorFilter": {
+              "addHue": 11,
+              "addLightness": 0.23
+            }
+          },
+          {
+            "type": "vector",
+            "id": "vectorBottom"
+          }
+        ]
+      },
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "vector",
+            "id": "vectorHeart1"
+          },
+          {
+            "type": "vector",
+            "id": "vectorHeart2"
+          },
+          {
+            "type": "vector",
+            "id": "vectorAsTextBg*Text1"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "group",
+      "slides": {
+        "startFrame": 0,
+        "startFrameInterval": 50,
+        "predefined": [
+          {
+            "type": "image",
+            "demoSource": "https://images.pexels.com/photos/6530732/pexels-photo-6530732.jpeg?auto=compress&cs=tinysrgb&h=600&w=600",
+            "animatorsIn": [
+              {
+                "type": "scale_inner",
+                "duration": 80,
+                "from": 1,
+                "to": 1.05,
+                "interpolator": "beautyOut"
+              }
+            ],
+            "templateMask": {
+              "textures": [
+                {
+                  "minDuration": "as_template",
+                  "scaleType": "CENTER_CROP",
+                  "startFrame": 0,
+                  "type": "textureMedia",
+                  "textureSource": "assets://template-resources/love/Love3SlideMasked/mask_1.json"
+                }
+              ]
+            }
+          },
+          {
+            "type": "image",
+            "demoSource": "https://images.pexels.com/photos/6530731/pexels-photo-6530731.jpeg?auto=compress&cs=tinysrgb&h=700&w=700",
+            "animatorsIn": [
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1
+              },
+              {
+                "type": "scale_inner",
+                "duration": 80,
+                "from": 1,
+                "to": 1.05,
+                "interpolator": "beautyOut"
+              }
+            ],
+            "templateMask": {
+              "textures": [
+                {
+                  "minDuration": "as_template",
+                  "scaleType": "CENTER_CROP",
+                  "startFrame": 50,
+                  "type": "textureMedia",
+                  "textureSource": "assets://template-resources/love/Love3SlideMasked/mask_2.json"
+                }
+              ]
+            }
+          },
+          {
+            "type": "image",
+            "demoSource": "https://images.pexels.com/photos/6530729/pexels-photo-6530729.jpeg?auto=compress&cs=tinysrgb&h=600&w=600",
+            "demoScale": 1.1,
+            "demoOffsetY": -0.2,
+            "animatorsIn": [
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1
+              },
+              {
+                "type": "scale_inner",
+                "duration": 80,
+                "from": 1,
+                "to": 1.05,
+                "interpolator": "beautyOut"
+              }
+            ],
+            "templateMask": {
+              "textures": [
+                {
+                  "minDuration": "as_template",
+                  "scaleType": "CENTER_CROP",
+                  "startFrame": 100,
+                  "type": "textureMedia",
+                  "textureSource": "assets://template-resources/love/Love3SlideMasked/mask_3.json"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "vectorTopLeft",
+      "type": "vector",
+      "width": "377",
+      "height": "280",
+      "isMovable": true,
+      "originalSource": "assets://template-resources/love/Love3SlideMasked/top_left_vector.json",
+      "minDuration": "as_template"
+    },
+    {
+      "id": "vectorTopRight",
+      "type": "vector",
+      "anchorX": "end",
+      "width": "428",
+      "height": "191",
+      "isMovable": true,
+      "originalSource": "assets://template-resources/love/Love3SlideMasked/top_right_vector.json",
+      "minDuration": "as_template"
+    },
+    {
+      "id": "vectorBottom",
+      "type": "vector",
+      "anchorY": "bottom",
+      "width": "match_parent",
+      "height": "522",
+      "isMovable": true,
+      "originalSource": "assets://template-resources/love/Love3SlideMasked/bottom_vector.json",
+      "minDuration": "as_template"
+    },
+    {
+      "id": "vectorHeart1",
+      "type": "vector",
+      "width": "99/1080w",
+      "height": "81/1080w",
+      "isMovable": true,
+      "x": "25",
+      "y": "50",
+      "anchorX": "end",
+      "originalSource": "assets://template-resources/love/Love3SlideMasked/heart_1.json",
+      "minDuration": "as_template",
+      "rotation": -15.4
+    },
+    {
+      "id": "vectorHeart2",
+      "type": "vector",
+      "width": "84/1080w",
+      "height": "68/1080w",
+      "isMovable": true,
+      "x": "119",
+      "y": "382",
+      "anchorX": "end",
+      "anchorY": "bottom",
+      "originalSource": "assets://template-resources/love/Love3SlideMasked/heart_2.json",
+      "minDuration": "as_template",
+      "rotation": 18
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "translationX": -0.27443102,
+      "translationY": 0.2960508,
+      "rotation": -9.2,
+      "startFrame": 1,
+      "loopedAnimationInterval": 0,
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0.87,
+          "to": 1,
+          "duration": 30,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.25,
+            "y1": 0.1,
+            "x2": 0.25,
+            "y2": 1
+          }
+        },
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 0.87,
+          "duration": 20,
+          "startFrame": 30,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.6,
+            "y1": 0.1,
+            "x2": 0.45,
+            "y2": 1
+          }
+        }
+      ],
+      "medias": [
+        {
+          "type": "vector",
+          "id": "vectorAsTextBg*Text1",
+          "width": "match_parent",
+          "height": "match_parent",
+          "minDuration": "as_template",
+          "scaleType": "FIT_XY",
+          "originalSource": "assets://template-resources/love/Love3SlideMasked/heart_back_text.json",
+          "animatorsIn": [
+            {
+              "type": "fade",
+              "from": 0,
+              "to": 1,
+              "duration": 20
+            }
+          ]
+        },
+        {
+          "id": "Text1",
+          "type": "text",
+          "text": "50%\nsale",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "innerGravity": "center",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "textSize": "0.073163606m",
+          "font": "nautilus",
+          "paddingStart": "0.083w",
+          "paddingEnd": "0.083w",
+          "paddingTop": "0.083w",
+          "paddingBottom": "0.063w",
+          "backgroundMarginLeft": 0.3,
+          "backgroundMarginRight": 0.3,
+          "textColor": "#ffffff",
+          "minDuration": "as_template",
+          "animationParamIn": {
+            "charDelay": 3,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 4
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "bottom",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "translationY": -0.028978856,
+      "textSize": "0.07799839m",
+      "lineSpacing": 0.92,
+      "textColor": "#ffffff",
+      "text": "OUR NEW COLLECTION\nFOR COUPLES",
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "bold"
+      },
+      "startFrame": 20,
+      "animationParamIn": {
+        "wordDelay": 7,
+        "lineDelay": 7,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 14
+          },
+          {
+            "type": "move_to_y",
+            "from": 1,
+            "to": 0,
+            "duration": 14,
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    }
+  ]
+}

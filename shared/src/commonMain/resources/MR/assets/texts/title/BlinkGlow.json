@@ -1,0 +1,53 @@
+{
+  "innerGravity": "center",
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "type": "text",
+  "text": "HUGE SALE\nHURRY UP",
+  "textGradient": {
+    "colors": [
+      "#fff02fc2",
+      "#ff6094ea"
+    ]
+  },
+  "textSize": "0.12w",
+  "font": {
+    "fontPath": "mont",
+    "fontStyle": "bold"
+  },
+  "textShadowColor": "#fff02fc2",
+  "textShadowDx": 0,
+  "textShadowDy": 0,
+  "textShadowBlurRadius": 12,
+  "lineSpacing": 1.1,
+
+  "paintStyle": "STROKE",
+  "strokeWidth": 0.03,
+  "letterSpacing": 0.05,
+
+  "backgroundMarginLeft": 0.2,
+  "backgroundMarginRight": 0.2,
+  "backgroundMarginTop": 0.1,
+
+  "animationParamIn": {
+    "wordDelay": 13,
+    "lineDelay": 13,
+    "textAnimators": [
+      {
+        "type": "blink",
+        "duration": 10,
+        "blinks": 5
+      }
+    ],
+    "backgroundAnimators": [
+      {
+        "type": "blink",
+        "duration": 10,
+        "blinks": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "preferredDuration": 180,
+  "listDemoPreferredDuration": 130,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": true,
+    "choices": [
+      {
+        "color": "#FFFFFF",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "isMovable": true,
+      "isEditable": false,
+      "colorFilterMode": "MULTIPLY",
+      "originalSource": "assets://template-resources/art/Art2SmoothMask/Water_Texture_1.png",
+      "type": "image",
+      "id": "imageBackground",
+      "anchorX": "center",
+      "anchorY": "center",
+      "width": "1w",
+      "height": "1h",
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": -0.3,
+          "to": 0,
+          "duration": 55,
+          "interpolator": "flatIn30expOut"
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 55
+        }
+      ]
+    },
+    {
+      "id": "photo1",
+      "type": "image",
+      "isEditable": true,
+      "width": "638/1080w",
+      "height": "687/1920h",
+      "anchorX": "center",
+      "y": "148/1920h",
+      "startFrame": 30,
+      "templateMask": {
+        "shaderType": "COMMON_MASK",
+        "textures": [
+          {
+            "type": "textureMedia",
+            "startFrame": 20,
+            "isEditable": false,
+            "textureSource": "assets://template-resources/art/Art2SmoothMask/Mask_1.png",
+            "scaleType": "FIT_XY",
+            "minDuration": "as_template",
+            "animatorsIn": [
+              {
+                "type": "move_inner",
+                "duration": 40,
+                "fromX": 1,
+                "fromY": -1,
+                "toX": 0,
+                "toY": 0
+              },
+              {
+                "type": "scale_inner",
+                "interpolator": "flatIn25expOut",
+                "from": 1,
+                "to": 1.62,
+                "duration": 40
+              }
+            ]
+          }
+        ]
+      },
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "from": 0.1,
+          "to": 0.1,
+          "duration": 0
+        },
+        {
+          "type": "scale_inner",
+          "from": 1,
+          "to": 1.05,
+          "duration": 60
+        }
+      ],
+      "demoSource": "https://images.unsplash.com/photo-1607878455883-08baf3a6ad2b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+    },
+    {
+      "id": "photo2",
+      "type": "image",
+      "isEditable": true,
+      "width": "638/1080w",
+      "height": "740/1920h",
+      "anchorX": "center",
+      "y": "897/1920h",
+      "startFrame": 40,
+      "templateMask": {
+        "shaderType": "COMMON_MASK",
+        "textures": [
+          {
+            "type": "textureMedia",
+            "startFrame": 40,
+            "textureSource": "assets://template-resources/art/Art2SmoothMask/Mask_2.png",
+            "isEditable": false,
+            "scaleType": "FIT_XY",
+            "minDuration": "as_template",
+            "animatorsIn": [
+              {
+                "type": "move_inner",
+                "duration": 40,
+                "fromX": -1,
+                "fromY": 1,
+                "toX": 0,
+                "toY": 0
+              },
+              {
+                "type": "scale_inner",
+                "interpolator": "flatIn25expOut",
+                "from": 1,
+                "to": 1.62,
+                "duration": 40
+              }
+            ]
+          }
+        ]
+      },
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "from": 0.1,
+          "to": 0.1,
+          "duration": 0
+        },
+        {
+          "type": "scale_inner",
+          "from": 1,
+          "to": 1.05,
+          "duration": 60
+        }
+      ],
+      "demoSource": "https://images.unsplash.com/photo-1607878280712-1a812eccc9fd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+    },
+    {
+      "id": "top-sticker",
+      "isMovable": true,
+      "isEditable": false,
+      "keepAspect": true,
+      "colorFilterMode": "DISABLE",
+      "originalSource": "assets://template-resources/art/Art2SmoothMask/Sticker_1.png",
+      "width": "342/1080w",
+      "height": "338/1920h",
+      "anchorX": "center",
+      "anchorY": "center",
+      "y": "-0.4h",
+      "x": "0.255w",
+      "type": "image",
+      "alpha": 0.9,
+      "templateMask": {
+        "textures": [
+          {
+            "type": "textureMedia",
+            "scaleType": "FIT_XY",
+            "startFrame": 35,
+            "textureSource": "assets://template-resources/art/Art2SmoothMask/StickerMask_1_2.json"
+          }
+        ]
+      }
+    },
+    {
+      "type": "image",
+      "id": "bottom-sticker",
+      "isMovable": true,
+      "isEditable": false,
+      "keepAspect": true,
+      "colorFilterMode": "DISABLE",
+      "originalSource": "assets://template-resources/art/Art2SmoothMask/Sticker_1.png",
+      "width": "342/1080w",
+      "height": "338/1920h",
+      "anchorX": "center",
+      "anchorY": "center",
+      "y": "0.324h",
+      "x": "-0.248w",
+      "alpha": 0.8,
+      "templateMask": {
+        "textures": [
+          {
+            "type": "textureMedia",
+            "scaleType": "FIT_XY",
+            "startFrame": 45,
+            "textureSource": "assets://template-resources/art/Art2SmoothMask/StickerMask_2_2.json"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "image",
+            "id": "mask"
+          }
+        ]
+      },
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text1"
+          },
+          {
+            "type": "textColor",
+            "id": "text2"
+          },
+          {
+            "type": "image",
+            "id": "line1"
+          },
+          {
+            "type": "image",
+            "id": "line2"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1559570313-da910c5e0915?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "803/1080w",
+      "height": "match_parent",
+      "anchorX": "end",
+      "animatorsIn": [
+        {
+          "duration": 56,
+          "type": "scale_inner",
+          "from": 1.15,
+          "to": 1,
+          "interpolator": "flatIn25expOut"
+        }
+      ]
+    },
+    {
+      "originalSource": "assets://template-resources/minimal/CirclesGirl/mask1.png",
+      "isEditable": false,
+      "type": "image",
+      "id": "mask",
+      "width": "1250/1080w",
+      "height": "match_parent",
+      "anchorX": "end",
+      "animatorsIn": [
+        {
+          "type": "move_to_x",
+          "from": 0.4,
+          "to": -0.34,
+          "duration": 30,
+          "interpolator": "easeInLight"
+        }
+      ]
+    },
+    {
+      "originalSource": "assets://template-resources/minimal/CirclesGirl/lines.png",
+      "isEditable": false,
+      "type": "image",
+      "width": "253/1080w",
+      "height": "match_parent",
+      "id": "line1",
+      "startFrame": 30,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 0.15,
+          "duration": 1
+        },
+        {
+          "type": "move_to_x",
+          "from": 0.25,
+          "to": -0.23,
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "originalSource": "assets://template-resources/minimal/CirclesGirl/lines.png",
+      "isEditable": false,
+      "id": "line2",
+      "type": "image",
+      "width": "253/1080w",
+      "height": "match_parent",
+      "startFrame": 40,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 0.15,
+          "duration": 1
+        },
+        {
+          "type": "move_to_x",
+          "from": 0.25,
+          "to": -0.23,
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "EVERYTIME",
+      "anchorX": "start",
+      "anchorY": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "id": "text1",
+      "font": {
+        "fontPath": "mont",
+        "fontStyle": "light"
+      },
+      "innerGravity": "left",
+      "textSize": "0.036s",
+      "translationX": 0.09132874,
+      "translationY": 0.38606906,
+      "startFrame": 40,
+      "minDuration": "as_template",
+      "animationParamIn": {
+        "charDelayMillis": 45,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 135
+          }
+        ]
+      }
+    },
+    {
+      "startFrame": 45,
+      "minDuration": "as_template",
+      "type": "text",
+      "text": "FEEL THIS MOMENT...",
+      "id": "text2",
+      "innerGravity": "left",
+      "textSize": "0.04968s",
+      "anchorY": "center",
+      "anchorX": "start",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "font": {
+        "fontPath": "mont",
+        "fontStyle": "light"
+      },
+      "translationX": 0.09132874,
+      "translationY": 0.43323663,
+      "animationParamIn": {
+        "charDelayMillis": 45,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 135
+          }
+        ]
+      }
+    }
+  ]
+}

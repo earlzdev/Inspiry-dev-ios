@@ -1,0 +1,338 @@
+{
+  "preferredDuration": 240,
+  "defaultTextColor": "#D4046A",
+  "availability": "PREMIUM",
+  "palette": {
+    "choices": [
+      {
+        "color": "#FDE7F4",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "vector",
+            "id": "vector_top.Color_1",
+            "colorFilter": {
+              "addHue": -1,
+              "addSaturation": 0.15,
+              "addLightness": -0.03
+            }
+          },
+          {
+            "type": "vector",
+            "id": "vector_top.Color_2",
+            "colorFilter": {
+              "addHue": -13,
+              "addSaturation": -0.29,
+              "addLightness": -0.06
+            }
+          },
+          {
+            "type": "vector",
+            "id": "vector_bottom.Color_1",
+            "colorFilter": {
+              "addHue": -1,
+              "addSaturation": 0.15,
+              "addLightness": -0.03
+            }
+          },
+          {
+            "type": "vector",
+            "id": "vector_bottom.Color_2",
+            "colorFilter": {
+              "addHue": -13,
+              "addSaturation": -0.29,
+              "addLightness": -0.06
+            }
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          },
+          {
+            "type": "borderColor",
+            "id": "img1"
+          },
+          {
+            "type": "borderColor",
+            "id": "img2"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "vector",
+            "id": "star_1"
+          },
+          {
+            "type": "vector",
+            "id": "star_2"
+          },
+          {
+            "type": "vector",
+            "id": "star_3"
+          },
+          {
+            "type": "vector",
+            "id": "star_4"
+          },
+          {
+            "type": "image",
+            "id": "dots_top"
+          },
+          {
+            "type": "image",
+            "id": "dots_bottom"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "vector_top",
+      "type": "vector",
+      "width": "match_parent",
+      "height": "197",
+      "isMovable": true,
+      "originalSource": "assets://template-resources/love/Love2BorderPhotos/clouds.json",
+      "rotation": 180,
+      "minDuration": "as_template"
+    },
+    {
+      "id": "vector_bottom",
+      "type": "vector",
+      "width": "match_parent",
+      "height": "197",
+      "isMovable": true,
+      "anchorY": "bottom",
+      "originalSource": "assets://template-resources/love/Love2BorderPhotos/clouds.json",
+      "minDuration": "as_template"
+    },
+    {
+      "type": "image",
+      "width": "671",
+      "height": "705",
+      "id": "img1",
+      "slidesEnabled": true,
+      "demoSource": "https://images.pexels.com/photos/3692754/pexels-photo-3692754.jpeg?auto=compress&cs=tinysrgb&h=500&w=500",
+      "borderType": "outside",
+      "borderWidth": "0.012w",
+      "borderColor": "#DA78A8",
+      "x": "41",
+      "y": "66",
+      "anchorX": "end",
+      "startFrame": 5,
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "from": 0.2,
+          "to": 0.2
+        },
+        {
+          "type": "rotate",
+          "from": 25,
+          "to": -3,
+          "duration": 35,
+          "interpolator": "cubicOut"
+        },
+        {
+          "type": "move",
+          "fromY": -0.1,
+          "toY": 0,
+          "fromX": 0.75,
+          "toX": 0,
+          "duration": 35,
+          "interpolator": "cubicOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "width": "832",
+      "height": "804",
+      "id": "img2",
+      "slidesEnabled": true,
+      "demoSource": "https://images.pexels.com/photos/3692760/pexels-photo-3692760.jpeg?auto=compress&cs=tinysrgb&h=500&w=500",
+      "borderType": "outside",
+      "borderWidth": "0.012w",
+      "borderColor": "#DA78A8",
+      "x": "92",
+      "y": "291",
+      "anchorX": "end",
+      "anchorY": "bottom",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "from": 0.2,
+          "to": 0.2
+        },
+        {
+          "type": "rotate",
+          "from": -40,
+          "to": 3,
+          "duration": 35,
+          "interpolator": "cubicOut"
+        },
+        {
+          "type": "move",
+          "fromY": 0.15,
+          "toY": 0,
+          "fromX": -1.05,
+          "toX": 0,
+          "duration": 35,
+          "interpolator": "cubicOut"
+        }
+      ]
+    },
+    {
+      "id": "dots_top",
+      "type": "image",
+      "width": "118/1080w",
+      "height": "124/1080w",
+      "x": "91",
+      "y": "249",
+      "isMovable": true,
+      "isEditable": false,
+      "originalSource": "assets://template-resources/love/Love2BorderPhotos/dots_top.png",
+      "minDuration": "as_template"
+    },
+    {
+      "id": "dots_bottom",
+      "type": "image",
+      "width": "61/1080w",
+      "height": "115/1080w",
+      "x": "58",
+      "y": "364",
+      "anchorY": "bottom",
+      "isMovable": true,
+      "isEditable": false,
+      "originalSource": "assets://template-resources/love/Love2BorderPhotos/dots_bottom.png",
+      "minDuration": "as_template"
+    },
+    {
+      "id": "star_1",
+      "type": "vector",
+      "width": "58/1080w",
+      "height": "58/1080w",
+      "isMovable": true,
+      "x": "230",
+      "y": "137",
+      "isLoopEnabled": true,
+      "originalSource": "assets://template-resources/love/Love2BorderPhotos/star_loop_1.json",
+      "minDuration": "as_template"
+    },
+    {
+      "id": "star_2",
+      "type": "vector",
+      "width": "88/1080w",
+      "height": "88/1080w",
+      "isMovable": true,
+      "x": "81",
+      "y": "372",
+      "isLoopEnabled": true,
+      "originalSource": "assets://template-resources/love/Love2BorderPhotos/star_loop_2.json",
+      "minDuration": "as_template",
+      "startFrame": 5
+    },
+    {
+      "id": "star_3",
+      "type": "vector",
+      "width": "91/1080w",
+      "height": "88/1080w",
+      "isMovable": true,
+      "anchorX": "end",
+      "x": "58",
+      "y": "773",
+      "isLoopEnabled": true,
+      "originalSource": "assets://template-resources/love/Love2BorderPhotos/star_loop_3.json",
+      "minDuration": "as_template",
+      "startFrame": 8
+    },
+    {
+      "id": "star_4",
+      "type": "vector",
+      "width": "58/1080w",
+      "height": "58/1080w",
+      "isMovable": true,
+      "anchorY": "bottom",
+      "x": "71",
+      "y": "250",
+      "isLoopEnabled": true,
+      "originalSource": "assets://template-resources/love/Love2BorderPhotos/star_loop_4.json",
+      "minDuration": "as_template",
+      "startFrame": 6
+    },
+    {
+      "id": "star_5",
+      "type": "vector",
+      "width": "58/1080w",
+      "height": "58/1080w",
+      "isMovable": true,
+      "x": "95",
+      "y": "860",
+      "isLoopEnabled": true,
+      "originalSource": "assets://template-resources/love/Love2BorderPhotos/star_loop_5.json",
+      "minDuration": "as_template",
+      "startFrame": 10
+    },
+    {
+      "id": "birds",
+      "type": "vector",
+      "width": "337/1080w",
+      "height": "240/1080w",
+      "isMovable": true,
+      "x": "52",
+      "y": "561",
+      "isLoopEnabled": true,
+      "originalSource": "assets://template-resources/love/Love2BorderPhotos/birds_loop.json",
+      "minDuration": "as_template",
+      "rotation": -5.1
+    },
+    {
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "bottom",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "translationY": -0.012271531,
+      "textSize": "0.0919124m",
+      "lineSpacing": 0.74,
+      "textColor": "#D4046A",
+      "text": "New collections\nfor couples",
+      "font": {
+        "fontPath": "hero",
+        "fontStyle": "bold"
+      },
+      "startFrame": 20,
+      "animationParamIn": {
+        "wordDelay": 10,
+        "lineDelay": 10,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 20
+          },
+          {
+            "type": "move_to_y",
+            "from": 1,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    }
+  ]
+}

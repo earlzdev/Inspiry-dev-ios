@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/ripple_on_gray_color">
+
+    <item android:drawable="@drawable/button_follow_inst" />
+
+    <item
+        android:id="@android:id/mask"
+        android:top="1dp"
+        android:bottom="1dp"
+        android:left="1dp"
+        android:right="1dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="18dp" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+</ripple>

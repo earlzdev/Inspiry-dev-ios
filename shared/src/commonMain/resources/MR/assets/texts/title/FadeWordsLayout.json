@@ -1,0 +1,66 @@
+{
+  "innerGravity": "center",
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#FFFFFF",
+  "mediaPalette": {
+    "choices": [
+      {
+        "color": "#FFFFFF",
+        "elements": ["MAIN_COLOR"]
+      },
+      {
+        "color": "#FFDA00",
+        "elements": ["ANIMATION_COLOR_1"]
+      }
+    ]
+  },
+  "type": "text",
+  "text": "COLOR ON WORDS",
+  "font": {
+    "fontPath": "dinpro",
+    "fontStyle": "bold"
+  },
+  "textSize": "0.1w",
+  "backgroundMarginLeft": 0.2,
+  "backgroundMarginRight": 0.2,
+
+  "animationParamIn": {
+    "wordDelayMillis": 166,
+    "textAnimatorGroups": [
+      {
+        "group": "all",
+        "animators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 5,
+            "interpolator": "cubicOut"
+          }
+        ]
+      },
+      {
+        "group": "even",
+        "animators": [
+          {
+            "type": "backgroundColor",
+            "fromColor": "ANIMATION_COLOR_1",
+            "toColor": "ANIMATION_COLOR_1",
+            "duration": 0
+          }
+        ]
+      }
+    ],
+    "backgroundAnimators": [
+      {
+        "type": "clip",
+        "direction": "left_to_right",
+        "interpolator": "flatInExpOut",
+        "duration": 20
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "videoDemo": "assets://template-resources/halloween/DistortedClown/demo.mp4",
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1540427969750-1424f2fa0af8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "1w",
+      "height": "1h",
+      "minDuration": "as_template",
+      "templateMask": {
+        "shaderType": "CLIP_DISPLACE_OVERLAY",
+        "isPixelSizeAvailable": true,
+        "displacementPixelStep": 30,
+        "textures": [
+          {
+            "type": "textureMedia",
+            "isLoopEnabled": true,
+            "textureSource": "assets://template-resources/halloween/DistortedClown/mask.mp4",
+            "clipTextures": [
+              {
+                "left": 0,
+                "top": 1,
+                "right": 0.33333333,
+                "bottom": 0
+              },
+              {
+                "left": 0.33333333,
+                "top": 1,
+                "right": 0.66666666,
+                "bottom": 0
+              },
+              {
+                "left": 0.66666666,
+                "top": 1,
+                "right": 1,
+                "bottom": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "group",
+      "width": "match_parent",
+      "height": "match_parent",
+      "loopedAnimationInterval": 0,
+      "minDuration": "as_template",
+      "startFrame": 15,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0,
+          "to": -0.026,
+          "duration": 3,
+          "startFrame": 20,
+          "interpolator": {
+            "type": "path",
+            "x1": 0,
+            "y1": 0,
+            "x2": 0,
+            "y2": 1
+          }
+        },
+        {
+          "type": "move_to_y",
+          "from": -0.026,
+          "to": 0,
+          "startFrame": 23,
+          "duration": 7,
+          "interpolator": {
+            "type": "path",
+            "x1": 0,
+            "y1": 0,
+            "x2": 0,
+            "y2": 1
+          }
+        }
+      ],
+      "medias": [
+        {
+          "minDuration": "as_template",
+          "type": "text",
+          "text": "spooky time",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "innerGravity": "center",
+          "anchorY": "bottom",
+          "anchorX": "center",
+          "translationY": -0.01,
+          "rotation": -3,
+          "font": "dk",
+          "textColor": "#ccE3E3E3",
+          "textSize": "0.1198m",
+          "startFrame": 10,
+          "animatorsIn": [
+            {
+              "duration": 10,
+              "type": "scale",
+              "from": 0,
+              "to": 1,
+              "interpolator": {
+                "type": "path",
+                "x1": 0,
+                "y1": 0,
+                "x2": 0,
+                "y2": 1
+              }
+            },
+            {
+              "duration": 10,
+              "type": "fade",
+              "from": 0,
+              "to": 1,
+              "interpolator": {
+                "type": "path",
+                "x1": 0,
+                "y1": 0,
+                "x2": 0,
+                "y2": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

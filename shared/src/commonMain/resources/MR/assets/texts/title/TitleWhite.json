@@ -1,0 +1,48 @@
+{
+  "type": "text",
+  "text": "CAPTION\nBLOCK STYLE",
+  "innerGravity": "center",
+  "textColor": "#010101",
+  "textSize": "0.09w",
+  "font": {
+    "fontPath": "playfair",
+    "fontStyle": "bold"
+  },
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "backgroundColor": "#ffffff",
+  "paddingStart": "0.02w",
+  "paddingEnd": "0.02w",
+  "paddingTop": "0.002w",
+  "paddingBottom": "0.008w",
+  "animatorsIn": [
+    {
+      "type": "clip",
+      "duration": 20,
+      "interpolator": "elegantlySlowOut",
+      "direction": "center_to_top_and_bottom"
+    }
+  ],
+  "animationParamIn": {
+    "lineDelayMillis": 100,
+    "textAnimators": [
+      {
+        "type": "clip",
+        "duration": 18,
+        "startFrame": 8,
+        "direction": "bottom_to_top",
+        "interpolator": "easeOut"
+      },
+      {
+        "type": "move_to_y",
+        "duration": 9,
+        "startFrame": 8,
+        "from": 0.5,
+        "to": 0,
+        "interpolator": "easeOut"
+      }
+    ]
+  }
+}

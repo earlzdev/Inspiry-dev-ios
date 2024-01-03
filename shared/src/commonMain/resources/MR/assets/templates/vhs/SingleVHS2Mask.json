@@ -1,0 +1,54 @@
+{
+  "videoDemo": "assets://template-resources/vhs/SingleVHS2Mask/demo.mp4",
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1509631179647-0177331693ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "width": "1w",
+      "height": "1h",
+      "minDuration": "as_template",
+      "templateMask": {
+        "shaderType": "CLIP_DISPLACE_PIXEL_STEP",
+        "isPixelSizeAvailable": true,
+        "textures": [
+          {
+            "type": "textureMedia",
+            "isLoopEnabled": true,
+            "textureSource": "assets://template-resources/vhs/SingleVHS2Mask/mask.mp4",
+            "clipTextures": [
+              {
+                "left": 0,
+                "top": 1,
+                "right": 0.25,
+                "bottom": 0
+              },
+              {
+                "left": 0.25,
+                "top": 1,
+                "right": 0.5,
+                "bottom": 0
+              },
+              {
+                "left": 0.5,
+                "top": 1,
+                "right": 0.75,
+                "bottom": 0
+              },
+              {
+                "left": 0.75,
+                "top": 1,
+                "right": 1,
+                "bottom": 0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

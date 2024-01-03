@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "149262924313",
+    "project_id": "inspiryemptyfirebase",
+    "storage_bucket": "inspiryemptyfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149262924313:android:e47d1605b1c770a3638888",
+        "android_client_info": {
+          "package_name": "app.inspiry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149262924313-hgr2ni3pg8liidjhme7f3ief0f51uqba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_PRq8ksvHxqiu5NsD5z8vzlLqelXODMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149262924313-hgr2ni3pg8liidjhme7f3ief0f51uqba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

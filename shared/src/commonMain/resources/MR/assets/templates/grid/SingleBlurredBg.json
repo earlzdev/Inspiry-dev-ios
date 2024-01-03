@@ -1,0 +1,175 @@
+{
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "palette": {
+    "defaultTextColor": "#ffffff",
+    "backgroundGradient": {
+      "colors": [
+        "#ff879af2",
+        "#ffd3208b",
+        "#fffda000"
+      ],
+      "orientation": "BL_TR"
+    },
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "pathColor",
+            "id": "pathLine"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "duplicate": "singleImage",
+      "isEditable": false,
+      "width": "1w",
+      "height": "1h",
+      "animatorsIn": [
+        {
+          "type": "blur",
+          "from": 25,
+          "to": 25,
+          "duration": 0
+        },
+        {
+          "type": "fade",
+          "from": 0.6,
+          "to": 0.6,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "singleImage",
+      "demoSource": "https://images.unsplash.com/photo-1566333449824-f58e920a21b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "1w",
+      "height": "1h",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "duration": 56,
+          "from": 0.1,
+          "to": 0.1,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 0.85,
+          "duration": 56,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "path",
+      "id": "pathLine",
+      "width": "461/540w",
+      "height": "273/320h",
+      "color": "#B2ffffff",
+      "anchorX": "center",
+      "anchorY": "center",
+      "paintStyle": "STROKE",
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "duration": 0,
+          "from": 0.1,
+          "to": 0.1
+        }
+      ],
+      "movements": [
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 0,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromY": 0,
+          "toY": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 0,
+          "toX": 1,
+          "fromY": 1,
+          "toY": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 1,
+          "fromY": 1,
+          "toY": 0,
+          "duration": 0
+        },
+        {
+          "type": "strokeWidth",
+          "from": "0.015m",
+          "to": "0.015m",
+          "duration": 10
+        },
+        {
+          "type": "strokeWidth",
+          "from": "0.015m",
+          "to": "0m",
+          "duration": 60,
+          "startFrame": 10,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "FOLLOW\nME",
+      "anchorY": "center",
+      "anchorX": "center",
+      "innerGravity": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "textColor": "#ffffff",
+      "font": {
+        "fontPath": "garamond",
+        "fontStyle": "regular"
+      },
+      "backgroundMarginLeft": 0.3,
+      "backgroundMarginRight": 0.3,
+      "lineSpacing": 0.88,
+      "translationY": 0.3,
+      "textSize": "0.0612s",
+      "minDuration": "as_template",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "interpolator": "elegantlySlowOut",
+          "duration": 70,
+          "from": 0,
+          "to": 1
+        },
+        {
+          "type": "scale",
+          "interpolator": "elegantlySlowOut",
+          "duration": 70,
+          "from": 0.8,
+          "to": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "defaultTextColor": "#ffffff",
+    "choices": [
+      {
+        "elements": [
+          {
+            "type": "vector",
+            "id": "vectorLine"
+          },
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "vector",
+            "id": "vectorAsTextBg*vectorBefore"
+          },
+          {
+            "type": "vector",
+            "id": "vectorAsTextBg*vectorAfter"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "group",
+      "id": "groupOverlay",
+      "width": "match_parent",
+      "height": "match_parent",
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1588015810531-dd522c9c8bbb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+          "width": "1w",
+          "height": "1090",
+          "anchorX": "center",
+          "anchorY": "bottom",
+          "innerPivotY": 1,
+          "animatorsIn": [
+            {
+              "type": "scale",
+              "duration": 57,
+              "from": 1.45,
+              "to": 1,
+              "interpolator": {
+                "type": "path",
+                "x1": 0.25,
+                "y1": 0.1,
+                "x2": 0.25,
+                "y2": 1
+              }
+            },
+            {
+              "type": "scale",
+              "startFrame": 57,
+              "duration": 53,
+              "from": 1,
+              "to": 1.4,
+              "interpolator": {
+                "type": "path",
+                "x1": 0.6,
+                "y1": 0.1,
+                "x2": 0.35,
+                "y2": 1
+              }
+            },
+            {
+              "type": "scale",
+              "startFrame": 110,
+              "duration": 70,
+              "from": 1.4,
+              "to": 1.1,
+              "interpolator": {
+                "type": "path",
+                "x1": 0.3,
+                "y1": 0.1,
+                "x2": 0.4,
+                "y2": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "id": "groupImages",
+      "width": "match_parent",
+      "height": "match_parent",
+      "templateMask": {
+        "shaderType": "COMMON_MASK",
+        "texturesID": [
+          "groupMask"
+        ]
+      },
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.pexels.com/photos/361754/pexels-photo-361754.jpeg?auto=compress&cs=tinysrgb&h=600&w=600",
+          "width": "1w",
+          "height": "1018",
+          "innerPivotY": 0,
+          "animatorsIn": [
+            {
+              "type": "scale",
+              "duration": 57,
+              "from": 1,
+              "to": 1.25,
+              "interpolator": {
+                "type": "path",
+                "x1": 0.25,
+                "y1": 0.1,
+                "x2": 0.25,
+                "y2": 1
+              }
+            },
+            {
+              "type": "scale",
+              "startFrame": 57,
+              "duration": 53,
+              "from": 1.25,
+              "to": 1,
+              "interpolator": {
+                "type": "path",
+                "x1": 0.6,
+                "y1": 0.1,
+                "x2": 0.45,
+                "y2": 1
+              }
+            },
+            {
+              "type": "scale",
+              "startFrame": 110,
+              "duration": 70,
+              "from": 1,
+              "to": 1.25,
+              "interpolator": {
+                "type": "path",
+                "x1": 0.6,
+                "y1": 0,
+                "x2": 0.4,
+                "y2": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "id": "groupMask",
+      "width": "1w",
+      "height": "1h",
+      "medias": [
+        {
+          "type": "vector",
+          "width": "1w",
+          "height": "1h",
+          "originalSource": "assets://template-resources/beauty/Beauty2BeforeAfter/mask.json",
+          "minDuration": "as_template",
+          "startFrame": 0
+        }
+      ]
+    },
+    {
+      "id": "vectorLine",
+      "type": "vector",
+      "width": "1w",
+      "height": "822",
+      "canMoveX": false,
+      "isMovable": false,
+      "translationY": 0.19794862,
+      "originalSource": "assets://template-resources/beauty/Beauty2BeforeAfter/line.json",
+      "minDuration": "as_template"
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "translationX": -0.16951135,
+      "translationY": -0.40953758,
+      "medias": [
+        {
+          "type": "vector",
+          "id": "vectorAsTextBg*vectorBefore",
+          "width": "match_parent",
+          "height": "match_parent",
+          "minDuration": "as_template",
+          "startFrame": 5,
+          "scaleType": "FIT_XY",
+          "originalSource": "assets://template-resources/beauty/Beauty2BeforeAfter/before_brush.json"
+        },
+        {
+          "type": "text",
+          "text": "Before",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "innerGravity": "center",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "textSize": "0.0919124m",
+          "font": {
+            "fontStyle": "bold",
+            "fontPath": "hero"
+          },
+          "paddingTop": "0.05w",
+          "paddingBottom": "0.03w",
+          "paddingStart": "0.15w",
+          "paddingEnd": "0.15w",
+          "textColor": "#ffffff",
+          "minDuration": "as_template",
+          "startFrame": 5,
+          "animationParamIn": {
+            "lineDelay": 10,
+            "textAnimators": [
+              {
+                "type": "clip",
+                "duration": 16,
+                "direction": "left_to_right",
+                "interpolator": "beautyOut"
+              },
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 10
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "translationX": 0.13799706,
+      "translationY": 0.41475165,
+      "medias": [
+        {
+          "type": "vector",
+          "id": "vectorAsTextBg*vectorAfter",
+          "width": "match_parent",
+          "height": "match_parent",
+          "minDuration": "as_template",
+          "startFrame": 55,
+          "scaleType": "FIT_XY",
+          "originalSource": "assets://template-resources/beauty/Beauty2BeforeAfter/after_brush.json"
+        },
+        {
+          "type": "text",
+          "text": "After",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "innerGravity": "center",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "textSize": "0.0919124m",
+          "font": {
+            "fontStyle": "bold",
+            "fontPath": "hero"
+          },
+          "paddingTop": "0.035w",
+          "paddingBottom": "0.035w",
+          "paddingStart": "0.16w",
+          "paddingEnd": "0.16w",
+          "textColor": "#ffffff",
+          "minDuration": "as_template",
+          "startFrame": 55,
+          "animationParamIn": {
+            "lineDelay": 10,
+            "textAnimators": [
+              {
+                "type": "clip",
+                "duration": 16,
+                "direction": "left_to_right",
+                "interpolator": "beautyOut"
+              },
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 10
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

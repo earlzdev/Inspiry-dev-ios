@@ -1,0 +1,27 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 29
+
+    resourcePrefix "cpv_"
+    defaultConfig {
+        minSdkVersion min_sdk_version
+        targetSdkVersion 29
+    }
+    lint {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation "androidx.appcompat:appcompat:$appcompat_version"
+    implementation "androidx.preference:preference:$androidx_preference_version"
+    implementation "com.google.android.material:material:$android_material_version"
+    implementation "androidx.core:core-ktx:$app_compat_core_ktx_version"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_extensions_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+}
+repositories {
+    mavenCentral()
+}

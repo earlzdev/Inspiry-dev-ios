@@ -1,0 +1,15 @@
+{
+  "preferredDuration": 180,
+  "format": "horizontal",
+  "availability": "FREE",
+  "backgroundColor": "#ffdbdbdb",
+  "medias": [
+    {
+      "slidesEnabled": true,
+      "type": "image",
+      "isEditable": true,
+      "width": "1w",
+      "height": "1h"
+    }
+  ]
+}

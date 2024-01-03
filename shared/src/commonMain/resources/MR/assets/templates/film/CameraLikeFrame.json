@@ -1,0 +1,39 @@
+{
+  "preferredDuration": 120,
+  "availability": "FREE",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1080&q=80",
+      "width": "1w",
+      "height": "1h",
+      "animatorsIn": [
+        {
+          "type": "scale_inner",
+          "from": 1.4,
+          "to": 1,
+          "interpolator": "expOut",
+          "duration": 60
+        },
+        {
+          "type": "blur",
+          "from": 25,
+          "to": 0,
+          "duration": 60,
+          "interpolator": "cubicOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "originalSource": "assets://template-resources/film/CameraLikeFrame/frame.png",
+      "width": "1w",
+      "height": "1h"
+    }
+  ]
+}

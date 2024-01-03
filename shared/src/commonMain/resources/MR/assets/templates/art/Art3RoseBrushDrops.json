@@ -1,0 +1,232 @@
+{
+  "preferredDuration": 240,
+  "listDemoPreferredDuration": 220,
+  "backgroundColor": "#FFFFFF",
+  "imgOrderById": true,
+  "availability": "PREMIUM",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "group",
+      "slides": {
+        "startFrame": 10,
+        "startFrameInterval": "next_out_begins",
+        "predefined": [
+          {
+            "type": "image",
+            "demoSource": "https://images.unsplash.com/photo-1516967032587-5b27755f6618?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+            "demoOffsetX": -0.1
+          },
+          {
+            "type": "image",
+            "demoSource": "https://images.unsplash.com/photo-1539875079575-43d11bef9687?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+            "demoOffsetX": -0.1
+          },
+          {
+            "type": "image",
+            "demoOffsetX": -0.1,
+            "demoSource": "https://images.unsplash.com/photo-1553174798-b200bb773104?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+          }
+        ],
+        "animatorsIn": [
+          {
+            "type": "scale_inner",
+            "from": 1,
+            "to": 1.05,
+            "duration": 60,
+            "interpolator": "flatIn30expOut"
+          },
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "top-image",
+      "type": "image",
+      "isEditable": false,
+      "width": "1w",
+      "height": "453/1920h",
+      "alignBy": "top_center",
+      "originalSource": "assets://template-resources/art/RoseBrushDrops/Texture_1.png",
+      "animatorsIn": [
+        {
+          "type": "scale_inner",
+          "from": 0.9,
+          "to": 1,
+          "duration": 30,
+          "interpolator": "flatIn30expOut"
+        }
+      ],
+      "templateMask": {
+        "textures": [
+          {
+            "type": "textureMedia",
+            "scaleType": "FIT_XY",
+            "textureSource": "assets://template-resources/art/RoseBrushDrops/MaskTex_1_2.json"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bottom-image",
+      "type": "image",
+      "isEditable": false,
+      "width": "1w",
+      "height": "545/1920h",
+      "alignBy": "bottom_center",
+      "startFrame": 5,
+      "originalSource": "assets://template-resources/art/RoseBrushDrops/Texture_2.png",
+      "animatorsIn": [
+        {
+          "type": "scale_inner",
+          "from": 0.9,
+          "to": 1,
+          "duration": 30,
+          "interpolator": "flatIn30expOut"
+        }
+      ],
+      "templateMask": {
+        "textures": [
+          {
+            "scaleType": "FIT_XY",
+            "type": "textureMedia",
+            "startFrame": 5,
+            "textureSource": "assets://template-resources/art/RoseBrushDrops/MaskTex_2_2.json"
+          }
+        ]
+      }
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "width": "380/1080w",
+      "height": "576/1920h",
+      "anchorX": "start",
+      "anchorY": "bottom",
+      "startFrame": 70,
+      "originalSource": "assets://template-resources/art/RoseBrushDrops/Texture_3.png",
+      "innerPivotX": 0,
+      "innerPivotY": 1,
+      "animatorsIn": [
+        {
+          "type": "scale_inner",
+          "from": 0,
+          "to": 1,
+          "duration": 40,
+          "interpolator": "flatIn30expOut"
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 40
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "width": "409/1080w",
+      "height": "545/1920h",
+      "anchorX": "end",
+      "anchorY": "bottom",
+      "startFrame": 70,
+      "originalSource": "assets://template-resources/art/RoseBrushDrops/Texture_4.png",
+      "innerPivotX": 1,
+      "innerPivotY": 1,
+      "animatorsIn": [
+        {
+          "type": "scale_inner",
+          "from": 0,
+          "to": 1,
+          "duration": 40,
+          "interpolator": "flatIn30expOut"
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 40
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "keepAspect": true,
+      "colorFilterMode": "MULTIPLY",
+      "width": "490/1080w",
+      "height": "991/1920h",
+      "anchorX": "start",
+      "startFrame": 30,
+      "originalSource": "assets://template-resources/art/RoseBrushDrops/Splash_1.png",
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 30,
+          "interpolator": "flatIn30expOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "keepAspect": true,
+      "colorFilterMode": "MULTIPLY",
+      "width": "550/1080w",
+      "height": "709/1920h",
+      "anchorX": "end",
+      "anchorY": "bottom",
+      "startFrame": 130,
+      "originalSource": "assets://template-resources/art/RoseBrushDrops/Splash_2.png",
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 30,
+          "interpolator": "flatIn30expOut"
+        }
+      ]
+    },
+    {
+      "translationY": 0.38720748,
+      "minDuration": "as_template",
+      "text": "MY TRAVEL\nSTORY",
+      "textSize": "0.060m",
+      "font": "spectral",
+      "innerGravity": "center",
+      "textColor": "#ff302256",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "type": "text",
+      "startFrame": 20,
+      "animationParamIn": {
+        "wordDelay": 10,
+        "lineDelay": 10,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 20,
+            "interpolator": "flatIn30expOut"
+          }
+        ]
+      }
+    }
+  ]
+}

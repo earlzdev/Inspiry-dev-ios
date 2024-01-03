@@ -1,0 +1,211 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1601830976337-e32f60eba315?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1080&q=80",
+      "width": "match_parent",
+      "height": "1409/1920h",
+      "y": "252/1920h",
+      "minDuration": "as_template",
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.25,
+          "interpolator": "halloweenInOut",
+          "duration": "all"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "originalSource": "assets://template-resources/halloween/BatsParty/frame_front.png",
+      "width": "match_parent",
+      "height": "match_parent"
+    },
+    {
+      "type": "text",
+      "text": "COME PARTY",
+      "anchorY": "center",
+      "anchorX": "center",
+      "width": "1.0576267w",
+      "height": "0.16925493h",
+      "innerGravity": "center",
+      "textColor": "#FCB912",
+      "font": {
+        "fontPath": "oswald",
+        "fontStyle": "bold"
+      },
+      "textSize": "0.061m",
+      "translationY": -0.4087023,
+      "minDuration": "as_template",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "interpolator": "halloweenInOut",
+          "duration": 20,
+          "from": -1,
+          "to": 0,
+          "relativity": "ROOT"
+        },
+        {
+          "type": "fade",
+          "duration": 3,
+          "from": 0,
+          "to": 1
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "originalSource": "assets://template-resources/halloween/BatsParty/sticker_top.png",
+      "width": "982/1080w",
+      "height": "245/1920h",
+      "y": "34/1920h",
+      "x": "69/1080w",
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "interpolator": "halloweenInOut",
+          "startFrame": 10,
+          "duration": 60
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "836/1080w",
+      "height": "360/1920h",
+      "anchorY": "bottom",
+      "anchorX": "center",
+      "y": "408/1920h",
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "interpolator": "halloweenInOut",
+          "duration": 30
+        }
+      ],
+      "medias": [
+        {
+          "minDuration": "as_template",
+          "type": "image",
+          "isEditable": false,
+          "originalSource": "assets://template-resources/halloween/BatsParty/sticker_bottom_highlight.png",
+          "width": "match_parent",
+          "height": "match_parent",
+          "loopedAnimationInterval": 0,
+          "animatorsIn": [
+            {
+              "type": "fade",
+              "from": 0,
+              "to": 1,
+              "startFrame": 10,
+              "duration": 3
+            },
+            {
+              "type": "fade",
+              "from": 1,
+              "to": 0,
+              "startFrame": 13,
+              "duration": 12
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "isEditable": false,
+          "originalSource": "assets://template-resources/halloween/BatsParty/sticker_bottom.png",
+          "width": "match_parent",
+          "height": "match_parent"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "08:00pm      31.10.2021",
+      "anchorY": "center",
+      "anchorX": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "innerGravity": "center",
+      "textColor": "#FCB912",
+      "textSize": "0.0675104m",
+      "font": {
+        "fontPath": "oswald",
+        "fontStyle": "bold"
+      },
+      "translationY": 0.45627254,
+      "minDuration": "as_template",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "interpolator": "halloweenInOut",
+          "duration": 20,
+          "from": 1,
+          "to": 0,
+          "relativity": "ROOT"
+        },
+        {
+          "type": "fade",
+          "duration": 3,
+          "from": 0,
+          "to": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "HALLOWEEN\nPARTY",
+      "anchorY": "center",
+      "anchorX": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "innerGravity": "center",
+      "textColor": "#FCB912",
+      "font": "ancherr",
+      "lineSpacing": 0.68,
+      "translationX": 0.034223154,
+      "translationY": 0.34005663,
+      "textSize": "0.18275362m",
+      "minDuration": "as_template",
+      "animationParamIn": {
+        "charInterpolator": {
+          "type": "accelerate",
+          "factor": 0.8
+        },
+        "charDelay": 2,
+        "textAnimators": [
+          {
+            "type": "move_to_y",
+            "from": 0.5,
+            "to": 0,
+            "duration": 5,
+            "interpolator": "elegantlySlowOut"
+          },
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 5,
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    }
+  ]
+}

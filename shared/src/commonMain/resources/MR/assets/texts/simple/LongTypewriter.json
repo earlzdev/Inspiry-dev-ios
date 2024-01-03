@@ -1,0 +1,26 @@
+{
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "type": "text",
+  "text": "A caption displayed with\na typewriting effect.",
+  "innerGravity": "center",
+  "font": "playfair",
+  "textSize": "1/12w",
+  "textColor": "#ffffff",
+  "backgroundMarginLeft": 0.2,
+  "backgroundMarginRight": 0.2,
+  "animationParamIn": {
+    "charDelayMillis": 70,
+    "charDelayBetweenWords": true,
+    "backgroundAnimators": [
+      {
+        "type": "clip",
+        "direction": "left_to_right",
+        "interpolator": "elegantlySlowOut",
+        "duration": 36
+      }
+    ]
+  }
+}

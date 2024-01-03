@@ -1,0 +1,81 @@
+{
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "originalSource": "assets://template-resources/paper/ThreeTornPapers/back.jpg",
+      "isEditable": false,
+      "type": "image",
+      "width": "1w",
+      "height": "1h"
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1548779625-2ad1040dd32b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "800/1080w",
+      "height": "796/1920h",
+      "x": "140/1080w",
+      "y": "54/1920h",
+      "demoOffsetX": 0.3,
+      "demoOffsetY": 0.02
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1548944643-6df95b8d2043?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "width": "800/1080w",
+      "height": "737/1920h",
+      "anchorY": "bottom",
+      "x": "127/1080w",
+      "y": "113/1920h",
+      "demoOffsetY": -0.1
+    },
+    {
+      "originalSource": "assets://template-resources/paper/ThreeTornPapers/front.png",
+      "isEditable": false,
+      "type": "image",
+      "width": "1w",
+      "height": "1h"
+    },
+    {
+      "type": "text",
+      "minDuration": "as_template",
+      "text": "The\ntrend report",
+      "font": {
+        "fontPath": "montserrat",
+        "fontStyle": "light"
+      },
+      "innerGravity": "center",
+      "anchorX": "center",
+      "anchorY": "center",
+      "textColor": "#AA8F76",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": -0.0068259332,
+      "textSize": "0.054m",
+      "paddingStart": "0.01w",
+      "paddingEnd": "0.01w"
+    },
+    {
+      "type": "text",
+      "minDuration": "as_template",
+      "text": "see now",
+      "font": {
+        "fontPath": "garamond",
+        "fontStyle": "light"
+      },
+      "anchorX": "center",
+      "anchorY": "center",
+      "textColor": "#AA8F76",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": 0.43554765,
+      "paddingStart": "0.01w",
+      "textSize": "0.0701584m",
+      "paddingEnd": "0.01w",
+      "letterSpacing": 0.05
+    }
+  ]
+}

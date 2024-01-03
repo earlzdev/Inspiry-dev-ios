@@ -1,0 +1,230 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          }
+        ]
+      },
+      {
+        "color": "#FEEDEA",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "rect"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1594772712197-fb140a56bf7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80",
+      "width": "1w",
+      "height": "1382/1920h",
+      "cornerRadiusPosition": "only_bottom",
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": -1,
+          "to": 0.134,
+          "duration": 30,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale",
+          "from": 1.4,
+          "to": 1,
+          "duration": 30,
+          "startFrame": 30,
+          "interpolator": "flatIn25expOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": 0.134,
+          "to": 0,
+          "duration": 30,
+          "startFrame": 30,
+          "interpolator": "flatIn25expOut"
+        },
+        {
+          "type": "radius",
+          "from": 0,
+          "to": 0.1,
+          "duration": 12,
+          "startFrame": 48
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "backgroundColor": "#FEEDEA",
+      "id": "rect",
+      "isEditable": false,
+      "width": "874/1080w",
+      "height": "334/1920h",
+      "anchorX": "center",
+      "anchorY": "bottom",
+      "y": "371/1920h",
+      "startFrame": 40,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0.15,
+          "to": 0,
+          "duration": 30,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale",
+          "fromY": 0,
+          "toY": 1,
+          "fromX": 1,
+          "duration": 30,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "radius",
+          "from": 0.3,
+          "to": 0.3,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "startFrame": 66,
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationY": 0.19946234,
+      "type": "text",
+      "innerGravity": "center",
+      "text": "MOMENTS",
+      "font": {
+        "fontPath": "cormorant",
+        "fontStyle": "regular"
+      },
+      "textSize": "0.037m",
+      "textColor": "#000000",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "lineSpacing": 1.1,
+      "animationParamIn": {
+        "lineDelayMillis": 666,
+        "textAnimators": [
+          {
+            "type": "clip",
+            "duration": 20,
+            "direction": "none"
+          },
+          {
+            "type": "move_to_y",
+            "from": -1,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    },
+    {
+      "startFrame": 83,
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationY": 0.2426295,
+      "type": "text",
+      "innerGravity": "center",
+      "text": "HAPPY TIMES",
+      "font": {
+        "fontPath": "cormorant",
+        "fontStyle": "regular"
+      },
+      "textSize": "0.06m",
+      "textColor": "#000000",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "lineSpacing": 1.1,
+      "animationParamIn": {
+        "lineDelayMillis": 666,
+        "textAnimators": [
+          {
+            "type": "clip",
+            "duration": 20,
+            "direction": "none"
+          },
+          {
+            "type": "move_to_y",
+            "from": -1,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    },
+    {
+      "startFrame": 105,
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationX": 0.018461792,
+      "translationY": 0.40261775,
+      "type": "text",
+      "innerGravity": "center",
+      "text": "All you need to do is\nto say yes to new adventures",
+      "font": {
+        "fontPath": "cormorant",
+        "fontStyle": "light"
+      },
+      "textSize": "0.05m",
+      "textColor": "#ff000000",
+      "animationParamIn": {
+        "textAnimators": [
+          {
+            "duration": 5,
+            "interpolator": "flatIn25expOut",
+            "type": "fade",
+            "from": 0,
+            "to": 1
+          },
+          {
+            "duration": 5,
+            "interpolator": "flatIn25expOut",
+            "type": "move",
+            "fromX": 0,
+            "toX": 0,
+            "fromY": 1,
+            "toY": 0
+          }
+        ],
+        "wordDelayMillis": 100,
+        "shuffle": false
+      },
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2
+    }
+  ]
+}

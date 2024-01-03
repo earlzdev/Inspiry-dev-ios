@@ -1,0 +1,343 @@
+{
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "text1"
+          },
+          {
+            "type": "image",
+            "id": "shadow1"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "text2"
+          },
+          {
+            "type": "image",
+            "id": "shadow2"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "text3"
+          },
+          {
+            "type": "image",
+            "id": "shadow3"
+          }
+        ]
+      },
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text1"
+          },
+          {
+            "type": "textColor",
+            "id": "text2"
+          },
+          {
+            "type": "textColor",
+            "id": "text3"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1509551388413-e18d0ac5d495?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "1w",
+      "height": "1h",
+      "templateMask": {
+        "shaderType": "SCALED_SOURCE_MASK",
+        "textures": [
+          {
+            "type": "textureMedia",
+            "isEditable": false,
+            "textureSource": "assets://template-resources/business/InstaShop3Items/shadow_layer.png",
+            "innerLayoutPosition": {
+              "width": "1w",
+              "height": "1003/1920h"
+            },
+            "animatorsIn": [
+              {
+                "type": "move_to_y",
+                "from": 1,
+                "to": -0.55,
+                "duration": 70,
+                "interpolator": "easeOut"
+              }
+            ]
+          }
+        ]
+      },
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.1,
+          "duration": 80,
+          "interpolator": "easeOut"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "340/1080m",
+      "height": "410/1080m",
+      "anchorY": "bottom",
+      "x": "29",
+      "y": "163",
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0.3,
+          "to": 0,
+          "interpolator": "elegantlySlowOut",
+          "duration": 20
+        }
+      ],
+      "medias": [
+        {
+          "id": "shadow1",
+          "type": "image",
+          "width": "match_parent",
+          "height": "match_parent",
+          "originalSource": "assets://template-resources/business/InstaShop3Items/bg_glow.png",
+          "isEditable": false
+        },
+        {
+          "relativeToParent": true,
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1475179593777-bd12fd56b85d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80",
+          "width": "290/340w",
+          "height": "360/410h",
+          "anchorY": "center",
+          "anchorX": "center",
+          "demoOffsetX": 0.06036928,
+          "demoOffsetY": -0.80887973,
+          "demoScale": 2.095253,
+          "animatorsIn": [
+            {
+              "type": "radius",
+              "from": 0.28,
+              "to": 0.28,
+              "duration": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "text1",
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationY": 0.43703464,
+      "translationX": -0.3170273,
+      "type": "text",
+      "innerGravity": "center",
+      "text": "hair-slide",
+      "textSize": "0.049m",
+      "textColor": "#000000",
+      "backgroundColor": "#ffffff",
+      "paddingTop": "0",
+      "paddingBottom": "0",
+      "paddingEnd": "0.02w",
+      "paddingStart": "0.02w",
+      "startFrame": 30,
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "from": 0.4,
+          "to": 0.4,
+          "duration": 0
+        },
+        {
+          "type": "move_to_y",
+          "from": 0.13,
+          "to": 0,
+          "interpolator": "elegantlySlowOut",
+          "duration": 15
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "340/1080m",
+      "height": "410/1080m",
+      "anchorY": "bottom",
+      "anchorX": "center",
+      "y": "163",
+      "startFrame": 30,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0.3,
+          "to": 0,
+          "interpolator": "elegantlySlowOut",
+          "duration": 20
+        }
+      ],
+      "medias": [
+        {
+          "id": "shadow2",
+          "type": "image",
+          "width": "match_parent",
+          "height": "match_parent",
+          "originalSource": "assets://template-resources/business/InstaShop3Items/bg_glow.png",
+          "isEditable": false
+        },
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1578220154766-1c39bcecc1dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80",
+          "width": "290/340w",
+          "height": "360/410h",
+          "anchorY": "center",
+          "anchorX": "center",
+          "relativeToParent": true,
+          "demoOffsetX": -0.22352518,
+          "demoOffsetY": 0.10552764,
+          "demoScale": 1.5776999,
+          "animatorsIn": [
+            {
+              "type": "radius",
+              "from": 0.28,
+              "to": 0.28,
+              "duration": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "text2",
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationY": 0.43703464,
+      "type": "text",
+      "innerGravity": "center",
+      "text": "earrings",
+      "textSize": "0.049m",
+      "textColor": "#000000",
+      "backgroundColor": "#ffffff",
+      "paddingEnd": "0.02w",
+      "paddingStart": "0.02w",
+      "startFrame": 40,
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "from": 0.4,
+          "to": 0.4,
+          "duration": 0
+        },
+        {
+          "type": "move_to_y",
+          "from": 0.13,
+          "to": 0,
+          "interpolator": "elegantlySlowOut",
+          "duration": 15
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "340/1080m",
+      "height": "410/1080m",
+      "anchorY": "bottom",
+      "anchorX": "end",
+      "x": "29",
+      "y": "163",
+      "startFrame": 40,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0.3,
+          "to": 0,
+          "interpolator": "elegantlySlowOut",
+          "duration": 20
+        }
+      ],
+      "medias": [
+        {
+          "id": "shadow3",
+          "type": "image",
+          "width": "match_parent",
+          "height": "match_parent",
+          "originalSource": "assets://template-resources/business/InstaShop3Items/bg_glow.png",
+          "isEditable": false
+        },
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1484328489804-80399374c9c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80",
+          "width": "290/340w",
+          "height": "360/410h",
+          "anchorY": "center",
+          "anchorX": "center",
+          "relativeToParent": true,
+          "demoOffsetX": -0.612761,
+          "demoOffsetY": -0.119397014,
+          "demoScale": 1.6050268,
+          "animatorsIn": [
+            {
+              "type": "radius",
+              "from": 0.28,
+              "to": 0.28,
+              "duration": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "text3",
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationY": 0.43703464,
+      "translationX": 0.31523237,
+      "type": "text",
+      "innerGravity": "center",
+      "text": " bangle ",
+      "textSize": "0.049m",
+      "textColor": "#000000",
+      "backgroundColor": "#ffffff",
+      "paddingEnd": "0.02w",
+      "paddingStart": "0.02w",
+      "startFrame": 50,
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "from": 0.4,
+          "to": 0.4,
+          "duration": 0
+        },
+        {
+          "type": "move_to_y",
+          "from": 0.13,
+          "to": 0,
+          "interpolator": "elegantlySlowOut",
+          "duration": 15
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "backgroundColor": "#000000",
+  "availability": "PREMIUM",
+  "preferredDuration": 240,
+  "palette": {
+    "defaultTextColor": "#ffffff",
+    "choices": [
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#FFFFFF",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text3"
+          },
+          {
+            "type": "textColor",
+            "id": "text4"
+          },
+          {
+            "type": "pathColor",
+            "id": "line1"
+          },
+          {
+            "type": "pathColor",
+            "id": "line2"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.pexels.com/photos/7945751/pexels-photo-7945751.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "demoOffsetY": -0.233,
+      "width": "750/1080w",
+      "height": "600/1920h",
+      "alignBy": "top_center",
+      "animatorsIn": [
+        {
+          "startFrame": 0,
+          "type": "clip",
+          "duration": 35,
+          "direction": "top_to_bottom",
+          "interpolator": {
+            "type": "path",
+            "x1": 0.25,
+            "y1": 0,
+            "x2": 0.05,
+            "y2": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "width": "750/1080w",
+      "height": "600/1920h",
+      "startFrame": 10,
+      "alignBy": "center",
+      "demoSource": "https://images.pexels.com/photos/7945744/pexels-photo-7945744.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "animatorsIn": [
+        {
+          "startFrame": 0,
+          "type": "clip",
+          "duration": 35,
+          "direction": "top_to_bottom",
+          "interpolator": {
+            "type": "path",
+            "x1": 0.25,
+            "y1": 0,
+            "x2": 0.05,
+            "y2": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "width": "750/1080w",
+      "height": "600/1920h",
+      "alignBy": "bottom_center",
+      "demoSource": "https://images.pexels.com/photos/7945752/pexels-photo-7945752.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "startFrame": 0,
+          "type": "clip",
+          "duration": 35,
+          "direction": "top_to_bottom",
+          "interpolator": {
+            "type": "path",
+            "x1": 0.25,
+            "y1": 0,
+            "x2": 0.05,
+            "y2": 1
+          }
+        }
+      ]
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "70%OFF",
+      "innerGravity": "center",
+      "font": {
+        "fontPath": "gilroy",
+        "fontStyle": "bold"
+      },
+      "alignBy": "center",
+      "textColor": "#FAFF00",
+      "minDuration": "as_template",
+      "textSize": "0.187m",
+      "y": "0.111h",
+      "startFrame": 25,
+      "animationParamIn": {
+        "charDelay": 4,
+        "textAnimators": [
+          {
+            "type": "move_to_y",
+            "from": 0.2,
+            "to": 0,
+            "duration": 15,
+            "interpolator": "slowInExpOut"
+          },
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 15,
+            "interpolator": "slowInExpOut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "text3",
+      "type": "text",
+      "text": "BLACK FRIDAY BLACK FRIDAY BLACK FRIDAY BLACK FRIDAY BLACK FRIDAY ",
+      "width": "0.447w",
+      "height": "0.447w",
+      "innerGravity": "center",
+      "maxLines": 1,
+      "keepAspect": true,
+      "minDuration": "as_template",
+      "y": "0.1377h",
+      "x": "0.05w",
+      "textSize": "0.02984m",
+      "font": {
+        "fontStyle": "bold"
+      },
+      "textColor": "#FFFFFF",
+      "startFrame": 0,
+      "animationParamIn": {
+        "charsOnCircle": true
+      },
+      "animatorsAll": [
+        {
+          "type": "rotate",
+          "from": 120,
+          "step": -1,
+          "duration": "all"
+        }
+      ],
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0.7,
+          "to": 1,
+          "duration": 20,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.15,
+            "y1": 0,
+            "x2": 0.15,
+            "y2": 1
+          }
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.15,
+            "y1": 0,
+            "x2": 0.15,
+            "y2": 1
+          },
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "text4",
+      "type": "text",
+      "text": "BLACK FRIDAY BLACK FRIDAY BLACK FRIDAY BLACK FRIDAY BLACK FRIDAY ",
+      "width": "0.447w",
+      "height": "0.447w",
+      "innerGravity": "center",
+      "alignBy": "bottom_end",
+      "maxLines": 1,
+      "keepAspect": true,
+      "minDuration": "as_template",
+      "y": "0.03h",
+      "x": "0.0423w",
+      "textSize": "0.02984m",
+      "font": {
+        "fontStyle": "bold"
+      },
+      "textColor": "#FFFFFF",
+      "startFrame": 20,
+      "animationParamIn": {
+        "charsOnCircle": true
+      },
+      "animatorsAll": [
+        {
+          "type": "rotate",
+          "from": 120,
+          "step": -1,
+          "duration": "all"
+        }
+      ],
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0.7,
+          "to": 1,
+          "duration": 20,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.15,
+            "y1": 0,
+            "x2": 0.15,
+            "y2": 1
+          }
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.15,
+            "y1": 0,
+            "x2": 0.15,
+            "y2": 1
+          },
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "line1",
+      "type": "path",
+      "width": "70/1080w",
+      "isMovable": true,
+      "height": "1156/1920h",
+      "x": "38/1080w",
+      "y": "72/1920h",
+      "color": "#FFFFFF",
+      "alignBy": "bottom_start",
+      "paintStyle": "STROKE",
+      "strokeWidth": "2/1080m",
+      "startFrame": 20,
+      "movementsConnected": false,
+      "movements": [
+        {
+          "type": "line",
+          "fromX": 0.5,
+          "toX": 0.5,
+          "fromY": 1,
+          "toY": 0,
+          "duration": 45,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.26,
+            "y1": 0,
+            "x2": 0.1,
+            "y2": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "line2",
+      "type": "path",
+      "isMovable": true,
+      "width": "70/1080w",
+      "height": "1324/1920h",
+      "x": "38/1080w",
+      "y": "72/1920h",
+      "color": "#FFFFFF",
+      "alignBy": "top_end",
+      "startFrame": 10,
+      "paintStyle": "STROKE",
+      "strokeWidth": "2/1080m",
+      "movements": [
+        {
+          "type": "line",
+          "fromX": 0.5,
+          "toX": 0.5,
+          "fromY": 0,
+          "toY": 1,
+          "duration": 45,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.26,
+            "y1": 0,
+            "x2": 0.1,
+            "y2": 1
+          }
+        }
+      ]
+    }
+  ]
+}

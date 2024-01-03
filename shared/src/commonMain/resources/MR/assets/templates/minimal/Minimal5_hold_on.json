@@ -1,0 +1,166 @@
+{
+  "preferredDuration": 240,
+  "availability": "FREE",
+  "palette": {
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1473984951266-787b955c9e0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80",
+      "width": "535/1080w",
+      "height": "540/1920h",
+      "demoOffsetX": -0.1,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 60,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1486580612895-0aa1aa04c7fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80",
+      "width": "535/1080w",
+      "height": "540/1920h",
+      "anchorX": "end",
+      "demoOffsetX": 0.1,
+      "startFrame": 5,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 60,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1500384066616-8a8d547abfc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80",
+      "width": "535/1080w",
+      "height": "540/1920h",
+      "y": "550/1920h",
+      "demoOffsetX": -0.2,
+      "demoScale": 1.05,
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 60,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1532971291849-92617bf94ded?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80",
+      "width": "535/1080w",
+      "height": "820/1920h",
+      "anchorX": "end",
+      "y": "550/1920h",
+      "startFrame": 30,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 65,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1575234354676-80867f5181bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "535/1080w",
+      "height": "820/1920h",
+      "anchorY": "bottom",
+      "demoScale": 1.05,
+      "startFrame": 45,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 65,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Hold on to\nthose moments\nevery hour,\nevery day.",
+      "anchorY": "center",
+      "anchorX": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "textColor": "#000000",
+      "font": "garamond",
+      "textSize": "0.049m",
+      "minDuration": "as_template",
+      "translationY": 0.3236,
+      "translationX": 0.21235976,
+      "startFrame": 70,
+      "animationParamIn": {
+        "lineDelay": 8,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "duration": 11,
+            "from": 0,
+            "to": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "text": "Inspiry stories",
+      "anchorY": "center",
+      "anchorX": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "textColor": "#000000",
+      "font": {
+        "fontPath": "garamond",
+        "fontStyle": "bold"
+      },
+      "minDuration": "as_template",
+      "textSize": "0.047m",
+      "translationY": 0.4379,
+      "translationX": 0.1959028,
+      "startFrame": 103,
+      "animationParamIn": {
+        "lineDelay": 8,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "duration": 11,
+            "from": 0,
+            "to": 1
+          }
+        ]
+      }
+    }
+  ]
+}

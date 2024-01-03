@@ -1,0 +1,209 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "defaultTextColor": "#ffffff",
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1602696221981-75511960e2b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "width": "803/1080w",
+      "height": "match_parent",
+      "anchorX": "end",
+      "demoOffsetX": 0.1626133,
+      "animatorsIn": [
+        {
+          "duration": 56,
+          "type": "scale_inner",
+          "from": 1.6,
+          "to": 1,
+          "interpolator": "flatIn25expOut"
+        }
+      ]
+    },
+    {
+      "originalSource": "assets://template-resources/halloween/WalkingDeadParty/mask1.png",
+      "isEditable": false,
+      "type": "image",
+      "width": "1250/1080w",
+      "height": "match_parent",
+      "anchorX": "end",
+      "animatorsIn": [
+        {
+          "type": "move_to_x",
+          "from": 0.4,
+          "to": -0.34,
+          "duration": 30,
+          "interpolator": "easeInLight"
+        }
+      ]
+    },
+    {
+      "originalSource": "assets://template-resources/halloween/WalkingDeadParty/front.png",
+      "isEditable": false,
+      "type": "image",
+      "width": "match_parent",
+      "height": "match_parent"
+    },
+    {
+      "type": "text",
+      "text": "WALKING DEAD PARTY",
+      "anchorX": "start",
+      "translationX": 0.06994989,
+      "translationY": 0.034234174,
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "textColor": "#ffffff",
+      "font": "sunday",
+      "innerGravity": "left",
+      "startFrame": 10,
+      "textSize": "0.0788756m",
+      "minDuration": "as_template",
+      "animationParamIn": {
+        "charDelayMillis": 45,
+        "charInterpolator": "easeOutLight",
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 135
+          }
+        ],
+        "backgroundAnimators": [
+          {
+            "type": "clip",
+            "direction": "left_to_right",
+            "interpolator": "elegantlySlowOut",
+            "duration": 20
+          }
+        ]
+      }
+    },
+    {
+      "startFrame": 10,
+      "minDuration": "as_template",
+      "type": "text",
+      "text": "31.10.2021",
+      "translationX": 0.0727493,
+      "translationY": 0.0950338,
+      "innerGravity": "left",
+      "textSize": "0.0688244m",
+      "anchorX": "start",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "textColor": "#ffffff",
+      "font": {
+        "fontPath": "mont"
+      },
+      "animationParamIn": {
+        "charDelayMillis": 45,
+        "charInterpolator": "easeOutLight",
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 135
+          }
+        ],
+        "backgroundAnimators": [
+          {
+            "type": "clip",
+            "direction": "left_to_right",
+            "interpolator": "elegantlySlowOut",
+            "duration": 20
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "text": "PLACE",
+      "anchorX": "start",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "textColor": "#ffffff",
+      "font": {
+        "fontPath": "mont"
+      },
+      "innerGravity": "left",
+      "textSize": "0.050m",
+      "translationX": 0.07469896,
+      "translationY": 0.8687916,
+      "startFrame": 20,
+      "minDuration": "as_template",
+      "animationParamIn": {
+        "charDelayMillis": 45,
+        "charInterpolator": "easeOutLight",
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 135
+          }
+        ],
+        "backgroundAnimators": [
+          {
+            "type": "clip",
+            "direction": "left_to_right",
+            "interpolator": "elegantlySlowOut",
+            "duration": 20
+          }
+        ]
+      }
+    },
+    {
+      "startFrame": 30,
+      "minDuration": "as_template",
+      "type": "text",
+      "text": "CENTRAL PARK CLUB",
+      "innerGravity": "left",
+      "textSize": "0.069m",
+      "anchorX": "start",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "textColor": "#ffffff",
+      "font": {
+        "fontPath": "mont"
+      },
+      "translationX": 0.06994987,
+      "translationY": 0.90367997,
+      "animationParamIn": {
+        "charDelayMillis": 45,
+        "charInterpolator": "easeOutLight",
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 135
+          }
+        ],
+        "backgroundAnimators": [
+          {
+            "type": "clip",
+            "direction": "left_to_right",
+            "interpolator": "elegantlySlowOut",
+            "duration": 20
+          }
+        ]
+      }
+    }
+  ]
+}

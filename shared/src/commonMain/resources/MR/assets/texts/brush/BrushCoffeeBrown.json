@@ -1,0 +1,55 @@
+{
+  "type": "group",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "anchorX": "center",
+  "anchorY": "center",
+  "forPremium": true,
+  "medias": [
+    {
+      "type": "vector",
+      "id": "vectorAsTextBg.vectorText1",
+      "width": "match_parent",
+      "height": "match_parent",
+      "minDuration": "as_template",
+      "scaleType": "FIT_XY",
+      "originalSource": "assets://template-resources/business/BusinessCoffeeStickersMask/brush_1.json",
+      "staticFrameForEdit": "last"
+    },
+    {
+      "type": "text",
+      "text": "COFFEE\nTERRITORY",
+      "id": "text1",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "innerGravity": "center",
+      "dependsOnParent": true,
+      "relativeToParent": false,
+      "textSize": "0.1w",
+      "font": {
+        "fontStyle": "bold",
+        "fontPath": "gilroy"
+      },
+      "paddingTop": "0.05w",
+      "paddingBottom": "0.08w",
+      "paddingStart": "0.11w",
+      "paddingEnd": "0.11w",
+      "textColor": "#794A00",
+      "lineSpacing": 0.92,
+      "delayBeforeEnd": 45,
+      "startFrame": 7,
+      "animationParamIn": {
+        "charDelayMillis": 40,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "duration": 4,
+            "from": 0,
+            "to": 1,
+            "interpolator": "beautyOut"
+          }
+        ]
+      }
+    }
+  ]
+}

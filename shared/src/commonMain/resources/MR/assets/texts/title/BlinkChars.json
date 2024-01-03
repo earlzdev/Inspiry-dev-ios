@@ -1,0 +1,63 @@
+{
+  "type": "text",
+  "text": "NEW POST",
+  "anchorX": "center",
+  "anchorY": "center",
+  "innerGravity": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textSize": "0.245m",
+  "mediaPalette": {
+    "choices": [
+      {
+        "color": "#FFFFFF",
+        "elements": ["MAIN_COLOR"]
+      },
+      {
+        "color": "#FF009A",
+        "elements": ["ANIMATION_COLOR_1"]
+      }
+    ]
+  },
+  "forPremium": true,
+  "font": {
+    "fontPath": "dinpro",
+    "fontStyle": "bold"
+  },
+  "animatorsIn": [
+    {
+      "type": "fade",
+      "from": 0,
+      "to": 1,
+      "duration": 16,
+      "interpolator": "cubicIn"
+    }
+  ],
+  "animationParamIn": {
+    "shuffle": true,
+    "charDelay": 4,
+    "textAnimators": [
+      {
+        "startFrame": 3,
+        "type": "tone",
+        "fromColor": "MAIN_COLOR",
+        "toColor": "ANIMATION_COLOR_1",
+        "duration": 4
+      },
+      {
+        "startFrame": 8,
+        "type": "tone",
+        "toColor": "MAIN_COLOR",
+        "fromColor": "MAIN_COLOR",
+        "duration": 2
+      },
+      {
+        "startFrame": 11,
+        "type": "tone",
+        "fromColor": "ANIMATION_COLOR_1",
+        "toColor": "MAIN_COLOR",
+        "duration": 5
+      }
+    ]
+  }
+}

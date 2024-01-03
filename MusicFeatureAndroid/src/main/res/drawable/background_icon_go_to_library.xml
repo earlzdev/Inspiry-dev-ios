@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/length_track_text_view_color">
+    <item>
+        <shape>
+            <corners android:radius="6dp" />
+            <solid android:color="@color/background_wave_form_color" />
+        </shape>
+    </item>
+</ripple>

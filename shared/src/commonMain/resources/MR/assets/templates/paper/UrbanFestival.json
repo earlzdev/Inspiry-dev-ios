@@ -1,0 +1,103 @@
+{
+  "availability": "FREE",
+  "palette": {
+    "choices": [
+      {
+        "color": "#A6FAFF",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      }
+    ]
+  },
+  "preferredDuration": 180,
+  "medias": [
+    {
+      "type": "text",
+      "minDuration": "as_template",
+      "text": "URBN",
+      "font": {
+        "fontPath": "mont",
+        "fontStyle": "bold"
+      },
+      "innerGravity": "center",
+      "anchorX": "center",
+      "anchorY": "center",
+      "textColor": "#B600F7",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": -0.065311015,
+      "translationX": 0.03015973,
+      "textSize": "0.24344844m",
+      "paddingStart": "0.01w",
+      "paddingEnd": "0.01w"
+    },
+    {
+      "type": "text",
+      "minDuration": "as_template",
+      "text": "FESTIVAL",
+      "font": {
+        "fontPath": "mont",
+        "fontStyle": "bold"
+      },
+      "innerGravity": "center",
+      "anchorX": "center",
+      "anchorY": "center",
+      "textColor": "#B600F7",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": 0.036245115,
+      "translationX": 0.03015973,
+      "textSize": "0.1486544m",
+      "paddingStart": "0.01w",
+      "paddingEnd": "0.01w"
+    },
+    {
+      "type": "text",
+      "minDuration": "as_template",
+      "text": "inspiry club\n05/12",
+      "font": {
+        "fontPath": "notcourier"
+      },
+      "innerGravity": "center",
+      "anchorX": "center",
+      "anchorY": "center",
+      "textColor": "#000000",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": 0.12593445,
+      "translationX": 0.027405623,
+      "textSize": "0.0742804m",
+      "paddingStart": "0.01w",
+      "paddingEnd": "0.01w"
+    },
+    {
+      "type": "text",
+      "minDuration": "as_template",
+      "text": "change color",
+      "font": {
+        "fontPath": "notcourier"
+      },
+      "innerGravity": "center",
+      "anchorX": "center",
+      "anchorY": "center",
+      "textColor": "#000000",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": 0.30673817,
+      "translationX": 0.020588078,
+      "textSize": "0.0734416m",
+      "paddingStart": "0.01w",
+      "paddingEnd": "0.01w"
+    },
+    {
+      "originalSource": "assets://template-resources/paper/UrbanFestival/front.png",
+      "isEditable": false,
+      "type": "image",
+      "width": "1w",
+      "height": "1h"
+    }
+  ]
+}

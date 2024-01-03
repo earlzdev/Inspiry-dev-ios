@@ -1,0 +1,72 @@
+{
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "palette": {
+    "isAvailable": false
+  },
+  "timeForEdit": 90,
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1494956831732-08e8610c13ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "width": "1w",
+      "height": "1h",
+      "startFrame": 30,
+      "templateMask": {
+        "shaderType": "TWO_SOURCE_VIDEO_CLIP",
+        "texturesID": [
+          "source2"
+        ],
+        "textures": [
+          {
+            "type": "textureMedia",
+            "textureSource": "assets://template-resources/paper/TwoPaperMask/mask.mp4",
+            "clipTextures": [
+              {
+                "left": 0,
+                "top": 1,
+                "right": 0.33333333,
+                "bottom": 0
+              },
+              {
+                "left": 0.33333333,
+                "top": 1,
+                "right": 0.66666666,
+                "bottom": 0
+              },
+              {
+                "left": 0.66666666,
+                "top": 1,
+                "right": 1,
+                "bottom": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "source2",
+      "type": "group",
+      "width": "1w",
+      "height": "1h",
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1531604269568-ad1b8de0a633?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+          "width": "1w",
+          "height": "1h",
+          "startFrame": 40,
+          "animatorsAll": [
+            {
+              "type": "scale",
+              "from": 1.0,
+              "to": 1.05,
+              "durationMillis": 3600
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

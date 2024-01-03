@@ -1,0 +1,369 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "preferredDuration": 180,
+  "availability": "INSTAGRAM_SUBSCRIBED",
+  "medias": [
+    {
+      "type": "group",
+      "width": "1w",
+      "height": "1h",
+      "minDuration": "as_template",
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "startFrame": 45,
+          "duration": -36,
+          "from": 1,
+          "to": 0.9
+        }
+      ],
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "duration": 30,
+          "from": 8,
+          "to": 1,
+          "interpolator": "expOut"
+        },
+        {
+          "type": "rotate",
+          "startFrame": 33,
+          "duration": 36,
+          "from": 0,
+          "to": -15,
+          "interpolator": "expOut"
+        }
+      ],
+      "animatorsOut": [
+        {
+          "type": "rotate",
+          "duration": 36,
+          "from": -15,
+          "to": 0,
+          "interpolator": "easeInOutQuint"
+        },
+        {
+          "type": "scale",
+          "duration": 36,
+          "from": 0.9,
+          "to": 0.7,
+          "interpolator": "easeInOutQuint"
+        }
+      ],
+      "medias": [
+        {
+          "id": "image9",
+          "type": "image",
+          "width": "0.55w",
+          "height": "0.55h",
+          "x": "-0.42w",
+          "y": "-0.35h",
+          "minDuration": -9,
+          "startFrame": 24,
+          "demoSource": "https://images.unsplash.com/photo-1556935383-b0f5f9ca4100?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80",
+          "animatorsIn": [
+            {
+              "type": "radius",
+              "from": 0.1,
+              "to": 0.1,
+              "duration": 0
+            },
+            {
+              "type": "move_to_y",
+              "duration": 36,
+              "to": -0.35,
+              "interpolator": "flatIn25expOut"
+            }
+          ],
+          "animatorsOut": [
+            {
+              "type": "fade",
+              "duration": 15,
+              "from": 1,
+              "to": 0,
+              "interpolator": "cubicIn"
+            }
+          ]
+        },
+        {
+          "id": "image1",
+          "type": "image",
+          "width": "0.55w",
+          "height": "0.55h",
+          "x": "-0.42w",
+          "y": "0.25h",
+          "minDuration": -9,
+          "startFrame": 26,
+          "demoSource": "https://images.unsplash.com/photo-1450297166380-cabe503887e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80",
+          "animatorsIn": [
+            {
+              "type": "radius",
+              "from": 0.1,
+              "to": 0.1,
+              "duration": 0
+            },
+            {
+              "type": "move_to_y",
+              "duration": 36,
+              "to": -0.35,
+              "interpolator": "flatIn25expOut"
+            }
+          ],
+          "animatorsOut": [
+            {
+              "type": "fade",
+              "duration": 15,
+              "from": 1,
+              "to": 0,
+              "interpolator": "cubicIn"
+            }
+          ]
+        },
+        {
+          "id": "image2",
+          "type": "image",
+          "width": "0.55w",
+          "height": "0.55h",
+          "x": "-0.42w",
+          "y": "0.85h",
+          "minDuration": -6,
+          "startFrame": 27,
+          "demoSource": "https://images.unsplash.com/photo-1588706838478-acc49b5d9fcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80",
+          "animatorsIn": [
+            {
+              "type": "radius",
+              "from": 0.1,
+              "to": 0.1,
+              "duration": 0
+            },
+            {
+              "type": "move_to_y",
+              "duration": 36,
+              "to": -0.35,
+              "interpolator": "flatIn25expOut"
+            }
+          ],
+          "animatorsOut": [
+            {
+              "type": "fade",
+              "duration": 15,
+              "from": 1,
+              "to": 0,
+              "interpolator": "cubicIn"
+            }
+          ]
+        },
+        {
+          "id": "image11",
+          "type": "image",
+          "width": "0.55w",
+          "height": "0.55h",
+          "anchorX": "center",
+          "y": "-0.75h",
+          "minDuration": -9,
+          "startFrame": 27,
+          "demoSource": "https://images.unsplash.com/photo-1598461946189-013c7bfeff16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjkzMjh9&auto=format&fit=crop&w=400&q=80",
+          "animatorsIn": [
+            {
+              "type": "radius",
+              "from": 0.1,
+              "to": 0.1,
+              "duration": 0
+            },
+            {
+              "type": "move_to_y",
+              "duration": 36,
+              "to": 0.35,
+              "interpolator": "flatIn25expOut"
+            }
+          ],
+          "animatorsOut": [
+            {
+              "type": "fade",
+              "duration": 15,
+              "from": 1,
+              "to": 0,
+              "interpolator": "cubicIn"
+            }
+          ]
+        },
+        {
+          "id": "image8",
+          "type": "image",
+          "width": "0.55w",
+          "height": "0.55h",
+          "anchorX": "center",
+          "y": "-0.15h",
+          "minDuration": -6,
+          "startFrame": 26,
+          "demoSource": "https://images.unsplash.com/photo-1598461947262-153e592d4e72?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+          "animatorsIn": [
+            {
+              "type": "radius",
+              "from": 0.1,
+              "to": 0.1,
+              "duration": 0
+            },
+            {
+              "type": "move_to_y",
+              "duration": 36,
+              "to": 0.35,
+              "interpolator": "flatIn25expOut"
+            }
+          ],
+          "animatorsOut": [
+            {
+              "type": "radius",
+              "from": 0.1,
+              "to": 0.1,
+              "duration": 0
+            },
+            {
+              "type": "fade",
+              "duration": 15,
+              "from": 1,
+              "to": 0,
+              "interpolator": "cubicIn"
+            }
+          ]
+        },
+        {
+          "id": "image3",
+          "type": "image",
+          "width": "0.55w",
+          "height": "0.55h",
+          "anchorX": "center",
+          "y": "0.45h",
+          "minDuration": -3,
+          "startFrame": 24,
+          "demoSource": "https://images.unsplash.com/photo-1598461946096-6fc12d5a8db6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80",
+          "animatorsIn": [
+            {
+              "type": "radius",
+              "from": 0.1,
+              "to": 0.1,
+              "duration": 0
+            },
+            {
+              "type": "move_to_y",
+              "duration": 36,
+              "to": 0.35,
+              "interpolator": "flatIn25expOut"
+            }
+          ],
+          "animatorsOut": [
+            {
+              "type": "fade",
+              "duration": 15,
+              "from": 1,
+              "to": 0,
+              "interpolator": "cubicIn"
+            }
+          ]
+        },
+        {
+          "id": "image10",
+          "type": "image",
+          "width": "0.55w",
+          "height": "0.55h",
+          "x": "0.875w",
+          "y": "-0.35h",
+          "minDuration": -9,
+          "startFrame": 30,
+          "demoSource": "https://images.unsplash.com/photo-1569339662654-27fd107a0e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80",
+          "animatorsIn": [
+            {
+              "type": "radius",
+              "from": 0.1,
+              "to": 0.1,
+              "duration": 0
+            },
+            {
+              "type": "move_to_y",
+              "duration": 36,
+              "to": -0.35,
+              "interpolator": "flatIn25expOut"
+            }
+          ],
+          "animatorsOut": [
+            {
+              "type": "fade",
+              "duration": 15,
+              "from": 1,
+              "to": 0,
+              "interpolator": "cubicIn"
+            }
+          ]
+        },
+        {
+          "id": "image5",
+          "type": "image",
+          "width": "0.55w",
+          "height": "0.55h",
+          "x": "0.875w",
+          "y": "0.25h",
+          "minDuration": -6,
+          "startFrame": 32,
+          "demoSource": "https://images.unsplash.com/photo-1571761983009-94369a268c4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80",
+          "animatorsIn": [
+            {
+              "type": "radius",
+              "from": 0.1,
+              "to": 0.1,
+              "duration": 0
+            },
+            {
+              "type": "move_to_y",
+              "duration": 36,
+              "to": -0.35,
+              "interpolator": "flatIn25expOut"
+            }
+          ],
+          "animatorsOut": [
+            {
+              "type": "fade",
+              "duration": 15,
+              "from": 1,
+              "to": 0,
+              "interpolator": "cubicIn"
+            }
+          ]
+        },
+        {
+          "id": "image4",
+          "type": "image",
+          "width": "0.55w",
+          "height": "0.55h",
+          "x": "0.875w",
+          "y": "0.85h",
+          "minDuration": -3,
+          "startFrame": 33,
+          "demoSource": "https://images.unsplash.com/photo-1559264825-366866fa651e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80",
+          "animatorsIn": [
+            {
+              "type": "radius",
+              "from": 0.1,
+              "to": 0.1,
+              "duration": 0
+            },
+            {
+              "type": "move_to_y",
+              "duration": 36,
+              "to": -0.35,
+              "interpolator": "flatIn25expOut"
+            }
+          ],
+          "animatorsOut": [
+            {
+              "type": "fade",
+              "duration": 15,
+              "from": 1,
+              "to": 0,
+              "interpolator": "cubicIn"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

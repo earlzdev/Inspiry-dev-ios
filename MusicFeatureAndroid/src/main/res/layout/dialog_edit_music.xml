@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#292929">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_dialog_edit_height">
+
+        <FrameLayout
+            android:id="@+id/backgroundSoundOffView"
+            android:layout_width="@dimen/bottom_dialog_background_sound_off_width"
+            android:layout_height="@dimen/bottom_dialog_background_sound_off_height"
+            android:layout_marginStart="28dp"
+            android:background="@drawable/background_icon_volume_to_down"
+            app:layout_constraintBottom_toBottomOf="@+id/backgroundSeekBar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/backgroundSeekBar">
+
+            <ImageView
+                android:id="@+id/iconSoundOffImageView"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_sound_off_wave_from_dialog"/>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/backgroundGoToLibraryView"
+            android:layout_width="@dimen/bottom_dialog_background_sound_off_width"
+            android:layout_height="@dimen/bottom_dialog_background_sound_off_height"
+            android:layout_marginTop="@dimen/bottom_dialog_background_go_to_library_margin_top"
+            android:layout_marginEnd="@dimen/bottom_dialog_background_go_to_library_margin_end"
+            android:background="@drawable/background_icon_go_to_library"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/goToLibraryImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_go_to_library_wave_from_dialog" />
+        </FrameLayout>
+
+
+
+        <TextView
+            android:id="@+id/startPlaySongTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/bottom_dialog_start_play_song_text_view_padding_left"
+            android:layout_marginTop="@dimen/bottom_dialog_start_play_song_text_view_margin_top"
+            android:text="00:00"
+            android:textColor="@color/play_wave_form_color"
+            android:textSize="@dimen/bottom_dialog_start_play_song_text_view_text_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/iconPlayFrameLayout"
+            android:layout_width="@dimen/bottom_dialog_button_play_width"
+            android:layout_height="@dimen/bottom_dialog_button_play_height"
+            android:layout_marginStart="@dimen/bottom_dialog_button_play_margin_start"
+            android:layout_marginTop="@dimen/bottom_dialog_button_play_margin_top"
+            android:background="@drawable/background_icon_play"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/startPlaySongTextView">
+
+            <ImageView
+                android:id="@+id/iconPlayImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_play_wave_from_dialog"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/backgroundWaveFormFrameLayout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bottom_dialog_button_play_height"
+            android:layout_marginEnd="@dimen/bottom_dialog_button_play_margin_start"
+            android:background="@drawable/background_wave_form"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iconPlayFrameLayout"
+            app:layout_constraintTop_toTopOf="@+id/iconPlayFrameLayout">
+
+            <app.inspiry.music.android.ui.WaveForm
+                android:id="@+id/waveForm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ProgressBar
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:id="@+id/waveProgress" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/backgroundSeekBar"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bottom_dialog_background_sound_off_height"
+            android:layout_marginStart="@dimen/bottom_dialog_button_play_margin_top"
+            android:layout_marginEnd="@dimen/bottom_dialog_background_seek_bar_margin_end"
+            android:background="@drawable/background_seek_bar_sound"
+            app:layout_constraintBottom_toBottomOf="@+id/backgroundGoToLibraryView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/backgroundSoundOffView"
+            app:layout_constraintTop_toTopOf="@+id/backgroundGoToLibraryView" />
+
+        <SeekBar
+            android:id="@+id/volumeSongSeekBar"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/bottom_dialog_background_sound_off_height"
+            android:progress="100"
+            android:progressDrawable="@drawable/seek_bar_volume_music"
+            android:splitTrack="false"
+            android:thumb="@drawable/ic_volume_button_seek_bar_wave_from_dialog"
+            app:layout_constraintBottom_toBottomOf="@+id/backgroundSeekBar"
+            app:layout_constraintEnd_toStartOf="@+id/volumeUpImageView"
+            app:layout_constraintStart_toStartOf="@+id/backgroundSeekBar"
+            app:layout_constraintTop_toTopOf="@+id/backgroundSeekBar" />
+
+        <ImageView
+            android:id="@+id/volumeUpImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/bottom_dialog_icon_sound_on_margin_end"
+            android:src="@drawable/ic_sound_on_wave_from_dialog"
+            app:layout_constraintBottom_toBottomOf="@+id/backgroundSeekBar"
+            app:layout_constraintEnd_toEndOf="@+id/backgroundSeekBar"
+            app:layout_constraintTop_toTopOf="@+id/backgroundSeekBar" />
+
+        <TextView
+            android:id="@+id/durationPlaySongTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="@color/length_track_text_view_color"
+            android:textSize="@dimen/bottom_dialog_start_play_song_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/startPlaySongTextView"
+            app:layout_constraintEnd_toEndOf="@+id/backgroundWaveFormFrameLayout"
+            app:layout_constraintTop_toTopOf="@+id/startPlaySongTextView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

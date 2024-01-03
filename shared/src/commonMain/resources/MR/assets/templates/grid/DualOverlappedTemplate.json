@@ -1,0 +1,172 @@
+{
+  "preferredDuration": 180,
+  "backgroundColor": "#FFFFFF",
+  "availability": "FREE",
+  "palette": {
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "borderColor",
+            "id": "image1"
+          },
+          {
+            "type": "borderColor",
+            "id": "image2"
+          }
+        ]
+      },
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "txt"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "id": "image1",
+      "demoSource": "https://images.pexels.com/photos/3217911/pexels-photo-3217911.jpeg?auto=compress&cs=tinysrgb&h=750&w=750",
+      "x": "0.3w",
+      "y": "0.06h",
+      "width": "0.6w",
+      "height": "0.576s",
+      "paddingStart": "0.007w",
+      "paddingEnd": "0.007w",
+      "paddingTop": "0.007w",
+      "paddingBottom": "0.007w",
+      "borderWidth": "0.015m",
+      "borderType": "inside",
+      "minDuration": -16,
+      "animatorsAll": [
+        {
+          "type": "scale_inner",
+          "from": 1.2,
+          "to": 1.0,
+          "duration": "all"
+        }
+      ],
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 45,
+          "interpolator": "linear50expOut"
+        },
+        {
+          "type": "fade",
+          "duration": 23,
+          "from": 0,
+          "to": 1,
+          "interpolator": "easeOut"
+        }
+      ],
+      "animatorsOut": [
+        {
+          "type": "fade",
+          "duration": 18,
+          "from": 1,
+          "to": 0,
+          "interpolator": "cubicIn"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "image2",
+      "demoSource": "https://images.pexels.com/photos/3217922/pexels-photo-3217922.jpeg?auto=compress&cs=tinysrgb&h=750&w=750",
+      "x": "0.1w",
+      "y": "0.2h",
+      "anchorY": "bottom",
+      "width": "0.6w",
+      "height": "0.576s",
+      "startFrame": 36,
+      "minDuration": -7,
+      "borderWidth": "0.015m",
+      "borderType": "inside",
+      "animatorsAll": [
+        {
+          "type": "scale_inner",
+          "from": 1.0,
+          "to": 1.2,
+          "duration": "all"
+        }
+      ],
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "bottom_to_top",
+          "duration": 45,
+          "interpolator": "linear50expOut"
+        }
+      ],
+      "animatorsOut": [
+        {
+          "type": "fade",
+          "duration": 18,
+          "from": 1,
+          "to": 0,
+          "interpolator": "cubicIn"
+        }
+      ]
+    },
+    {
+      "startFrame": 65,
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "start",
+      "translationX": 0.11259939,
+      "translationY": 0.39709127,
+      "type": "text",
+      "innerGravity": "left",
+      "text": "THE JORNEY BEGINS NOW",
+      "font": {
+        "fontPath": "rustico",
+        "fontStyle": "regular"
+      },
+      "textSize": "0.043s",
+      "id": "txt",
+      "backgroundMarginLeft": 0.3,
+      "backgroundMarginRight": 0.3,
+      "animationParamIn": {
+        "charDelayMillis": 40,
+        "charInterpolator": "easeOutLight",
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 115
+          }
+        ],
+        "backgroundAnimators": [
+          {
+            "type": "clip",
+            "direction": "left_to_right",
+            "interpolator": "elegantlySlowOut",
+            "duration": 20
+          }
+        ]
+      },
+      "animatorsOut": [
+        {
+          "duration": 15,
+          "type": "fade",
+          "from": 1,
+          "to": 0
+        }
+      ]
+    }
+  ]
+}

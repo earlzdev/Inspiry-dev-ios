@@ -1,0 +1,167 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "choices": [
+      {
+        "color": "#EAFAFF",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "imageBackground1"
+          }
+        ]
+      },
+      {
+        "color": "#F0E6F1",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "imageBackground2"
+          },{
+            "type": "textColor",
+            "id": "text1",
+            "colorFilter": {
+              "addSaturation": -0.22,
+              "addLightness": -0.34
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "imageBackground1",
+      "type": "image",
+      "width": "1w",
+      "height": "0.5h",
+      "isEditable": false,
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "duration": 70,
+          "interpolator": "fastOut",
+          "type": "clip",
+          "direction": "bottom_to_top"
+        }
+      ]
+    },
+    {
+      "id": "imageBackground2",
+      "type": "image",
+      "width": "1w",
+      "height": "0.5h",
+      "y": "0.5h",
+      "isEditable": false,
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "duration": 70,
+          "interpolator": "fastOut",
+          "type": "clip",
+          "direction": "top_to_bottom"
+        }
+      ]
+    },
+    {
+      "id": "circleBackground",
+      "type": "image",
+      "width": "1493",
+      "height": "1493",
+      "x": "-746",
+      "y": "213",
+      "backgroundColor": "#FFFFFF",
+      "startFrame": 5,
+      "isEditable": false,
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "to": 1
+        },
+        {
+          "duration": 50,
+          "interpolator": "fastOut",
+          "type": "scale",
+          "from": 0,
+          "to": 1
+        }
+      ]
+    },
+    {
+      "id": "imageCircle",
+      "type": "image",
+      "width": "1454",
+      "height": "1454",
+      "x": "-727",
+      "y": "232",
+      "startFrame": 8,
+      "demoScale": 0.75,
+      "demoOffsetX": 0.3,
+      "demoOffsetY": 0.2,
+      "slidesEnabled": true,
+      "demoSource": "https://images.pexels.com/photos/5797999/pexels-photo-5797999.jpeg?auto=compress&cs=tinysrgb&h=800&w=500",
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "to": 1
+        },
+        {
+          "duration": 52,
+          "type": "fade",
+          "interpolator": "fastOut"
+        },
+        {
+          "duration": 52,
+          "interpolator": "fastOut",
+          "type": "scale",
+          "from": 0,
+          "to": 1
+        }
+      ]
+    },
+    {
+      "id": "text1",
+      "type": "text",
+      "text": "COLLECTION COLLECTION COLLECTION",
+      "width": "490",
+      "height": "490",
+      "innerGravity": "center",
+      "maxLines": 1,
+      "rotation": -42,
+      "letterSpacing": 0,
+      "keepAspect": true,
+      "minDuration": "as_template",
+      "y": "719",
+      "x": "485",
+      "textSize": "0.068m",
+      "font": {
+        "fontPath": "mont",
+        "fontStyle": "regular"
+      },
+      "startFrame": 25,
+      "animationParamIn": {
+        "charsOnCircle": true
+      },
+      "animatorsAll": [
+        {
+          "type": "rotate",
+          "from": 0,
+          "step": -1,
+          "duration": "all"
+        }
+      ],
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 30,
+          "interpolator": "fastOut"
+        }
+      ]
+    }
+  ]
+}

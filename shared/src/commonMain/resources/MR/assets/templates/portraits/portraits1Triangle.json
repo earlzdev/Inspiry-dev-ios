@@ -1,0 +1,127 @@
+{
+  "preferredDuration": 240,
+  "format": "square",
+  "availability": "PREMIUM",
+  "palette": {
+    "choices": [
+      {
+        "color": "#E022FF",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "image",
+            "id": "image1"
+          },
+          {
+            "type": "image",
+            "id": "image2"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "image1",
+      "originalSource": "assets://template-resources/portraits/portraits1Triangle/Triangle.png",
+      "type": "image",
+      "minDuration": "as_template",
+      "isEditable": false,
+      "innerPivotY": 1,
+      "animatorsIn": [
+        {
+          "duration": 20,
+          "type": "fade",
+          "interpolator": "0.05, 0, 0, 1"
+        },
+        {
+          "duration": 30,
+          "interpolator": "0.05, 0, 0, 1",
+          "type": "scale",
+          "fromX": 1.8,
+          "toX": 1,
+          "fromY": 1.8,
+          "toY": 1
+        }
+      ],
+      "startFrame": 20,
+      "colorFilterMode": "MULTIPLY",
+      "x": "22",
+      "y": "83",
+      "width": "1035",
+      "height": "1594"
+    },
+    {
+      "demoSource": "assets://template-resources/portraits/portraits1Triangle/PhotoInTriangle.png",
+      "type": "image",
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0.2,
+          "to": 0,
+          "duration": 40,
+          "interpolator": "0.05, 0, 0, 1"
+        },
+        {
+          "duration": 40,
+          "type": "fade",
+          "interpolator": "0.05, 0, 0, 1"
+        },
+        {
+          "duration": 40,
+          "interpolator": "0.05, 0, 0, 1",
+          "type": "scale",
+          "fromX": 1.8,
+          "toX": 1,
+          "fromY": 1.8,
+          "toY": 1
+        }
+      ],
+      "removeBgOnInsert": true,
+      "makeMovableWhenRemoveBg": false,
+      "demoScale": 0.8415,
+      "demoOffsetY": 0.0932,
+      "demoOffsetX": 0.132,
+      "x": "134",
+      "width": "812",
+      "height": "1h"
+    },
+    {
+      "id": "image2",
+      "originalSource": "assets://template-resources/portraits/portraits1Triangle/TriangleBottom.png",
+      "type": "image",
+      "isEditable": false,
+      "minDuration": "as_template",
+      "innerPivotY": 1,
+      "animatorsIn": [
+        {
+          "duration": 20,
+          "type": "fade",
+          "interpolator": "0.05, 0, 0, 1"
+        },
+        {
+          "duration": 30,
+          "interpolator": "0.05, 0, 0, 1",
+          "type": "scale",
+          "fromX": 1.8,
+          "toX": 1,
+          "fromY": 1.8,
+          "toY": 1
+        }
+      ],
+      "startFrame": 20,
+      "colorFilterMode": "MULTIPLY",
+      "x": "22",
+      "y": "1569",
+      "width": "1035",
+      "height": "108"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "type": "text",
+  "text": "Elegant text",
+  "font": {
+    "fontPath": "chalista"
+  },
+  "anchorX": "center",
+  "anchorY": "center",
+  "innerGravity": "center",
+  "textSize": "0.14w",
+  "textGradient": {
+    "colors": [
+      "#d9a7c7",
+      "#fffcdc"
+    ]
+  },
+  "shadowOffset": 0.02,
+  "shadowColors": [
+    "#000000"
+  ],
+  "paddingStart": "0.05w",
+  "paddingEnd": "0.05w",
+  "backgroundMarginLeft": 0.2,
+  "backgroundMarginRight": 0.2,
+
+  "animationParamIn": {
+    "charDelay": 2,
+    "backgroundAnimators": [
+      {
+        "type": "clip",
+        "direction": "left_to_right",
+        "interpolator": "elegantlySlowOut",
+        "duration": 17
+      }
+    ]
+  },
+  "animatorsIn": [
+    {
+      "type": "fade",
+      "from": 0,
+      "to": 1,
+      "duration": 20,
+      "interpolator": {
+        "type": "path",
+        "x1": 0.15,
+        "y1": 0,
+        "x2": 0.02,
+        "y2": 1
+      }
+    },
+    {
+      "type": "scale",
+      "from": 0.6,
+      "to": 1,
+      "duration": 20,
+      "interpolator": {
+        "type": "path",
+        "x1": 0.15,
+        "y1": 0,
+        "x2": 0.02,
+        "y2": 1
+      }
+    }
+  ]
+}

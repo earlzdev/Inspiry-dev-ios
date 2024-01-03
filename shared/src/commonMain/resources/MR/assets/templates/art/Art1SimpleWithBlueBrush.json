@@ -1,0 +1,181 @@
+{
+  "preferredDuration": 240,
+  "listDemoPreferredDuration": 110,
+  "availability": "FREE",
+  "palette": {
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#DBFEFF",
+        "elements": [
+          {
+            "type": "pathColor",
+            "id": "pathLine"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "isEditable": true,
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1505062351414-586330b076f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1080&q=80",
+      "width": "1w",
+      "height": "1h",
+      "slidesEnabled": true,
+      "animatorsIn": [
+        {
+          "type": "scale_inner",
+          "from": 1.6,
+          "to": 1,
+          "interpolator": "expOut",
+          "duration": 60
+        },
+        {
+          "type": "blur",
+          "from": 15,
+          "to": 0,
+          "duration": 60,
+          "interpolator": "cubicOut"
+        }
+      ]
+    },
+    {
+      "type": "path",
+      "id": "pathLine",
+      "width": "1w",
+      "height": "1h",
+      "paddingTop": "0.02h",
+      "paddingBottom": "0.02h",
+      "paddingStart": "0.03w",
+      "paddingEnd": "0.03w",
+      "anchorX": "center",
+      "anchorY": "center",
+      "color": "#DBFEFF",
+      "strokeWidth": "0.005m",
+      "paintStyle": "STROKE",
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "duration": 0,
+          "from": 0.1,
+          "to": 0.1
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 50
+        }
+      ],
+      "movements": [
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 0,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromY": 0,
+          "toY": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 0,
+          "toX": 1,
+          "fromY": 1,
+          "toY": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 1,
+          "fromY": 1,
+          "toY": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "splash1",
+      "isMovable": true,
+      "isEditable": false,
+      "keepAspect": true,
+      "colorFilterMode": "MULTIPLY",
+      "originalSource": "assets://template-resources/art/SimpleWithBlueBrush/Splash_1.png",
+      "translationX": -0.0363,
+      "translationY": 0.021,
+      "width": "640/1080w",
+      "height": "617/1920h",
+      "scaleType": "FIT_XY",
+      "anchorY": "bottom",
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 50
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "splash2",
+      "isMovable": true,
+      "isEditable": false,
+      "keepAspect": true,
+      "colorFilterMode": "MULTIPLY",
+      "originalSource": "assets://template-resources/art/SimpleWithBlueBrush/Splash_2.png",
+      "translationX": -0.04,
+      "translationY": -0.0355,
+      "width": "519/1080w",
+      "height": "700/1920h",
+      "scaleType": "FIT_XY",
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 50
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isMovable": true,
+      "isEditable": false,
+      "keepAspect": true,
+      "colorFilterMode": "MULTIPLY",
+      "originalSource": "assets://template-resources/art/SimpleWithBlueBrush/Splash_3.png",
+      "width": "354/1080w",
+      "height": "459/1920h",
+      "scaleType": "FIT_XY",
+      "anchorX": "end",
+      "anchorY": "bottom",
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 50
+        }
+      ]
+    }
+  ]
+}

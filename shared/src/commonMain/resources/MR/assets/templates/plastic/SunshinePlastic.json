@@ -1,0 +1,27 @@
+{
+  "backgroundColor": "#000000",
+  "availability": "FREE",
+  "preferredDuration": 180,
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.pexels.com/photos/3140049/pexels-photo-3140049.jpeg?auto=compress&cs=tinysrgb&h=1000&w=1260",
+      "width": "1w",
+      "height": "1h",
+      "demoScale": 1.1,
+      "demoOffsetY": -0.1,
+      "demoOffsetX": -0.05
+    },
+    {
+      "originalSource": "assets://template-resources/plastic/SunshinePlastic/front.png",
+      "isEditable": false,
+      "type": "image",
+      "width": "1w",
+      "height": "1h"
+    }
+  ]
+}

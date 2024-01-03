@@ -1,0 +1,367 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "group",
+      "width": "match_parent",
+      "height": "match_parent",
+      "templateMask": {
+        "isBlurEffectAvailable": true,
+        "shaderType": "BLUR_REGION_MASK",
+        "texturesID": [
+          "mask"
+        ],
+        "animatorsIn": [
+          {
+            "type": "blur",
+            "from": 0,
+            "to": 25,
+            "startFrame": 20,
+            "duration": 30
+          }
+        ]
+      },
+      "medias": [
+        {
+          "type": "image",
+          "id": "singleImage",
+          "demoSource": "https://images.unsplash.com/photo-1482498081626-c0d36d9c5ab9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "width": "match_parent",
+          "height": "match_parent",
+          "demoScale": 1.214,
+          "demoOffsetX": -0.27,
+          "demoOffsetY": -0.24,
+          "animatorsIn": [
+            {
+              "type": "rotate",
+              "from": 2,
+              "to": 2
+            },
+            {
+              "type": "scale",
+              "from": 1.5,
+              "to": 1.1,
+              "duration": 25,
+              "interpolator": "cubicOut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "match_parent",
+      "height": "match_parent",
+      "id": "mask",
+      "medias": [
+        {
+          "backgroundColor": "#ffffff",
+          "type": "image",
+          "isEditable": false,
+          "width": "935",
+          "height": "1335",
+          "y": "176",
+          "x": "56",
+          "animatorsIn": [
+            {
+              "type": "rotate",
+              "from": 2,
+              "to": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "originalSource": "assets://template-resources/christmas/Ch2BlurredDuplicate/back_texture.png",
+      "width": "match_parent",
+      "height": "match_parent",
+      "isEditable": false,
+      "startFrame": 30,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 30,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "originalSource": "assets://template-resources/christmas/Ch2BlurredDuplicate/frame_gold.png",
+      "isEditable": false,
+      "width": "945",
+      "height": "1345",
+      "y": "181",
+      "x": "61",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": 2,
+          "to": 2
+        },
+        {
+          "type": "scale",
+          "from": 2.5,
+          "to": 1,
+          "duration": 25,
+          "interpolator": "cubicOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/christmas/Ch2BorderPhotos/star.png",
+      "width": "157",
+      "height": "157",
+      "anchorY": "bottom",
+      "x": "108",
+      "y": "87",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 1,
+          "to": 0.5,
+          "duration": 12,
+          "interpolator": "easeIn"
+        },
+        {
+          "type": "fade",
+          "from": 0.5,
+          "to": 1,
+          "duration": 10,
+          "startFrame": 16,
+          "interpolator": "easeOut"
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 12,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/christmas/Ch2BorderPhotos/star.png",
+      "width": "110",
+      "height": "110",
+      "anchorY": "bottom",
+      "x": "265",
+      "y": "215",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 25,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 1,
+          "to": 0.5,
+          "duration": 12,
+          "interpolator": "easeIn"
+        },
+        {
+          "type": "fade",
+          "from": 0.5,
+          "to": 1,
+          "duration": 10,
+          "startFrame": 16,
+          "interpolator": "easeOut"
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 12,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/christmas/Ch2BorderPhotos/star.png",
+      "width": "97",
+      "height": "97",
+      "anchorY": "bottom",
+      "x": "370",
+      "y": "123",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 30,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 1,
+          "to": 0.5,
+          "duration": 12,
+          "interpolator": "easeIn"
+        },
+        {
+          "type": "fade",
+          "from": 0.5,
+          "to": 1,
+          "duration": 10,
+          "startFrame": 16,
+          "interpolator": "easeOut"
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 12,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/christmas/Ch2BorderPhotos/star.png",
+      "width": "127",
+      "height": "127",
+      "anchorX": "end",
+      "anchorY": "bottom",
+      "x": "341",
+      "y": "71",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 35,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 1,
+          "to": 0.5,
+          "duration": 12,
+          "interpolator": "easeIn"
+        },
+        {
+          "type": "fade",
+          "from": 0.5,
+          "to": 1,
+          "duration": 10,
+          "startFrame": 16,
+          "interpolator": "easeOut"
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 12,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/christmas/Ch2BorderPhotos/star.png",
+      "width": "153",
+      "height": "153",
+      "anchorX": "end",
+      "anchorY": "bottom",
+      "x": "143",
+      "y": "172",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 40,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 1,
+          "to": 0.5,
+          "duration": 12,
+          "interpolator": "easeIn"
+        },
+        {
+          "type": "fade",
+          "from": 0.5,
+          "to": 1,
+          "duration": 10,
+          "startFrame": 16,
+          "interpolator": "easeOut"
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 12,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "magic time",
+      "font": {
+        "fontPath": "cormorant",
+        "fontStyle": "bold"
+      },
+      "anchorX": "center",
+      "innerGravity": "center",
+      "lineSpacing": 0.72,
+      "textSize": "0.12620361m",
+      "translationX": -0.03215981,
+      "translationY": 0.68868345,
+      "textGradient": {
+        "colors": [
+          "#88470C",
+          "#3D1D01"
+        ]
+      },
+      "rotation": 2,
+      "startFrame": 30,
+      "minDuration": "as_template",
+      "animationParamIn": {
+        "shuffle": true,
+        "charDelayMillis": 40,
+        "charInterpolator": "easeInOutLight",
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 165
+          },
+          {
+            "type": "scale",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 165
+          }
+        ]
+      }
+    }
+  ]
+}

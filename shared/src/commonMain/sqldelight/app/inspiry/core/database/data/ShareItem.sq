@@ -1,0 +1,11 @@
+CREATE TABLE ShareItem (
+    packageName TEXT NOT NULL PRIMARY KEY ON CONFLICT REPLACE,
+    dateAdded INTEGER NOT NULL
+);
+
+insertItem:
+INSERT INTO ShareItem(packageName, dateAdded)
+VALUES(?, ?);
+
+selectAll:
+SELECT * FROM ShareItem ORDER BY dateAdded DESC;

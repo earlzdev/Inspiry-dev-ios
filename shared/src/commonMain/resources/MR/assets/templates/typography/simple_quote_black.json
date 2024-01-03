@@ -1,0 +1,95 @@
+{
+  "backgroundColor": "#000000",
+  "availability": "FREE",
+  "palette": {
+    "choices": [
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text1"
+          },
+          {
+            "type": "textColor",
+            "id": "text2"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "text1",
+      "type": "text",
+      "text": "Never Regret A Day In your Life: Good days give happiness, bad days give experience, worst days give lessons, and best days give memories.",
+      "innerGravity": "center",
+      "width": "0.70911527w",
+      "height": "0.29638597h",
+      "translationY": 0.28007993,
+      "font": "spectral",
+      "textSize": "0.047m",
+      "anchorX": "center",
+      "delayBeforeEnd": 90,
+      "textColor": "#ffffff",
+      "animationParamIn": {
+        "charDelayMillis": 45,
+        "charInterpolator": "easeOutLight",
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 110
+          }
+        ]
+      }
+    },
+    {
+      "id": "text2",
+      "type": "text",
+      "text": "- The Truth of Life",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "innerGravity": "center",
+      "translationX": 0.18643974,
+      "translationY": 0.64311016,
+      "startFrame": -1,
+      "delayBeforeEnd": 75,
+      "font": {
+        "fontPath": "spectral",
+        "fontStyle": "bold"
+      },
+      "textSize": "0.047m",
+      "textColor": "#ffffff",
+      "animationParamIn": {
+        "wordDelayMillis": 160,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 220,
+            "interpolator": "flatIn25expOut"
+          },
+          {
+            "type": "move_to_y",
+            "from": 1,
+            "to": 0,
+            "durationMillis": 220,
+            "interpolator": "flatIn25expOut"
+          }
+        ]
+      }
+    }
+  ]
+}

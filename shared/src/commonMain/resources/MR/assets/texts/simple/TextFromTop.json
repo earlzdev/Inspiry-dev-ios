@@ -1,0 +1,27 @@
+{
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "type": "text",
+  "text": "Text appearing\nfrom top",
+  "innerGravity": "center",
+  "textSize": "1/10w",
+  "font": "bebasneue",
+  "animatorsIn": [
+    {
+      "type": "fade",
+      "duration": 9,
+      "from": 0,
+      "to": 1
+    },
+    {
+      "type": "move_to_y",
+      "interpolator": "slowInExpOut",
+      "from": -2,
+      "to": 0,
+      "duration": 30
+    }
+  ]
+}

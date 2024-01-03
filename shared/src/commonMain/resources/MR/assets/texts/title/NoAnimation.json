@@ -1,0 +1,21 @@
+{
+  "innerGravity": "center",
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "forPremium": false,
+  "type": "text",
+  "text": "No Animation",
+  "textSize": "0.1w",
+  "font": "roboto",
+  "animatorsOut": [
+    {
+      "type": "fade",
+      "from": 1,
+      "to": 1,
+      "duration": 0
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "innerGravity": "center",
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "forPremium": true,
+  "type": "text",
+  "text": "Gradient words\nappear with brisk move",
+  "font": {
+    "fontPath": "buyan",
+    "fontStyle": "bold"
+  },
+  "letterSpacing": 0.03,
+  "textSize": "0.1w",
+  "animationParamIn": {
+    "wordDelayMillis": 67,
+    "textAnimatorGroups": [
+      {
+        "group": "all",
+        "animators": [
+          {
+            "type": "move_to_y",
+            "duration": 3,
+            "from": 0.2,
+            "to": 0,
+            "interpolator": "flatIn50expOut"
+          }
+        ]
+      },
+      {
+        "group": "even",
+        "animators": [
+          {
+            "type": "backgroundColor",
+            "from": "#37CBFF",
+            "to": "#37CBFF",
+            "fromEnd": "#00F548",
+            "toEnd": "#00F548",
+            "duration": 0
+          }
+        ]
+      }
+    ],
+    "backgroundAnimators": [
+      {
+        "type": "clip",
+        "direction": "left_to_right",
+        "interpolator": "cubicOut",
+        "duration": 16
+      }
+    ]
+  },
+  "animationParamOut": {
+    "wordDelayMillis": 50,
+    "textAnimatorGroups": [
+      {
+        "group": "all",
+        "animators": [
+          {
+            "type": "fade",
+            "durationMillis": 50,
+            "from": 1,
+            "to": 0
+          }
+        ]
+      },
+      {
+        "group": "even",
+        "animators": [
+          {
+            "type": "backgroundColor",
+            "from": "#37CBFF",
+            "to": "#37CBFF",
+            "fromEnd": "#00F548",
+            "toEnd": "#00F548",
+            "duration": 0
+          }
+        ]
+      }
+    ]
+  }
+}

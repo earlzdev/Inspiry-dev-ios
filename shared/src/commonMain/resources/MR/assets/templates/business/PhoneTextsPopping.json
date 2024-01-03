@@ -1,0 +1,189 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "backgroundImage": "https://images.unsplash.com/photo-1554103494-90f9e0883a85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+    "defaultTextColor": "#ffffff",
+    "choices": [
+      {
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "group",
+      "width": "1w",
+      "height": "1h",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0.015625,
+          "to": -0.015625,
+          "duration": 30,
+          "interpolator": "easeInOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": -0.015625,
+          "to": 0.015625,
+          "duration": 30,
+          "startFrame": 30,
+          "interpolator": "easeInOut"
+        }
+      ],
+      "medias": [
+        {
+          "y": "170/1920h",
+          "anchorX": "center",
+          "type": "image",
+          "width": "666/1080w",
+          "height": "1390/1920h",
+          "demoSource": "https://images.unsplash.com/photo-1550614000-4895a10e1bfd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"
+        },
+        {
+          "originalSource": "assets://template-resources/business/PhoneTextsPopping/phone_frame.png",
+          "isEditable": false,
+          "type": "image",
+          "width": "1w",
+          "height": "1719/1920h",
+          "y": "25/1920h"
+        }
+      ]
+    },
+    {
+      "canMoveX": false,
+      "anchorY": "center",
+      "anchorX": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": 0.41,
+      "type": "text",
+      "innerGravity": "center",
+      "text": "FASHION WEEK",
+      "font": {
+        "fontPath": "mont",
+        "fontStyle": "light"
+      },
+      "textSize": "0.120m",
+      "lineSpacing": 0.8,
+      "textColor": "#ffffff",
+      "delayBeforeEnd": 20,
+      "startFrame": 10,
+      "animationParamIn": {
+        "textAnimators": [
+          {
+            "duration": 30,
+            "interpolator": "easeInOut",
+            "type": "fade",
+            "from": 0,
+            "to": 1
+          },
+          {
+            "duration": 30,
+            "interpolator": "easeInOut",
+            "type": "move_to_y",
+            "from": 0.6,
+            "to": 0,
+            "relativity": "ROOT"
+          }
+        ],
+        "lineDelayMillis": 1000
+      },
+      "animationParamOut": {
+        "textAnimators": [
+          {
+            "duration": 25,
+            "interpolator": "easeInOut",
+            "type": "fade",
+            "from": 1,
+            "to": 0
+          },
+          {
+            "duration": 25,
+            "interpolator": "easeInOut",
+            "type": "move_to_y",
+            "from": 0,
+            "to": 0.6,
+            "relativity": "ROOT"
+          }
+        ],
+        "lineDelayMillis": 1000
+      }
+    },
+    {
+      "canMoveX": false,
+      "anchorY": "center",
+      "anchorX": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": 0.41,
+      "type": "text",
+      "innerGravity": "center",
+      "text": "COMING SOON",
+      "font": {
+        "fontPath": "mont",
+        "fontStyle": "light"
+      },
+      "textSize": "0.12m",
+      "lineSpacing": 0.8,
+      "textColor": "#ffffff",
+      "startFrame": 90,
+      "delayBeforeEnd": 20,
+      "animationParamIn": {
+        "textAnimators": [
+          {
+            "duration": 30,
+            "interpolator": "easeInOut",
+            "type": "fade",
+            "from": 0,
+            "to": 1
+          },
+          {
+            "duration": 30,
+            "interpolator": "easeInOut",
+            "type": "move_to_y",
+            "from": 0.6,
+            "to": 0,
+            "relativity": "ROOT"
+          }
+        ],
+        "lineDelayMillis": 1000
+      },
+      "animationParamOut": {
+        "textAnimators": [
+          {
+            "duration": 25,
+            "interpolator": "easeInOut",
+            "type": "fade",
+            "from": 1,
+            "to": 0
+          },
+          {
+            "duration": 25,
+            "interpolator": "easeInOut",
+            "type": "move_to_y",
+            "from": 0,
+            "to": 0.6,
+            "relativity": "ROOT"
+          }
+        ],
+        "lineDelayMillis": 1000
+      }
+    }
+  ]
+}

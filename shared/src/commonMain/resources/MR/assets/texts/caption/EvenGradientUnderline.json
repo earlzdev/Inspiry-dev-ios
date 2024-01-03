@@ -1,0 +1,86 @@
+{
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "forPremium": true,
+  "type": "text",
+  "text": "A caption\ndisplayed\nline by line",
+  "innerGravity": "left",
+  "textSize": "2/23w",
+  "font": {
+    "fontStyle": "bold",
+    "fontPath": "montserrat"
+  },
+  "backgroundGradient": {
+    "colors": [
+      "#001FFF",
+      "#D90FFF"
+    ]
+  },
+  "backgroundMarginTop": -0.55,
+  "backgroundMarginBottom": -0.05,
+  "backgroundMarginLeft": 0.2,
+  "backgroundMarginRight": 0.2,
+  "animationParamIn": {
+    "lineDelayMillis": 200,
+    "textAnimators": [
+      {
+        "type": "move_to_x",
+        "durationMillis": 350,
+        "from": 1,
+        "to": 0,
+        "interpolator": "elegantlySlowOut"
+      }
+    ],
+    "backgroundAnimatorGroups": [
+      {
+        "group": "uneven_not_first",
+        "animators": [
+          {
+            "type": "fade",
+            "duration": 0,
+            "from": 0,
+            "to": 0
+          }
+        ]
+      },
+      {
+        "group": "even_or_first",
+        "animators": [
+          {
+            "type": "clip",
+            "startTimeMillis": 150,
+            "duration": 30,
+            "direction": "right_to_left",
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    ]
+  },
+  "animationParamOut": {
+    "backgroundAnimatorGroups": [
+      {
+        "group": "uneven_not_first",
+        "animators": [
+          {
+            "type": "fade",
+            "duration": 0,
+            "from": 0,
+            "to": 0
+          }
+        ]
+      }
+    ]
+  },
+  "animatorsOut": [
+    {
+      "type": "fade",
+      "duration": 9,
+      "from": 1,
+      "to": 0
+    }
+  ]
+}

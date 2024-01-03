@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_dialog_edit_height">155dp</dimen>
+    <dimen name="bottom_dialog_background_sound_off_height">32dp</dimen>
+    <dimen name="bottom_dialog_background_sound_off_width">34dp</dimen>
+    <dimen name="bottom_dialog_background_go_to_library_margin_top">95dp</dimen>
+    <dimen name="bottom_dialog_background_go_to_library_margin_end">28dp</dimen>
+    <dimen name="bottom_dialog_start_play_song_text_view_padding_left">80dp</dimen>
+    <dimen name="bottom_dialog_start_play_song_text_view_margin_top">11dp</dimen>
+    <dimen name="bottom_dialog_start_play_song_text_view_text_size">12sp</dimen>
+    <dimen name="bottom_dialog_button_play_width">30dp</dimen>
+    <dimen name="bottom_dialog_button_play_height">42dp</dimen>
+    <dimen name="bottom_dialog_button_play_margin_start">28dp</dimen>
+    <dimen name="bottom_dialog_button_play_margin_top">8dp</dimen>
+    <dimen name="bottom_dialog_background_wave_form_width">275dp</dimen>
+    <dimen name="bottom_dialog_background_seek_bar_width">213dp</dimen>
+    <dimen name="bottom_dialog_background_seek_bar_margin_end">78dp</dimen>
+    <dimen name="bottom_dialog_icon_sound_on_margin_end">10dp</dimen>
+</resources>

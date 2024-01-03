@@ -1,0 +1,239 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "choices": [
+      {
+        "color": "#FFEAFA",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#774478",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "image",
+            "id": "overlay"
+          },
+          {
+            "type": "vector",
+            "id": "vector1"
+          },
+          {
+            "type": "vector",
+            "id": "vector2"
+          },
+          {
+            "type": "vector",
+            "id": "vector3"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1531853121101-cb94c8ed218d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+      "width": "840/1080w",
+      "height": "840/1080w",
+      "x": "39",
+      "y": "86",
+      "anchorX": "end",
+      "anchorY": "bottom",
+      "startFrame": 40,
+      "templateMask": {
+        "shaderType": "COMMON_MASK",
+        "textures": [
+          {
+            "type": "textureMedia",
+            "startFrame": 40,
+            "textureSource": "assets://template-resources/beauty/Beauty2Masks/mask_2.json",
+            "scaleType": "FIT_XY",
+            "minDuration": "as_template"
+          }
+        ]
+      },
+      "animatorsIn": [
+        {
+          "type": "scale_inner",
+          "duration": 50,
+          "from": 1,
+          "to": 1.1
+        }
+      ]
+    },
+    {
+      "id": "overlay",
+      "type": "image",
+      "originalSource": "assets://template-resources/beauty/Beauty2Masks/overlay.png",
+      "width": "1w",
+      "height": "1h",
+      "isEditable": false
+    },
+
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1587393795320-6e43b260ecd0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+      "width": "617/1080w",
+      "height": "706/1080w",
+      "x": "94",
+      "y": "338",
+      "startFrame": 20,
+      "templateMask": {
+        "shaderType": "COMMON_MASK",
+        "textures": [
+          {
+            "type": "textureMedia",
+            "startFrame": 20,
+            "textureSource": "assets://template-resources/beauty/Beauty2Masks/mask_1.json",
+            "scaleType": "FIT_XY",
+            "minDuration": "as_template"
+          }
+        ]
+      },
+      "animatorsIn": [
+        {
+          "type": "scale_inner",
+          "duration": 50,
+          "from": 1,
+          "to": 1.08
+        }
+      ]
+    },
+    {
+      "width": "0.5675013w",
+      "height": "0.12389242h",
+      "translationX": 0.08767888,
+      "translationY": 0.09740336,
+      "id": "vector1",
+      "type": "vector",
+      "isMovable": true,
+      "originalSource": "assets://template-resources/beauty/Beauty2Masks/line_1.json",
+      "minDuration": "as_template",
+      "startFrame": 20
+    },
+    {
+      "id": "vector2",
+      "type": "vector",
+      "width": "0.45361313w",
+      "height": "0.1674267h",
+      "translationX": 0.23326531,
+      "translationY": 0.47059056,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/beauty/Beauty2Masks/leave_1.json",
+      "minDuration": "as_template",
+      "startFrame": 40
+    },
+    {
+      "id": "vector3",
+      "type": "vector",
+      "width": "0.3458445w",
+      "height": "0.23228341h",
+      "translationX": 0.08452298,
+      "translationY": 0.6943341,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/beauty/Beauty2Masks/leave_2.json",
+      "minDuration": "as_template",
+      "startFrame": 45
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "text": "Keep yourself",
+      "font": {
+        "fontPath": "anastasia"
+      },
+      "minDuration": "as_template",
+      "translationX": -0.09395905,
+      "translationY": -0.4343613,
+      "textSize": "0.13735999m",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "startFrame": 20,
+      "animationParamIn": {
+        "lineDelay": 6,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 12
+          },
+          {
+            "type": "move_to_x",
+            "from": -0.3,
+            "to": 0,
+            "duration": 16,
+            "interpolator": "beautyOut"
+          },
+          {
+            "type": "clip",
+            "direction": "left_to_right",
+            "duration": 16,
+            "interpolator": "beautyOut"
+          }
+        ]
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "text": "beautiful",
+      "font": {
+        "fontPath": "hero"
+      },
+      "minDuration": "as_template",
+      "translationX": 0.25869447,
+      "translationY": -0.3737173,
+      "textSize": "0.06269961m",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "startFrame": 30,
+      "animationParamIn": {
+        "lineDelay": 6,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 12
+          },
+          {
+            "type": "move_to_x",
+            "from": -0.3,
+            "to": 0,
+            "duration": 16,
+            "interpolator": "beautyOut"
+          },
+          {
+            "type": "clip",
+            "direction": "left_to_right",
+            "duration": 16,
+            "interpolator": "beautyOut"
+          }
+        ]
+      }
+    }
+  ]
+}

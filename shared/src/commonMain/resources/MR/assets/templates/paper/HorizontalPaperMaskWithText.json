@@ -1,0 +1,89 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "isAvailable": false
+  },
+  "timeForEdit": 90,
+  "medias": [
+    {
+      "type": "image",
+      "isEditable": true,
+      "width": "1w",
+      "height": "1h",
+      "demoSource": "https://images.unsplash.com/photo-1564477415696-57fe0623c698?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "animatorsAll": [
+        {
+          "type": "scale_inner",
+          "from": 1,
+          "to": 1.05,
+          "durationMillis": -1000
+        }
+      ],
+      "minDuration": "as_template",
+      "templateMask": {
+        "textures": [
+          {
+            "type": "textureMedia",
+            "textureSource": "assets://template-resources/paper/HorizontalPaperMaskWithText/mask.mp4",
+            "clipTextures": [
+              {
+                "left": 0,
+                "top": 1,
+                "right": 0.5,
+                "bottom": 0
+              },
+              {
+                "left": 0.5,
+                "top": 1,
+                "right": 1,
+                "bottom": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "startFrame": 22,
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationY": 0.036220793,
+      "type": "text",
+      "innerGravity": "center",
+      "text": "STAY, MOMENT, YOU ARE AMAZING!",
+      "font": {
+        "fontPath": "cormorant",
+        "fontStyle": "regular"
+      },
+      "textSize": "0.047m",
+      "minDuration": "as_template",
+      "textColor": "#ff6a3a31",
+      "animationParamIn": {
+        "charDelayMillis": 35,
+        "charInterpolator": "easeOutLight",
+        "reverse": true,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 135
+          }
+        ],
+        "backgroundAnimators": [
+          {
+            "type": "clip",
+            "direction": "right_to_left",
+            "interpolator": "elegantlySlowOut",
+            "duration": 18
+          }
+        ]
+      },
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "choices": [
+      {
+        "color": "#FFE3EF",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text1"
+          },
+          {
+            "type": "vector",
+            "id": "vector1"
+          },
+          {
+            "type": "vector",
+            "id": "vector2"
+          },
+          {
+            "type": "vector",
+            "id": "vector3"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text2"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "group",
+      "id": "groupImages",
+      "templateMask": {
+        "shaderType": "COMMON_MASK",
+        "texturesID": [
+          "mask"
+        ]
+      },
+      "width": "match_parent",
+      "height": "match_parent",
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1521401292936-0a2129a30b1c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+          "width": "1w",
+          "height": "1300",
+          "anchorY": "center",
+          "demoOffsetX": -0.5689,
+          "demoOffsetY": -0.476,
+          "demoScale": 1.7,
+          "startFrame": 15,
+          "animatorsIn": [
+            {
+              "type": "scale",
+              "from": 1,
+              "to": 1.25,
+              "duration": 40,
+              "interpolator": "cubicOut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "id": "mask",
+      "width": "match_parent",
+      "height": "match_parent",
+      "medias": [
+        {
+          "type": "vector",
+          "width": "1w",
+          "height": "1h",
+          "originalSource": "assets://template-resources/business/BusinessCoffeeStickersMask/mask.json",
+          "minDuration": "as_template",
+          "startFrame": 0
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "translationY": -0.3664912,
+      "medias": [
+        {
+          "type": "vector",
+          "id": "vectorAsTextBg*vectorText1",
+          "width": "match_parent",
+          "height": "match_parent",
+          "minDuration": "as_template",
+          "startFrame": 5,
+          "scaleType": "FIT_XY",
+          "originalSource": "assets://template-resources/business/BusinessCoffeeStickersMask/brush_1.json",
+          "mediaPalette": {
+            "choices": [
+              {
+                "elements": [
+                  "Color_1"
+                ]
+              },
+              {
+                "elements": [
+                  "Color_2"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "text": "COFFEE\nTERRITORY",
+          "id": "text1",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "innerGravity": "center",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "textSize": "0.0982736m",
+          "font": {
+            "fontStyle": "bold",
+            "fontPath": "gilroy"
+          },
+          "paddingTop": "0.05w",
+          "paddingBottom": "0.08w",
+          "paddingStart": "0.11w",
+          "paddingEnd": "0.11w",
+          "textColor": "#794A00",
+          "lineSpacing": 0.92,
+          "minDuration": "as_template",
+          "startFrame": 5,
+          "animationParamIn": {
+            "charDelayMillis": 45,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "duration": 4,
+                "from": 0,
+                "to": 1,
+                "interpolator": "beautyOut"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "translationY": 0.3664912,
+      "medias": [
+        {
+          "type": "vector",
+          "id": "vectorAsTextBg*vectorText2",
+          "width": "match_parent",
+          "height": "match_parent",
+          "minDuration": "as_template",
+          "startFrame": 20,
+          "scaleType": "FIT_XY",
+          "originalSource": "assets://template-resources/business/BusinessCoffeeStickersMask/brush_2.json",
+          "mediaPalette": {
+            "choices": [
+              {
+                "elements": [
+                  "Color_1"
+                ]
+              },
+              {
+                "elements": [
+                  "Color_2"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "text": "nice coffee\nwith love",
+          "id": "text2",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "innerGravity": "center",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "lineSpacing": 0.88,
+          "textSize": "0.1403476m",
+          "font": "nickainley",
+          "paddingTop": "0.02w",
+          "paddingBottom": "0.04w",
+          "paddingStart": "0.11w",
+          "paddingEnd": "0.11w",
+          "textColor": "#3A53BD",
+          "minDuration": "as_template",
+          "startFrame": 20,
+          "animationParamIn": {
+            "charDelayMillis": 45,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "duration": 4,
+                "from": 0,
+                "to": 1,
+                "interpolator": "beautyOut"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vector1",
+      "type": "vector",
+      "anchorX": "center",
+      "anchorY": "center",
+      "width": "159",
+      "height": "142",
+      "translationX": -0.26940027,
+      "translationY": -0.41625428,
+      "originalSource": "assets://template-resources/business/BusinessCoffeeStickersMask/coffee.json",
+      "minDuration": "as_template",
+      "isLoopEnabled": true,
+      "isMovable": true,
+      "startFrame": 5,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 15
+        }
+      ]
+    },
+    {
+      "id": "vector2",
+      "type": "vector",
+      "anchorX": "center",
+      "anchorY": "center",
+      "width": "0.1624859w",
+      "height": "0.109351434h",
+      "translationX": 0.32087016,
+      "translationY": -0.32856637,
+      "originalSource": "assets://template-resources/business/BusinessCoffeeStickersMask/leaves.json",
+      "minDuration": "as_template",
+      "isLoopEnabled": true,
+      "isMovable": true,
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 15
+        }
+      ]
+    },
+    {
+      "id": "vector3",
+      "type": "vector",
+      "anchorX": "center",
+      "anchorY": "center",
+      "width": "0.1956954w",
+      "height": "0.08069382h",
+      "translationX": -0.32648456,
+      "translationY": 0.27605706,
+      "originalSource": "assets://template-resources/business/BusinessCoffeeStickersMask/cup.json",
+      "minDuration": "as_template",
+      "isLoopEnabled": true,
+      "isMovable": true,
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 15
+        }
+      ]
+    }
+  ]
+}

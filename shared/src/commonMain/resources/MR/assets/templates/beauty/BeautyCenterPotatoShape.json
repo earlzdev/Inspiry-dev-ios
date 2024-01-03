@@ -1,0 +1,595 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "choices": [
+      {
+        "color": "#F8D6EF",
+        "elements": [
+          {
+            "type": "image",
+            "id": "imageOverlayInside"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          },
+          {
+            "type": "vector",
+            "id": "vector1"
+          },
+          {
+            "type": "vector",
+            "id": "vector2"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "dot1"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "dot2"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "dot3"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "dot4"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "dot5"
+          }
+        ]
+      },
+      {
+        "color": "#FFECFA",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "imageOverlayInside",
+      "type": "image",
+      "width": "958",
+      "height": "1h",
+      "isEditable": false,
+      "originalSource": "assets://template-resources/beauty/BeautyCenterPotatoShape/back.png",
+      "minDuration": "as_template"
+    },
+    {
+      "id": "vector1",
+      "type": "vector",
+      "width": "1.0174122w",
+      "height": "0.64028484h",
+      "translationX": -0.008089149,
+      "translationY": 0.38126546,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/beauty/BeautyCenterPotatoShape/contur_1.json",
+      "minDuration": "as_template"
+    },
+    {
+      "id": "vector2",
+      "type": "vector",
+      "width": "1.0053619w",
+      "height": "0.743628h",
+      "translationX": -0.0028011594,
+      "translationY": 0.26999953,
+      "isMovable": true,
+      "isLoopEnabled": true,
+      "originalSource": "assets://template-resources/beauty/BeautyCenterPotatoShape/contur_2.json",
+      "minDuration": "as_template",
+      "startFrame": 10
+    },
+    {
+      "type": "group",
+      "id": "groupImages",
+      "width": "963",
+      "height": "1044",
+      "y": "47",
+      "anchorY": "bottom",
+      "templateMask": {
+        "textures": [
+          {
+            "type": "textureMedia",
+            "textureSource": "assets://template-resources/beauty/BeautyCenterPotatoShape/mask.json"
+          }
+        ]
+      },
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.pexels.com/photos/5069432/pexels-photo-5069432.jpeg?auto=compress&cs=tinysrgb&h=600&w=600",
+          "width": "match_parent",
+          "height": "match_parent",
+          "startFrame": 40,
+          "animatorsIn": [
+            {
+              "type": "scale_inner",
+              "duration": 50,
+              "from": 1,
+              "to": 1.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "text": "Beauty Center",
+      "font": {
+        "fontPath": "inspiration"
+      },
+      "minDuration": "as_template",
+      "translationX": -0.030916108,
+      "translationY": -0.40120694,
+      "textColor": "#000000",
+      "textSize": "0.1175444m",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "startFrame": 5,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "duration": 10,
+          "from": 0.3,
+          "to": 0,
+          "relativity": "ROOT",
+          "interpolator": "beautyOut"
+        }
+      ],
+      "animationParamIn": {
+        "charDelay": 2,
+        "textAnimators": [
+          {
+            "type": "move_to_y",
+            "from": 1,
+            "to": 0,
+            "duration": 2,
+            "interpolator": "beautyOut"
+          },
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 3
+          }
+        ]
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "text": "OUR SERVICE",
+      "font": "bloggersans",
+      "textColor": "#000000",
+      "minDuration": "as_template",
+      "translationX": -0.26546946,
+      "translationY": -0.3150799,
+      "textSize": "0.045070402m",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "startFrame": 10,
+      "animationParamIn": {
+        "charDelay": 2,
+        "textAnimators": [
+          {
+            "type": "move",
+            "fromY": 1,
+            "toY": 0,
+            "fromX": 1,
+            "toX": 0,
+            "duration": 2,
+            "interpolator": "beautyOut"
+          },
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 2
+          }
+        ]
+      }
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationX": 0.533818,
+      "translationY": -0.31670913,
+      "anchorX": "start",
+      "anchorY": "center",
+      "medias": [
+        {
+          "id": "dot1",
+          "type": "image",
+          "backgroundColor": "#000000",
+          "isEditable": false,
+          "width": "0.015w",
+          "height": "0.015w",
+          "y": "0.03h",
+          "translationX": -0.05,
+          "anchorY": "center",
+          "startFrame": 15,
+          "animatorsIn": [
+            {
+              "type": "scale",
+              "from": 0,
+              "to": 1,
+              "duration": 15,
+              "interpolator": "beautyOut"
+            },
+            {
+              "type": "radius",
+              "from": 1,
+              "to": 1,
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "relativeToParent": false,
+          "dependsOnParent": true,
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "type": "text",
+          "text": "body massage",
+          "innerGravity": "start",
+          "minDuration": "as_template",
+          "startFrame": 17,
+          "font": "bloggersans",
+          "textSize": "0.049m",
+          "animationParamIn": {
+            "lineDelay": 6,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 10
+              },
+              {
+                "type": "move_to_x",
+                "from": -0.6,
+                "to": 0,
+                "duration": 15,
+                "interpolator": "beautyOut"
+              },
+              {
+                "type": "clip",
+                "direction": "left_to_right",
+                "duration": 15,
+                "interpolator": "beautyOut"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": -0.25559822,
+      "translationX": 0.533818,
+      "anchorX": "start",
+      "anchorY": "center",
+      "medias": [
+        {
+          "id": "dot2",
+          "type": "image",
+          "backgroundColor": "#000000",
+          "isEditable": false,
+          "width": "0.015w",
+          "height": "0.015w",
+          "y": "0.03h",
+          "translationX": -0.05,
+          "anchorY": "center",
+          "startFrame": 19,
+          "animatorsIn": [
+            {
+              "type": "scale",
+              "from": 0,
+              "to": 1,
+              "duration": 15,
+              "interpolator": "beautyOut"
+            },
+            {
+              "type": "radius",
+              "from": 1,
+              "to": 1,
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "relativeToParent": false,
+          "dependsOnParent": true,
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "type": "text",
+          "text": "skin care",
+          "letterSpacing": 0,
+          "innerGravity": "start",
+          "minDuration": "as_template",
+          "startFrame": 21,
+          "font": "bloggersans",
+          "textSize": "0.049m",
+          "animationParamIn": {
+            "lineDelay": 6,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 10
+              },
+              {
+                "type": "move_to_x",
+                "from": -0.6,
+                "to": 0,
+                "duration": 15,
+                "interpolator": "beautyOut"
+              },
+              {
+                "type": "clip",
+                "direction": "left_to_right",
+                "duration": 15,
+                "interpolator": "beautyOut"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": -0.19448731,
+      "translationX": 0.533818,
+      "anchorX": "start",
+      "anchorY": "center",
+      "medias": [
+        {
+          "id": "dot3",
+          "type": "image",
+          "backgroundColor": "#000000",
+          "isEditable": false,
+          "width": "0.015w",
+          "height": "0.015w",
+          "y": "0.03h",
+          "translationX": -0.05,
+          "anchorY": "center",
+          "startFrame": 23,
+          "animatorsIn": [
+            {
+              "type": "scale",
+              "from": 0,
+              "to": 1,
+              "duration": 15,
+              "interpolator": "beautyOut"
+            },
+            {
+              "type": "radius",
+              "from": 1,
+              "to": 1,
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "relativeToParent": false,
+          "dependsOnParent": true,
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "type": "text",
+          "text": "face care",
+          "letterSpacing": 0,
+          "innerGravity": "start",
+          "minDuration": "as_template",
+          "startFrame": 25,
+          "font": "bloggersans",
+          "textSize": "0.049m",
+          "animationParamIn": {
+            "lineDelay": 6,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 10
+              },
+              {
+                "type": "move_to_x",
+                "from": -0.6,
+                "to": 0,
+                "duration": 15,
+                "interpolator": "beautyOut"
+              },
+              {
+                "type": "clip",
+                "direction": "left_to_right",
+                "duration": 15,
+                "interpolator": "beautyOut"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": -0.1333764,
+      "translationX": 0.533818,
+      "anchorX": "start",
+      "anchorY": "center",
+      "medias": [
+        {
+          "id": "dot4",
+          "type": "image",
+          "backgroundColor": "#000000",
+          "isEditable": false,
+          "width": "0.015w",
+          "height": "0.015w",
+          "y": "0.03h",
+          "translationX": -0.05,
+          "anchorY": "center",
+          "startFrame": 27,
+          "animatorsIn": [
+            {
+              "type": "scale",
+              "from": 0,
+              "to": 1,
+              "duration": 15,
+              "interpolator": "beautyOut"
+            },
+            {
+              "type": "radius",
+              "from": 1,
+              "to": 1,
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "relativeToParent": false,
+          "dependsOnParent": true,
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "type": "text",
+          "text": "spa packages",
+          "letterSpacing": 0,
+          "innerGravity": "start",
+          "minDuration": "as_template",
+          "startFrame": 29,
+          "font": "bloggersans",
+          "textSize": "0.049m",
+          "animationParamIn": {
+            "lineDelay": 6,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 10
+              },
+              {
+                "type": "move_to_x",
+                "from": -0.6,
+                "to": 0,
+                "duration": 15,
+                "interpolator": "beautyOut"
+              },
+              {
+                "type": "clip",
+                "direction": "left_to_right",
+                "duration": 15,
+                "interpolator": "beautyOut"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": -0.07226549,
+      "translationX": 0.533818,
+      "anchorX": "start",
+      "anchorY": "center",
+      "medias": [
+        {
+          "id": "dot5",
+          "type": "image",
+          "backgroundColor": "#000000",
+          "isEditable": false,
+          "width": "0.015w",
+          "height": "0.015w",
+          "y": "0.03h",
+          "translationX": -0.05,
+          "anchorY": "center",
+          "startFrame": 31,
+          "animatorsIn": [
+            {
+              "type": "scale",
+              "from": 0,
+              "to": 1,
+              "duration": 15,
+              "interpolator": "beautyOut"
+            },
+            {
+              "type": "radius",
+              "from": 1,
+              "to": 1,
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "relativeToParent": false,
+          "dependsOnParent": true,
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "type": "text",
+          "text": "natural treatment",
+          "letterSpacing": 0,
+          "innerGravity": "start",
+          "minDuration": "as_template",
+          "startFrame": 33,
+          "font": "bloggersans",
+          "textSize": "0.049m",
+          "animationParamIn": {
+            "lineDelay": 6,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 10
+              },
+              {
+                "type": "move_to_x",
+                "from": -0.6,
+                "to": 0,
+                "duration": 15,
+                "interpolator": "beautyOut"
+              },
+              {
+                "type": "clip",
+                "direction": "left_to_right",
+                "duration": 15,
+                "interpolator": "beautyOut"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

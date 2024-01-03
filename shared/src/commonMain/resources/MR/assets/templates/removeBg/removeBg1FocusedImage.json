@@ -1,0 +1,158 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "listDemoPreferredDuration": 80,
+  "palette": {
+    "bgImageOrGradientCanBeSet": true,
+    "backgroundGradient": {
+      "colors": [
+        "#ffFFFFFF",
+        "#ffFCEEF5"
+      ],
+      "offsets": [
+        0.05,
+        0.7
+      ],
+      "orientation": "TL_BR"
+    },
+    "choices": [
+      {
+        "color": "#FFFFFF",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text1"
+          },
+          {
+            "type": "textColor",
+            "id": "text2"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "text1",
+      "type": "text",
+      "text": "Available\nfor ordering",
+      "alignBy": "top_center",
+      "innerGravity": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "y": "120/1920h",
+      "startFrame": 10,
+      "minDuration": "as_template",
+      "font": {
+        "fontPath": "made"
+      },
+      "textGradient": {
+        "colors": [
+          "#FFFF5B94",
+          "#FF8441A4"
+        ],
+        "orientation": "TL_BR"
+      },
+      "textSize": "0.140m",
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 15,
+          "from": 0,
+          "to": 1
+        },
+        {
+          "type": "scale",
+          "interpolator": "flatIn25expOut",
+          "from": 3,
+          "to": 1,
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "assets://template-resources/removeBg/FocusedImage/demoPhoto1.png",
+      "width": "743/1080w",
+      "height": "933/1920h",
+      "alignBy": "top_center",
+      "y": "554/1920h",
+      "isEditable": true,
+      "removeBgOnInsert": true,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 1.8,
+          "to": 1,
+          "duration": 40,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.07,
+            "y1": 0,
+            "x2": 0,
+            "y2": 1.05
+          }
+        },
+        {
+          "type": "fade",
+          "duration": 40,
+          "from": 0,
+          "to": 1,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.07,
+            "y1": 0,
+            "x2": 0,
+            "y2": 1.05
+          }
+        }
+      ]
+    },
+    {
+      "id": "text2",
+      "type": "text",
+      "text": "new version",
+      "alignBy": "top_center",
+      "innerGravity": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "y": "1630/1920h",
+      "startFrame": 15,
+      "minDuration": "as_template",
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "bold"
+      },
+      "textSize": "0.078m",
+      "textGradient": {
+        "colors": [
+          "#FFFF5B94",
+          "#FF8441A4"
+        ],
+        "orientation": "TL_BR"
+      },
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 15,
+          "from": 0,
+          "to": 1
+        },
+        {
+          "type": "scale",
+          "interpolator": "flatIn25expOut",
+          "from": 3,
+          "to": 1,
+          "duration": 30
+        }
+      ]
+    }
+  ]
+}

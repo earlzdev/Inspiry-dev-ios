@@ -1,0 +1,510 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          },
+          {
+            "type": "vector",
+            "id": "line_left"
+          },
+          {
+            "type": "vector",
+            "id": "line_right"
+          },
+          {
+            "type": "vector",
+            "id": "vectorDots"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "vector",
+            "id": "shape_left_1"
+          },
+          {
+            "type": "vector",
+            "id": "shape_left_2"
+          },
+          {
+            "type": "vector",
+            "id": "shape_right_1"
+          },
+          {
+            "type": "vector",
+            "id": "shape_right_2"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "line_left",
+      "type": "vector",
+      "width": "925",
+      "height": "1543",
+      "isMovable": true,
+      "anchorY": "bottom",
+      "originalSource": "assets://template-resources/beauty/Beauty4SlideMasked/line_left.json",
+      "minDuration": "as_template"
+    },
+    {
+      "id": "shape_left_1",
+      "type": "vector",
+      "width": "818",
+      "height": "1197",
+      "isMovable": true,
+      "anchorY": "bottom",
+      "originalSource": "assets://template-resources/beauty/Beauty4SlideMasked/back_left_1.json",
+
+      "minDuration": "as_template"
+    },
+    {
+      "id": "shape_left_2",
+      "type": "vector",
+      "width": "775",
+      "height": "1088",
+      "isMovable": true,
+      "anchorY": "bottom",
+      "originalSource": "assets://template-resources/beauty/Beauty4SlideMasked/back_left_2.json",
+      "minDuration": "as_template"
+    },
+    {
+      "id": "line_right",
+      "type": "vector",
+      "width": "586",
+      "height": "914",
+      "isMovable": true,
+      "anchorX": "end",
+      "originalSource": "assets://template-resources/beauty/Beauty4SlideMasked/line_right.json",
+      "minDuration": "as_template"
+    },
+    {
+      "id": "shape_right_1",
+      "type": "vector",
+      "width": "558",
+      "height": "778",
+      "isMovable": true,
+      "anchorX": "end",
+      "originalSource": "assets://template-resources/beauty/Beauty4SlideMasked/back_right_1.json",
+      "minDuration": "as_template"
+    },
+    {
+      "id": "shape_right_2",
+      "type": "vector",
+      "width": "500",
+      "height": "654",
+      "isMovable": true,
+      "anchorX": "end",
+      "originalSource": "assets://template-resources/beauty/Beauty4SlideMasked/back_right_2.json",
+      "minDuration": "as_template"
+    },
+
+    {
+      "type": "group",
+      "width": "896",
+      "height": "1388",
+      "y": "188",
+      "alignBy": "top_center",
+      "slides": {
+        "maxCount": 5,
+        "startFrame": 0,
+        "startFrameInterval": 52,
+        "predefined": [
+          {
+            "type": "image",
+            "demoSource": "https://images.unsplash.com/photo-1494354145959-25cb82edf23d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+            "templateMask": {
+              "textures": [
+                {
+                  "type": "textureMedia",
+                  "textureSource": "assets://template-resources/beauty/Beauty4SlideMasked/mask_1.json"
+                }
+              ]
+            },
+            "animatorsIn": [
+              {
+                "type": "scale_inner",
+                "duration": 70,
+                "from": 1,
+                "to": 1.08
+              },
+              {
+                "type": "radius",
+                "from": 0.25,
+                "to": 0.25
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "demoSource": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=600&q=80",
+            "width": "match_parent",
+            "height": "match_parent",
+            "templateMask": {
+              "textures": [
+                {
+                  "type": "textureMedia",
+                  "textureSource": "assets://template-resources/beauty/Beauty4SlideMasked/mask_2.json"
+                }
+              ]
+            },
+            "animatorsIn": [
+              {
+                "type": "scale_inner",
+                "duration": 70,
+                "from": 1,
+                "to": 1.08
+              },
+              {
+                "type": "radius",
+                "from": 0.25,
+                "to": 0.25
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "demoSource": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+            "width": "match_parent",
+            "height": "match_parent",
+            "startFrame": 104,
+            "templateMask": {
+              "textures": [
+                {
+                  "startFrame": 104,
+                  "type": "textureMedia",
+                  "textureSource": "assets://template-resources/beauty/Beauty4SlideMasked/mask_1.json"
+                }
+              ]
+            },
+            "animatorsIn": [
+              {
+                "type": "scale_inner",
+                "duration": 70,
+                "from": 1,
+                "to": 1.08
+              },
+              {
+                "type": "radius",
+                "from": 0.25,
+                "to": 0.25
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "demoSource": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=600&q=80",
+            "width": "match_parent",
+            "height": "match_parent",
+            "templateMask": {
+              "textures": [
+                {
+                  "type": "textureMedia",
+                  "textureSource": "assets://template-resources/beauty/Beauty4SlideMasked/mask_2.json"
+                }
+              ]
+            },
+            "animatorsIn": [
+              {
+                "type": "scale_inner",
+                "duration": 70,
+                "from": 1,
+                "to": 1.08
+              },
+              {
+                "type": "radius",
+                "from": 0.25,
+                "to": 0.25
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "vectorDots",
+      "type": "vector",
+      "width": "0.20778887w",
+      "height": "0.047511313h",
+      "translationX": 0.39617357,
+      "translationY": 0.04061041,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/beauty/Beauty4SlideMasked/dot.json",
+      "minDuration": "as_template"
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "text": "inspired",
+      "font": {
+        "fontPath": "cormorant",
+        "fontStyle": "bold"
+      },
+      "delayBeforeEnd": 30,
+      "textColor": "#000000",
+      "translationY": 0.35671622,
+      "textSize": "0.063937604m",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "startFrame": 170,
+      "animationParamIn": {
+        "lineDelay": 10,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 16
+          },
+          {
+            "type": "move_to_y",
+            "from": -1,
+            "to": 0,
+            "duration": 16,
+            "interpolator": "beautyOut"
+          }
+        ]
+      },
+      "animationParamOut": {
+        "lineDelay": 10,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 1,
+            "to": 0,
+            "duration": 16,
+            "interpolator": "cubicIn"
+          },
+          {
+            "type": "move_to_y",
+            "from": 0,
+            "to": 1,
+            "duration": 16,
+            "interpolator": "cubicIn"
+          }
+        ]
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "text": "best lips",
+      "font": {
+        "fontPath": "cormorant",
+        "fontStyle": "bold"
+      },
+      "delayBeforeEnd": 30,
+      "textColor": "#000000",
+      "translationY": 0.35671622,
+      "textSize": "0.063937604m",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "startFrame": 115,
+      "animationParamIn": {
+        "lineDelay": 10,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 16
+          },
+          {
+            "type": "move_to_y",
+            "from": -1,
+            "to": 0,
+            "duration": 16,
+            "interpolator": "beautyOut"
+          }
+        ]
+      },
+      "animationParamOut": {
+        "lineDelay": 10,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 1,
+            "to": 0,
+            "duration": 16,
+            "interpolator": "cubicIn"
+          },
+          {
+            "type": "move_to_y",
+            "from": 0,
+            "to": 1,
+            "duration": 16,
+            "interpolator": "cubicIn"
+          }
+        ]
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "text": "professional",
+      "font": {
+        "fontPath": "cormorant",
+        "fontStyle": "bold"
+      },
+      "delayBeforeEnd": 30,
+      "textColor": "#000000",
+      "translationY": 0.35671622,
+      "textSize": "0.063937604m",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "startFrame": 60,
+      "animationParamIn": {
+        "lineDelay": 10,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 16
+          },
+          {
+            "type": "move_to_y",
+            "from": -1,
+            "to": 0,
+            "duration": 16,
+            "interpolator": "beautyOut"
+          }
+        ]
+      },
+      "animationParamOut": {
+        "lineDelay": 10,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 1,
+            "to": 0,
+            "duration": 16,
+            "interpolator": "cubicIn"
+          },
+          {
+            "type": "move_to_y",
+            "from": 0,
+            "to": 1,
+            "duration": 16,
+            "interpolator": "cubicIn"
+          }
+        ]
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "text": "perfect eyes",
+      "font": {
+        "fontPath": "cormorant",
+        "fontStyle": "bold"
+      },
+      "delayBeforeEnd": 30,
+      "textColor": "#000000",
+      "translationY": 0.35671622,
+      "textSize": "0.063937604m",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "startFrame": 10,
+      "animationParamIn": {
+        "lineDelay": 10,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 16
+          },
+          {
+            "type": "move_to_y",
+            "from": -1,
+            "to": 0,
+            "duration": 16,
+            "interpolator": "beautyOut"
+          }
+        ]
+      },
+      "animationParamOut": {
+        "lineDelay": 10,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 1,
+            "to": 0,
+            "duration": 16,
+            "interpolator": "cubicIn"
+          },
+          {
+            "type": "move_to_y",
+            "from": 0,
+            "to": 1,
+            "duration": 16,
+            "interpolator": "cubicIn"
+          }
+        ]
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "text": "Make up Style",
+      "font": "made_script",
+      "minDuration": "as_template",
+      "textColor": "#000000",
+      "translationY": 0.4369193,
+      "textSize": "0.13150239m",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "startFrame": 10,
+      "animationParamIn": {
+        "lineDelay": 8,
+        "textAnimators": [
+          {
+            "type": "clip",
+            "direction": "center_to_left_and_right",
+            "duration": 15,
+            "interpolator": "beautyOut"
+          }
+        ]
+      }
+    }
+  ]
+}

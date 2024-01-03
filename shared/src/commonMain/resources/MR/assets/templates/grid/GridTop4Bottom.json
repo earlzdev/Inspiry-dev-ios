@@ -1,0 +1,138 @@
+{
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "medias": [
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "width": "1w",
+      "height": "4/9h",
+      "demoOffsetY": 0.11576,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "durationMillis": 1300,
+          "interpolator": "cubicOut"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "y": "4/9h",
+      "height": "5/9h",
+      "width": "1w",
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.pexels.com/photos/2832044/pexels-photo-2832044.jpeg?auto=compress&cs=tinysrgb&w=500",
+          "width": "1/2w",
+          "height": "1/2h",
+          "paddingStart": "0.0234h",
+          "paddingTop": "0.0234h",
+          "paddingEnd": "0.0117h",
+          "paddingBottom": "0.0117h",
+          "startFrame": 15,
+          "animatorsIn": [
+            {
+              "type": "clip",
+              "direction": "top_to_bottom",
+              "durationMillis": 1300,
+              "interpolator": "cubicOut"
+            },
+            {
+              "type": "fade",
+              "durationMillis": 1100,
+              "from": 0,
+              "to": 1,
+              "interpolator": "cubicOut"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "demoSource": "https://images.pexels.com/photos/2582546/pexels-photo-2582546.jpeg?auto=compress&cs=tinysrgb&h=600&w=600",
+          "width": "1/2w",
+          "height": "1/2h",
+          "x": "1/2w",
+          "paddingEnd": "0.0234h",
+          "paddingTop": "0.0234h",
+          "paddingStart": "0.0117h",
+          "paddingBottom": "0.0117h",
+          "startFrame": 21,
+          "animatorsIn": [
+            {
+              "type": "clip",
+              "direction": "left_to_right",
+              "durationMillis": 1300,
+              "interpolator": "cubicOut"
+            },
+            {
+              "type": "fade",
+              "durationMillis": 1100,
+              "from": 0,
+              "to": 1,
+              "interpolator": "cubicOut"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "demoSource": "https://images.pexels.com/photos/3095934/pexels-photo-3095934.jpeg?auto=compress&cs=tinysrgb&h=600&w=600",
+          "width": "1/2w",
+          "height": "1/2h",
+          "y": "1/2h",
+          "paddingStart": "0.0234h",
+          "paddingBottom": "0.0234h",
+          "paddingEnd": "0.0117h",
+          "paddingTop": "0.0117h",
+          "startFrame": 26,
+          "animatorsIn": [
+            {
+              "type": "clip",
+              "direction": "left_to_right",
+              "durationMillis": 1300,
+              "interpolator": "cubicOut"
+            },
+            {
+              "type": "fade",
+              "durationMillis": 1100,
+              "from": 0,
+              "to": 1,
+              "interpolator": "cubicOut"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "demoSource": "https://images.pexels.com/photos/4620574/pexels-photo-4620574.jpeg?auto=compress&cs=tinysrgb&h=600&w=800",
+          "width": "1/2w",
+          "height": "1/2h",
+          "x": "1/2w",
+          "y": "1/2h",
+          "paddingEnd": "0.0234h",
+          "paddingBottom": "0.0234h",
+          "paddingStart": "0.0117h",
+          "paddingTop": "0.0117h",
+          "startFrame": 30,
+          "animatorsIn": [
+            {
+              "type": "clip",
+              "direction": "top_to_bottom",
+              "durationMillis": 1300,
+              "interpolator": "cubicOut"
+            },
+            {
+              "type": "fade",
+              "durationMillis": 1100,
+              "from": 0,
+              "to": 1,
+              "interpolator": "cubicOut"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

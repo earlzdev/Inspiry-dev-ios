@@ -1,0 +1,42 @@
+{
+  "type": "vector",
+  "width": "0.5m",
+  "height": "0.5m",
+  "originalSource": "assets://text-resources/swipeup/Swipe_4.json",
+  "staticFrameForEdit": "middle",
+  "anchorX": "center",
+  "anchorY": "center",
+  "isLoopEnabled": true,
+  "isMovable": true,
+  "forPremium": true,
+  "minDuration": "as_template",
+  "animatorsIn": [
+    {
+      "type": "fade",
+      "from": 0,
+      "to": 1,
+      "duration": 10
+    }
+  ],
+  "animatorsOut": [
+    {
+      "type": "fade",
+      "from": 1,
+      "to": 0,
+      "duration": 10
+    }
+  ],
+  "mediaPalette": {
+    "choices": [
+      {
+        "elements": ["Color_1"]
+      },
+      {
+        "elements": ["Color_2"]
+      },
+      {
+        "elements": ["Color_3"]
+      }
+    ]
+  }
+}

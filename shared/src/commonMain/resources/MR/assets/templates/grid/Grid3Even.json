@@ -1,0 +1,86 @@
+{
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1521651201144-634f700b36ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=80",
+      "x": "0.125w",
+      "y": "0.0469h",
+      "width": "3/4w",
+      "height": "0.2812h",
+      "minDuration": -14,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 24,
+          "interpolator": "linear25expOut"
+        }
+      ],
+      "animatorsOut": [
+        {
+          "type": "fade",
+          "from": 1,
+          "to": 0,
+          "duration": 18,
+          "interpolator": "cubicIn"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=80",
+      "x": "0.125w",
+      "y": "0.3594h",
+      "width": "3/4w",
+      "height": "0.2812h",
+      "minDuration": -9,
+      "startFrame": 15,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 24,
+          "interpolator": "linear25expOut"
+        }
+      ],
+      "animatorsOut": [
+        {
+          "type": "fade",
+          "duration": 18,
+          "from": 1,
+          "to": 0,
+          "interpolator": "cubicIn"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1500479694472-551d1fb6258d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "x": "0.125w",
+      "y": "0.6719h",
+      "width": "3/4w",
+      "height": "0.2812h",
+      "minDuration": -5,
+      "startFrame": 30,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 24,
+          "interpolator": "linear25expOut"
+        }
+      ],
+      "animatorsOut": [
+        {
+          "type": "fade",
+          "from": 1,
+          "to": 0,
+          "duration": 18,
+          "interpolator": "cubicIn"
+        }
+      ]
+    }
+  ]
+}

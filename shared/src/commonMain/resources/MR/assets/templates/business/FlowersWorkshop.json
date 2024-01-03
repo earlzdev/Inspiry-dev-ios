@@ -1,0 +1,241 @@
+{
+  "preferredDuration": 240,
+  "availability": "FREE",
+  "timeForEdit": 120,
+  "backgroundColor": "#EAC7E2",
+  "palette": {
+    "defaultTextColor": "#ffffff",
+    "choices": [
+      {
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "borderColor",
+            "id": "img"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          },
+          {
+            "type": "vector",
+            "id": "arrow"
+          }
+        ]
+      },
+      {
+        "color": "#B6D27A",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "txt"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "img",
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1584461730592-5bfab6460bae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "900/1080w",
+      "height": "1628/1920h",
+      "cornerRadiusPosition": "only_bottom",
+      "borderColor": "#FFDFFE",
+      "borderType": "outside",
+      "borderWidth": "0.012w",
+      "anchorX": "center",
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": -1,
+          "to": 0.08,
+          "duration": 56,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 1,
+          "duration": 30,
+          "startFrame": 56,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": 0.08,
+          "to": -0.008,
+          "duration": 30,
+          "startFrame": 56,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "radius",
+          "from": 0,
+          "to": 0.2,
+          "duration": 30,
+          "startFrame": 56,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "id": "txt",
+      "minDuration": "as_template",
+      "type": "text",
+      "text": "WORKSHOP\n5 beauty secrets",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "innerGravity": "center",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationY": -0.38643005,
+      "startFrame": 10,
+      "font": {
+        "fontPath": "nunito",
+        "fontStyle": "bold"
+      },
+      "textColor": "#ffffff",
+      "backgroundColor": "#B6D27A",
+      "paddingStart": "0.06w",
+      "paddingEnd": "0.06w",
+      "paddingTop": "0.02w",
+      "paddingBottom": "0.02w",
+      "lineSpacing": 0.86,
+      "textSize": "0.0343s",
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "from": 0.3,
+          "to": 0.3,
+          "duration": 0
+        },
+        {
+          "type": "clip",
+          "duration": 20,
+          "direction": "center_to_left_and_right",
+          "interpolator": "easeOut",
+          "clipDefault": false
+        },
+        {
+          "type": "clip",
+          "duration": 20,
+          "startFrame": 10,
+          "from": 0.3,
+          "direction": "top_to_bottom",
+          "interpolator": "elegantlySlowOut",
+          "clipDefault": false
+        }
+      ],
+      "animationParamIn": {
+        "lineDelayMillis": 200,
+        "textAnimators": [
+          {
+            "startFrame": 15,
+            "type": "clip",
+            "duration": 18,
+            "direction": "top_to_bottom",
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    },
+    {
+      "originalSource": "assets://template-resources/business/FlowersWorkshop/swipe_up.json",
+      "isMovable": true,
+      "id": "arrow",
+      "type": "vector",
+      "width": "136",
+      "height": "190",
+      "y": "350",
+      "anchorX": "center",
+      "anchorY": "bottom",
+      "minDuration": "as_template",
+      "startFrame": 63,
+      "isLoopEnabled": true
+    },
+    {
+      "type": "group",
+      "width": "1w",
+      "height": "1h",
+      "loopedAnimationInterval": 0,
+      "startFrame": 58,
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0,
+          "to": -0.018,
+          "duration": 20,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.42,
+            "y1": 0.0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        },
+        {
+          "type": "move_to_y",
+          "from": -0.018,
+          "to": 0,
+          "duration": 20,
+          "startFrame": 20,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.42,
+            "y1": 0.0,
+            "x2": 0.58,
+            "y2": 1
+          }
+        }
+      ],
+      "medias": [
+        {
+          "minDuration": "as_template",
+          "type": "text",
+          "text": "swipe up",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "innerGravity": "center",
+          "anchorY": "bottom",
+          "anchorX": "center",
+          "translationY": -0.040631518,
+          "startFrame": 60,
+          "font": {
+            "fontPath": "nunito",
+            "fontStyle": "bold"
+          },
+          "textColor": "#ffffff",
+          "lineSpacing": 0.9,
+          "textSize": "0.07848s",
+          "animationParamIn": {
+            "lineDelayMillis": 600,
+            "textAnimators": [
+              {
+                "type": "clip",
+                "duration": 20,
+                "direction": "none"
+              },
+              {
+                "type": "move_to_y",
+                "from": 1,
+                "to": 0,
+                "duration": 20,
+                "interpolator": "elegantlySlowOut"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

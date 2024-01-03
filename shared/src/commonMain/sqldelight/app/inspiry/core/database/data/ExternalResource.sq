@@ -1,0 +1,35 @@
+CREATE TABLE ExternalResource (
+    externalName TEXT NOT NULL PRIMARY KEY,
+    path TEXT UNIQUE NOT NULL,
+    usagesCount INTEGER NOT NULL
+);
+
+insertResourceNew:
+INSERT INTO ExternalResource(externalName, path, usagesCount)
+VALUES(?, ?, ?);
+
+updateUsagesCount:
+UPDATE ExternalResource
+SET usagesCount = ?
+WHERE path = ?;
+
+selectResourceByName:
+SELECT * FROM ExternalResource
+WHERE externalName = ?;
+
+selectResourceByPath:
+SELECT * FROM ExternalResource
+WHERE path = ?;
+
+deleteResourceByPath:
+DELETE FROM ExternalResource
+WHERE path = ?;
+
+updateMultipleUsageCount:
+UPDATE ExternalResource SET usagesCount = usagesCount + 1 WHERE path IN ?;
+
+selectAll:
+SELECT * FROM ExternalResource;
+
+removeAll:
+DELETE FROM ExternalResource;

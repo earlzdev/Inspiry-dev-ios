@@ -1,0 +1,93 @@
+{
+  "preferredDuration": 180,
+  "availability": "INSTAGRAM_SUBSCRIBED",
+  "medias": [
+    {
+      "type": "group",
+      "backgroundColor": "#ffffff",
+      "width": "match_parent",
+      "height": "match_parent",
+      "templateMask": {
+        "maskBrightness": {
+          "redFactor": 0.299,
+          "greenFactor": 0.587,
+          "blueFactor": 0.114,
+          "addValue": -0.1
+        },
+        "shaderType": "INVERTED_MASK",
+        "texturesID": [
+          "textMask"
+        ],
+        "textures": [
+          {
+            "type": "textureMedia",
+            "textureSource": "assets://template-resources/gradient/WaveGradientTextMask/mask.mp4",
+            "isLoopEnabled": true
+          }
+        ]
+      },
+      "medias": [
+        {
+          "width": "1w",
+          "height": "1h",
+          "demoSource": "https://images.pexels.com/photos/4338498/pexels-photo-4338498.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+          "type": "image",
+          "minDuration": "as_template",
+          "animatorsAll": [
+            {
+              "type": "scale",
+              "from": 1.0,
+              "to": 1.2,
+              "duration": "all"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "textMask",
+      "type": "group",
+      "backgroundColor": "#ffffff",
+      "width": "match_parent",
+      "height": "match_parent",
+      "medias": [
+        {
+          "type": "text",
+          "minDuration": "as_template",
+          "text": "NEW\nPOST\nREAD",
+          "innerGravity": "center",
+          "anchorY": "center",
+          "anchorX": "center",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "font": {
+            "fontPath": "made",
+            "fontStyle": "bold"
+          },
+          "textSize": "0.31w",
+          "textColor": "#000000",
+          "lineSpacing": 0.7,
+          "animationParamIn": {
+            "lineDelay": 20,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "duration": 40,
+                "interpolator": "flatIn25expOut",
+                "from": 0,
+                "to": 1
+              },
+              {
+                "type": "scale",
+                "interpolator": "flatIn25expOut",
+                "from": 1.2,
+                "to": 1,
+                "duration": 40
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

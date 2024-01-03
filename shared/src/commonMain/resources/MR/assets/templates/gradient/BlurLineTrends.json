@@ -1,0 +1,241 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "backgroundColor": "#E860D5",
+  "palette": {
+    "defaultTextColor": "#ffffff",
+    "backgroundImage": "assets://template-resources/gradient/BlurLineTrends/bg.mp4",
+    "backgroundVideoStartMs": 0,
+    "backgroundVideoLooped": true,
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "textTitle"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "textBottom"
+          }
+        ]
+      },
+      {
+        "color": "#6C277C",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "textBottom"
+          }
+        ]
+      },
+      {
+        "color": "#EE00FF",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "rectLeft"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "rectRight"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "path",
+      "width": "852/1080w",
+      "height": "600/1920h",
+      "id": "rectLeft",
+      "backgroundColor": "#EE00FF",
+      "y": "138/1920h",
+      "x": "85/1080w",
+      "startFrame": 25,
+      "animatorsIn": [
+        {
+          "duration": 30,
+          "type": "clip",
+          "direction": "center_to_top_and_bottom",
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "id": "rectRight",
+      "type": "path",
+      "width": "856/1080w",
+      "height": "646/1920h",
+      "backgroundColor": "#EE00FF",
+      "y": "196/1920h",
+      "x": "139/1080w",
+      "anchorY": "bottom",
+      "startFrame": 23,
+      "animatorsIn": [
+        {
+          "duration": 30,
+          "type": "clip",
+          "direction": "center_to_top_and_bottom",
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1594134235357-a82d716b3e04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "width": "861/1080w",
+      "height": "1538/1920h",
+      "anchorX": "center",
+      "y": "160/1920h",
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "duration": 30,
+          "type": "clip",
+          "direction": "center_to_top_and_bottom",
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "match_parent",
+      "height": "wrap_content",
+      "y": "725/1920h",
+      "medias": [
+        {
+          "type": "image",
+          "isEditable": false,
+          "originalSource": "assets://template-resources/gradient/BlurLineTrends/blur_line.png",
+          "width": "match_parent",
+          "height": "match_parent",
+          "paddingTop": "0.020w",
+          "paddingBottom": "0.025w",
+          "anchorY": "center",
+          "startFrame": 10,
+          "animatorsIn": [
+            {
+              "duration": 20,
+              "type": "clip",
+              "direction": "bottom_to_top",
+              "interpolator": "easeOut"
+            },
+            {
+              "type": "move_to_y",
+              "from": 0.05,
+              "to": 0,
+              "interpolator": "easeOut",
+              "duration": 20
+            }
+          ]
+        },
+        {
+          "id": "textTitle",
+          "canMoveX": false,
+          "width": "match_parent",
+          "height": "wrap_content",
+          "type": "text",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "text": "TRENDS",
+          "innerGravity": "center",
+          "font": {
+            "fontPath": "mont",
+            "fontStyle": "bold"
+          },
+          "paddingTop": "0.0001w",
+          "paddingBottom": "0.0001w",
+          "y": "8/1080m",
+          "textSize": "0.14s",
+          "anchorX": "center",
+          "anchorY": "center",
+          "textColor": "#ffffff",
+          "minDuration": "as_template",
+          "startFrame": 20,
+          "animatorsIn": [
+            {
+              "type": "move_to_x",
+              "from": 0.1,
+              "to": 0,
+              "duration": 30,
+              "relativity": "ROOT",
+              "interpolator": "elegantlySlowOut"
+            }
+          ],
+          "animationParamIn": {
+            "charInterpolator": {
+              "type": "accelerate",
+              "factor": 0.8
+            },
+            "charDelay": 3,
+            "textAnimators": [
+              {
+                "type": "move_to_y",
+                "from": 0.5,
+                "to": 0,
+                "duration": 9,
+                "interpolator": "elegantlySlowOut"
+              },
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 9,
+                "interpolator": "elegantlySlowOut"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "textBottom",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "NEW COLLECTION",
+      "innerGravity": "center",
+      "textSize": "0.05m",
+      "font": {
+        "fontPath": "mont",
+        "fontStyle": "bold"
+      },
+      "anchorX": "center",
+      "anchorY": "center",
+      "backgroundColor": "#ffffff",
+      "minDuration": "as_template",
+      "textColor": "#6C277C",
+      "letterSpacing": 0.02,
+      "translationY": 0.44730172,
+      "paddingStart": "15/1080w",
+      "paddingEnd": "15/1080w",
+      "paddingTop": "5/1920h",
+      "paddingBottom": "3/1920h",
+      "startFrame": 25,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "center_to_left_and_right",
+          "duration": 20,
+          "from": 0.4,
+          "to": 1,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 6,
+          "interpolator": "cubicIn"
+        }
+      ],
+      "animationParamIn": {
+        "charDelayMillis": 70
+      }
+    }
+  ]
+}

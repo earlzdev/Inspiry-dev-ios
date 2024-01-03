@@ -1,0 +1,10 @@
+{
+  "type": "text",
+  "text": "Enter your text here",
+  "innerGravity": "center",
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff"
+}

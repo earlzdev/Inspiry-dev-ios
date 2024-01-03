@@ -1,0 +1,46 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1518223895199-a195cc516926?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "width": "1w",
+      "height": "1h",
+      "minDuration": "as_template",
+      "templateMask": {
+        "shaderType": "CLIP_DISPLACE_RSCALE",
+        "isPixelSizeAvailable": true,
+        "textures": [
+          {
+            "type": "textureMedia",
+            "textureSource": "assets://template-resources/gradient/WaterAlphaDisplace/mask.mp4",
+            "clipTextures": [
+              {
+                "left": 0,
+                "top": 1,
+                "right": 0.33333333,
+                "bottom": 0
+              },
+              {
+                "left": 0.33333333,
+                "top": 1,
+                "right": 0.66666666,
+                "bottom": 0
+              },
+              {
+                "left": 0.66666666,
+                "top": 1,
+                "right": 1,
+                "bottom": 0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

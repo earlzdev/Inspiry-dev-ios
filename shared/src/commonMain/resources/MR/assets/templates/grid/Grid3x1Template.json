@@ -1,0 +1,113 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1551524164-e7fceddaf8fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "width": "1w",
+      "height": "0.33h",
+      "anchorY": "top",
+      "demoOffsetY": 0.2954621,
+      "paddingBottom": "1/128min",
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 1.0,
+          "to": 1.515,
+          "duration": 45,
+          "startFrame": 3,
+          "interpolator": "flatIn50expOut"
+        },
+        {
+          "type": "scale",
+          "from": 1.515,
+          "to": 1.0,
+          "duration": 30,
+          "startFrame": 48,
+          "interpolator": "flatIn50expOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": -0.33,
+          "to": 0.084975,
+          "duration": 45,
+          "startFrame": 3,
+          "interpolator": "flatIn50expOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": 0.084975,
+          "to": 0,
+          "duration": 30,
+          "startFrame": 48,
+          "interpolator": "flatIn50expOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1592654985193-2c45dfb4a174?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "width": "1w",
+      "height": "0.33h",
+      "alignBy": "center",
+      "minDuration": 78,
+      "demoOffsetY": 0.28270116,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 3.1,
+          "to": 1.515,
+          "duration": 45,
+          "startFrame": 3,
+          "interpolator": "flatIn50expOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": 0,
+          "to": 0.255,
+          "duration": 45,
+          "startFrame": 3,
+          "interpolator": "flatIn50expOut"
+        }
+      ],
+      "animatorsOut": [
+        {
+          "type": "scale",
+          "from": 1.515,
+          "to": 1.0,
+          "duration": 30,
+          "interpolator": "flatIn50expOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": 0.255,
+          "to": 0,
+          "duration": 30,
+          "interpolator": "flatIn50expOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1551523891-51d1aaadfec8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "width": "1w",
+      "height": "0.33h",
+      "anchorX": "center",
+      "anchorY": "bottom",
+      "paddingTop": "1/128min",
+      "demoOffsetY": -0.07196088,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0.33,
+          "to": 0,
+          "duration": 30,
+          "startFrame": 48,
+          "interpolator": "flatIn50expOut"
+        }
+      ]
+    }
+  ]
+}

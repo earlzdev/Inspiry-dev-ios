@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:background="@color/share_dialog_bg_dark"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/timeline_control_panel_height">
+
+        <ImageView
+            android:scaleType="centerInside"
+            android:id="@+id/iconPlayPause"
+            android:src="@drawable/dr_ic_play_trim"
+            android:layout_gravity="center"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/textCurrentTime"
+            android:layout_marginEnd="22dp"
+            android:textColor="#BDBDBD"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end" />
+    </FrameLayout>
+
+
+</FrameLayout>

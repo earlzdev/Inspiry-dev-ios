@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5C59FC</color>
+    <color name="colorPrimaryDark">#4C49EC</color>
+    <color name="colorAccent">#4C8BFD</color>
+
+    <color name="addImageBg">#e8e8e8</color>
+    <color name="template_activity_bg">#fafafa</color>
+    <color name="tab_main_templates_inactive">#A8A8A8</color>
+    <color name="tab_main_templates_active">#5161F6</color>
+
+    <color name="share_dialog_bg_dark">#202020</color>
+
+    <color name="template_context_dialog_bg">#ECECEC</color>
+
+    <color name="navigation_bar_color">@android:color/black</color>
+
+    <color name="selected_media_border">#A0A0A0</color>
+    <color name="selected_edit_template">#BDBDBD</color>
+
+    <color name="main_activity_color">#FBFBFB</color>
+    <color name="status_bar_color">@android:color/black</color>
+
+    <color name="ripple_on_white_color">#66ABABAB</color>
+    <color name="ripple_on_gray_color">#99ffffff</color>
+
+    <color name="edit_toolbar_text">#333333</color>
+
+    <color name="stories_icon_circle">#7fffffff</color>
+
+    <color name="subscribe_activity_bg">#FBFBFB</color>
+    <color name="subscribe_button_active">#374CD3</color>
+    <color name="subscribe_button_inactive">#ff828282</color>
+    <color name="subscribe_support">#4C8BFD</color>
+
+    <color name="text_color_btn_selected">#dadada</color>
+    <color name="text_color_btn_unselected">#6a6a6a</color>
+    <color name="text_color_btn_fill">#2b2b2b</color>
+
+    <color name="palette_btn_bg_unactivated">#2A2A2A</color>
+    <color name="palette_btn_bg_activated">#3E3E3E</color>
+
+    <color name="palette_btn_text_activated">#E0E0E0</color>
+    <color name="palette_btn_text_unactivated">#828282</color>
+
+    <color name="text_animations_tab_unselected">#828282</color>
+    <color name="text_animations_activity_bg">#333333</color>
+    <color name="tab_bg_selected">#E3E6FF</color>
+
+    <color name="edit_instruments_bg">#202020</color>
+
+    <color name="rating_grey_500">#9E9E9E</color>
+    <color name="rating_grey_200">#EEEEEE</color>
+    <color name="rating_grey_400">#BDBDBD</color>
+
+    <color name="removing_bg_background">#EF364145</color>
+</resources>

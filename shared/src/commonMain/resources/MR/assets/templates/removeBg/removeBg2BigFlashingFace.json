@@ -1,0 +1,202 @@
+{
+  "preferredDuration": 240,
+  "listDemoPreferredDuration": 110,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": true,
+    "choices": [
+      {
+        "color": "#FAF9FF",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#502C27",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text1"
+          }
+        ]
+      },
+      {
+        "color": "#EDA48D",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "image1"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.pexels.com/photos/4992395/pexels-photo-4992395.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "isEditable": true,
+      "alignBy": "top_center",
+      "width": "950/1080w",
+      "height": "1400/1920h",
+      "y": "93/1920h",
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0.15,
+          "to": 0,
+          "duration": 35,
+          "interpolator": "lightOut"
+        },
+        {
+          "type": "radius",
+          "from": 0.25,
+          "to": 0.25,
+          "duration": 0
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 0,
+          "duration": 4
+        },
+        {
+          "type": "fade",
+          "startFrame": 5,
+          "from": 0.8,
+          "to": 0.8,
+          "duration": 9
+        },
+        {
+          "type": "fade",
+          "startFrame": 15,
+          "from": 0.1,
+          "to": 0.1,
+          "duration": 4
+        },
+        {
+          "type": "fade",
+          "startFrame": 20,
+          "from": 0.9,
+          "to": 0.9,
+          "duration": 4
+        },
+        {
+          "type": "fade",
+          "startFrame": 25,
+          "from": 0.25,
+          "to": 0.25,
+          "duration": 9
+        },
+        {
+          "type": "fade",
+          "startFrame": 35,
+          "from": 1,
+          "to": 1,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": "image1",
+      "type": "image",
+      "backgroundColor": "#EDA48D",
+      "isEditable": false,
+      "isMovable": true,
+      "width": "516/1080w",
+      "height": "516/1920h",
+      "y": "1363/1920h",
+      "x": "658/1080w",
+      "startFrame": 15,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "circular",
+          "duration": 0
+        },
+        {
+          "type": "move_to_y",
+          "from": 0.05,
+          "to": 0,
+          "duration": 25,
+          "interpolator": "lightOut"
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 0.9,
+          "duration": 25,
+          "interpolator": "lightOut"
+        },
+        {
+          "type": "scale",
+          "from": 0.4,
+          "to": 1,
+          "duration": 25,
+          "interpolator": "lightOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "assets://template-resources/removeBg/BigFlashingFace/demoPhoto2.png",
+      "width": "300/1080w",
+      "height": "602/1920h",
+      "y": "1233/1920h",
+      "x": "735/1080w",
+      "alignBy": "top_start",
+      "removeBgOnInsert": true,
+      "isEditable": true,
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0.05,
+          "to": 0,
+          "duration": 25,
+          "interpolator": "lightOut"
+        },
+        {
+          "type": "fade",
+          "duration": 25,
+          "from": 0,
+          "to": 1,
+          "interpolator": "lightOut"
+        }
+      ]
+    },
+    {
+      "id": "text1",
+      "type": "text",
+      "text": "FOR\nYOUR FACE",
+      "innerGravity": "start",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "y": "1540/1920h",
+      "x": "60/1080w",
+      "startFrame": 15,
+      "minDuration": "as_template",
+      "font": {
+        "fontPath": "mont",
+        "fontStyle": "bold"
+      },
+      "textSize": "0.115m",
+      "textColor": "#502C27",
+      "animationParamIn": {
+        "lineDelayMillis": 200,
+        "textAnimators": [
+          {
+            "type": "move_to_x",
+            "duration": 30,
+            "from": -2,
+            "to": 0,
+            "interpolator": "lightOut"
+          }
+        ]
+      }
+    }
+  ]
+}

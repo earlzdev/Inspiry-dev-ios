@@ -1,0 +1,68 @@
+{
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "type": "text",
+  "text": "Fast text\nis displayed\nline by line",
+  "innerGravity": "left",
+  "textSize": "2/17w",
+  "delayBeforeEnd": 45,
+  "backgroundMarginLeft": 0.2,
+  "backgroundMarginRight": 0.2,
+  "font": {
+    "fontStyle": "regular",
+    "fontPath": "dinpro"
+  },
+  "animationParamIn": {
+    "lineDelayMillis": 200,
+    "textAnimators": [
+      {
+        "type": "move_to_x",
+        "duration": 9,
+        "from": -1,
+        "to": 0,
+        "interpolator": "expOut"
+      }
+    ],
+    "backgroundAnimators": [
+      {
+        "type": "clip",
+        "direction": "left_to_right",
+        "interpolator": "flatInExpOut",
+        "duration": 14
+      }
+    ]
+  },
+  "animationParamOut": {
+    "lineDelayMillis": 100,
+    "textAnimators": [
+      {
+        "type": "move_to_x",
+        "duration": 9,
+        "from": 0,
+        "to": 1,
+        "interpolator": "expIn"
+      },
+      {
+        "type": "fade",
+        "durationMillis": 33,
+        "startFrame": 9,
+        "from": 1,
+        "to": 0,
+        "interpolator": "expIn"
+      }
+    ],
+    "backgroundAnimators": [
+      {
+        "type": "clip",
+        "from": 1,
+        "to": 0,
+        "direction": "right_to_left",
+        "interpolator": "cubicIn",
+        "duration": 10
+      }
+    ]
+  }
+}

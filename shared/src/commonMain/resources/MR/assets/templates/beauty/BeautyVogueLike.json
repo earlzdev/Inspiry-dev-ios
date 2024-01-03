@@ -1,0 +1,437 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "choices": [
+      {
+        "color": "#200323",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "textLeft1"
+          },
+          {
+            "type": "textColor",
+            "id": "textLeft2"
+          },
+          {
+            "type": "textColor",
+            "id": "textLeft3"
+          },
+          {
+            "type": "textColor",
+            "id": "textRight1"
+          },
+          {
+            "type": "textColor",
+            "id": "textRight2"
+          },
+          {
+            "type": "textColor",
+            "id": "textBottom"
+          },
+          {
+            "type": "textColor",
+            "id": "text2"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text1"
+          },
+          {
+            "type": "pathColor",
+            "id": "path"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.pexels.com/photos/3536991/pexels-photo-3536991.jpeg?auto=compress&cs=tinysrgb&h=600&w=600",
+      "width": "1w",
+      "height": "1h"
+    },
+    {
+      "type": "path",
+      "width": "1020",
+      "height": "1860",
+      "color": "#622A6B",
+      "anchorX": "center",
+      "anchorY": "center",
+      "paintStyle": "STROKE",
+      "strokeWidth": "0.005m",
+      "id": "path",
+      "movements": [
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 0
+        },
+        {
+          "type": "line",
+          "fromY": 0,
+          "toY": 1
+        },
+        {
+          "type": "line",
+          "fromX": 0,
+          "toX": 1,
+          "fromY": 1,
+          "toY": 1
+        },
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 1,
+          "fromY": 1,
+          "toY": 0
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "VLOG",
+      "id": "text1",
+      "backgroundMarginLeft": 0,
+      "backgroundMarginRight": 0,
+      "anchorX": "center",
+      "anchorY": "center",
+      "innerGravity": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": -0.4092657,
+      "textSize": "0.31264162m",
+      "startFrame": 5,
+      "minDuration": "as_template",
+      "font": {
+        "fontPath": "playfair",
+        "fontStyle": "bold"
+      },
+      "textColor": "#E54EFF",
+      "animationParamIn": {
+        "shuffle": true,
+        "charDelay": 7,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 3
+          },
+          {
+            "type": "fade",
+            "from": 1,
+            "to": 0.5,
+            "startFrame": 3,
+            "duration": 2
+          },
+          {
+            "type": "fade",
+            "from": 0.5,
+            "to": 1,
+            "startFrame": 5,
+            "duration": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "text2",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationX": -0.22779696,
+      "translationY": -0.28733698,
+      "textSize": "0.0591056m",
+      "type": "text",
+      "innerGravity": "center",
+      "text": "BEAUTY WEEK",
+      "font": {
+        "fontPath": "garamond",
+        "fontStyle": "bold"
+      },
+      "minDuration": "as_template",
+      "textColor": "#ffffff",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "startFrame": 20,
+      "animationParamIn": {
+        "wordDelay": 10,
+        "lineDelay": 10,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 15
+          },
+          {
+            "type": "move_to_y",
+            "from": 0.3,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "beautyOut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "textLeft1",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "type": "text",
+      "text": "10 most epic\nblog post ideas",
+      "translationX": -0.24125214,
+      "translationY": 0.053493816,
+      "textSize": "0.053302404m",
+      "lineSpacing": 1.12,
+      "innerGravity": "start",
+      "minDuration": "as_template",
+      "startFrame": 50,
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "light"
+      },
+      "textColor": "#ffffff",
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 10
+        },
+        {
+          "type": "move_to_x",
+          "from": -0.05,
+          "to": 0,
+          "duration": 15,
+          "interpolator": "beautyOut"
+        },
+        {
+          "type": "clip",
+          "direction": "left_to_right",
+          "duration": 15,
+          "interpolator": "beautyOut"
+        }
+      ]
+    },
+    {
+      "id": "textLeft2",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "type": "text",
+      "text": "How to pick\nthe perfect lipstick",
+      "translationX": -0.205,
+      "translationY": 0.14869727,
+      "textSize": "0.053302404m",
+      "lineSpacing": 1.12,
+      "innerGravity": "start",
+      "minDuration": "as_template",
+      "startFrame": 45,
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "light"
+      },
+      "textColor": "#ffffff",
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 10
+        },
+        {
+          "type": "move_to_x",
+          "from": -0.05,
+          "to": 0,
+          "duration": 15,
+          "interpolator": "beautyOut"
+        },
+        {
+          "type": "clip",
+          "direction": "left_to_right",
+          "duration": 15,
+          "interpolator": "beautyOut"
+        }
+      ]
+    },
+    {
+      "id": "textLeft3",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "type": "text",
+      "text": "Your favourite\nface masks",
+      "translationX": -0.26,
+      "translationY": 0.2514389,
+      "textSize": "0.053302404m",
+      "lineSpacing": 1.12,
+      "innerGravity": "start",
+      "minDuration": "as_template",
+      "startFrame": 40,
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "light"
+      },
+      "textColor": "#ffffff",
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 10
+        },
+        {
+          "type": "move_to_x",
+          "from": -0.05,
+          "to": 0,
+          "duration": 15,
+          "interpolator": "beautyOut"
+        },
+        {
+          "type": "clip",
+          "direction": "left_to_right",
+          "duration": 15,
+          "interpolator": "beautyOut"
+        }
+      ]
+    },
+    {
+      "id": "textRight1",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "end",
+      "text": "THIS\nYEAR",
+      "font": {
+        "fontPath": "garamond",
+        "fontStyle": "bold"
+      },
+      "minDuration": "as_template",
+      "textColor": "#ffffff",
+      "translationX": 0.28686586,
+      "translationY": 0.07088106,
+      "textSize": "0.09623359m",
+      "lineSpacing": 0.84,
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "startFrame": 55,
+      "animationParamIn": {
+        "lineDelay": 10,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 15
+          },
+          {
+            "type": "move_to_y",
+            "from": 0.3,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "beautyOut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "textRight2",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "text": "20\n21",
+      "font": "playfair",
+      "minDuration": "as_template",
+      "textColor": "#ffffff",
+      "translationX": 0.28951663,
+      "translationY": 0.19538046,
+      "textSize": "0.20941643m",
+      "lineSpacing": 0.5,
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "startFrame": 50,
+      "animationParamIn": {
+        "lineDelay": 10,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 15
+          },
+          {
+            "type": "move_to_y",
+            "from": 0.3,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "beautyOut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "textBottom",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationX": -0.037785754,
+      "translationY": 0.4142775,
+      "textSize": "0.0431476m",
+      "type": "text",
+      "innerGravity": "left",
+      "text": "The best in beauty tips, makeup tutorials,\nproduct reviews, and techniques from industry\nleaders worldwide",
+      "font": "made",
+      "minDuration": "as_template",
+      "textColor": "#ffffff",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "startFrame": 70,
+      "animationParamIn": {
+        "lineDelay": 10,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 13
+          },
+          {
+            "type": "move_to_y",
+            "from": 0.6,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "beautyOut"
+          }
+        ]
+      }
+    }
+  ]
+}

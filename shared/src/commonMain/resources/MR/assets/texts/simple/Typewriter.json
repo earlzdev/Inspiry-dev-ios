@@ -1,0 +1,32 @@
+{
+  "innerGravity": "center",
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "type": "text",
+  "text": "TYPEWRITER",
+  "font": {
+    "fontPath": "montserrat",
+    "fontStyle": "bold"
+  },
+  "textSize": "1/13w",
+  "backgroundMarginRight": 0.2,
+  "backgroundMarginLeft": 0.2,
+  "animationParamIn": {
+    "charDelayMillis": 50,
+    "charInterpolator": {
+      "type": "accelerate",
+      "factor": 0.8
+    },
+    "backgroundAnimators": [
+      {
+        "type": "clip",
+        "direction": "left_to_right",
+        "interpolator": "elegantlySlowOut",
+        "duration": 16
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "palette": {
+    "defaultTextColor": "#ffffff",
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "pathColor",
+            "id": "path"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "duplicate": "singleImage",
+      "isEditable": false,
+      "width": "1w",
+      "height": "1h",
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 1,
+          "to": 0,
+          "duration": 30,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "singleImage",
+      "demoSource": "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "1w",
+      "height": "1h",
+      "pivotX": "1/2w",
+      "pivotY": "1h",
+      "makeMovableWhenRemoveBg": false,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": -1,
+          "to": 0,
+          "duration": 56,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale_inner",
+          "duration": 90,
+          "startFrame": 60,
+          "from": 1.12,
+          "to": 1.0,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "path",
+      "width": "461/540w",
+      "height": "273/320h",
+      "color": "#CCffffff",
+      "anchorX": "center",
+      "anchorY": "center",
+      "paintStyle": "STROKE",
+      "strokeWidth": "0.03m",
+      "id": "path",
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 0,
+          "from": 0.8,
+          "to": 0.8
+        }
+      ],
+      "movements": [
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 0,
+          "startFrame": 0,
+          "duration": 23
+        },
+        {
+          "type": "line",
+          "fromY": 0,
+          "toY": 1,
+          "startFrame": 23,
+          "duration": 23
+        },
+        {
+          "type": "line",
+          "fromX": 0,
+          "toX": 1,
+          "fromY": 1,
+          "toY": 1,
+          "startFrame": 46,
+          "duration": 23
+        },
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 1,
+          "fromY": 1,
+          "toY": 0,
+          "startFrame": 69,
+          "duration": 36,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    }
+  ]
+}

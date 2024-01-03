@@ -1,0 +1,218 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "image",
+      "duplicate": "singleImage",
+      "isEditable": false,
+      "width": "1w",
+      "height": "1h"
+    },
+    {
+      "type": "image",
+      "originalSource": "assets://template-resources/halloween/SingleWeb/back.png",
+      "isEditable": false,
+      "width": "1w",
+      "height": "1h"
+    },
+    {
+      "type": "image",
+      "id": "singleImage",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1597739239353-50270a473397?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "width": "1w",
+      "height": "1h",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "duration": 56,
+          "from": 0,
+          "to": 0.1,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale",
+          "from": 1.25,
+          "to": 0.85,
+          "duration": 56,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "path",
+      "width": "461/540w",
+      "height": "273/320h",
+      "color": "#B2ffffff",
+      "anchorX": "center",
+      "anchorY": "center",
+      "paintStyle": "STROKE",
+      "animatorsOut": [
+        {
+          "type": "fade",
+          "duration": 5,
+          "from": 1,
+          "to": 0
+        }
+      ],
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "duration": 0,
+          "from": 0.1,
+          "to": 0.1
+        }
+      ],
+      "movements": [
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 0,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromY": 0,
+          "toY": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 0,
+          "toX": 1,
+          "fromY": 1,
+          "toY": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 1,
+          "fromY": 1,
+          "toY": 0,
+          "duration": 0
+        },
+        {
+          "type": "strokeWidth",
+          "from": "0.015w",
+          "to": "0.015w",
+          "duration": 10
+        },
+        {
+          "type": "strokeWidth",
+          "from": "0.015w",
+          "to": "0w",
+          "duration": 60,
+          "startFrame": 10,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "originalSource": "assets://template-resources/halloween/SingleWeb/front.png",
+      "isEditable": false,
+      "width": "1w",
+      "height": "1h"
+    },
+    {
+      "type": "text",
+      "text": "HAPPY\nHALLOWEEN\nTIME",
+      "anchorY": "center",
+      "anchorX": "center",
+      "innerGravity": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "textColor": "#e0e0e0",
+      "font": {
+        "fontPath": "garamond",
+        "fontStyle": "bold"
+      },
+      "translationY": -0.25611106,
+      "textSize": "0.0723344m",
+      "lineSpacing": 0.94,
+      "minDuration": "as_template",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "interpolator": "elegantlySlowOut",
+          "duration": 70,
+          "from": 0,
+          "to": 1
+        },
+        {
+          "type": "scale",
+          "interpolator": "elegantlySlowOut",
+          "duration": 70,
+          "from": 0.8,
+          "to": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "GET TICKETS",
+      "anchorY": "center",
+      "anchorX": "center",
+      "innerGravity": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "textColor": "#FDFDFD",
+      "backgroundColor": "#9988A3B7",
+      "font": {
+        "fontPath": "spectral",
+        "fontStyle": "regular"
+      },
+      "textSize": "0.054811604m",
+      "translationY": 0.3553912,
+      "minDuration": "as_template",
+      "paddingStart": "0.06w",
+      "paddingEnd": "0.06w",
+      "paddingTop": "0.017w",
+      "paddingBottom": "0.023w",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "from": 1,
+          "to": 1,
+          "duration": 0
+        },
+        {
+          "type": "clip",
+          "duration": 25,
+          "direction": "center_to_left_and_right",
+          "interpolator": "easeOut",
+          "clipDefault": false
+        },
+        {
+          "type": "clip",
+          "duration": 25,
+          "startFrame": 13,
+          "from": 0.3,
+          "direction": "top_to_bottom",
+          "interpolator": "elegantlySlowOut",
+          "clipDefault": false
+        }
+      ],
+      "animationParamIn": {
+        "lineDelay": 6,
+        "textAnimators": [
+          {
+            "startFrame": 15,
+            "type": "clip",
+            "duration": 22,
+            "direction": "top_to_bottom",
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    }
+  ]
+}

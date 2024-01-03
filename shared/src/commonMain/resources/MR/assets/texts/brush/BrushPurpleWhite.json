@@ -1,0 +1,42 @@
+{
+  "type": "group",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "anchorX": "center",
+  "anchorY": "center",
+  "medias": [
+    {
+      "type": "vector",
+      "id": "vectorAsTextBg.vectorText1",
+      "width": "match_parent",
+      "height": "match_parent",
+      "minDuration": "as_template",
+      "scaleType": "FIT_XY",
+      "colorFilter": "#F400F9",
+      "originalSource": "assets://template-resources/love/Love2SlidesDuplicates/back_text_1.json",
+      "staticFrameForEdit": "last"
+    },
+    {
+      "type": "text",
+      "text": "NEW POST",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "innerGravity": "center",
+      "dependsOnParent": true,
+      "relativeToParent": false,
+      "textSize": "0.12w",
+      "lineSpacing": 0.85,
+      "paddingTop": "0.09",
+      "paddingBottom": "0.13",
+      "paddingStart": "0.14w",
+      "paddingEnd": "0.14w",
+      "font": "rythmic",
+      "textColor": "#ffffff",
+      "delayBeforeEnd": 45,
+      "startFrame": 15,
+      "animationParamIn": {
+        "charDelay": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "type": "group",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "anchorX": "center",
+  "anchorY": "center",
+  "medias": [
+    {
+      "type": "vector",
+      "id": "vectorAsTextBg.vectorText3",
+      "width": "match_parent",
+      "height": "match_parent",
+      "minDuration": "as_template",
+      "scaleType": "FIT_XY",
+      "originalSource": "assets://text-resources/brush/Brush_8.json",
+      "staticFrameForEdit": "last"
+    },
+    {
+      "type": "text",
+      "text": "Start\nmeeting\n9:00 pm",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "innerGravity": "center",
+      "dependsOnParent": true,
+      "relativeToParent": false,
+      "textSize": "0.12w",
+      "font": {
+        "fontPath": "pacifico"
+      },
+      "lineSpacing": 0.66,
+      "paddingStart": "0.1w",
+      "paddingEnd": "0.1w",
+      "paddingTop": "0w",
+      "paddingBottom": "0.05w",
+      "textColor": "#4F00DF",
+      "delayBeforeEnd": 45,
+      "startFrame": 0,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 3,
+          "from": 0,
+          "to": 1
+        },
+        {
+          "type": "scale",
+          "interpolator": "flatIn25expOut",
+          "from": 0.3,
+          "to": 1,
+          "duration": 30
+        }
+      ]
+    }
+  ]
+}

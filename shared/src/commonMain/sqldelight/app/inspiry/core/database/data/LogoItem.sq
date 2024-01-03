@@ -1,0 +1,23 @@
+CREATE TABLE LogoItem (
+    id INTEGER UNIQUE NOT NULL PRIMARY KEY AUTOINCREMENT,
+    path TEXT UNIQUE NOT NULL ON CONFLICT REPLACE,
+    dateAdded TEXT NOT NULL,
+    height INTEGER NOT NULL,
+    width INTEGER NOT NULL
+);
+
+addLogo:
+INSERT INTO LogoItem(path,dateAdded,height,width)
+VALUES (:path,:dateAdded,:height,:width);
+
+removeLogo:
+DELETE FROM LogoItem
+WHERE id = :id;
+
+updateLogo:
+UPDATE LogoItem
+SET path = :path, height = :height, width = :width
+WHERE id = :id;
+
+getLogos:
+SELECT * FROM LogoItem;

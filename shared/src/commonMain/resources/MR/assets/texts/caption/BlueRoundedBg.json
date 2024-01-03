@@ -1,0 +1,57 @@
+{
+  "type": "text",
+  "text": "NEW CAPTION\nON LABEL",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "innerGravity": "center",
+  "anchorY": "center",
+  "anchorX": "center",
+  "textSize": "2/19w",
+  "font": {
+    "fontPath": "bloggersans",
+    "fontStyle": "bold"
+  },
+  "textColor": "#ffffff",
+  "backgroundColor": "#00A9FF",
+  "paddingStart": "0.04w",
+  "paddingEnd": "0.04w",
+  "paddingTop": "0.02w",
+  "paddingBottom": "0.02w",
+
+  "animatorsIn": [
+    {
+      "type": "radius",
+      "from": 0.2,
+      "to": 0.2,
+      "duration": 0
+    },
+    {
+      "type": "clip",
+      "duration": 10,
+      "direction": "center_to_left_and_right",
+      "interpolator": "easeOut",
+      "clipDefault": false
+    },
+    {
+      "type": "clip",
+      "duration": 10,
+      "startFrame": 5,
+      "from": 0.3,
+      "clipDefault": false,
+      "direction": "top_to_bottom",
+      "interpolator": "cubicOut"
+    }
+  ],
+  "animationParamIn": {
+    "lineDelay": 3,
+    "textAnimators": [
+      {
+        "startFrame": 8,
+        "type": "clip",
+        "duration": 9,
+        "direction": "top_to_bottom",
+        "interpolator": "cubicOut"
+      }
+    ]
+  }
+}

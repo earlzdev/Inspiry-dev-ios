@@ -1,0 +1,23 @@
+{
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1543521176-481980495901?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "width": "1w",
+      "height": "1h"
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "originalSource": "assets://template-resources/film/SingleScratches/frame.png",
+      "width": "1w",
+      "height": "1h"
+    }
+  ]
+}

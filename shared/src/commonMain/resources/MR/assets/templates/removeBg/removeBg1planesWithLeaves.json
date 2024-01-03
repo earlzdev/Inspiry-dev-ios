@@ -1,0 +1,548 @@
+{
+  "preferredDuration": 240,
+  "listDemoPreferredDuration": 120,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "choices": [
+      {
+        "color": "#FCC3AB",
+        "elements": [
+          {
+            "type": "pathColor",
+            "id": "leftPlane"
+          }
+        ]
+      },
+      {
+        "color": "#EA8765",
+        "elements": [
+          {
+            "type": "pathColor",
+            "id": "rightPlane"
+          }
+        ]
+      },
+      {
+        "color": "#D8D8D8",
+        "elements": [
+          {
+            "type": "pathColor",
+            "id": "bottomPlane"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "leftPlane",
+      "type": "path",
+      "width": "744/1080w",
+      "height": "1720/1920h",
+      "color": "#FCC3AB",
+      "paintStyle": "FILL",
+      "movements": [
+        {
+          "type": "line",
+          "fromX": 0,
+          "toX": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 1,
+          "fromY": 0,
+          "toY": 0.867,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 0,
+          "fromY": 0.867,
+          "toY": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromY": 1,
+          "toY": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": "rightPlane",
+      "type": "path",
+      "width": "340/1080w",
+      "height": "1730/1920h",
+      "alignBy": "top_end",
+      "color": "#EA8765",
+      "paintStyle": "FILL",
+      "movements": [
+        {
+          "type": "line",
+          "fromX": 0,
+          "toX": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 1,
+          "fromY": 0,
+          "toY": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 0,
+          "fromY": 1,
+          "toY": 0.860,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromY": 0.860,
+          "toY": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": "bottomPlane",
+      "type": "path",
+      "width": "1w",
+      "height": "431/1920h",
+      "alignBy": "bottom_center",
+      "color": "#D8D8D8",
+      "paintStyle": "FILL",
+      "movements": [
+        {
+          "type": "line",
+          "fromY": 0.53,
+          "toY": 0,
+          "fromX": 0,
+          "toX": 0.685,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 0.685,
+          "toX": 1,
+          "fromY": 0,
+          "toY": 0.484,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 1,
+          "fromY": 0.484,
+          "toY": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 0,
+          "fromY": 1,
+          "toY": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromY": 1,
+          "toY": 0.53,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "950/1080w",
+      "height": "1670/1920h",
+      "alignBy": "top_center",
+      "y": "58/1920h",
+      "isMovable": true,
+      "medias": [
+        {
+          "type": "path",
+          "width": "1w",
+          "height": "1h",
+          "color": "#FFFFFF",
+          "alignBy": "top_center",
+          "paintStyle": "STROKE",
+          "strokeWidth": "0.045m",
+          "startFrame": 2,
+          "movements": [
+            {
+              "type": "line",
+              "fromX": 0,
+              "toX": 1,
+              "duration": 0
+            },
+            {
+              "type": "line",
+              "fromX": 1,
+              "toX": 1,
+              "fromY": 0,
+              "toY": 1,
+              "duration": 0
+            },
+            {
+              "type": "line",
+              "fromX": 1,
+              "toX": 0,
+              "fromY": 1,
+              "toY": 1,
+              "duration": 0
+            },
+            {
+              "type": "line",
+              "fromY": 1,
+              "toY": 0,
+              "duration": 0
+            }
+          ],
+          "animatorsIn": [
+            {
+              "type": "fade",
+              "from": 0.5,
+              "to": 0.5,
+              "duration": 0
+            },
+            {
+              "type": "scale",
+              "from": 1.3,
+              "to": 1,
+              "duration": 40,
+              "interpolator": "flatIn25expOut"
+            }
+          ]
+        },
+        {
+          "type": "path",
+          "width": "877/950w",
+          "height": "1596/1670h",
+          "color": "#FFFFFF",
+          "alignBy": "top_center",
+          "y": "21/950h",
+          "paintStyle": "STROKE",
+          "strokeWidth": "0.021m",
+          "movements": [
+            {
+              "type": "line",
+              "fromX": 0,
+              "toX": 1,
+              "duration": 0
+            },
+            {
+              "type": "line",
+              "fromX": 1,
+              "toX": 1,
+              "fromY": 0,
+              "toY": 1,
+              "duration": 0
+            },
+            {
+              "type": "line",
+              "fromX": 1,
+              "toX": 0,
+              "fromY": 1,
+              "toY": 1,
+              "duration": 0
+            },
+            {
+              "type": "line",
+              "fromY": 1,
+              "toY": 0,
+              "duration": 0
+            }
+          ],
+          "animatorsIn": [
+            {
+              "type": "scale",
+              "from": 1.3,
+              "to": 1,
+              "duration": 40,
+              "interpolator": "flatIn25expOut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leaves1",
+      "type": "vector",
+      "width": "425/1080w",
+      "height": "425/1920h",
+      "x": "-72/1080w",
+      "y": "119/1920h",
+      "colorFilter": "#F1FF7E",
+      "startFrame": 25,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/removeBg/planesWithLeaves/LeavesLoop_1.json",
+      "minDuration": "as_template",
+      "isLoopEnabled": true,
+      "staticFrameForEdit": "last",
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 50,
+          "interpolator": "flatIn20expOut"
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 50,
+          "interpolator": "flatIn20expOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": 0.106,
+          "to": 0,
+          "duration": 50,
+          "interpolator": "flatIn20expOut"
+        },
+        {
+          "type": "move_to_x",
+          "from": -0.186,
+          "to": 0,
+          "duration": 50,
+          "interpolator": "flatIn20expOut"
+        },
+        {
+          "type": "rotate",
+          "from": 10,
+          "to": 0,
+          "duration": 50,
+          "interpolator": "flatIn20expOut"
+        }
+      ]
+    },
+    {
+      "id": "leaves2",
+      "type": "vector",
+      "width": "384/1080w",
+      "height": "599/1920h",
+      "x": "-112/1080w",
+      "y": "901/1920h",
+      "isMovable": true,
+      "startFrame": 10,
+      "colorFilter": "#F1FF7E",
+      "originalSource": "assets://template-resources/removeBg/planesWithLeaves/LeavesLoop_2.json",
+      "minDuration": "as_template",
+      "staticFrameForEdit": "last",
+      "isLoopEnabled": true,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 45,
+          "interpolator": "flatIn20expOut"
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 45,
+          "interpolator": "flatIn20expOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": 0.106,
+          "to": 0,
+          "duration": 45,
+          "interpolator": "flatIn20expOut"
+        },
+        {
+          "type": "move_to_x",
+          "from": -0.186,
+          "to": 0,
+          "duration": 45,
+          "interpolator": "flatIn20expOut"
+        },
+        {
+          "type": "rotate",
+          "from": -30,
+          "to": 0,
+          "duration": 45,
+          "interpolator": "flatIn20expOut"
+        }
+      ]
+    },
+    {
+      "id": "leaves3",
+      "type": "vector",
+      "width": "353/1080w",
+      "height": "565/1920h",
+      "x": "817/1080w",
+      "y": "260/1920h",
+      "isMovable": true,
+      "startFrame": 25,
+      "colorFilter": "#F5FFA4",
+      "originalSource": "assets://template-resources/removeBg/planesWithLeaves/LeavesLoop_3.json",
+      "isLoopEnabled": true,
+      "minDuration": "as_template",
+      "staticFrameForEdit": "last",
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 45,
+          "interpolator": "flatIn20expOut"
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 45,
+          "interpolator": "flatIn20expOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": 0.106,
+          "to": 0,
+          "duration": 45,
+          "interpolator": "flatIn20expOut"
+        },
+        {
+          "type": "move_to_x",
+          "from": 0.186,
+          "to": 0,
+          "duration": 45,
+          "interpolator": "flatIn20expOut"
+        },
+        {
+          "type": "rotate",
+          "from": 10,
+          "to": 0,
+          "duration": 45,
+          "interpolator": "flatIn20expOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "assets://template-resources/removeBg/planesWithLeaves/demoPhoto.png",
+      "removeBgOnInsert": true,
+      "width": "462/1080w",
+      "height": "1510/1920h",
+      "y": "162/1920h",
+      "x": "397/1920h",
+      "isEditable": true,
+      "startFrame": 5,
+      "animatorsIn": [
+        {
+          "type": "move_to_x",
+          "from": 0.45,
+          "to": 0,
+          "duration": 60,
+          "interpolator": "flatIn25expOut"
+        },
+        {
+          "type": "fade",
+          "duration": 20,
+          "from": 0,
+          "to": 1
+        }
+      ]
+    },
+    {
+      "id": "text1",
+      "type": "text",
+      "text": "Light\ncollection",
+      "innerGravity": "start",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "x": "130/1080w",
+      "y": "578/1920h",
+      "startFrame": 10,
+      "minDuration": "as_template",
+      "font": {
+        "fontPath": "nexa_script",
+        "fontStyle": "bold"
+      },
+      "textSize": "0.110m",
+      "textColor": "#6072FF",
+      "shadowColors": [
+        "#FFE902"
+      ],
+      "shadowOffset": 0.05,
+      "animationParamIn": {
+        "charDelay": 3,
+        "charInterpolator": {
+          "type": "accelerate",
+          "factor": 0.95
+        },
+        "textAnimators": [
+          {
+            "type": "move_to_y",
+            "from": 0.5,
+            "to": 0,
+            "duration": 12,
+            "interpolator": "flatIn20expOut"
+          },
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 12,
+            "interpolator": "flatIn20expOut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "text2",
+      "type": "text",
+      "text": "BUY ONE, GET ONE",
+      "innerGravity": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "alignBy": "top_center",
+      "y": "1747/1920h",
+      "startFrame": 28,
+      "minDuration": "as_template",
+      "font": {
+        "fontPath": "gilroy",
+        "fontStyle": "bold"
+      },
+      "textSize": "0.100m",
+      "textColor": "#FFFFFF",
+      "shadowColors": [
+        "#2B43FF"
+      ],
+      "shadowOffset": 0.05,
+      "animationParamIn": {
+        "shuffle": true,
+        "wordDelayMillis": 300,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 10,
+            "interpolator": "flatIn25expOut"
+          },
+          {
+            "type": "move_to_y",
+            "from": 0.4,
+            "to": 0,
+            "duration": 10,
+            "interpolator": "flatIn25expOut"
+          }
+        ]
+      }
+    }
+  ]
+}

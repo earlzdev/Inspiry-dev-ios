@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <plural name="subscribe_try_days_plural">
+        <item quantity="one">%d DÍA</item>
+        <item quantity="other">%d DÍAS</item>
+    </plural>
+</resources>

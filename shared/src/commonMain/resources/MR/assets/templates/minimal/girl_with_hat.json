@@ -1,0 +1,179 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "pathColor",
+            "id": "pathStroke"
+          }
+        ]
+      },
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1561444210-3959508dbb79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1080&q=80",
+      "width": "1w",
+      "height": "1468/1920h",
+      "minDuration": "as_template",
+      "slidesEnabled": true,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "bottom_to_top",
+          "duration": 30,
+          "interpolator": "flatIn25expOut"
+        },
+        {
+          "type": "scale_inner",
+          "from": 1.3,
+          "to": 1.15,
+          "duration": 30,
+          "interpolator": "flatIn25expOut"
+        },
+        {
+          "type": "scale_inner",
+          "from": 1.15,
+          "to": 1,
+          "duration": 30,
+          "startFrame": 30,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "path",
+      "width": "1w",
+      "height": "1468/1920h",
+      "color": "#ffffff",
+      "id": "pathStroke",
+      "paintStyle": "STROKE",
+      "strokeWidth": "120/1080m",
+      "movementsConnected": true,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 1.3,
+          "to": 1,
+          "duration": 30,
+          "startFrame": 26,
+          "interpolator": "elegantlySlowOut"
+        }
+      ],
+      "movements": [
+        {
+          "type": "line",
+          "fromX": 0.992,
+          "toX": 0.008,
+          "fromY": 0.01,
+          "toY": 0.01,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromY": 0.01,
+          "toY": 0.99,
+          "toX": 0.008,
+          "fromX": 0.008,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 0.007,
+          "toX": 0.992,
+          "fromY": 0.99,
+          "toY": 0.99,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 0.992,
+          "toX": 0.992,
+          "fromY": 0.99,
+          "toY": 0.01,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "READ THE BLOG",
+      "anchorY": "center",
+      "anchorX": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "textColor": "#000000",
+      "font": {
+        "fontPath": "nunito",
+        "fontStyle": "regular"
+      },
+      "textSize": "0.07m",
+      "translationY": 0.30770746,
+      "startFrame": 30,
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 6,
+          "from": 0,
+          "to": 1
+        },
+        {
+          "type": "scale",
+          "interpolator": "elegantlySlowOut",
+          "from": 0.4,
+          "to": 1,
+          "duration": 30
+        }
+      ]
+    },
+    {
+      "startFrame": 50,
+      "minDuration": "as_template",
+      "type": "text",
+      "text": "Wealth is not about who has it\nbut who enjoys it",
+      "innerGravity": "center",
+      "textSize": "0.045m",
+      "anchorY": "center",
+      "anchorX": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "textColor": "#000000",
+      "font": {
+        "fontPath": "nunito",
+        "fontStyle": "light"
+      },
+      "translationY": 0.38534832,
+      "animationParamIn": {
+        "lineDelayMillis": 300,
+        "textAnimators": [
+          {
+            "type": "move_to_y",
+            "from": 3,
+            "to": 0,
+            "duration": 27,
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    }
+  ]
+}

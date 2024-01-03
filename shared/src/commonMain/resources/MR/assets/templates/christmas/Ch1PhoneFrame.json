@@ -1,0 +1,336 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "backgroundImage": "assets://template-resources/christmas/Ch1PhoneFrame/bg.jpg",
+    "choices": [
+      {
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          },
+          {
+            "type": "image",
+            "id": "snowflake_1"
+          },
+          {
+            "type": "image",
+            "id": "snowflake_2"
+          },
+          {
+            "type": "image",
+            "id": "snowflake_3"
+          },
+          {
+            "type": "image",
+            "id": "snowflake_4"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "insideText"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "group",
+      "width": "1w",
+      "height": "1h",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0.015625,
+          "to": -0.015625,
+          "duration": 30,
+          "interpolator": "easeInOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": -0.015625,
+          "to": 0.015625,
+          "duration": 30,
+          "startFrame": 30,
+          "interpolator": "easeInOut"
+        }
+      ],
+      "medias": [
+        {
+          "anchorX": "center",
+          "type": "image",
+          "width": "748",
+          "height": "1490",
+          "demoSource": "https://images.pexels.com/photos/5727926/pexels-photo-5727926.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "minDuration": "as_template",
+          "y": "-20",
+          "anchorY": "bottom"
+        },
+        {
+          "originalSource": "assets://template-resources/business/FloatingYoga/phone_mask_shadow.png",
+          "isEditable": false,
+          "type": "image",
+          "x": "-12",
+          "width": "1404",
+          "height": "2015",
+          "anchorX": "center",
+          "y": "-380",
+          "minDuration": "as_template",
+          "anchorY": "bottom"
+        },
+        {
+          "id": "insideText",
+          "minDuration": "as_template",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "anchorY": "center",
+          "anchorX": "center",
+          "translationY": 0.4002225,
+          "backgroundMarginLeft": 0.25,
+          "backgroundMarginRight": 0.25,
+          "type": "text",
+          "innerGravity": "center",
+          "text": "New Year Sale",
+          "font": {
+            "fontPath": "cormorant",
+            "fontStyle": "bold"
+          },
+          "textSize": "0.088043615m",
+          "textColor": "#ffffff",
+          "backgroundGradient": {
+            "orientation": "TOP_BOTTOM",
+            "colors": [
+              "#FFB6B6",
+              "#F650A0"
+            ]
+          },
+          "paddingStart": "0.055w",
+          "paddingEnd": "0.055w",
+          "paddingTop": "0.02w",
+          "paddingBottom": "0.02w",
+          "loopedAnimationInterval": 10,
+          "animatorsIn": [
+            {
+              "type": "radius",
+              "from": 0.35,
+              "to": 0.35,
+              "duration": 0
+            },
+            {
+              "type": "scale",
+              "from": 1,
+              "to": 1.1,
+              "startFrame": 10,
+              "duration": 20,
+              "interpolator": "easeInOut"
+            },
+            {
+              "type": "scale",
+              "from": 1.1,
+              "to": 1,
+              "startFrame": 30,
+              "duration": 20,
+              "interpolator": "easeInOut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "text": "Best offer\nonly this year",
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "bold"
+      },
+      "textSize": "0.071m",
+      "translationY": -0.4167476,
+      "lineSpacing": 0.92,
+      "textColor": "#ffffff",
+      "backgroundMarginLeft": 0.25,
+      "backgroundMarginRight": 0.25,
+      "animationParamIn": {
+        "wordInterpolator": {
+          "type": "accelerate",
+          "factor": 1.2
+        },
+        "textAnimators": [
+          {
+            "duration": 8,
+            "interpolator": "flatIn25expOut",
+            "type": "fade",
+            "from": 0,
+            "to": 1
+          },
+          {
+            "duration": 8,
+            "interpolator": "flatIn25expOut",
+            "type": "move",
+            "fromX": 0,
+            "toX": 0,
+            "fromY": 1,
+            "toY": 0
+          }
+        ],
+        "wordDelayMillis": 150,
+        "lineDelayMillis": 150
+      }
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "snowflake_1",
+      "originalSource": "assets://template-resources/christmas/Ch4MomentsSlide/snowflake_1.png",
+      "width": "186",
+      "height": "184",
+      "x": "45",
+      "y": "32",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": -8,
+          "to": 352,
+          "duration": 180
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "snowflake_2",
+      "originalSource": "assets://template-resources/christmas/Ch4MomentsSlide/snowflake_2.png",
+      "width": "147",
+      "height": "168",
+      "anchorX": "end",
+      "x": "48",
+      "y": "150",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": 6,
+          "to": -354,
+          "duration": 180
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "snowflake_4",
+      "originalSource": "assets://template-resources/christmas/Ch4MomentsSlide/snowflake_4.png",
+      "width": "147",
+      "height": "168",
+      "anchorY": "bottom",
+      "x": "9",
+      "y": "225",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": -12,
+          "to": 348,
+          "duration": 180
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "snowflake_3",
+      "originalSource": "assets://template-resources/christmas/Ch4MomentsSlide/snowflake_3.png",
+      "width": "130",
+      "height": "147",
+      "anchorY": "bottom",
+      "anchorX": "end",
+      "x": "4",
+      "y": "665",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": -15,
+          "to": 345,
+          "duration": 180
+        }
+      ]
+    },
+    {
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationY": -0.3409813,
+      "type": "text",
+      "innerGravity": "center",
+      "text": "50% OFF",
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "bold"
+      },
+      "textSize": "0.085m",
+      "lineSpacing": 0.92,
+      "textColor": "#ffffff",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "startFrame": 22,
+      "animationParamIn": {
+        "wordInterpolator": {
+          "type": "accelerate",
+          "factor": 1.2
+        },
+        "textAnimators": [
+          {
+            "duration": 8,
+            "interpolator": "flatIn25expOut",
+            "type": "fade",
+            "from": 0,
+            "to": 1
+          },
+          {
+            "duration": 8,
+            "interpolator": "flatIn25expOut",
+            "type": "move",
+            "fromX": 0,
+            "toX": 0,
+            "fromY": 1,
+            "toY": 0
+          }
+        ],
+        "wordDelayMillis": 150,
+        "lineDelayMillis": 150
+      }
+    }
+  ]
+}

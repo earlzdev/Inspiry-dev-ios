@@ -1,0 +1,57 @@
+{
+  "type": "group",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "anchorX": "center",
+  "anchorY": "center",
+  "forPremium": true,
+  "medias": [
+    {
+      "type": "vector",
+      "id": "vectorAsTextBg.vectorText2",
+      "width": "match_parent",
+      "height": "match_parent",
+      "minDuration": "as_template",
+      "scaleType": "FIT_XY",
+      "paddingTop": "0.012w",
+      "originalSource": "assets://template-resources/love/Love2Messages/back_text_2.json",
+      "staticFrameForEdit": "last"
+    },
+    {
+      "type": "text",
+      "text": "Me too",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "innerGravity": "center",
+      "dependsOnParent": true,
+      "relativeToParent": false,
+      "textSize": "0.1w",
+      "font": "pacifico",
+      "paddingBottom": "0.04w",
+      "paddingStart": "0.04w",
+      "paddingEnd": "0.05w",
+      "lineSpacing": 0.76,
+      "textColor": "#ffffff",
+      "delayBeforeEnd": 45,
+      "startFrame": 10,
+      "animationParamIn": {
+        "charDelayMillis": 45,
+        "textAnimators": [
+          {
+            "type": "move_to_y",
+            "from": 0.5,
+            "to": 0,
+            "duration": 2,
+            "interpolator": "beautyOut"
+          },
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 3
+          }
+        ]
+      }
+    }
+  ]
+}

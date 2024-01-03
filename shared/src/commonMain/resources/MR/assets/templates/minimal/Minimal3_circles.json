@@ -1,0 +1,292 @@
+{
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "image",
+            "id": "bottomMask"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "circleOverlay1"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "circleOverlay2"
+          }
+        ]
+      },
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "txt1"
+          },
+          {
+            "type": "textColor",
+            "id": "txt2"
+          }
+        ]
+      },
+      {
+        "color": "#f2fafc",
+        "elements": [
+          {
+            "type": "image",
+            "id": "topMask"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "topMask",
+      "originalSource": "assets://template-resources/minimal/3Circles/top_eclipse.png",
+      "isEditable": false,
+      "type": "image",
+      "width": "1w",
+      "height": "574/1920h",
+      "startFrame": 20,
+      "isMovable": true,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "circular",
+          "duration": 40,
+          "from": 0,
+          "to": 1.15,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1486663845017-3eedaa78617f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "width": "744/1080w",
+      "height": "744/1080w",
+      "anchorX": "center",
+      "y": "188/1920h",
+      "demoOffsetY": -0.2,
+      "demoOffsetX": -0.05,
+      "demoScale": 1.1,
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "circular",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale_inner",
+          "duration": 100,
+          "from": 1,
+          "to": 1.2
+        }
+      ]
+    },
+    {
+      "id": "circleOverlay1",
+      "isEditable": false,
+      "type": "image",
+      "width": "744/1080w",
+      "height": "744/1080w",
+      "anchorX": "center",
+      "y": "188/1920h",
+      "backgroundColor": "#ffffff",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "circular",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "fade",
+          "from": 0.8,
+          "to": 0.8,
+          "duration": 0
+        },
+        {
+          "startFrame": 10,
+          "type": "clip",
+          "direction": "circular_inverse",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "width": "1w",
+      "height": "574/1920h",
+      "demoSource": "https://images.unsplash.com/36/q3Y09XWNRRC5Et7bEQnE_beach-alex-talmon.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1080&q=80",
+      "anchorY": "bottom",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "circular",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut",
+          "from": 0,
+          "to": 1.15
+        },
+        {
+          "type": "scale_inner",
+          "duration": 90,
+          "startFrame": 10,
+          "interpolator": "elegantlySlowOut",
+          "from": 1,
+          "to": 1.2
+        }
+      ]
+    },
+    {
+      "id": "circleOverlay2",
+      "isEditable": false,
+      "type": "image",
+      "width": "1w",
+      "height": "574/1920h",
+      "anchorY": "bottom",
+      "backgroundColor": "#ffffff",
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0.8,
+          "to": 0.8,
+          "duration": 0
+        },
+        {
+          "type": "clip",
+          "direction": "circular_inverse",
+          "duration": 40,
+          "from": 0,
+          "to": 1.15,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "width": "1w",
+      "id": "bottomMask",
+      "height": "574/1920h",
+      "originalSource": "assets://template-resources/minimal/3Circles/bottom_mask.png",
+      "anchorY": "bottom",
+      "isEditable": false
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationY": 0.025395134,
+      "type": "text",
+      "innerGravity": "center",
+      "text": "STORIES",
+      "font": {
+        "fontPath": "spectral",
+        "fontStyle": "bold"
+      },
+      "id": "txt1",
+      "minDuration": "as_template",
+      "textSize": "0.033m",
+      "textColor": "#000000",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "lineSpacing": 1.1,
+      "startFrame": 20,
+      "animationParamIn": {
+        "lineDelayMillis": 300,
+        "textAnimators": [
+          {
+            "type": "clip",
+            "startFrame": 10,
+            "duration": 30,
+            "direction": "center_to_left_and_right",
+            "interpolator": "elegantlySlowOut"
+          }
+        ],
+        "backgroundAnimators": [
+          {
+            "type": "scale",
+            "duration": 30,
+            "fromX": 0,
+            "toX": 1,
+            "fromY": 1,
+            "toY": 1,
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "id": "txt2",
+      "translationY": 0.06692877,
+      "type": "text",
+      "innerGravity": "center",
+      "text": "ABOUT MY LIFE",
+      "font": {
+        "fontPath": "spectral"
+      },
+      "minDuration": "as_template",
+      "textSize": "0.063m",
+      "textColor": "#000000",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "lineSpacing": 1.1,
+      "startFrame": 25,
+      "animatorsIn": [
+        {
+          "startFrame": 10,
+          "type": "move_to_y",
+          "from": 0.06,
+          "to": 0,
+          "interpolator": "elegantlySlowOut",
+          "duration": 30
+        }
+      ],
+      "animationParamIn": {
+        "lineDelayMillis": 300,
+        "textAnimators": [
+          {
+            "startFrame": 10,
+            "type": "clip",
+            "duration": 30,
+            "direction": "center_to_left_and_right",
+            "interpolator": "elegantlySlowOut"
+          }
+        ],
+        "backgroundAnimators": [
+          {
+            "type": "scale",
+            "duration": 30,
+            "fromX": 0,
+            "toX": 1,
+            "fromY": 1,
+            "toY": 1,
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    }
+  ]
+}

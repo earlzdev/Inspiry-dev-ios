@@ -1,0 +1,54 @@
+{
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "type": "text",
+  "text": "Blinking Text",
+  "innerGravity": "left",
+  "textSize": "1/10w",
+  "letterSpacing": 0.02,
+  "font": "oswald",
+  "backgroundMarginLeft": 0.2,
+  "backgroundMarginRight": 0.2,
+  "animationParamIn": {
+    "lineDelayMillis": 0,
+    "textAnimators": [
+      {
+        "type": "move_to_y",
+        "duration": 40,
+        "from": 0.3,
+        "to": 0,
+        "interpolator": "expOut"
+      },
+      {
+        "type": "blink",
+        "durationMillis": 467,
+        "blinks": 5
+      }
+    ],
+    "backgroundAnimators": [
+      {
+        "type": "move_to_y",
+        "duration": 40,
+        "from": 0.3,
+        "to": 0,
+        "interpolator": "expOut"
+      },
+      {
+        "type": "blink",
+        "durationMillis": 467,
+        "blinks": 5
+      }
+    ]
+  },
+  "animatorsOut": [
+    {
+      "type": "fade",
+      "from": 1,
+      "to": 0,
+      "duration": 10
+    }
+  ]
+}

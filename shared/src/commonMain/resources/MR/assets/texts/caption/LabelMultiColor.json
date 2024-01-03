@@ -1,0 +1,129 @@
+{
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "forPremium": true,
+  "type": "text",
+  "text": "A caption displayed\non several lines",
+  "innerGravity": "center",
+  "textSize": "1/12w",
+  "lineSpacing": 1.23,
+  "font": {
+    "fontStyle": "bold",
+    "fontPath": "bloggersans"
+  },
+  "backgroundColor": "#FF00F7",
+  "backgroundMarginTop": 0.12,
+  "backgroundMarginBottom": 0.12,
+  "backgroundMarginLeft": 0.25,
+  "backgroundMarginRight": 0.25,
+  "animationParamIn": {
+    "lineDelayMillis": 700,
+    "textAnimatorGroups": [
+      {
+        "group": "uneven",
+        "animators": [
+          {
+            "type": "clip",
+            "startFrame": 3,
+            "duration": 30,
+            "direction": "right_to_left",
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      },
+      {
+        "group": "even",
+        "animators": [
+          {
+            "type": "clip",
+            "startFrame": 3,
+            "duration": 30,
+            "direction": "left_to_right",
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    ],
+    "backgroundAnimatorGroups": [
+      {
+        "group": "shadow_uneven",
+        "animators": [
+          {
+            "startFrame": 0,
+            "type": "clip",
+            "duration": 30,
+            "direction": "right_to_left",
+            "interpolator": "elegantlySlowOut"
+          },
+          {
+            "type": "backgroundColor",
+            "duration": 30,
+            "startFrame": 0,
+            "from": "#FF00F7",
+            "to": "#FF00F7"
+          }
+        ]
+      },
+      {
+        "group": "uneven",
+        "animators": [
+          {
+            "startFrame": 2,
+            "type": "clip",
+            "duration": 30,
+            "direction": "right_to_left",
+            "interpolator": "elegantlySlowOut"
+          },
+          {
+            "type": "backgroundColor",
+            "duration": 30,
+            "startFrame": 2,
+            "from": "#00A2E4",
+            "to": "#00A2E4"
+          }
+        ]
+      },
+      {
+        "group": "shadow_even",
+        "animators": [
+          {
+            "startFrame": 0,
+            "type": "clip",
+            "duration": 30,
+            "direction": "left_to_right",
+            "interpolator": "elegantlySlowOut"
+          },
+          {
+            "type": "backgroundColor",
+            "duration": 30,
+            "startFrame": 0,
+            "from": "#00A2E4",
+            "to": "#00A2E4"
+          }
+        ]
+      },
+      {
+        "group": "even",
+        "animators": [
+          {
+            "startFrame": 2,
+            "type": "clip",
+            "duration": 30,
+            "direction": "left_to_right",
+            "interpolator": "elegantlySlowOut"
+          },
+          {
+            "type": "backgroundColor",
+            "duration": 30,
+            "startFrame": 2,
+            "from": "#FF00F7",
+            "to": "#FF00F7"
+          }
+        ]
+      }
+    ]
+  }
+}

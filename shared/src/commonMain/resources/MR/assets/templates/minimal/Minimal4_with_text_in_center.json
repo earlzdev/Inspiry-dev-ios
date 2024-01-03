@@ -1,0 +1,161 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1586323131456-2caeab29bd4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+      "width": "488/1080w",
+      "height": "780/1920h",
+      "x": "35/1080w",
+      "y": "35/1080w",
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "durationMillis": 1400,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale_inner",
+          "from": 1,
+          "to": 1.15,
+          "durationMillis": 3750,
+          "interpolator": "flatIn25expOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1586326448477-d3f6b54828cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+      "width": "488/1080w",
+      "height": "780/1920h",
+      "x": "35/1080w",
+      "y": "35/1080w",
+      "anchorX": "end",
+      "minDuration": "as_template",
+      "startFrame": 18,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "left_to_right",
+          "durationMillis": 1400,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale_inner",
+          "from": 1,
+          "to": 1.15,
+          "durationMillis": 4350,
+          "interpolator": "flatIn25expOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1586323131442-d5657083c470?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+      "width": "488/1080w",
+      "height": "780/1920h",
+      "x": "35/1080w",
+      "y": "35/1080w",
+      "minDuration": "as_template",
+      "anchorY": "bottom",
+      "startFrame": 18,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "right_to_left",
+          "durationMillis": 1400,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale_inner",
+          "from": 1,
+          "to": 1.15,
+          "durationMillis": 4350,
+          "interpolator": "flatIn25expOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1586324047337-f70806339e2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+      "width": "488/1080w",
+      "height": "780/1920h",
+      "x": "35/1080w",
+      "y": "35/1080w",
+      "minDuration": "as_template",
+      "anchorX": "end",
+      "anchorY": "bottom",
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "bottom_to_top",
+          "durationMillis": 1400,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale_inner",
+          "from": 1,
+          "to": 1.15,
+          "durationMillis": 3750,
+          "interpolator": "flatIn25expOut"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "HAPPY SMILE",
+      "anchorY": "center",
+      "anchorX": "center",
+      "width": "0.45040214w",
+      "height": "0.056555193h",
+      "textSize": "0.061481602m",
+      "innerGravity": "center",
+      "textColor": "#000000",
+      "font": {
+        "fontPath": "nunito",
+        "fontStyle": "regular"
+      },
+      "startFrame": 20,
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 6,
+          "from": 0,
+          "to": 1
+        },
+        {
+          "type": "scale",
+          "interpolator": "elegantlySlowOut",
+          "from": 0.4,
+          "to": 1,
+          "duration": 36
+        }
+      ]
+    }
+  ]
+}

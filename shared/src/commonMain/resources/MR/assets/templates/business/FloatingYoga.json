@@ -1,0 +1,247 @@
+{
+  "preferredDuration": 180,
+  "backgroundColor": "#ECE8E7",
+  "availability": "PREMIUM",
+  "palette": {
+    "choices": [
+      {
+        "color": "#DFC9BD",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "pathMask"
+          },
+          {
+            "type": "image",
+            "id": "imageMask"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "textLinkBottom"
+          },
+          {
+            "type": "textColor",
+            "id": "textTitle"
+          },
+          {
+            "type": "textColor",
+            "id": "insideText"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "insideText"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "pathMask",
+      "type": "path",
+      "width": "1w",
+      "height": "0.3h",
+      "anchorY": "bottom",
+      "backgroundColor": "#DFC9BD"
+    },
+    {
+      "id": "imageMask",
+      "originalSource": "assets://template-resources/business/FloatingYoga/bg_animation.webp",
+      "isEditable": false,
+      "type": "image",
+      "width": "1w",
+      "height": "449/1920h",
+      "anchorY": "bottom",
+      "y": "0.25h",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0.015625,
+          "to": -0.015625,
+          "duration": 25,
+          "interpolator": "easeInOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": -0.015625,
+          "to": 0.015625,
+          "duration": 38,
+          "startFrame": 25,
+          "interpolator": "easeInOut"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "1w",
+      "height": "1h",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0.015625,
+          "to": -0.015625,
+          "duration": 30,
+          "interpolator": "easeInOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": -0.015625,
+          "to": 0.015625,
+          "duration": 30,
+          "startFrame": 30,
+          "interpolator": "easeInOut"
+        }
+      ],
+      "medias": [
+        {
+          "y": "415/1920h",
+          "anchorX": "center",
+          "type": "image",
+          "width": "576/1080w",
+          "x": "6",
+          "height": "1230/1920h",
+          "demoSource": "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=800&q=80",
+          "demoScale": 1.06,
+          "demoOffsetX": -0.03,
+          "demoOffsetY": -0.01,
+          "minDuration": "as_template"
+        },
+        {
+          "originalSource": "assets://template-resources/business/FloatingYoga/phone_mask_shadow.png",
+          "isEditable": false,
+          "type": "image",
+          "width": "1w",
+          "height": "1550/1920h",
+          "y": "275/1920h",
+          "minDuration": "as_template"
+        },
+        {
+          "id": "insideText",
+          "minDuration": "as_template",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "anchorY": "center",
+          "anchorX": "center",
+          "translationY": 0.29465666,
+          "type": "text",
+          "innerGravity": "center",
+          "text": "link in bio",
+          "font": {
+            "fontPath": "cormorant"
+          },
+          "textSize": "0.067m",
+          "lineSpacing": 0.8,
+          "textColor": "#503524",
+          "backgroundColor": "#F0EAE0",
+          "paddingStart": "0.015w",
+          "paddingEnd": "0.015w",
+          "loopedAnimationInterval": 10,
+          "animatorsIn": [
+            {
+              "type": "radius",
+              "from": 0.2,
+              "to": 0.2,
+              "duration": 0
+            },
+            {
+              "type": "scale",
+              "from": 1,
+              "to": 1.1,
+              "startFrame": 10,
+              "duration": 20,
+              "interpolator": "easeInOut"
+            },
+            {
+              "type": "scale",
+              "from": 1.1,
+              "to": 1,
+              "startFrame": 30,
+              "duration": 20,
+              "interpolator": "easeInOut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "textTitle",
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationY": -0.3993252,
+      "type": "text",
+      "innerGravity": "center",
+      "text": "FREE\none-week meal plan",
+      "font": {
+        "fontPath": "cormorant"
+      },
+      "textSize": "0.071m",
+      "lineSpacing": 0.8,
+      "textColor": "#503525",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "animationParamIn": {
+        "wordInterpolator": {
+          "type": "accelerate",
+          "factor": 1.2
+        },
+        "textAnimators": [
+          {
+            "duration": 8,
+            "interpolator": "flatIn25expOut",
+            "type": "fade",
+            "from": 0,
+            "to": 1
+          },
+          {
+            "duration": 8,
+            "interpolator": "flatIn25expOut",
+            "type": "move",
+            "fromX": 0,
+            "toX": 0,
+            "fromY": 1,
+            "toY": 0
+          }
+        ],
+        "wordDelayMillis": 150,
+        "lineDelayMillis": 150
+      }
+    },
+    {
+      "id": "textLinkBottom",
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationY": 0.4244299,
+      "type": "text",
+      "innerGravity": "center",
+      "text": "@inspiry",
+      "font": {
+        "fontPath": "bloggersans"
+      },
+      "textSize": "0.049m",
+      "textColor": "#ffffff",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2
+    }
+  ]
+}

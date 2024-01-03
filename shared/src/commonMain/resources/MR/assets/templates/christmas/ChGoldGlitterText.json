@@ -1,0 +1,163 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "backgroundImage": "assets://template-resources/christmas/ChGoldGlitterText/back.mp4",
+    "backgroundVideoStartMs": 0,
+    "backgroundVideoLooped": true
+  },
+  "medias": [
+    {
+      "type": "image",
+      "isEditable": false,
+      "anchorX": "center",
+      "anchorY": "center",
+      "width": "879",
+      "height": "1700",
+      "originalSource": "assets://template-resources/christmas/ChGoldGlitterText/foreground.png"
+    },
+    {
+      "type": "vector",
+      "isMovable": true,
+      "originalSource": "assets://template-resources/christmas/ChGoldGlitterText/branch_1.json",
+      "width": "362",
+      "height": "141",
+      "alignBy": "top_center",
+      "y": "192",
+      "startFrame": 20,
+      "isLoopEnabled": false,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 25,
+          "from": 0,
+          "to": 1,
+          "interpolator": "easeOut"
+        }
+      ]
+    },
+    {
+      "type": "vector",
+      "isMovable": true,
+      "originalSource": "assets://template-resources/christmas/ChGoldGlitterText/branch_2.json",
+      "isLoopEnabled": true,
+      "width": "562",
+      "height": "232",
+      "y": "179",
+      "alignBy": "bottom_center",
+      "startFrame": 5,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 25,
+          "from": 0,
+          "to": 1,
+          "interpolator": "easeOut"
+        }
+      ]
+    },
+    {
+      "id": "textTitle",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "Happy\nNew Year",
+      "font": "made_script",
+      "textSize": "0.1685204m",
+      "lineSpacing": 0.8,
+      "translationY": 0.19926512,
+      "anchorX": "center",
+      "anchorY": "top",
+      "innerGravity": "center",
+      "textColor": "#873B00",
+      "minDuration": "as_template",
+      "backgroundMarginLeft": 0.25,
+      "backgroundMarginRight": 0.25,
+      "startFrame": 10,
+      "animationParamIn": {
+        "charDelayMillis": 80,
+        "charInterpolator": "easeOutLight",
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 220
+          }
+        ]
+      }
+    },
+    {
+      "id": "textContent",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "A new year, a time to set new goals.\nA time to reflect on the things\nthat are important to you and the things\nyou wish to achieve.\nMay this year see all your dreams\ncome true.",
+      "font": {
+        "fontPath": "dinpro"
+      },
+      "textSize": "0.0476576m",
+      "translationY": 0.06680454,
+      "backgroundMarginLeft": 0.25,
+      "backgroundMarginRight": 0.25,
+      "lineSpacing": 1.06,
+      "anchorX": "center",
+      "anchorY": "center",
+      "innerGravity": "center",
+      "textColor": "#000000",
+      "minDuration": "as_template",
+      "startFrame": 35,
+      "animationParamIn": {
+        "lineDelay": 8,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "duration": 13,
+            "from": 0,
+            "to": 1
+          }
+        ]
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "y": "363",
+      "id": "textBottom",
+      "anchorY": "bottom",
+      "type": "text",
+      "minDuration": "as_template",
+      "innerGravity": "center",
+      "text": "Inspiry Team",
+      "font": "made_script",
+      "lineSpacing": 0.9,
+      "translationY": -0.05308174,
+      "textSize": "0.0693556m",
+      "backgroundMarginLeft": 0.25,
+      "backgroundMarginRight": 0.25,
+      "textColor": "#873B00",
+      "startFrame": 85,
+      "animationParamIn": {
+        "charDelayMillis": 45,
+        "charInterpolator": "easeOutLight",
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 135
+          }
+        ],
+        "backgroundAnimators": [
+          {
+            "type": "clip",
+            "direction": "left_to_right",
+            "interpolator": "elegantlySlowOut",
+            "duration": 20
+          }
+        ]
+      }
+    }
+  ]
+}

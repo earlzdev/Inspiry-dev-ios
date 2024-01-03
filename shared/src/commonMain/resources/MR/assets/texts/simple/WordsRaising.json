@@ -1,0 +1,36 @@
+{
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "forPremium": true,
+  "type": "text",
+  "text": "Smooth raising\nof words preset",
+  "innerGravity": "center",
+  "textSize": "1/12w",
+  "font": {
+    "fontPath": "montserrat",
+    "fontStyle": "bold"
+  },
+  "animationParamIn": {
+    "shuffle": true,
+    "wordDelayMillis": 80,
+    "textAnimators": [
+      {
+        "type": "fade",
+        "from": 0,
+        "to": 1,
+        "duration": 5,
+        "interpolator": "flatIn25expOut"
+      },
+      {
+        "type": "move_to_y",
+        "from": 1,
+        "to": 0,
+        "duration": 5,
+        "interpolator": "flatIn25expOut"
+      }
+    ]
+  }
+}

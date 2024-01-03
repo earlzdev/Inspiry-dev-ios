@@ -1,0 +1,26 @@
+{
+  "backgroundColor": "#000000",
+  "availability": "FREE",
+  "preferredDuration": 180,
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.pexels.com/photos/1906006/pexels-photo-1906006.jpeg?auto=compress&cs=tinysrgb&h=1400&w=900",
+      "width": "862/1080w",
+      "height": "1278/1920h",
+      "y": "397/1920h",
+      "anchorX": "center"
+    },
+    {
+      "originalSource": "assets://template-resources/plastic/PlasticBag/front.png",
+      "isEditable": false,
+      "type": "image",
+      "width": "1w",
+      "height": "1h"
+    }
+  ]
+}

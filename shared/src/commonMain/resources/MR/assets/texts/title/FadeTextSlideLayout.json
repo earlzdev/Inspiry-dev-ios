@@ -1,0 +1,58 @@
+{
+  "innerGravity": "center",
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "forPremium": true,
+  "type": "text",
+  "text": "Printing Title",
+  "textSize": "1/10w",
+  "font": {
+    "fontPath": "playfair",
+    "fontStyle": "bold"
+  },
+  "lineSpacing": 0.9,
+  "backgroundMarginLeft": 0.2,
+  "backgroundMarginRight": 0.2,
+
+  "letterSpacing": 0.02,
+  "animatorsIn": [
+    {
+      "type": "move_to_x",
+      "from": 0.7,
+      "to": 0,
+      "duration": 60,
+      "relativity": "SELF",
+      "interpolator": "fastInSuperfastOut1Invert"
+    }
+  ],
+  "animationParamIn": {
+    "charDelay": 3,
+    "textAnimators": [
+      {
+        "type": "move_to_y",
+        "from": 1,
+        "to": 0,
+        "duration": 3,
+        "interpolator": "slowInExpOut"
+      },
+      {
+        "type": "fade",
+        "from": 0,
+        "to": 1,
+        "duration": 3,
+        "interpolator": "slowInExpOut"
+      }
+    ],
+    "backgroundAnimators": [
+      {
+        "type": "clip",
+        "direction": "left_to_right",
+        "interpolator": "elegantlySlowOut",
+        "duration": 20
+      }
+    ]
+  }
+}

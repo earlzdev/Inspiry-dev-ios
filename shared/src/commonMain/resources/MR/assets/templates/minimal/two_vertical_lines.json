@@ -1,0 +1,244 @@
+{
+  "preferredDuration": 180,
+  "availability": "INSTAGRAM_SUBSCRIBED",
+  "palette": {
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          },
+          {
+            "type": "pathColor",
+            "id": "line1"
+          },
+          {
+            "type": "pathColor",
+            "id": "line2"
+          }
+        ]
+      },
+      {
+        "color": "#FFF8F1",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "topRect"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "topRect",
+      "type": "path",
+      "width": "974/1080w",
+      "height": "586/1920h",
+      "backgroundColor": "#FFF8F1",
+      "anchorX": "center",
+      "startFrame": 30,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "974/1080w",
+      "height": "1h",
+      "anchorX": "center",
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "center_to_left_and_right",
+          "duration": 30,
+          "interpolator": "flatIn50expOut"
+        },
+        {
+          "type": "clip",
+          "direction": "none",
+          "startFrame": 30,
+          "duration": 60
+        }
+      ],
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1467173278854-6a7908dcbddb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1080&q=80",
+          "width": "match_parent",
+          "height": "757/1920h",
+          "anchorY": "center",
+          "animatorsIn": [
+            {
+              "type": "scale",
+              "from": 2.7,
+              "to": 2.55,
+              "duration": 30,
+              "interpolator": "flatIn50expOut"
+            },
+            {
+              "type": "scale",
+              "from": 2.55,
+              "to": 1,
+              "duration": 38,
+              "startFrame": 32,
+              "interpolator": "cubicOut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "line1",
+      "type": "path",
+      "width": "2/1080w",
+      "height": "1h",
+      "color": "#000000",
+      "anchorX": "center",
+      "paintStyle": "STROKE",
+      "strokeWidth": "2/1080m",
+      "movementsConnected": false,
+      "animatorsIn": [
+        {
+          "type": "move_to_x",
+          "from": 0,
+          "to": -0.45,
+          "duration": 30,
+          "interpolator": "flatIn50expOut"
+        }
+      ],
+      "movements": [
+        {
+          "type": "line",
+          "fromX": 0.5,
+          "toX": 0.5,
+          "fromY": 0.0,
+          "toY": 1,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": "line2",
+      "type": "path",
+      "width": "2/1080w",
+      "height": "1h",
+      "color": "#000000",
+      "anchorX": "center",
+      "paintStyle": "STROKE",
+      "strokeWidth": "2/1080m",
+      "movementsConnected": false,
+      "animatorsIn": [
+        {
+          "type": "move_to_x",
+          "from": 0,
+          "to": 0.45,
+          "duration": 30,
+          "interpolator": "flatIn50expOut"
+        }
+      ],
+      "movements": [
+        {
+          "type": "line",
+          "fromX": 0.5,
+          "toX": 0.5,
+          "fromY": 0.0,
+          "toY": 1,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "startFrame": 60,
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationY": -0.35,
+      "type": "text",
+      "innerGravity": "center",
+      "text": "YOUR MOMENTS",
+      "font": {
+        "fontPath": "oswald",
+        "fontStyle": "light"
+      },
+      "textSize": "0.06m",
+      "textColor": "#000000",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "lineSpacing": 1.1,
+      "animationParamIn": {
+        "lineDelayMillis": 667,
+        "reverse": true,
+        "textAnimators": [
+          {
+            "type": "clip",
+            "duration": 20,
+            "direction": "none"
+          },
+          {
+            "type": "move_to_y",
+            "from": -1,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    },
+    {
+      "startFrame": 60,
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationY": 0.35,
+      "type": "text",
+      "innerGravity": "center",
+      "text": "I believe that the greater the handicap\nthe greater the triumph.",
+      "font": {
+        "fontPath": "oswald",
+        "fontStyle": "extralight"
+      },
+      "textSize": "0.045m",
+      "textColor": "#000000",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "lineSpacing": 1.1,
+      "animationParamIn": {
+        "lineDelayMillis": 666,
+        "textAnimators": [
+          {
+            "type": "clip",
+            "duration": 20,
+            "direction": "none"
+          },
+          {
+            "type": "move_to_y",
+            "from": 1,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "elegantlySlowOut"
+          }
+        ]
+      }
+    }
+  ]
+}

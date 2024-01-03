@@ -1,0 +1,537 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "defaultTextColor": "#ffffff",
+    "backgroundGradient": {
+      "colors": [
+        "#FFD1CB",
+        "#F4AA80",
+        "#B380ED"
+      ],
+      "orientation": "TR_BL"
+    },
+    "choices": [
+      {
+        "color": "#FFA41D",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "circle_2"
+          }
+        ]
+      },
+      {
+        "color": "#EE5400",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "circle_1"
+          }
+        ]
+      },
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "circle_3"
+          },
+          {
+            "type": "textColor",
+            "id": "text1"
+          },
+          {
+            "type": "textColor",
+            "id": "text2"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "back1",
+      "isEditable": false,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/halloween/halloween1ColoredPumpkins/pumpkins.png",
+      "backgroundGradient": {
+        "colors": [
+          "#ffFF1E01",
+          "#ffFB5B07",
+          "#ff5E00CB"
+        ],
+        "orientation": "TOP_BOTTOM"
+      },
+      "type": "image",
+      "width": "1022/1080w",
+      "height": "1816/1920h",
+      "alignBy": "center",
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "direction": "circular",
+          "from": 0.1,
+          "to": 0.1,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "id": "text1",
+      "type": "text",
+      "text": "Online Shop",
+      "y": "30/1920h",
+      "innerGravity": "center",
+      "font": {
+        "fontPath": "pacifico"
+      },
+      "textSize": "0.095m",
+      "minDuration": "as_template",
+      "startFrame": 10,
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "alignBy": "top_center",
+      "textColor": "#FFEEEE",
+      "animationParamIn": {
+        "charDelayMillis": 40,
+        "textAnimators": [
+          {
+            "type": "move_to_y",
+            "interpolator": {
+              "type": "spring",
+              "amplitude": 0.2,
+              "frequency": 11
+            },
+            "from": 0.3,
+            "to": 0,
+            "duration": 30
+          }
+        ]
+      }
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "x": "50/1080w",
+      "y": "989/1920h",
+      "startFrame": 30,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "duration": 20,
+          "from": -0.143,
+          "to": -0.003,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.37,
+            "y1": 0.0,
+            "x2": 0.35,
+            "y2": 1
+          }
+        },
+        {
+          "type": "move_to_y",
+          "duration": 10,
+          "startFrame": 20,
+          "from": -0.003,
+          "to": -0.009,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.09,
+            "y1": 0.0,
+            "x2": 0.38,
+            "y2": 1
+          }
+        },
+        {
+          "type": "move_to_y",
+          "duration": 20,
+          "startFrame": 30,
+          "from": -0.009,
+          "to": 0,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.12,
+            "y1": 0.0,
+            "x2": 0.1,
+            "y2": 1
+          }
+        },
+        {
+          "type": "scale",
+          "duration": 20,
+          "from": 0,
+          "to": 1.02,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.37,
+            "y1": 0.0,
+            "x2": 0.35,
+            "y2": 1
+          }
+        },
+        {
+          "type": "scale",
+          "duration": 10,
+          "startFrame": 20,
+          "from": 1.02,
+          "to": 0.98,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.09,
+            "y1": 0.0,
+            "x2": 0.38,
+            "y2": 1
+          }
+        },
+        {
+          "type": "scale",
+          "duration": 20,
+          "startFrame": 30,
+          "from": 0.98,
+          "to": 1,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.12,
+            "y1": 0.0,
+            "x2": 0.1,
+            "y2": 1
+          }
+        }
+      ],
+      "medias": [
+        {
+          "type": "vector",
+          "id": "vectorAsTextBg*text3",
+          "width": "match_parent",
+          "height": "match_parent",
+          "minDuration": "as_template",
+          "scaleType": "FIT_XY",
+          "mediaPalette": {
+            "choices": [
+              {
+                "elements": [
+                  "Color_1"
+                ]
+              },
+              {
+                "elements": [
+                  "Color_2"
+                ]
+              }
+            ]
+          },
+          "startFrame": 30,
+          "originalSource": "assets://template-resources/halloween/halloween1ColoredPumpkins/saleBack.json",
+          "staticFrameForEdit": 8
+        },
+        {
+          "id": "text3",
+          "type": "text",
+          "text": "SALE\n50%\nOFF",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "alignBy": "top_center",
+          "keepAspect": true,
+          "paddingStart": "0.06w",
+          "paddingEnd": "0.06w",
+          "paddingTop": "0.11h",
+          "paddingBottom": "0.01h",
+          "innerGravity": "center",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "minDuration": "as_template",
+          "textSize": "0.075m",
+          "lineSpacing": 0.86,
+          "font": {
+            "fontPath": "dinpro",
+            "fontStyle": "bold"
+          },
+          "textColor": "#FFD831",
+          "delayBeforeEnd": 45,
+          "startFrame": 30,
+          "animatorsIn": [
+            {
+              "type": "rotate",
+              "duration": 16,
+              "from": -4,
+              "to": 4
+            },
+            {
+              "type": "rotate",
+              "duration": 10,
+              "startFrame": 17,
+              "from": 4,
+              "to": -2
+
+            },
+            {
+              "type": "move_to_x",
+              "duration": 10,
+              "startFrame": 17,
+              "from": 0,
+              "to": 0.025
+            },
+            {
+              "type": "rotate",
+              "duration": 16,
+              "startFrame": 28,
+              "from": -2,
+              "to": 0
+            },
+            {
+              "type": "move_to_x",
+              "duration": 16,
+              "startFrame": 28,
+              "from": 0.025,
+              "to": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadow",
+      "isEditable": false,
+      "type": "image",
+      "width": "1080/1080w",
+      "height": "1100/1920h",
+      "alignBy": "center",
+      "originalSource": "assets://template-resources/halloween/halloween1ColoredPumpkins/circleShadow.png",
+      "y": "-212/1920h",
+      "startFrame": 5,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 30,
+          "interpolator": "smooth30InOut"
+        }
+      ]
+    },
+    {
+      "id": "circle_1",
+      "isEditable": false,
+      "type": "image",
+      "width": "980/1080w",
+      "height": "980/1080w",
+      "alignBy": "center",
+      "backgroundColor": "#EE5400",
+      "y": "-212/1920h",
+      "startFrame": 5,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "circular",
+          "from": 0,
+          "to": 1,
+          "duration": 30,
+          "interpolator": "smooth30InOut"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "864/1080w",
+      "height": "864/1080w",
+      "alignBy": "center",
+      "y": "-212/1920h",
+      "startFrame": 31,
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.05,
+          "duration": 30,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.2,
+            "y1": 0.0,
+            "x2": 0.8,
+            "y2": 1
+          }
+        },
+        {
+          "type": "scale",
+          "startFrame": 30,
+          "from": 1.05,
+          "to": 1,
+          "duration": 30,
+          "interpolator": "smooth30InOut"
+        }
+      ],
+      "medias": [
+        {
+          "id": "circle_2",
+          "isEditable": false,
+          "type": "image",
+          "width": "match_parent",
+          "height": "match_parent",
+          "alignBy": "center",
+          "backgroundColor": "#FFA41D",
+          "minDuration": "as_template",
+          "startFrame": 16,
+          "animatorsIn": [
+            {
+              "type": "clip",
+              "from": 0,
+              "to": 1,
+              "duration": 25,
+              "direction": "circular",
+              "interpolator": "smooth30InOut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "772/1080w",
+      "height": "772/1080w",
+      "alignBy": "center",
+      "y": "-212/1920h",
+      "startFrame": 47,
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.05,
+          "duration": 30,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.2,
+            "y1": 0.0,
+            "x2": 0.8,
+            "y2": 1
+          }
+        },
+        {
+          "type": "scale",
+          "startFrame": 30,
+          "from": 1.05,
+          "to": 1,
+          "duration": 30,
+          "interpolator": "smooth30InOut"
+        }
+      ],
+      "medias": [
+        {
+          "id": "circle_3",
+          "isEditable": false,
+          "type": "image",
+          "width": "match_parent",
+          "height": "match_parent",
+          "alignBy": "center",
+          "backgroundColor": "#FFFFFF",
+          "minDuration": "as_template",
+          "startFrame": 22,
+          "animatorsIn": [
+            {
+              "type": "clip",
+              "direction": "circular",
+              "from": 0,
+              "to": 1,
+              "duration": 25,
+              "interpolator": "smooth30InOut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "circle_photo",
+      "isEditable": true,
+      "type": "image",
+      "width": "736/1080w",
+      "height": "736/1080w",
+      "alignBy": "center",
+      "minDuration": "as_template",
+      "demoSource": "https://images.pexels.com/photos/8006405/pexels-photo-8006405.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "demoOffsetY": -0.25,
+      "makeMovableWhenRemoveBg": false,
+      "y": "-212/1920h",
+      "startFrame": 22,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "circular",
+          "from": 1,
+          "to": 1,
+          "duration": 0,
+          "interpolator": "smooth30InOut"
+        },
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 25,
+          "interpolator": "smooth30InOut"
+        },
+        {
+          "type": "scale_inner",
+          "startFrame": 27,
+          "from": 1,
+          "to": 1.2,
+          "duration": 80,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.2,
+            "y1": 0.0,
+            "x2": 0.8,
+            "y2": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "text2",
+      "type": "text",
+      "text": "SWIPE UP TO GET\nCOUPON CODE",
+      "alignBy": "top_center",
+      "innerGravity": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "y": "1525/1920h",
+      "startFrame": 50,
+      "minDuration": "as_template",
+      "font": {
+        "fontPath": "sunday"
+      },
+      "textSize": "0.095m",
+      "textColor": "#FFFFFF",
+      "animationParamIn": {
+        "wordDelay": 5,
+        "wordInterpolator": {
+          "type": "accelerate",
+          "factor": 0.95
+        },
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 25,
+            "interpolator": "flatIn25expOut"
+          },
+          {
+            "type": "move_to_y",
+            "from": 0.5,
+            "to": 0,
+            "duration": 30,
+            "interpolator": "flatIn25expOut"
+          }
+        ]
+      }
+    }
+  ]
+}

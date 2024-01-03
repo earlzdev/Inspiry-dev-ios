@@ -1,0 +1,69 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "videoDemo": "assets://template-resources/film/ThreeFilmMask/demo.mp4",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "group",
+      "width": "1w",
+      "height": "1h",
+      "templateMask": {
+        "shaderType": "BLEND_OVERLAY_MASK",
+        "textures": [
+          {
+            "type": "textureMedia",
+            "isLoopEnabled": true,
+            "textureSource": "assets://template-resources/film/ThreeFilmMask/mask.mp4",
+            "clipTextures": [
+              {
+                "left": 0,
+                "top": 1,
+                "right": 0.33333333,
+                "bottom": 0
+              },
+              {
+                "left": 0.33333333,
+                "top": 1,
+                "right": 0.66666666,
+                "bottom": 0
+              },
+              {
+                "left": 0.66666666,
+                "top": 1,
+                "right": 1,
+                "bottom": 0
+              }
+            ]
+          }
+        ]
+      },
+      "medias": [
+        {
+          "type": "image",
+          "width": "1w",
+          "height": "1/3h",
+          "anchorY": "top",
+          "demoSource": "https://images.pexels.com/photos/2466756/pexels-photo-2466756.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+        },
+        {
+          "type": "image",
+          "width": "1w",
+          "height": "1/3h",
+          "anchorY": "center",
+          "demoSource": "https://images.pexels.com/photos/2466756/pexels-photo-2466756.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+        },
+        {
+          "type": "image",
+          "width": "1w",
+          "height": "1/3h",
+          "anchorX": "center",
+          "anchorY": "bottom",
+          "demoSource": "https://images.pexels.com/photos/2466756/pexels-photo-2466756.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+        }
+      ]
+    }
+  ]
+}

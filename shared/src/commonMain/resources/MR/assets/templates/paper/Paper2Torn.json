@@ -1,0 +1,90 @@
+{
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "id": "Image2.Texture.Group",
+            "type": "elementBackgroundColor"
+          },
+          {
+            "id": "Image1",
+            "type": "elementBackgroundColor"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "id": "Image1",
+      "demoSource": "https://images.unsplash.com/photo-1544568104-5b7eb8189dd4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "demoOffsetY": -0.093,
+      "width": "1w",
+      "height": "1020/1920h",
+      "anchorY": "bottom",
+      "startFrame": 25,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "right_to_left",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "id": "Image2",
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1510563800743-aed236490d08?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80",
+      "width": "1w",
+      "height": "1155/1920h",
+      "alignBy": "top_center",
+      "templateMask": {
+        "shaderType": "COMMON_MASK",
+        "textures": [
+          {
+            "type": "textureMedia",
+            "isEditable": false,
+            "scaleType": "FIT_XY",
+            "minDuration": "as_template",
+            "alignBy": "top_center",
+            "textureSource": "assets://template-resources/paper/Paper2Torn/paper_mask.png",
+            "animatorsIn": [
+              {
+                "type": "clip",
+                "direction": "left_to_right",
+                "duration": 40,
+                "interpolator": "elegantlySlowOut"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "originalSource": "assets://template-resources/paper/Paper2Torn/paper_torn.png",
+      "width": "match_parent",
+      "height": "432",
+      "y": "835",
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "left_to_right",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    }
+  ]
+}

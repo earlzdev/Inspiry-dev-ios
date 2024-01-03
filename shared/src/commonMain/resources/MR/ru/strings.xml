@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- edit one template sceen -->
+    <string name="save">Сохранить</string>
+    <string name="back">Назад</string>
+    <string name="background">Фон</string>
+    <string name="edit">Редактировать</string>
+    <string name="share">Поделиться</string>
+    <string name="animation_enabled">Видео</string>
+    <string name="animation_disabled">Изображение</string>
+
+    <!-- edit template context menu items -->
+    <string name="copy_action">Копировать</string>
+    <string name="rename">Переименовать</string>
+    <string name="delete">Удалить</string>
+    <string name="context_delete_title">Вы уверены, что хотите удалить эту историю?</string>
+    <string name="context_delete_message">Изменения нельзя будет вернуть</string>
+
+    <!-- start screen, my stories -->
+    <string name="tab_my_stories">МОИ ИСТОИИ</string>
+    <string name="tab_templates">ШАБЛОНЫ</string>
+    <string name="tab_pro">ПРО</string>
+    <string name="empty_my_stories">У вас ещё нет историй. Сделайте выбор во вкладке Шаблоны, начните редактировать и она появится здесь</string>
+    <string name="create_new_story">Сотворить историю</string>
+    <string name="preview_long_press_hint">Вы можете сделать долгий клик, чтобы появился интерфейс instagram</string>
+
+    <!-- saving screen -->
+    <string name="preview_template_stories_profile">Предпросмотр шаблона</string>
+    <string name="saving_activity_progress_title">Готовим ваш дизайн</string>
+    <string name="share_save_to_gallery">Сохранено в галерею</string>
+    <string name="saving_activity_create_new">Создать новый</string>
+    <string name="subscribe_header_subtitle">с Inspiry Premium</string>
+    <string name="share_dialog_title">Поделиться дизайном через</string>
+    <string name="template_is_saved_message_without_copy">Шаблон был сохранён в DCIM/Inspiry директории</string>
+
+    <!-- subscription screen -->
+    <string name="subscribe_feature_watermark">Без рекламы</string>
+    <string name="subscribe_feature_all">Все шаблоны</string>
+    <string name="subscribe_feature_fonts">Все стили шрифтов</string>
+    <string name="subscribe_feature_format">Все форматы</string>
+    <string name="subscribe_feature_text_animations">Текстовые эффекты</string>
+
+    <string name="subscription_1_month">1 месяц: %s</string>
+    <string name="subscription_12_months">12 месяцев</string>
+    <string name="subscribe_option_forever">Навсегда: %s</string>
+    <string name="subscribe">Подписаться</string>
+    <string name="subscribe_support">ПОДДЕРЖКА</string>
+    <string name="subscribe_terms">Подписываясь, вы соглашаетесь с нашей Политикой приватности и условиями использования.</string>
+    <string name="subscribe_conditions">Регулярный платёж. Отмена в любое время.</string>
+
+    <string name="subscribe_try_days_button">Попробуйте Бесплатно</string>
+    <string name="subscribe_continue_button">ПРОДОЛЖИТЬ</string>
+
+    <string name="subscribe_try_days_b">%s БЕСПЛАТНО </string>
+    <string name="subscribe_after_trial_end"> / %s после</string>
+    <string name="subscribe_price_per_month"> %s в месяц</string>
+
+    <string name="banner_trial_subtitle">Получить ПРО</string>
+    <string name="banner_my_stories_title">Прокачай свои сториз</string>
+    <string name="banner_my_stories_subtitle">Узнать</string>
+    <string name="subscription_1_year">1 год: %s</string>
+    <string name="subscription_save">скидка %s</string>
+
+    <!-- subscribe to instagram screen -->
+    <string name="follow_us_on_instagram">Подписывайтесь на нас в Instagram</string>
+    <string name="to_instagram_subtitle">И получите доступ к ПРЕВОСХОДНЫМ шаблонам бесплатно</string>
+    <string name="button_follow">Подписаться</string>
+
+    <!-- Logo screen -->
+    <string name="your_logo">Ваш логотип</string>
+    <string name="toast_db_logo">Вы добавили логотип, который уже есть в библиотеке</string>
+    <string name="add_logo">Добавить логотип</string>
+
+    <!-- buy one template -->
+    <string name="unlock_1_template_subtitle">Разблокируй отличный шаблон за %s</string>
+    <string name="unlock_all_templates_button">Разблокировать все шаблоны</string>
+    <string name="unlock_1_template_button">1 Шаблон</string>
+    <string name="button_get_all_subtitle">Все текущие и будущие Про шаблоны</string>
+
+    <!-- dialogs and service messages -->
+    <string name="dialog_alert_title_no_save">Вернуться без сохранений?</string>
+    <string name="dialog_alert_subtitle_no_save">Все изменения будут потеряны</string>
+    <string name="dialog_alert_confirm">Подтвердить</string>
+    <string name="dialog_name_title">Назовите свою сториз</string>
+    <string name="dialog_name_submit">Отправить</string>
+    <string name="error_to_load_template_subtitle">При загрузке произошла ошибка. Проверьте соединение с интернетом</string>
+    <string name="error_to_load_template_button">Попробовать ещё раз</string>
+    <string name="error_general_check_internet">Не получается загрузить данные. Проверьте соединение с интернетом</string>
+    <string name="template_is_loading">Пожалуйста подождите, шаблон загружается</string>
+    <string name="media_loading_message">Загрузка</string>
+    <string name="from_icloud">из iCloud</string>
+
+    <!-- instruments -->
+    <string name="instrument_cut">Обрезать</string>
+    <string name="instrument_text_animation">Анимация</string>
+    <string name="instrument_text_font">Шрифт</string>
+    <string name="instrument_text_size">Размер</string>
+    <string name="instrument_text_color">Цвет</string>
+    <string name="instrument_text_back">Фон</string>
+    <string name="instrument_text_align">Выровнять</string>
+    <string name="instrument_text">Текст</string>
+    <string name="instrument_timeline">Время</string>
+    <string name="instrument_music">Музыка</string>
+    <string name="instrument_add">Добавить</string>
+    <string name="instrument_stickers">Стикер</string>
+    <string name="instrument_remove">Вырезать</string>
+    <string name="instrument_logo">Логотип</string>
+    <string name="instrument_media">Медиа</string>
+    <string name="instrument_slide">Слайд</string>
+
+    <string name="instrument_replace">Заменить</string>
+    <string name="instrument_shape">Форма</string>
+    <string name="instrument_move">Move</string>
+    <string name="instrument_color">Цвет</string>
+
+    <string name="instrument_format">Формат</string>
+    <string name="format_square">Квадрат 1:1</string>
+    <string name="format_post">Пост 4:5</string>
+    <string name="format_horizontal">Full HD 16:9</string>
+    <string name="format_story">История 9:16</string>
+
+    <string name="instrument_palette">Палитра</string>
+    <string name="instrument_opacity">Прозрачность</string>
+    <string name="instrument_round">Округлить</string>
+    <string name="palette_option_image">Галерея</string>
+    <string name="palette_add_from_gallery">Добавить из галереи</string>
+    <string name="palette_add_image">Добавить\nфото</string>
+    <string name="instrument_page_volume">Громкость</string>
+
+    <!-- trim video instruments -->
+    <string name="trim_template">Темплейт</string>
+    <string name="trim_fullVideo">Видео</string>
+    
+    <!-- text instruments -->
+    <string name="empty_text_content">Введите свой текст здесь</string>
+    <string name="apply_to_background">Фон</string>
+    <string name="done">Сделано</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- color filter mode-->
+    <string name="color_filter_default">Нормальный</string>
+    <string name="color_filter_screen">Экран</string>
+    <string name="color_filter_multiply">Умножение</string>
+    <string name="color_filter_darken">Затенение</string>
+    <string name="color_filter_overlay">Наложение</string>
+    <string name="color_filter_lighten">Осветление</string>
+    <string name="color_filter_difference">Разница</string>
+
+    <!-- categories -->
+
+    <string name="category_free_this_week">Бесплатно на неделю</string>
+    <string name="category_trends">Тренд</string>
+    <string name="category_grid">Коллаж</string>
+    <string name="category_minimal">Минимал</string>
+    <string name="category_business">Бизнес</string>
+    <string name="category_gradient">Градиент</string>
+    <string name="category_film">Плёнка</string>
+    <string name="category_vhs">Vhs</string>
+    <string name="category_paper">Бумага</string>
+    <string name="category_plastic">Пластик</string>
+    <string name="category_art">Искусство</string>
+    <string name="category_typography">Типография</string>
+    <string name="category_halloween">Хэллоуин</string>
+    <string name="category_christmas">Новый год</string>
+    <string name="category_beauty">Красота</string>
+    <string name="category_new">Новые</string>
+    <string name="category_love">Любовь</string>
+    <string name="category_blank">Пустые</string>
+    <string name="category_social">Социальные</string>
+    <string name="category_classic">Классика</string>
+    <string name="category_black_friday">Черная Пятница</string>
+    <string name="category_gentle">Нежность</string>
+    <string name="category_portraits">Портреты</string>
+
+    <string name="weekly_notification_title">Подарок - бесплатные про шаблоны</string>
+    <string name="weekly_notification_subtitle">Доступны новые премиум сторис 🔥</string>
+
+    <string name="notification_unfinished_story_title">Не забудь про свою сторис</string>
+    <string name="notification_unfinished_story_subtitle">Пора  завершить сторис и опубликовать её в instagram 🔔</string>
+
+    <string name="saving_share_as">Сохранить как:</string>
+    <string name="saving_copied_clipboard">%s скопирован в буфер обмена</string>
+    <string name="saving_tag_us_inspiry1">Добавьте тэг</string>
+    <string name="saving_tag_us_inspiry2">чтобы мы могли поделиться вашей историей</string>
+    <string name="feedback_title">Напишите нам</string>
+    <string name="feedback_message">У вас есть вопросы, проблемы или пожелания? Мы будем рады вас слышать!\n\nВерсия Inspiry %s</string>
+    <string name="feedback_positive_button">Написать email</string>
+    <string name="save_project_negative">Выйти не сохранив</string>
+    <string name="save_project_positive">Сохранить и выйти</string>
+    <string name="save_project_title">Вы хотите сохранить этот проект?</string>
+
+    <string name="tip_layers_panel">В слоях вы можете изменить длину шаблона или анимации текста</string>
+
+    <string name="dialog_free_message">Inspiry дарит тебе ещё больше своего тепла. Пользуйтесь Pro версией абсолютно бесплатно сейчас и в первые дни марта.</string>
+    <string name="dialog_free_title">Inspiry PRO бесплатно</string>
+
+    <string name="string_category_arrow">Стрелки</string>
+    <string name="sticker_category_brush">Кисти</string>
+    <string name="sticker_category_social">Социальные</string>
+
+    <string name="rating_dialog_start_text">Мы хотели бы узнать\nваше мнение</string>
+    <string name="rating_dialog_share_text">Вы сделали\nотличный дизайн!</string>
+    <string name="rating_dialog_rateus_text">Как бы вы оценили нас?</string>
+    <string name="rating_dialog_experience">Как вам понравилось наше приложение?</string>
+    <string name="rating_dialog_maybe_later">Позже</string>
+    <string name="rating_dialog_never">Никогда</string>
+    <string name="rating_dialog_feedback_title">Отзыв</string>
+    <string name="rating_dialog_submit">Отправить</string>
+    <string name="rating_dialog_cancel">Отменить</string>
+    <string name="rating_dialog_suggestions">Скажите нам, что не так, и мы поработаем над этим</string>
+    <string name="rating_dialog_please_rate">Пожалуйста, поддержите нас, оставив свой отзыв на Google Play</string>
+
+    <string name="upload_font">ЗАГРУЗИТЬ\nШРИФТ</string>
+
+    <string name="music_preview_warning">Эти треки не подходят для коммерческого использования</string>
+    <string name="music_search_hint">Фильтр музыки</string>
+    <string name="music_tab_preview">Превью</string>
+    <string name="music_tab_library">Библиотека</string>
+    <string name="music_tab_my">Моя музыка</string>
+    <string name="music_error_message">Произошла ошибка</string>
+    <string name="music_error_button">Ещё раз</string>
+    <string name="music_progress_downloading_message">Загружается аудио</string>
+    <string name="music_album_all_tracks">Все треки</string>
+    <string name="music_unknown_artist">Неизвестный исполнитель</string>
+    <string name="music_free_tracks_left">бесплатных треков:</string>
+    <string name="music_royalty_free_description">Royalty free музыка для создателей контента. Она помогает избежать бана за музыку с копирайтом в соц. сетях</string>
+
+    <string name="onboarding_text_1">Создавай потрясающие\nсторис</string>
+    <string name="onboarding_text_2">Есть все для создания\nконтента</string>
+
+    <string name="onboarding_quiz_skip">пропустить</string>
+    <string name="onboarding_quiz_1_title">Как вы планируете\nиспользовать Inspiry?</string>
+    <string name="onboarding_quiz_1_option_1">для бизнеса</string>
+    <string name="onboarding_quiz_1_option_2">для себя</string>
+    <string name="onboarding_quiz_1_option_3">творчество</string>
+    <string name="onboarding_quiz_1_hint">Ответы сделают приложение более полезным</string>
+
+    <string name="onboarding_quiz_2_title">Выберите сферу для\nсоздания контента</string>
+    <string name="onboarding_quiz_2_hint">Выберите любое количество категорий</string>
+    <string name="onboarding_quiz_2_option_2">Обучение</string>
+    <string name="onboarding_quiz_2_option_3">Спорт и фитнес</string>
+    <string name="onboarding_quiz_2_option_5">Еда</string>
+    <string name="onboarding_quiz_2_option_6">Мода</string>
+    <string name="onboarding_quiz_2_option_7">Личный блог</string>
+    <string name="onboarding_quiz_2_option_8">Путешествия</string>
+    <string name="onboarding_quiz_2_option_9">Фотография</string>
+    <string name="onboarding_quiz_2_option_additional">Хотите предложить свою сферу? Это поможет создавать дизайн для вас</string>
+    <string name="onboarding_quiz_2_option_hint">Предложить свою сферу...</string>
+
+    <string name="remove_bg_promo_title">Удаляй фон</string>
+    <string name="remove_bg_promo_subtitle">как профи</string>
+    <string name="remove_bg_loading">УДАЛЯЕМ\nФОН</string>
+    <string name="feature_promo_button">Попробовать</string>
+    <string name="remove_bg_notification_title">Попробуйте удаление фона в Inspiry</string>
+    <string name="remove_bg_notification_subtitle">Новый инструмент и новые шаблоны 🎉</string>
+
+    <string name="my_stories_subscribe_to_inst">Идеи дизайна и новости Inspiry\nСмотреть в нашем Instagram</string>
+
+    <string name="bf_only_price">только</string>
+    <string name="bf_12_months">12 месяцев</string>
+    <string name="bf_special_offer">Специальное Предложение</string>
+    <string name="bf_notification_subtitle">Хорошая скидка на годовую подписку 🎉</string>
+
+    <string name="bf_banner_title_second">Скидки</string>
+    <string name="bf_banner_until">до</string>
+
+    <string name="export_option_gallery">Галерея</string>
+    <string name="export_option_more">Ещё</string>
+
+    <!-- request permissions -->
+    <string name="media_library_request_title">Пожалуйста, разрешите доступ к библиотеке</string>
+    <string name="media_library_request_description">Откройте доступ к медиатеке, чтобы у Вас была возможность добавить ваши фото в шаблон для создания ваших сториз</string>
+    <string name="settings">Настройки</string>
+</resources>

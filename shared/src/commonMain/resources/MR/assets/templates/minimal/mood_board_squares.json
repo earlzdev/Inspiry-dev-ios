@@ -1,0 +1,172 @@
+{
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "palette": {
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "squarePath"
+          }
+        ]
+      },
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1564086661576-7ba901332fd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDAxNX0&auto=format&fit=crop&w=1080&q=80",
+      "width": "1w",
+      "height": "702/1920h",
+      "demoOffsetY": -0.6,
+      "demoOffsetX": -0.1,
+      "demoScale": 1.2,
+      "startFrame": 5,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 45,
+          "interpolator": "cubicOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1557762372-8624dac81f56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "width": "837/1080w",
+      "height": "702/1920h",
+      "y": "210/1080w",
+      "anchorY": "bottom",
+      "anchorX": "center",
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "bottom_to_top",
+          "duration": 45,
+          "interpolator": "cubicOut"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "match_parent",
+      "height": "match_parent",
+      "startFrame": 45,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 15
+        },
+        {
+          "type": "scale",
+          "from": 1.3,
+          "to": 1,
+          "duration": 45,
+          "interpolator": "cubicOut"
+        }
+      ],
+      "medias": [
+        {
+          "id": "squarePath",
+          "type": "image",
+          "isEditable": false,
+          "isMovable": true,
+          "width": "834/1080w",
+          "height": "538/1920h",
+          "anchorX": "center",
+          "y": "470/1920h"
+        },
+        {
+          "type": "text",
+          "minDuration": "as_template",
+          "text": "MOOD BOARD",
+          "anchorY": "center",
+          "anchorX": "center",
+          "width": "834/1080w",
+          "height": "wrap_content",
+          "innerGravity": "center",
+          "textColor": "#000000",
+          "font": {
+            "fontPath": "montserrat",
+            "fontStyle": "light"
+          },
+          "textSize": "0.0343h",
+          "translationY": -0.1755,
+          "startFrame": 60,
+          "animationParamIn": {
+            "lineDelayMillis": 667,
+            "reverse": true,
+            "textAnimators": [
+              {
+                "type": "clip",
+                "duration": 20,
+                "direction": "none"
+              },
+              {
+                "type": "move_to_y",
+                "from": -1,
+                "to": 0,
+                "duration": 20,
+                "interpolator": "elegantlySlowOut"
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "text": "A lifetime of happiness\nno man alive could bear it.",
+          "anchorY": "center",
+          "anchorX": "center",
+          "width": "834/1080w",
+          "height": "wrap_content",
+          "minDuration": "as_template",
+          "textColor": "#000000",
+          "font": {
+            "fontPath": "montserrat",
+            "fontStyle": "light"
+          },
+          "textSize": "0.0225h",
+          "innerGravity": "center",
+          "translationY": -0.11,
+          "startFrame": 75,
+          "animationParamIn": {
+            "lineDelayMillis": 666,
+            "textAnimators": [
+              {
+                "type": "clip",
+                "duration": 20,
+                "direction": "none"
+              },
+              {
+                "type": "move_to_y",
+                "from": 1,
+                "to": 0,
+                "duration": 20,
+                "interpolator": "elegantlySlowOut"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

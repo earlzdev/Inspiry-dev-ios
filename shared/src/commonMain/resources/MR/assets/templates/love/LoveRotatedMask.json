@@ -1,0 +1,174 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "defaultTextColor": "#ffffff",
+    "choices": [
+      {
+        "color": "#FF5B6F",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          },
+          {
+            "type": "vector",
+            "id": "vectorOverlay"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "vector",
+            "id": "vectorBg"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "vectorBg",
+      "type": "image",
+      "isEditable": false,
+      "anchorX": "end",
+      "originalSource": "assets://template-resources/love/LoveRotatedMask/back_2.png",
+      "width": "892",
+      "height": "1851"
+    },
+    {
+      "id": "vectorOverlay",
+      "type": "vector",
+      "width": "1044",
+      "height": "1040",
+      "y": "398",
+      "x": "17",
+      "isMovable": false,
+      "isLoopEnabled": false,
+      "originalSource": "assets://template-resources/love/LoveRotatedMask/contur_photo.json",
+      "minDuration": "as_template",
+      "startFrame": 5
+    },
+    {
+      "type": "group",
+      "id": "groupImages",
+      "width": "1081",
+      "height": "1076",
+      "y": "381",
+      "templateMask": {
+        "shaderType": "COMMON_MASK",
+        "textures": [
+          {
+            "type": "textureMedia",
+            "startFrame": 8,
+            "textureSource": "assets://template-resources/love/LoveRotatedMask/mask.json"
+          }
+        ]
+      },
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1546418608-57cbd042b399?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+          "width": "match_parent",
+          "height": "match_parent",
+          "demoOffsetY": -0.26511988,
+          "startFrame": 8,
+          "animatorsIn": [
+            {
+              "type": "scale_inner",
+              "duration": 50,
+              "from": 1,
+              "to": 1.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vector1",
+      "type": "vector",
+      "width": "1w",
+      "height": "1h",
+      "isMovable": false,
+      "isLoopEnabled": false,
+      "originalSource": "assets://template-resources/love/LoveRotatedMask/arrows.json",
+      "minDuration": "as_template",
+      "startFrame": 10
+    },
+    {
+      "id": "vector2",
+      "type": "vector",
+      "width": "0.112863794w",
+      "height": "0.056360707h",
+      "translationX": 0.5866403,
+      "translationY": 0.82372487,
+      "isMovable": true,
+      "isLoopEnabled": true,
+      "originalSource": "assets://template-resources/love/LoveRotatedMask/hearts.json",
+      "minDuration": "as_template",
+      "startFrame": 20
+    },
+    {
+      "id": "vector3",
+      "type": "vector",
+      "width": "0.11319555w",
+      "height": "0.05152979h",
+      "translationX": 0.13098346,
+      "translationY": 0.14808452,
+      "isMovable": true,
+      "isLoopEnabled": true,
+      "originalSource": "assets://template-resources/love/LoveRotatedMask/hearts.json",
+      "minDuration": "as_template",
+      "startFrame": 30
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "text": "With you",
+      "font": {
+        "fontPath": "nexa_script",
+        "fontStyle": "light"
+      },
+      "translationX": 0.1569329,
+      "translationY": -0.3335902,
+      "textSize": "0.13399361m",
+      "minDuration": "as_template",
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2,
+      "startFrame": 45,
+      "animationParamIn": {
+        "wordDelay": 7,
+        "lineDelay": 7,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 12
+          },
+          {
+            "type": "move_to_y",
+            "from": -0.7,
+            "to": 0,
+            "duration": 12,
+            "interpolator": "beautyOut"
+          }
+        ]
+      }
+    }
+  ]
+}

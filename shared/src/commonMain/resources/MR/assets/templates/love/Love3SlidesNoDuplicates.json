@@ -1,0 +1,297 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "defaultTextColor": "#ffffff",
+    "backgroundGradient": {
+      "orientation": "TR_BL",
+      "colors": [
+        "#FCCB90",
+        "#D57EEA"
+      ]
+    },
+    "choices": [
+      {
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "group",
+      "width": "838",
+      "height": "1485",
+      "anchorX": "start",
+      "y": "135",
+      "startFrame": 15,
+      "animatorsIn": [
+        {
+          "type": "move_to_x",
+          "from": 0,
+          "to": -0.73,
+          "duration": 40,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "move_to_x",
+          "from": -0.73,
+          "to": -1.46,
+          "startFrame": 70,
+          "duration": 40,
+          "interpolator": "elegantlySlowOut"
+        }
+      ],
+      "medias": [
+        {
+          "type": "image",
+          "id": "mainImage",
+          "demoSource": "https://images.unsplash.com/photo-1496440737103-cd596325d314?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+          "width": "match_parent",
+          "height": "match_parent"
+        },
+        {
+          "type": "image",
+          "id": "overlayImage",
+          "isEditable": false,
+          "originalSource": "https://inspiry-2ee60.web.app/template-resources/love/Love2SlidesDuplicates/front_plastic.png",
+          "width": "match_parent",
+          "height": "match_parent"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "838",
+      "height": "1485",
+      "anchorX": "start",
+      "x": "896",
+      "y": "135",
+      "startFrame": 15,
+      "animatorsIn": [
+        {
+          "type": "move_to_x",
+          "from": 0,
+          "to": -0.73,
+          "duration": 40,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "move_to_x",
+          "from": -0.73,
+          "to": -1.46,
+          "startFrame": 70,
+          "duration": 40,
+          "interpolator": "elegantlySlowOut"
+        }
+      ],
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1514315384763-ba401779410f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+          "width": "match_parent",
+          "height": "match_parent"
+        },
+        {
+          "type": "image",
+          "duplicate": "overlayImage",
+          "isEditable": false,
+          "width": "match_parent",
+          "height": "match_parent"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "838",
+      "height": "1485",
+      "anchorX": "start",
+      "x": "1000",
+      "y": "135",
+      "startFrame": 15,
+      "animatorsIn": [
+        {
+          "type": "move_to_x",
+          "from": 0.73,
+          "to": 0,
+          "duration": 40,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "move_to_x",
+          "from": 0,
+          "to": -0.73,
+          "startFrame": 70,
+          "duration": 40,
+          "interpolator": "elegantlySlowOut"
+        }
+      ],
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1575047940547-c42170b2bb88?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+          "width": "match_parent",
+          "height": "match_parent"
+        },
+        {
+          "type": "image",
+          "duplicate": "overlayImage",
+          "isEditable": false,
+          "width": "match_parent",
+          "height": "match_parent"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "translationX": -0.1940328,
+      "translationY": -0.41550684,
+      "rotation": -9,
+      "medias": [
+        {
+          "type": "vector",
+          "id": "vectorAsTextBg*vectorText1",
+          "width": "match_parent",
+          "height": "match_parent",
+          "minDuration": "as_template",
+          "startFrame": 10,
+          "scaleType": "FIT_XY",
+          "paddingTop": "0.04w",
+          "paddingBottom": "0.03w",
+          "colorFilter": "#83F8FF",
+          "originalSource": "assets://template-resources/love/Love2SlidesDuplicates/back_text_1.json"
+        },
+        {
+          "type": "text",
+          "text": "Always near\nmy light",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "innerGravity": "center",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "textSize": "0.14556041m",
+          "lineSpacing": 0.7,
+          "paddingStart": "0.14w",
+          "paddingEnd": "0.14w",
+          "font": "savoy",
+          "textColor": "#7C46D4",
+          "minDuration": "as_template",
+          "startFrame": 25,
+          "animationParamIn": {
+            "charDelay": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "translationX": 0.109790765,
+      "translationY": 0.3035311,
+      "medias": [
+        {
+          "type": "vector",
+          "id": "vectorAsTextBg*vectorText2",
+          "width": "match_parent",
+          "height": "match_parent",
+          "minDuration": "as_template",
+          "startFrame": 25,
+          "scaleType": "FIT_XY",
+          "colorFilter": "#9A48EC",
+          "originalSource": "assets://template-resources/love/Love2SlidesDuplicates/back_text_2.json"
+        },
+        {
+          "type": "text",
+          "text": "NEXT DAY",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "innerGravity": "center",
+          "paddingStart": "0.13w",
+          "paddingEnd": "0.13w",
+          "paddingBottom": "0.02w",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "textSize": "0.0701584m",
+          "font": "notcourier",
+          "textColor": "#ffffff",
+          "minDuration": "as_template",
+          "startFrame": 35,
+          "animationParamIn": {
+            "charDelay": 2
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "translationY": 0.43032613,
+      "medias": [
+        {
+          "type": "vector",
+          "id": "vectorAsTextBg*vectorText3",
+          "width": "match_parent",
+          "height": "match_parent",
+          "minDuration": "as_template",
+          "startFrame": 40,
+          "scaleType": "FIT_XY",
+          "colorFilter": "#83F8FF",
+          "originalSource": "assets://template-resources/love/Love2SlidesDuplicates/back_text_3.json"
+        },
+        {
+          "type": "text",
+          "text": "I feel your shine",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "innerGravity": "center",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "textSize": "0.10964m",
+          "font": "nautilus",
+          "paddingStart": "0.1w",
+          "paddingEnd": "0.1w",
+          "paddingTop": "0.035w",
+          "paddingBottom": "0.025w",
+          "textColor": "#7C46D4",
+          "minDuration": "as_template",
+          "startFrame": 52,
+          "animationParamIn": {
+            "charDelayMillis": 25,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "durationMillis": 50,
+                "from": 0,
+                "to": 1
+              },
+              {
+                "type": "move_to_y",
+                "interpolator": {
+                  "type": "spring",
+                  "amplitude": 0.12,
+                  "frequency": 20
+                },
+                "from": 0.5,
+                "to": 0,
+                "durationMillis": 1500
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "defaultTextColor": "#ffffff",
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "textTitle1"
+          },
+          {
+            "type": "textColor",
+            "id": "textTitle2"
+          },
+          {
+            "type": "textColor",
+            "id": "textListTitle"
+          },
+          {
+            "type": "textColor",
+            "id": "textItem1"
+          },
+          {
+            "type": "textColor",
+            "id": "textItem2"
+          },
+          {
+            "type": "textColor",
+            "id": "textItem3"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "dot1"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "dot2"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "dot3"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1543269664-76bc3997d9ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&h=1000&q=60",
+      "type": "image",
+      "width": "1w",
+      "height": "1h",
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 1.35,
+          "to": 1.1,
+          "duration": 30,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "move",
+          "fromX": 0.15,
+          "toX": 0,
+          "fromY": -0.15,
+          "toY": 0,
+          "duration": 30,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "scale",
+          "from": 1.1,
+          "to": 1,
+          "duration": 56,
+          "startFrame": 40,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "width": "1w",
+      "height": "700/1920h",
+      "anchorY": "bottom",
+      "originalSource": "assets://template-resources/business/HireMediaManager/bg_text.png",
+      "isEditable": false,
+      "startFrame": 40,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 1,
+          "to": 0,
+          "duration": 20,
+          "interpolator": "easeInOut",
+          "relativity": "ROOT"
+        }
+      ]
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "id": "textTitle1",
+      "text": "We are\nhiring",
+      "backgroundMarginLeft": 0,
+      "backgroundMarginRight": 0,
+      "translationX": 0.14053276,
+      "translationY": -0.3608124,
+      "textSize": "0.09899999m",
+      "innerGravity": "left",
+      "font": {
+        "fontPath": "mont",
+        "fontStyle": "bold"
+      },
+      "anchorY": "center",
+      "textColor": "#ffffff",
+      "minDuration": "as_template",
+      "startFrame": 10,
+      "animationParamIn": {
+        "wordInterpolator": {
+          "type": "accelerate",
+          "factor": 0.7
+        },
+        "textAnimators": [
+          {
+            "duration": 18,
+            "type": "fade",
+            "from": 0,
+            "to": 1
+          },
+          {
+            "duration": 18,
+            "interpolator": "flatIn25expOut",
+            "type": "move",
+            "fromX": 0,
+            "toX": 0,
+            "fromY": 1,
+            "toY": 0
+          }
+        ],
+        "wordDelayMillis": 220,
+        "lineDelayMillis": 220
+      }
+    },
+    {
+      "id": "textTitle2",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "my company",
+      "translationX": 0.13381724,
+      "translationY": -0.43676236,
+      "innerGravity": "start",
+      "font": {
+        "fontPath": "mont"
+      },
+      "anchorY": "center",
+      "textColor": "#ffffff",
+      "minDuration": "as_template",
+      "startFrame": 33,
+      "textSize": "0.053000003m",
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "textListTitle",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "Social Media Manager",
+      "translationX": -0.042381268,
+      "translationY": 0.18631099,
+      "innerGravity": "start",
+      "anchorX": "center",
+      "anchorY": "center",
+      "textColor": "#ffffff",
+      "minDuration": "as_template",
+      "startFrame": 40,
+      "textSize": "0.069m",
+      "animationParamIn": {
+        "wordInterpolator": {
+          "type": "accelerate",
+          "factor": 0.7
+        },
+        "textAnimators": [
+          {
+            "duration": 18,
+            "type": "fade",
+            "from": 0,
+            "to": 1
+          },
+          {
+            "duration": 18,
+            "interpolator": "flatIn25expOut",
+            "type": "move",
+            "fromX": 0,
+            "toX": 0,
+            "fromY": 1,
+            "toY": 0
+          }
+        ],
+        "wordDelayMillis": 220,
+        "lineDelayMillis": 220
+      }
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": 0.27860507,
+      "translationX": 0.19333993,
+      "anchorX": "start",
+      "anchorY": "center",
+      "medias": [
+        {
+          "id": "dot1",
+          "type": "image",
+          "backgroundColor": "#ffffff",
+          "isEditable": false,
+          "width": "0.015w",
+          "height": "0.015w",
+          "y": "0.02h",
+          "translationX": -0.04,
+          "anchorY": "center",
+          "startFrame": 88,
+          "animatorsIn": [
+            {
+              "type": "scale",
+              "from": 0,
+              "to": 1,
+              "duration": 11,
+              "interpolator": "elegantlySlowOut"
+            },
+            {
+              "type": "radius",
+              "from": 1,
+              "to": 1,
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "type": "text",
+          "id": "textItem1",
+          "text": "Manage our social media pages",
+          "letterSpacing": 0,
+          "innerGravity": "start",
+          "textColor": "#ffffff",
+          "minDuration": "as_template",
+          "startFrame": 70,
+          "textSize": "0.043000005m",
+          "animationParamIn": {
+            "lineDelayMillis": 1,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "duration": 9,
+                "from": 0,
+                "to": 1
+              },
+              {
+                "type": "move_to_x",
+                "interpolator": "fastInSuperfastOut1Invert",
+                "relativity": "ROOT",
+                "from": 1,
+                "to": 0,
+                "duration": 33
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationX": 0.19333993,
+      "translationY": 0.32633546,
+      "anchorX": "start",
+      "anchorY": "center",
+      "medias": [
+        {
+          "id": "dot2",
+          "type": "image",
+          "backgroundColor": "#ffffff",
+          "isEditable": false,
+          "width": "0.015w",
+          "height": "0.015w",
+          "y": "0.02h",
+          "translationX": -0.04,
+          "anchorY": "center",
+          "startFrame": 99,
+          "animatorsIn": [
+            {
+              "type": "scale",
+              "from": 0,
+              "to": 1,
+              "duration": 11,
+              "interpolator": "elegantlySlowOut"
+            },
+            {
+              "type": "radius",
+              "from": 1,
+              "to": 1,
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "id": "textItem2",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "type": "text",
+          "text": "Write content for the blog",
+          "letterSpacing": 0,
+          "innerGravity": "start",
+          "anchorX": "start",
+          "anchorY": "center",
+          "textColor": "#ffffff",
+          "minDuration": "as_template",
+          "startFrame": 80,
+          "textSize": "0.043000005m",
+          "animationParamIn": {
+            "lineDelayMillis": 1,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "duration": 9,
+                "from": 0,
+                "to": 1
+              },
+              {
+                "type": "move_to_x",
+                "interpolator": "fastInSuperfastOut1Invert",
+                "relativity": "ROOT",
+                "from": 1,
+                "to": 0,
+                "duration": 30
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationX": 0.19333993,
+      "translationY": 0.3732476,
+      "anchorX": "start",
+      "anchorY": "center",
+      "medias": [
+        {
+          "id": "dot3",
+          "type": "image",
+          "backgroundColor": "#ffffff",
+          "isEditable": false,
+          "width": "0.015w",
+          "height": "0.015w",
+          "y": "0.02h",
+          "translationX": -0.04,
+          "anchorY": "center",
+          "startFrame": 109,
+          "animatorsIn": [
+            {
+              "type": "scale",
+              "from": 0,
+              "to": 1,
+              "duration": 11,
+              "interpolator": "elegantlySlowOut"
+            },
+            {
+              "type": "radius",
+              "from": 1,
+              "to": 1,
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "id": "textItem3",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "type": "text",
+          "text": "Take care of the community",
+          "innerGravity": "start",
+          "anchorX": "start",
+          "anchorY": "center",
+          "textColor": "#ffffff",
+          "minDuration": "as_template",
+          "startFrame": 90,
+          "textSize": "0.043000005m",
+          "animationParamIn": {
+            "lineDelayMillis": 1,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "duration": 9,
+                "from": 0,
+                "to": 1
+              },
+              {
+                "type": "move_to_x",
+                "interpolator": "fastInSuperfastOut1Invert",
+                "relativity": "ROOT",
+                "from": 1,
+                "to": 0,
+                "duration": 30
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

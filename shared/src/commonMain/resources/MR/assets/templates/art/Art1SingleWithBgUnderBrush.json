@@ -1,0 +1,236 @@
+{
+  "preferredDuration": 240,
+  "listDemoPreferredDuration": 150,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": true,
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "centerMask"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "isEditable": false,
+      "width": "1w",
+      "height": "1h",
+      "startFrame": 0,
+      "originalSource": "assets://template-resources/art/SingleBigUnderBrush/back_text.png"
+    },
+    {
+      "id": "centerMask",
+      "type": "image",
+      "isEditable": false,
+      "startFrame": 35,
+      "width": "856/1080w",
+      "height": "852/1920h",
+      "anchorY": "center",
+      "anchorX": "center",
+      "animatorsIn": [
+        {
+          "duration": 35,
+          "interpolator": "smooth30InOut",
+          "type": "clip",
+          "direction": "top_to_bottom"
+        }
+      ]
+    },
+    {
+      "startFrame": 40,
+      "width": "790/1080w",
+      "height": "786/1920h",
+      "anchorY": "center",
+      "anchorX": "center",
+      "animatorsIn": [
+        {
+          "duration": 40,
+          "interpolator": "smooth30InOut",
+          "type": "clip",
+          "direction": "top_to_bottom"
+        },
+        {
+          "type": "scale_inner",
+          "duration": 70,
+          "from": 1,
+          "to": 1.1
+        }
+      ],
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1558036496-420dadc075cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=820&q=80",
+      "type": "image"
+    },
+    {
+      "type": "image",
+      "isMovable": true,
+      "isEditable": false,
+      "colorFilterMode": "MULTIPLY",
+      "keepAspect": true,
+      "width": "1w",
+      "height": "500/1920h",
+      "anchorY": "bottom",
+      "anchorX": "center",
+      "startFrame": 0,
+      "originalSource": "assets://template-resources/art/SingleBigUnderBrush/brush_color_2.png",
+      "translationX": 0.115,
+      "translationY": 0.0653,
+      "animatorsIn": [
+        {
+          "duration": 50,
+          "type": "brush",
+          "lines": 4,
+          "direction": "left_to_right",
+          "reflection": true
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isMovable": true,
+      "isEditable": false,
+      "keepAspect": true,
+      "colorFilterMode": "MULTIPLY",
+      "width": "1w",
+      "height": "480/1920h",
+      "anchorY": "top",
+      "anchorX": "center",
+      "startFrame": 5,
+      "originalSource": "assets://template-resources/art/SingleBigUnderBrush/brush_color_1.png",
+      "translationX": -0.134,
+      "translationY": -0.0555,
+      "animatorsIn": [
+        {
+          "duration": 50,
+          "type": "brush",
+          "lines": 4,
+          "direction": "left_to_right"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isMovable": true,
+      "isEditable": false,
+      "colorFilterMode": "MULTIPLY",
+      "width": "380/1080w",
+      "height": "316/1920h",
+      "startFrame": 20,
+      "anchorX": "center",
+      "anchorY": "center",
+      "scaleType": "FIT_XY",
+      "originalSource": "assets://template-resources/art/SingleBigUnderBrush/flower_1.png",
+      "translationX": -0.368,
+      "translationY": -0.412,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": 57,
+          "to": 0,
+          "duration": 40,
+          "interpolator": "flatIn30expOut"
+        },
+        {
+          "type": "move_to_x",
+          "from": -0.3,
+          "to": 0,
+          "duration": 40,
+          "interpolator": "flatIn30expOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isMovable": true,
+      "isEditable": false,
+      "colorFilterMode": "MULTIPLY",
+      "width": "314/1080w",
+      "height": "450/1920h",
+      "anchorX": "center",
+      "anchorY": "center",
+      "scaleType": "FIT_XY",
+      "startFrame": 20,
+      "originalSource": "assets://template-resources/art/SingleBigUnderBrush/flower_2.png",
+      "translationX": 0.327,
+      "translationY": 0.398,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": 33,
+          "to": 0,
+          "duration": 40,
+          "interpolator": "flatIn30expOut"
+        },
+        {
+          "type": "move_to_y",
+          "from": 0.2,
+          "to": 0,
+          "duration": 40,
+          "interpolator": "flatIn30expOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isMovable": true,
+      "isEditable": false,
+      "colorFilterMode": "MULTIPLY",
+      "width": "684/1080w",
+      "height": "507/1920h",
+      "anchorY": "center",
+      "y": "0.13h",
+      "startFrame": 60,
+      "originalSource": "assets://template-resources/art/SingleBigUnderBrush/splash_3.png",
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "startFrame": 60,
+      "y": "0.29h",
+      "type": "text",
+      "innerGravity": "center",
+      "text": "Happiness",
+      "font": {
+        "fontPath": "made_script"
+      },
+      "minDuration": "as_template",
+      "textSize": "0.21m",
+      "textColor": "#EC811E",
+      "animationParamIn": {
+        "charDelay": 4,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 10
+          }
+        ]
+      }
+    }
+  ]
+}

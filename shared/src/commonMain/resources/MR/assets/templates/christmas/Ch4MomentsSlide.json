@@ -1,0 +1,408 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "timeForEdit": 0,
+  "palette": {
+    "choices": [
+      {
+        "color": "#C8ABBA",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "textTitle"
+          },
+          {
+            "type": "image",
+            "id": "snowflake_1"
+          },
+          {
+            "type": "image",
+            "id": "snowflake_2"
+          },
+          {
+            "type": "image",
+            "id": "snowflake_3"
+          },
+          {
+            "type": "image",
+            "id": "snowflake_4"
+          },
+          {
+            "type": "image",
+            "id": "back_lines"
+          }
+        ]
+      },
+      {
+        "color": "#8C7978",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "textBack"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "textBack",
+      "minDuration": "as_template",
+      "width": "1.2520107w",
+      "height": "0.36047676h",
+      "translationY": 0.068257086,
+      "anchorY": "bottom",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "text": "2023",
+      "font": {
+        "fontPath": "spectral",
+        "fontStyle": "bold"
+      },
+      "textSize": "0.3m"
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "id": "back_lines",
+      "originalSource": "assets://template-resources/christmas/Ch4MomentsSlide/frame_line.png",
+      "width": "919",
+      "height": "1547",
+      "x": "91",
+      "y": "87"
+    },
+    {
+      "id": "particles",
+      "type": "image",
+      "isEditable": false,
+      "originalSource": "assets://template-resources/christmas/Ch4MomentsSlide/particles.png",
+      "width": "1w",
+      "height": "1h"
+    },
+
+    {
+      "id": "slides_group",
+      "type": "group",
+      "slides": {
+        "duplicateSlides": true,
+        "maxCount": 4,
+        "startFrameInterval": 0,
+        "predefined": [
+          {
+            "type": "image",
+            "width": "790",
+            "height": "1360",
+            "x": "91",
+            "y": "159",
+            "demoSource": "https://images.pexels.com/photos/5860050/pexels-photo-5860050.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=720",
+            "startFrame": 100,
+            "animatorsIn": [
+              {
+                "type": "radius",
+                "from": 0.15,
+                "to": 0.15,
+                "duration": 0
+              }],
+            "animatorsOut": [
+              {
+                "type": "rotate",
+                "from": 2,
+                "to": 8,
+                "duration": 20,
+                "interpolator": {
+                  "type": "path",
+                  "x1": 0.98,
+                  "y1": 0,
+                  "x2": 0.93,
+                  "y2": 1
+                }
+              },
+              {
+                "type": "move",
+                "toX": -1.05,
+                "toY": 0.1,
+                "duration": 20,
+                "interpolator": {
+                  "type": "path",
+                  "x1": 0.98,
+                  "y1": 0,
+                  "x2": 0.93,
+                  "y2": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "width": "790",
+            "height": "1360",
+            "x": "114",
+            "y": "172",
+            "demoSource": "https://images.pexels.com/photos/3309878/pexels-photo-3309878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1280&w=720",
+            "startFrame": 70,
+            "animatorsIn": [
+              {
+                "type": "radius",
+                "from": 0.15,
+                "to": 0.15,
+                "duration": 0
+              }],
+            "animatorsOut": [
+              {
+                "type": "rotate",
+                "from": -1,
+                "to": -8,
+                "duration": 20,
+                "interpolator": {
+                  "type": "path",
+                  "x1": 0.98,
+                  "y1": 0,
+                  "x2": 0.93,
+                  "y2": 1
+                }
+              },
+              {
+                "type": "move",
+                "toX": 1.05,
+                "toY": -0.1,
+                "duration": 20,
+                "interpolator": {
+                  "type": "path",
+                  "x1": 0.98,
+                  "y1": 0,
+                  "x2": 0.93,
+                  "y2": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "width": "790",
+            "height": "1360",
+            "x": "145",
+            "y": "137",
+            "demoSource": "https://images.pexels.com/photos/5765726/pexels-photo-5765726.jpeg?auto=compress&cs=tinysrgb&h=1280&w=720",
+            "startFrame": 40,
+            "animatorsIn": [
+              {
+                "type": "radius",
+                "from": 0.15,
+                "to": 0.15,
+                "duration": 0
+              }],
+            "animatorsOut": [
+              {
+                "type": "rotate",
+                "from": 1,
+                "to": 14,
+                "duration": 20,
+                "interpolator": {
+                  "type": "path",
+                  "x1": 0.98,
+                  "y1": 0,
+                  "x2": 0.93,
+                  "y2": 1
+                }
+              },
+              {
+                "type": "move",
+                "toX": -1.05,
+                "toY": -0.1,
+                "duration": 20,
+                "interpolator": {
+                  "type": "path",
+                  "x1": 0.98,
+                  "y1": 0,
+                  "x2": 0.93,
+                  "y2": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "width": "790",
+            "height": "1360",
+            "x": "126",
+            "y": "172",
+            "demoSource": "https://images.pexels.com/photos/4869964/pexels-photo-4869964.jpeg?auto=compress&cs=tinysrgb&h=1280&w=720",
+            "startFrame": 10,
+            "animatorsIn": [
+              {
+                "type": "radius",
+                "from": 0.15,
+                "to": 0.15,
+                "duration": 0
+              }],
+            "animatorsOut": [
+              {
+                "type": "rotate",
+                "from": -2,
+                "to": 16,
+                "duration": 20,
+                "interpolator": {
+                  "type": "path",
+                  "x1": 0.98,
+                  "y1": 0,
+                  "x2": 0.93,
+                  "y2": 1
+                }
+              },
+              {
+                "type": "move",
+                "toX": 1.05,
+                "toY": 0.1,
+                "duration": 20,
+                "interpolator": {
+                  "type": "path",
+                  "x1": 0.98,
+                  "y1": 0,
+                  "x2": 0.93,
+                  "y2": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "snowflake_1",
+      "originalSource": "assets://template-resources/christmas/Ch4MomentsSlide/snowflake_1.png",
+      "width": "212",
+      "height": "211",
+      "x": "45",
+      "y": "21",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": -8,
+          "to": 352,
+          "duration": 180
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "snowflake_2",
+      "originalSource": "assets://template-resources/christmas/Ch4MomentsSlide/snowflake_2.png",
+      "width": "167",
+      "height": "185",
+      "x": "478",
+      "y": "21",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": 6,
+          "to": -354,
+          "duration": 180
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "snowflake_3",
+      "originalSource": "assets://template-resources/christmas/Ch4MomentsSlide/snowflake_3.png",
+      "width": "215",
+      "height": "234",
+      "anchorX": "end",
+      "x": "0",
+      "y": "22",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": -12,
+          "to": 348,
+          "duration": 180
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "snowflake_4",
+      "originalSource": "assets://template-resources/christmas/Ch4MomentsSlide/snowflake_4.png",
+      "width": "188",
+      "height": "202",
+      "anchorY": "bottom",
+      "x": "58",
+      "y": "258",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": -15,
+          "to": 345,
+          "duration": 180
+        }
+      ]
+    },
+    {
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "id": "textTitle",
+      "anchorY": "bottom",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "translationY": -0.05205387,
+      "textSize": "0.1226m",
+      "textColor": "#F3E7A2",
+      "text": "Best Memories",
+      "backgroundMarginLeft": 0.25,
+      "backgroundMarginRight": 0.25,
+      "font": {
+        "fontPath": "cormorant",
+        "fontStyle": "bold"
+      },
+      "startFrame": 10,
+      "animationParamIn": {
+        "charDelayMillis": 25,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "durationMillis": 50,
+            "from": 0,
+            "to": 1
+          },
+          {
+            "type": "move_to_y",
+            "interpolator": {
+              "type": "spring",
+              "amplitude": 0.12,
+              "frequency": 20
+            },
+            "from": 0.6,
+            "to": 0,
+            "duration": 60
+          }
+        ]
+      }
+    }
+  ]
+}

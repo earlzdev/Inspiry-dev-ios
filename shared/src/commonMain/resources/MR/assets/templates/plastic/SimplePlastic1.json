@@ -1,0 +1,24 @@
+{
+  "backgroundColor": "#000000",
+  "availability": "FREE",
+  "preferredDuration": 180,
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1546456073-aed4ec8a3200?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "width": "1w",
+      "height": "1h"
+    },
+    {
+      "originalSource": "assets://template-resources/plastic/SimplePlastic1/front.png",
+      "isEditable": false,
+      "type": "image",
+      "width": "1w",
+      "height": "1h"
+    }
+  ]
+}

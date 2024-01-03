@@ -1,0 +1,297 @@
+{
+  "preferredDuration": 240,
+  "listDemoPreferredDuration": 105,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "choices": [
+      {
+        "color": "#FFFFFF",
+        "elements": [
+          {
+            "type": "vector",
+            "id": "vector1.Color_2"
+          },
+          {
+            "type": "textColor",
+            "id": "text2"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "border1"
+          }
+        ]
+      },
+      {
+        "color": "#00138F",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text1"
+          }
+        ]
+      },
+      {
+        "color": "#80BDDF",
+        "elements": [
+          {
+            "type": "vector",
+            "id": "vector1.Color_1"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "vector1",
+      "type": "vector",
+      "width": "1w",
+      "height": "1h",
+      "alignBy": "center",
+      "originalSource": "assets://template-resources/removeBg/waveBackground/BackLine_1.json",
+      "minDuration": "as_template",
+      "isLoopEnabled": true,
+      "staticFrameForEdit": "last",
+      "mediaPalette": {
+        "choices": [
+          {
+            "elements": [
+              "Color_1"
+            ]
+          },
+          {
+            "elements": [
+              "Color_2"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "image",
+      "originalSource": "assets://template-resources/removeBg/waveBackground/backShadow.png",
+      "width": "1234/1080w",
+      "height": "1280/1920h",
+      "y": "300/1920h",
+      "alignBy": "top_center",
+      "isEditable": false,
+      "startFrame": 0,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "duration": 50,
+          "from": 0.5,
+          "to": 1
+        },
+        {
+          "type": "fade",
+          "duration": 50,
+          "from": 0,
+          "to": 1
+        }
+      ]
+    },
+    {
+      "id": "circle2",
+      "isEditable": false,
+      "type": "image",
+      "width": "1116/1080w",
+      "height": "1116/1920h",
+      "alignBy": "top_center",
+      "backgroundColor": "#FFFFFF",
+      "y": "380/1920h",
+      "startFrame": 0,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "circular",
+          "duration": 0
+        },
+        {
+          "type": "scale",
+          "duration": 50,
+          "from": 0.5,
+          "to": 1
+        },
+        {
+          "type": "fade",
+          "duration": 50,
+          "from": 0,
+          "to": 0.5
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "alignBy": "top_center",
+      "width": "1116/1080w",
+      "height": "1116/1920h",
+      "y": "380/1920h",
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "assets://template-resources/removeBg/waveBackground/demoPhoto.png",
+          "demoOffsetX": 0.138,
+          "demoOffsetY": 0.255,
+          "demoScale": 0.764,
+          "width": "match_parent",
+          "height": "1496/1116h",
+          "y": "-380/1116h",
+          "removeBgOnInsert": true,
+          "makeMovableWhenRemoveBg": false,
+          "isEditable": true,
+          "startFrame": 10,
+          "animatorsIn": [
+            {
+              "type": "move_inner",
+              "fromY": 0.3,
+              "toY": 0,
+              "duration": 50,
+              "interpolator": "smooth30InOut"
+            },
+            {
+              "type": "scale_inner",
+              "duration": 50,
+              "from": 0.6,
+              "to": 1,
+              "interpolator": "smooth30InOut"
+            },
+            {
+              "type": "fade",
+              "duration": 20,
+              "from": 0,
+              "to": 1
+            }
+          ]
+        }
+      ],
+      "animatorsIn": [
+        {
+          "startFrame": 10,
+          "type": "clip",
+          "direction": "circular",
+          "duration": 40,
+          "from": 0.6,
+          "to": 1
+        }
+      ]
+    },
+    {
+      "id": "border1",
+      "isEditable": false,
+      "type": "image",
+      "width": "1192/1080w",
+      "height": "1192/1920h",
+      "alignBy": "top_center",
+      "backgroundColor": "#FFFFFF",
+      "y": "342/1920h",
+      "startFrame": 0,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "circular",
+          "duration": 0
+        },
+        {
+          "type": "clip",
+          "direction": "circular_inverse",
+          "from": 0.937,
+          "to": 0.937,
+          "duration": 0
+        },
+        {
+          "type": "scale",
+          "duration": 50,
+          "from": 0.5,
+          "to": 1
+        },
+        {
+          "type": "fade",
+          "duration": 50,
+          "from": 0,
+          "to": 1
+        }
+      ]
+    },
+    {
+      "id": "text1",
+      "innerGravity": "center",
+      "alignBy": "top_center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "textColor": "#00138F",
+      "type": "text",
+      "text": "Jewelry week",
+      "startFrame": 20,
+      "minDuration": "as_template",
+      "textSize": "0.138m",
+      "y": "110/1920h",
+      "font": {
+        "fontPath": "nexa_script",
+        "fontStyle": "bold"
+      },
+      "animationParamIn": {
+        "shuffle": true,
+        "charDelayMillis": 55,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 7
+          },
+          {
+            "type": "move_to_y",
+            "interpolator": "slowInExpOut",
+            "from": 0.5,
+            "to": 0,
+            "duration": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "text2",
+      "type": "text",
+      "text": "SHOP NOW",
+      "innerGravity": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "alignBy": "top_center",
+      "y": "1666/1920h",
+      "startFrame": 45,
+      "minDuration": "as_template",
+      "font": {
+        "fontPath": "gilroy",
+        "fontStyle": "bold"
+      },
+      "textSize": "0.125m",
+      "textColor": "#FFFFFF",
+      "shadowColors": [
+        "#00138F"
+      ],
+      "shadowOffset": 0.05,
+      "animationParamIn": {
+        "shuffle": true,
+        "wordDelayMillis": 300,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 10,
+            "interpolator": "flatIn25expOut"
+          },
+          {
+            "type": "move_to_y",
+            "from": 0.5,
+            "to": 0,
+            "duration": 10,
+            "interpolator": "flatIn25expOut"
+          }
+        ]
+      }
+    }
+  ]
+}

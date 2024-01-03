@@ -1,0 +1,167 @@
+{
+  "preferredDuration": 150,
+  "availability": "PREMIUM",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1529378371820-1be0426a5689?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "width": "1w",
+      "height": "1h",
+      "minDuration": 30,
+      "animatorsOut": [
+        {
+          "duration": 7,
+          "type": "scale",
+          "from": 1,
+          "to": 1.1,
+          "interpolator": "cubicIn"
+        },
+        {
+          "duration": 0,
+          "type": "fade",
+          "from": 1,
+          "to": 0
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1513303876354-9d34f07fc54f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "width": "1w",
+      "height": "1h",
+      "startFrame": 30,
+      "minDuration": 40,
+      "animatorsIn": [
+        {
+          "duration": 0,
+          "type": "fade",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "duration": 7,
+          "type": "scale",
+          "from": 1.1,
+          "to": 1,
+          "interpolator": "cubicOut"
+        }
+      ],
+      "animatorsOut": [
+        {
+          "duration": 7,
+          "type": "scale",
+          "from": 1,
+          "to": 1.1,
+          "interpolator": "cubicIn"
+        },
+        {
+          "duration": 0,
+          "type": "fade",
+          "from": 1,
+          "to": 0
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1578297691831-665468f1a738?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "width": "1w",
+      "height": "1h",
+      "startFrame": 70,
+      "animatorsIn": [
+        {
+          "duration": 0,
+          "type": "fade",
+          "from": 0,
+          "to": 1
+        },
+        {
+          "duration": 7,
+          "type": "scale",
+          "from": 1.1,
+          "to": 1,
+          "interpolator": "cubicOut"
+        }
+      ]
+    },
+    {
+      "type": "path",
+      "width": "match_parent",
+      "height": "match_parent",
+      "isEditable": false,
+      "backgroundColor": "#ffffff",
+      "startFrame": 25,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 0.6,
+          "duration": 5
+        },
+        {
+          "type": "fade",
+          "from": 0.6,
+          "to": 0,
+          "duration": 5,
+          "startFrame": 5
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 0.6,
+          "duration": 5,
+          "startFrame": 40
+        },
+        {
+          "type": "fade",
+          "from": 0.6,
+          "to": 0,
+          "duration": 5,
+          "startFrame": 45
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "width": "938/1080w",
+      "height": "1686/1920h",
+      "isEditable": false,
+      "anchorX": "center",
+      "anchorY": "center",
+      "originalSource": "assets://template-resources/film/ZoomShot/frame.png",
+      "startFrame": 25,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.08,
+          "duration": 5
+        },
+        {
+          "type": "scale",
+          "from": 1.08,
+          "to": 1,
+          "duration": 5,
+          "startFrame": 5
+        },
+        {
+          "type": "scale",
+          "from": 1,
+          "to": 1.08,
+          "duration": 5,
+          "startFrame": 40
+        },
+        {
+          "type": "scale",
+          "from": 1.08,
+          "to": 1,
+          "duration": 5,
+          "startFrame": 45
+        }
+      ]
+    }
+  ]
+}

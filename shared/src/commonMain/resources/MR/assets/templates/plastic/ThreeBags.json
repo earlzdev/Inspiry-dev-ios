@@ -1,0 +1,40 @@
+{
+  "backgroundColor": "#000000",
+  "availability": "FREE",
+  "preferredDuration": 180,
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.pexels.com/photos/4571259/pexels-photo-4571259.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "width": "808/1080w",
+      "height": "532/1920h",
+      "x": "134/1080w"
+    },
+    {
+      "type": "image",
+      "width": "808/1080w",
+      "height": "618/1920h",
+      "x": "134/1080w",
+      "y": "688/1920h",
+      "demoSource": "https://images.pexels.com/photos/4571263/pexels-photo-4571263.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    },
+    {
+      "type": "image",
+      "width": "808/1080w",
+      "height": "466/1920h",
+      "x": "134/1080w",
+      "anchorY": "bottom",
+      "demoSource": "https://images.pexels.com/photos/4571261/pexels-photo-4571261.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    },
+    {
+      "originalSource": "assets://template-resources/plastic/ThreeBags/front.png",
+      "isEditable": false,
+      "type": "image",
+      "width": "1w",
+      "height": "1h"
+    }
+  ]
+}

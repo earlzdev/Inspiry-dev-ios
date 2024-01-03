@@ -1,0 +1,443 @@
+{
+  "preferredDuration": 300,
+  "availability": "PREMIUM",
+  "palette": {
+    "choices": [
+      {
+        "color": "#FFD5D4",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "textContent"
+          }
+        ]
+      },
+      {
+        "color": "#FF6561",
+        "elements": [
+          {
+            "type": "borderColor",
+            "id": "imageBorder"
+          },
+          {
+            "type": "textColor",
+            "id": "textTitle"
+          },
+          {
+            "type": "image",
+            "id": "lineTop"
+          },
+          {
+            "type": "image",
+            "id": "lineBottom"
+          },
+          {
+            "type": "textColor",
+            "id": "textBottom"
+          },
+          {
+            "type": "image",
+            "id": "snowflake_1"
+          },
+          {
+            "type": "image",
+            "id": "snowflake_2"
+          },
+          {
+            "type": "image",
+            "id": "snowflake_3"
+          },
+          {
+            "type": "image",
+            "id": "snowflake_1_2"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "path",
+      "width": "match_parent",
+      "height": "match_parent",
+      "color": "#33ffffff",
+      "anchorX": "center",
+      "anchorY": "center",
+      "paintStyle": "STROKE",
+      "strokeWidth": "0.065m",
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "duration": 0,
+          "from": 0.1,
+          "to": 0.1
+        }
+      ],
+      "movements": [
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 0,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromY": 0,
+          "toY": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 0,
+          "toX": 1,
+          "fromY": 1,
+          "toY": 1,
+          "duration": 0
+        },
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 1,
+          "fromY": 1,
+          "toY": 0,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "imageBorder",
+      "width": "1020",
+      "height": "1860",
+      "anchorX": "center",
+      "anchorY": "center",
+      "isEditable": false,
+      "borderWidth": "0.003m",
+      "animatorsIn": [
+        {
+          "type": "radius",
+          "duration": 0,
+          "from": 0.1,
+          "to": 0.1
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/christmas/ChRoseText/snowflake_big_center.png",
+      "width": "891",
+      "height": "1016",
+      "anchorX": "center",
+      "anchorY": "center",
+      "startFrame": 5,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 55
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "lineTop",
+      "isEditable": false,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/christmas/ChRoseText/frameline.png",
+      "width": "964",
+      "height": "56",
+      "anchorX": "center",
+      "y": "62",
+      "startFrame": 5,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0.35,
+          "to": 0,
+          "duration": 55,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.3,
+            "y1": 0,
+            "x2": 0.07,
+            "y2": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "textTitle",
+      "minDuration": "as_template",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "type": "text",
+      "innerGravity": "center",
+      "text": "HAPPY\nNEW YEAR",
+      "lineSpacing": 0.9,
+      "translationY": -0.0071806055,
+      "textSize": "0.11986759m",
+      "backgroundMarginLeft": 0.25,
+      "backgroundMarginRight": 0.25,
+      "font": {
+        "fontPath": "oswald"
+      },
+      "animatorsIn": [
+        {
+          "startFrame": 20,
+          "type": "move_to_y",
+          "from": 0,
+          "to": -0.207,
+          "duration": 40,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.3,
+            "y1": 0,
+            "x2": 0.07,
+            "y2": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "id": "lineBottom",
+      "isEditable": false,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/christmas/ChRoseText/frameline.png",
+      "width": "964",
+      "height": "56",
+      "anchorX": "center",
+      "anchorY": "bottom",
+      "y": "62",
+      "startFrame": 5,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": 180,
+          "to": 180
+        },
+        {
+          "type": "move_to_y",
+          "from": -0.35,
+          "to": 0,
+          "duration": 55,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.3,
+            "y1": 0,
+            "x2": 0.07,
+            "y2": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "id": "snowflake_2",
+      "isMovable": true,
+      "originalSource": "assets://template-resources/christmas/ChRoseText/snowflake_2.png",
+      "width": "102",
+      "height": "116",
+      "x": "184",
+      "y": "335",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 55,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": 0,
+          "to": 360,
+          "duration": 180
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 20,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "id": "snowflake_1",
+      "isMovable": true,
+      "originalSource": "assets://template-resources/christmas/ChRoseText/snowflake_1.png",
+      "width": "136",
+      "height": "154",
+      "anchorX": "center",
+      "y": "120",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 40,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": 0,
+          "to": 360,
+          "duration": 180
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 20,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "snowflake_1_2",
+      "originalSource": "assets://template-resources/christmas/ChRoseText/snowflake_1.png",
+      "width": "136",
+      "height": "154",
+      "anchorX": "center",
+      "y": "120",
+      "anchorY": "bottom",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 55,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": 0,
+          "to": -360,
+          "duration": 180
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 20,
+          "interpolator": "elegantlySlowOut",
+          "startFrame": 1
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "snowflake_3",
+      "originalSource": "assets://template-resources/christmas/ChRoseText/snowflake_3.png",
+      "width": "73",
+      "height": "83",
+      "anchorX": "end",
+      "y": "258",
+      "x": "222",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 30,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": 0,
+          "to": -360,
+          "duration": 180
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 20,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "y": "772",
+      "id": "textContent",
+      "lineSpacing": 1.08,
+      "type": "text",
+      "minDuration": "as_template",
+      "innerGravity": "center",
+      "translationY": -0.010919484,
+      "text": "May this year bring new happiness,\nnew goals, new achievements,\nand a lot of new inspirations on your life.\nWishing you a year fully loaded with happiness.\nWishing every day of the new year\nto be filled with success, happiness,\nand prosperity for you.",
+      "font": "savoy",
+      "textSize": "0.068033606m",
+      "textColor": "#000000",
+      "backgroundMarginLeft": 0.25,
+      "backgroundMarginRight": 0.25,
+      "startFrame": 35,
+      "animationParamIn": {
+        "lineDelay": 8,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "duration": 11,
+            "from": 0,
+            "to": 1
+          }
+        ]
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "y": "363",
+      "id": "textBottom",
+      "anchorY": "bottom",
+      "type": "text",
+      "minDuration": "as_template",
+      "innerGravity": "center",
+      "text": "Inspiry Team",
+      "font": "coconut",
+      "translationY": 0.009096628,
+      "backgroundMarginLeft": 0.25,
+      "backgroundMarginRight": 0.25,
+      "textSize": "0.09060999m",
+      "startFrame": 85,
+      "animationParamIn": {
+        "charDelayMillis": 45,
+        "charInterpolator": "easeOutLight",
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 135
+          }
+        ],
+        "backgroundAnimators": [
+          {
+            "type": "clip",
+            "direction": "left_to_right",
+            "interpolator": "elegantlySlowOut",
+            "duration": 20
+          }
+        ]
+      }
+    }
+  ]
+}

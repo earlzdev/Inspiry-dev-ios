@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal"
+        android:id="@+id/topToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <TextView
+        style="@style/TextTopBarBlack"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/topToolbar"
+        app:layout_constraintBottom_toBottomOf="@id/topToolbar"
+        android:text="@string/back" />
+
+
+    <TextView
+        style="@style/TextTopBarBlack"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/topToolbar"
+        app:layout_constraintBottom_toBottomOf="@id/topToolbar"
+        android:text="@string/save" />
+
+    <ScrollView
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:id="@+id/previewTextContainer"
+        android:fillViewport="true"
+        android:scrollbarThumbVertical="@null"
+        android:layout_height="230dp">
+
+
+        <!-- place for templateView -->
+    </ScrollView>
+
+
+    <FrameLayout
+        android:background="#202020"
+        app:layout_constraintTop_toBottomOf="@id/previewTextContainer"
+        android:id="@+id/category_tabs"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:id="@+id/recyclerAnimations"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#202020"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/category_tabs"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

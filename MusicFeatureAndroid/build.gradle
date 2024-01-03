@@ -1,0 +1,96 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlinx-serialization'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        minSdk min_sdk_version
+        targetSdk 32
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildFeatures {
+        compose true
+        viewBinding true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion compose_compiler_version
+    }
+}
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:$kotlinx_serialization_json_version")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version")
+
+    implementation("io.ktor:ktor-client-core:$ktorVersion")
+
+    implementation("io.insert-koin:koin-core:$koin_version")
+    implementation("io.insert-koin:koin-android:$koin_version")
+
+    implementation("dev.icerock.moko:mvvm-core:$moko_mvvm_core_version")
+    implementation("dev.icerock.moko:parcelize:$moko_parcelize_version")
+    implementation("dev.icerock.moko:graphics:$moko_graphics_version")
+    implementation(moko_resources_dependency)
+    implementation("dev.icerock.moko:permissions:$moko_permissions_version")
+
+    implementation("androidx.compose.ui:ui:$androidx_compose_version")
+    implementation("androidx.compose.ui:ui-tooling:$androidx_compose_version")
+    implementation("androidx.compose.foundation:foundation:$androidx_compose_version")
+    implementation("androidx.compose.material:material:$androidx_compose_version")
+    implementation("androidx.compose.compiler:compiler:$compose_compiler_version")
+    implementation("androidx.compose.animation:animation:$androidx_compose_version")
+    implementation("androidx.compose.animation:animation-core:$androidx_compose_version")
+    implementation("androidx.compose.runtime:runtime:$androidx_compose_version")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycle_viewmodel_compose_version")
+    implementation("androidx.activity:activity-compose:$activity_compose_version")
+    implementation "com.github.krottv:compose-sliders:$compose_sliders_version"
+
+    implementation("androidx.appcompat:appcompat:$appcompat_version")
+    implementation("androidx.core:core-ktx:$app_compat_core_ktx_version")
+    implementation("androidx.fragment:fragment-ktx:$fragment_ktx_version")
+    implementation("androidx.activity:activity-ktx:$androidx_activity_ktx")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_extensions_version")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_extensions_version")
+    implementation("androidx.constraintlayout:constraintlayout:$constraint_layout_version")
+    implementation("androidx.recyclerview:recyclerview:$androidX_recyclerview_version")
+    implementation("com.google.android.material:material:$android_material_version")
+
+    implementation "io.coil-kt:coil:$coil_version"
+    implementation "io.coil-kt:coil-compose:$coil_version"
+
+    implementation("com.google.android.exoplayer:exoplayer-core:$exoplayer_version")
+    implementation("com.google.android.exoplayer:extension-okhttp:$exoplayer_version")
+
+    implementation("com.squareup.okio:okio:$okio_version")
+    implementation("com.squareup.okhttp3:okhttp:$okhttp3_okhttp_version")
+
+    implementation(project(':shared'))
+    implementation(project(':androidUtilities'))
+}

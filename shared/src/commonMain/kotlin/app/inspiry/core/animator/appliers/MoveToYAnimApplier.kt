@@ -1,0 +1,30 @@
+package app.inspiry.core.animator.appliers
+
+import app.inspiry.core.animator.ViewRelativity
+import app.inspiry.core.animator.appliers.MoveAnimApplier.Companion.preDrawY
+import app.inspiry.core.animator.text.DrawBackgroundAnimParam
+import app.inspiry.views.InspView
+import app.inspiry.views.text.InnerGenericText
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+
+@Serializable
+@SerialName("move_to_y")
+class MoveToYAnimApplier(
+    override var from: Float = 0f,
+    override var to: Float = 0f,
+    val relativity: ViewRelativity = ViewRelativity.PARENT,
+) : AnimApplier(), FloatValuesAnimApplier {
+
+    override fun onPreDraw(view: InspView<*>, value: Float) {
+        preDrawY(from, to, relativity, value, view)
+    }
+
+    override fun transformText(
+        param: DrawBackgroundAnimParam,
+        value: Float,
+        view: InnerGenericText<*>
+    ) {
+        param.translateY = ((to - from) * value + from) * param.height
+    }
+}

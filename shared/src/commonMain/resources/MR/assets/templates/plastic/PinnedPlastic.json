@@ -1,0 +1,68 @@
+{
+  "backgroundColor": "#000000",
+  "availability": "FREE",
+  "preferredDuration": 180,
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1518518873111-6ca469aa4560?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80",
+      "width": "752/1080w",
+      "height": "1236/1920h",
+      "x": "127/1080w",
+      "y": "320/1920h",
+      "demoScale": 1.2,
+      "demoOffsetY": -0.2,
+      "demoOffsetX": -0.1
+    },
+    {
+      "originalSource": "assets://template-resources/plastic/PinnedPlastic/front.png",
+      "isEditable": false,
+      "type": "image",
+      "width": "1w",
+      "height": "1h"
+    },
+    {
+      "type": "text",
+      "minDuration": "as_template",
+      "text": "EPC 85930",
+      "textColor": "#828282",
+      "textSize": "0.07m",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationX": -0.08342624,
+      "translationY": 0.3012999,
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "font": {
+        "fontPath": "monument",
+        "fontStyle": "light"
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationX": 0.3311829,
+      "translationY": -0.027511537,
+      "anchorY": "center",
+      "anchorX": "center",
+      "rotation": -90,
+      "type": "text",
+      "minDuration": "as_template",
+      "innerGravity": "left",
+      "text": "PLASTIC",
+      "font": {
+        "fontPath": "monument",
+        "fontStyle": "bold"
+      },
+      "textSize": "0.11831559m",
+      "textColor": "#ffb7b7b7",
+      "letterSpacing": 0.09,
+      "strokeWidth": 0.02,
+      "paintStyle": "STROKE"
+    }
+  ]
+}

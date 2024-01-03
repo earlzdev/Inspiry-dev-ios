@@ -1,0 +1,148 @@
+apply plugin: "com.android.library"
+apply plugin: "kotlin-multiplatform"
+apply plugin: 'kotlinx-serialization'
+apply plugin: "kotlin-parcelize"
+apply plugin: "dev.icerock.mobile.multiplatform-resources"
+apply plugin: 'com.squareup.sqldelight'
+
+android {
+    sourceSets {
+        main {
+            manifest.srcFile "src/androidMain/AndroidManifest.xml"
+        }
+    }
+    configurations {
+        create("androidTestApi")
+        create("androidTestDebugApi")
+        create("androidTestReleaseApi")
+        create("testApi")
+        create("testDebugApi")
+        create("testReleaseApi")
+    }
+
+    compileSdkVersion 31
+    defaultConfig {
+        minSdkVersion min_sdk_version
+        targetSdkVersion 31
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+        kotlinOptions {
+            jvmTarget = "1.8"
+        }
+    }
+}
+
+repositories {
+    mavenLocal()
+}
+
+kotlin {
+
+    android().compilations.all {
+        kotlinOptions {
+        }
+    }
+
+    ios {
+        binaries {
+            framework {
+                baseName = "shared"
+
+                export("dev.icerock.moko:graphics:$moko_graphics_version")
+                export(moko_resources_dependency)
+                export("dev.icerock.moko:permissions:$moko_permissions_version")
+                export("org.jetbrains.kotlinx:kotlinx-serialization-json:$kotlinx_serialization_json_version")
+                export("io.ktor:ktor-client-core:$ktorVersion")
+                export("com.russhwolf:multiplatform-settings:$multiplatform_settings_version")
+            }
+        }
+    }
+
+    sourceSets {
+        commonMain {
+            dependencies {
+
+                api("dev.icerock.moko:graphics:$moko_graphics_version")
+                api(moko_resources_dependency)
+                api("dev.icerock.moko:permissions:$moko_permissions_version")
+
+                implementation("dev.icerock.moko:mvvm-core:$moko_mvvm_core_version")
+                implementation("dev.icerock.moko:parcelize:$moko_parcelize_version")
+
+                api("org.jetbrains.kotlinx:kotlinx-serialization-json:$kotlinx_serialization_json_version")
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version")
+
+                api("com.russhwolf:multiplatform-settings:$multiplatform_settings_version")
+                implementation("com.soywiz.korlibs.klock:klock:$klockVersion")
+
+                api("io.ktor:ktor-client-core:$ktorVersion")
+                implementation("io.ktor:ktor-client-serialization:$ktorVersion")
+                implementation("io.ktor:ktor-client-mock:$ktorVersion")
+
+                implementation("com.squareup.okio:okio:$okio_version")
+                implementation("com.squareup.sqldelight:coroutines-extensions:$sql_delight_version")
+                implementation("com.squareup.sqldelight:runtime:$sql_delight_version")
+            }
+        }
+        commonTest {
+            dependencies {
+                implementation("org.jetbrains.kotlin:kotlin-test-common")
+                implementation("org.jetbrains.kotlin:kotlin-test-annotations-common")
+                implementation("com.russhwolf:multiplatform-settings-test:$multiplatform_settings_version")
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutines_version")
+            }
+        }
+        androidMain {
+            dependencies {
+                implementation("com.squareup.okio:okio:$okio_version")
+                implementation("com.squareup.okhttp3:okhttp:$okhttp3_okhttp_version")
+
+                implementation("io.ktor:ktor-client-okhttp:$ktorVersion")
+                implementation("io.ktor:ktor-client-logging:$ktorVersion")
+
+                implementation("io.insert-koin:koin-android:$koin_version")
+                implementation("io.insert-koin:koin-core:$koin_version")
+
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version")
+                implementation("com.squareup.sqldelight:android-driver:${sql_delight_version}")
+            }
+        }
+        androidTest {
+            dependencies {
+                implementation("org.jetbrains.kotlin:kotlin-test-junit")
+                implementation("junit:junit:$junit_version")
+            }
+        }
+        iosMain {
+            dependencies {
+                implementation("io.ktor:ktor-client-ios:$ktorVersion")
+
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version") {
+                    version {
+                        strictly(coroutines_version)
+                    }
+                }
+                implementation("com.squareup.sqldelight:native-driver:${sql_delight_version}")
+            }
+        }
+    }
+}
+
+multiplatformResources {
+    multiplatformResourcesPackage = "app.inspiry" // required
+    iosBaseLocalizationRegion = "en" // optional, default "en"
+    multiplatformResourcesSourceSet = "commonMain"  // optional, default "commonMain"
+}
+
+sqldelight {
+    InspDatabase { // This will be the name of the generated database class.
+        packageName = "app.inspiry.core.database"
+        dialect = "sqlite:3.24"
+    }
+}

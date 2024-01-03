@@ -1,0 +1,343 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "choices": [
+      {
+        "color": "#98C526",
+        "elements": [
+          {
+            "type": "vector",
+            "id": "vector1.Color_1"
+          },
+          {
+            "type": "vector",
+            "id": "vector1.Color_1_1",
+            "colorFilter": {
+              "addLightness": -0.09,
+              "addSaturation": 0.03,
+              "addHue": 17
+            }
+          },
+          {
+            "type": "vector",
+            "id": "vector1.Color_1_2",
+            "colorFilter": {
+              "addLightness": -0.18,
+              "addSaturation": -0.09,
+              "addHue": 56
+            }
+          },
+          {
+            "type": "vector",
+            "id": "vector1.Color_1_3",
+            "colorFilter": {
+              "addLightness": -0.32,
+              "addSaturation": 0.32,
+              "addHue": 63
+            }
+          },
+          {
+            "type": "vector",
+            "id": "vector1.Color_1_4",
+            "colorFilter": {
+              "addLightness": -0.36,
+              "addSaturation": 0.23,
+              "addHue": 26
+            }
+          }
+        ]
+      },
+      {
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "txt1"
+          },
+          {
+            "type": "textColor",
+            "id": "txt2"
+          },
+          {
+            "type": "image",
+            "id": "toy_1"
+          },
+          {
+            "type": "image",
+            "id": "toy_2"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "vector1",
+      "type": "vector",
+      "width": "1w",
+      "height": "1h",
+      "alignBy": "center",
+      "isMovable": false,
+      "originalSource": "assets://template-resources/christmas/Ch3AlphaSlide/bg.json",
+      "minDuration": "as_template",
+      "isLoopEnabled": true,
+      "staticFrameForEdit": "last",
+      "mediaPalette": {
+        "choices": [
+          {
+            "elements": [
+              "Color_1"
+            ]
+          },
+          {
+            "elements": [
+              "Color_1_1"
+            ]
+          },
+          {
+            "elements": [
+              "Color_1_2"
+            ]
+          },
+          {
+            "elements": [
+              "Color_1_3"
+            ]
+          },
+          {
+            "elements": [
+              "Color_1_4"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "group",
+      "startFrame": 50,
+      "width": "750",
+      "height": "1300",
+      "alignBy": "center",
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0.5,
+          "to": 1,
+          "duration": 30,
+          "interpolator": "cubicOut"
+        },
+        {
+          "type": "radius",
+          "from": 0.1,
+          "to": 0.1,
+          "duration": 0
+        }
+      ],
+      "slides": {
+        "minDuration": 91,
+        "startFrame": 50,
+        "startFrameInterval": "next_out_begins",
+        "predefined": [
+          {
+            "type": "image",
+            "demoSource": "https://images.pexels.com/photos/4870080/pexels-photo-4870080.jpeg?auto=compress&cs=tinysrgb&h=936&w=540",
+            "demoScale": 1.299,
+            "demoOffsetX": -0.08,
+            "demoOffsetY": -0.232
+          },
+          {
+            "type": "image",
+            "demoSource": "https://images.pexels.com/photos/4869991/pexels-photo-4869991.jpeg?auto=compress&cs=tinysrgb&h=936&w=540",
+            "demoScale": 1.471,
+            "demoOffsetX": -0.218,
+            "demoOffsetY": -0.436
+          },
+          {
+            "type": "image",
+            "demoSource": "https://images.pexels.com/photos/4869884/pexels-photo-4869884.jpeg?auto=compress&cs=tinysrgb&h=936&w=540",
+            "demoScale": 1.2,
+            "demoOffsetX": -0.2,
+            "demoOffsetY": -0.16
+          }
+        ],
+        "animatorsIn": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 30,
+            "interpolator": "easeOut"
+          }
+        ],
+        "animatorsOut": [
+          {
+            "type": "fade",
+            "from": 1,
+            "to": 0,
+            "duration": 26,
+            "interpolator": "easeIn"
+          }
+        ]
+      }
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "borderWidth": "0.002m",
+      "borderColor": "#FFE963",
+      "width": "800",
+      "height": "1350",
+      "alignBy": "center",
+      "startFrame": 75,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 25,
+          "interpolator": "elegantlySlowOut"
+        },
+        {
+          "type": "radius",
+          "from": 0.1,
+          "to": 0.1,
+          "duration": 0
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "toy_2",
+      "originalSource": "assets://template-resources/christmas/Ch3AlphaSlide/toy_2.png",
+      "width": "206",
+      "height": "648",
+      "x": "103",
+      "minDuration": "as_template",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": -1,
+          "to": -0.1,
+          "relativity": "ROOT",
+          "duration": 35,
+          "interpolator": {
+            "type": "overshoot",
+            "tension": 1.5
+          }
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "id": "toy_1",
+      "originalSource": "assets://template-resources/christmas/Ch3AlphaSlide/toy_1.png",
+      "width": "255",
+      "height": "1441",
+      "x": "77",
+      "anchorX": "end",
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": -1,
+          "to": -0.1,
+          "relativity": "ROOT",
+          "duration": 35,
+          "interpolator": {
+            "type": "overshoot",
+            "tension": 1.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "txt1",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "Top memories\nof the year",
+      "font": {
+        "fontPath": "garamond",
+        "fontStyle": "bold"
+      },
+      "anchorX": "center",
+      "anchorY": "center",
+      "innerGravity": "center",
+      "textSize": "0.12620361m",
+      "backgroundMarginLeft": 0.25,
+      "backgroundMarginRight": 0.25,
+      "textGradient": {
+        "colors": [
+          "#FFEAB1",
+          "#FC9D09"
+        ]
+      },
+      "delayBeforeEnd": 5,
+      "animationParamIn": {
+        "shuffle": true,
+        "charDelayMillis": 50,
+        "charInterpolator": "easeOutLight",
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 200
+          }
+        ]
+      },
+      "animatorsOut": [
+        {
+          "type": "fade",
+          "from": 1,
+          "to": 0,
+          "duration": 15
+        }
+      ]
+    },
+    {
+      "id": "txt2",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "2023",
+      "font": {
+        "fontPath": "garamond",
+        "fontStyle": "bold"
+      },
+      "anchorX": "center",
+      "anchorY": "bottom",
+      "backgroundMarginLeft": 0.25,
+      "backgroundMarginRight": 0.25,
+      "innerGravity": "center",
+      "translationY": -0.0430389,
+      "textSize": "0.12620361m",
+      "textGradient": {
+        "colors": [
+          "#FFEAB1",
+          "#FC9D09"
+        ]
+      },
+      "minDuration": "as_template",
+      "startFrame": 80,
+      "animationParamIn": {
+        "charDelay": 5,
+        "charInterpolator": "easeOutLight",
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 7
+          }
+        ]
+      }
+    }
+  ]
+}

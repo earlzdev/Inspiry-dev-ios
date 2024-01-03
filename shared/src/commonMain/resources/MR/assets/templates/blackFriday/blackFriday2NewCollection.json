@@ -1,0 +1,351 @@
+{
+  "availability": "PREMIUM",
+  "preferredDuration": 240,
+  "palette": {
+    "defaultTextColor": "#ffffff",
+    "choices": [
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "top_back"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "bottom_back"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "text2",
+            "colorFilter": {
+              "addLightness": 0.09,
+              "setOpacity": 0.9
+            }
+          }
+        ]
+      },
+      {
+        "color": "#FFFFFF",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text1"
+          },
+          {
+            "type": "textColor",
+            "id": "text2"
+          },
+          {
+            "type": "textColor",
+            "id": "text3"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "width": "1w",
+      "height": "1169/1920h",
+      "alignBy": "top_center",
+      "demoSource": "https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1498&q=80",
+      "demoOffsetX": 0.226,
+      "startFrame": 10,
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "type": "scale_inner",
+          "from": 1,
+          "to": 1.1,
+          "duration": 100,
+          "interpolator": "0.15, 0.00, 0.00, 1.00"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "width": "1w",
+      "height": "752/1920h",
+      "alignBy": "bottom_center",
+      "demoSource": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+      "startFrame": 10,
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "type": "scale_inner",
+          "from": 1,
+          "to": 1.1,
+          "duration": 100,
+          "interpolator": "0.15, 0.00, 0.00, 1.00"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "startFrame": 0,
+      "x": "0.497w",
+      "y": "0.7h",
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0.38,
+          "to": 0,
+          "duration": 50,
+          "interpolator": "0.15, 0.00, 0.00, 1.00"
+        },
+        {
+          "type": "rotate",
+          "from": 25,
+          "to": -3,
+          "duration": 20,
+          "interpolator": "0.40, 0.00, 0.61, 1.00"
+        },
+        {
+          "type": "move_to_x",
+          "from": -0.04,
+          "to": 0.01,
+          "duration": 20,
+          "interpolator": "0.40, 0.00, 0.61, 1.00"
+        },
+        {
+          "startFrame": 20,
+          "type": "rotate",
+          "from": -3,
+          "to": 10,
+          "duration": 25,
+          "interpolator": "0.45, 0.00, 0.28, 1.00"
+        },
+        {
+          "startFrame": 20,
+          "type": "move_to_x",
+          "from": 0.01,
+          "to": -0.025,
+          "duration": 25,
+          "interpolator": "0.45, 0.00, 0.28, 1.00"
+        },
+        {
+          "startFrame": 45,
+          "type": "rotate",
+          "from": 10,
+          "to": 3,
+          "duration": 35,
+          "interpolator": "0.14, 0.00, 0.40, 1.00"
+        },
+        {
+          "startFrame": 45,
+          "type": "move_to_x",
+          "from": -0.025,
+          "to": 0,
+          "duration": 35,
+          "interpolator": "0.14, 0.00, 0.40, 1.00"
+        }
+      ],
+      "medias": [
+        {
+          "type": "vector",
+          "id": "vectorAsTextBg*text3",
+          "width": "match_parent",
+          "height": "match_parent",
+          "minDuration": "as_template",
+          "scaleType": "FIT_XY",
+          "startFrame": 0,
+          "originalSource": "assets://template-resources/blackFriday/blackFriday2NewCollection/label.json",
+          "isLottieAnimEnabled": false,
+          "mediaPalette": {
+            "choices": [
+              {
+                "elements": [
+                  "Color_1"
+                ]
+              },
+              {
+                "elements": [
+                  "Color_2"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "text3",
+          "type": "text",
+          "text": "HUGE\nSALE",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "alignBy": "top_center",
+          "keepAspect": true,
+          "paddingStart": "0.15w",
+          "paddingEnd": "0.07w",
+          "paddingTop": "0.09h",
+          "paddingBottom": "0.03h",
+          "innerGravity": "center",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "minDuration": "as_template",
+          "textSize": "0.075m",
+          "lineSpacing": 0.86,
+          "font": {
+            "fontPath": "dinpro",
+            "fontStyle": "bold"
+          },
+          "textColor": "#FFFFFF",
+          "delayBeforeEnd": 45
+        }
+      ]
+    },
+    {
+      "id": "top_back",
+      "isEditable": false,
+      "type": "image",
+      "width": "1w",
+      "height": "225/1920h",
+      "y": "943/1920h",
+      "alignBy": "top_center",
+      "alpha": 0.2,
+      "backgroundColor": "#000000",
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "bottom_to_top",
+          "duration": 30,
+          "interpolator": "0.15, 0.00, 0.00, 1.00"
+        }
+      ]
+    },
+    {
+      "id": "bottom_back",
+      "isEditable": false,
+      "type": "image",
+      "width": "1w",
+      "height": "272/1920h",
+      "y": "1168/1920h",
+      "alignBy": "top_center",
+      "alpha": 0.2,
+      "backgroundColor": "#000000",
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 30,
+          "interpolator": "0.15, 0.00, 0.00, 1.00"
+        }
+      ]
+    },
+    {
+      "id": "text1",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "BLACK FRIDAY",
+      "innerGravity": "center",
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "bold"
+      },
+      "y": "950/1920h",
+      "alignBy": "top_center",
+      "textSize": "0.125m",
+      "textColor": "#ffffff",
+      "minDuration": "as_template",
+      "startFrame": 10,
+      "animationParamIn": {
+        "textAnimators": [
+          {
+            "type": "clip",
+            "direction": "bottom_to_top",
+            "duration": 40,
+            "interpolator": "0.15, 0.00, 0.00, 1.00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "text2",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "NEW COLLECTION",
+      "innerGravity": "center",
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "bold"
+      },
+      "startFrame": 0,
+      "alignBy": "top_center",
+      "textColor": "#ffffff",
+      "minDuration": "as_template",
+      "textSize": "0.075m",
+      "y": "1209/1920h",
+      "backgroundColor": "#161616",
+      "paddingStart": "60/1080w",
+      "paddingEnd": "60/1080w",
+      "paddingTop": "25/1080w",
+      "paddingBottom": "25/1080w",
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0.38,
+          "to": 0,
+          "duration": 50,
+          "interpolator": "0.15, 0.00, 0.00, 1.00"
+        },
+        {
+          "type": "radius",
+          "from": 0.5,
+          "to": 0.5,
+          "duration": 0
+        }
+      ],
+      "animationParamIn": {
+        "textAnimators": [
+          {
+            "startFrame": 10,
+            "type": "clip",
+            "direction": "top_to_bottom",
+            "duration": 40,
+            "interpolator": "0.15, 0.00, 0.00, 1.00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "text4",
+      "type": "text",
+      "text": "BLACK FRIDAY BLACK FRIDAY BLACK FRIDAY BLACK FRIDAY BLACK FRIDAY ",
+      "width": "0.588w",
+      "height": "0.588w",
+      "innerGravity": "center",
+      "alignBy": "top_center",
+      "maxLines": 1,
+      "keepAspect": true,
+      "minDuration": "as_template",
+      "y": "0.0152h",
+      "textSize": "0.03589m",
+      "font": {
+        "fontStyle": "bold"
+      },
+      "textColor": "#FAFF00",
+      "startFrame": 0,
+      "animationParamIn": {
+        "charsOnCircle": true
+      },
+      "animatorsAll": [
+        {
+          "type": "rotate",
+          "from": 120,
+          "step": -1,
+          "duration": "all"
+        }
+      ]
+    }
+  ]
+}

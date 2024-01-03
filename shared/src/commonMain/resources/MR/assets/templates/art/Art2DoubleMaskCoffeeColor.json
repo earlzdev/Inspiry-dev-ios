@@ -1,0 +1,79 @@
+{
+  "preferredDuration": 240,
+  "listDemoPreferredDuration": 130,
+  "availability": "INSTAGRAM_SUBSCRIBED",
+  "timeForEdit": 90,
+  "palette": {
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "id": "groupTexture",
+            "type": "elementBackgroundColor"
+          },
+          {
+            "type": "background"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "group",
+      "id": "groupTexture",
+      "width": "match_parent",
+      "height": "match_parent",
+      "templateMask": {
+        "invertFragmentAlpha": true,
+        "textures": [
+          {
+            "type": "textureMedia",
+            "startFrame": 5,
+            "textureSource": "assets://template-resources/art/DoubleMaskCoffeeColor/mask.mp4",
+            "clipTextures": [
+              {
+                "left": 0,
+                "top": 1,
+                "right": 0.5,
+                "bottom": 0
+              },
+              {
+                "left": 0.5,
+                "top": 1,
+                "right": 1,
+                "bottom": 0
+              }
+            ]
+          }
+        ]
+      },
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1536914629078-6fda32a00cd2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+          "width": "768/1080w",
+          "height": "716/1920h",
+          "x": "147/1080w",
+          "y": "219/1920h"
+        },
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1536914561643-9e3a7a8d063d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+          "width": "768/1080w",
+          "height": "716/1920h",
+          "x": "147/1080w",
+          "y": "1003/1920h"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "originalSource": "assets://template-resources/art/DoubleMaskCoffeeColor/foreground.png",
+      "width": "1w",
+      "height": "1h",
+      "isEditable": false
+    }
+  ]
+}

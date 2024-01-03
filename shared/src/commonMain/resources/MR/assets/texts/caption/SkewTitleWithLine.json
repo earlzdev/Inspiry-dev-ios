@@ -1,0 +1,140 @@
+{
+  "type": "group",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "anchorX": "center",
+  "anchorY": "center",
+  "rotation": -10,
+  "medias": [
+    {
+      "type": "text",
+      "text": "SKEW TITLE\nWITH LINE",
+      "innerGravity": "center",
+      "anchorY": "center",
+      "anchorX": "center",
+      "dependsOnParent": true,
+      "relativeToParent": false,
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "font": {
+        "fontPath": "montserrat",
+        "fontStyle": "italic"
+      },
+      "paddingStart": "0.03w",
+      "paddingEnd": "0.03w",
+      "paddingTop": "0.03w",
+      "paddingBottom": "0.03w",
+      "textSize": "1/10w",
+      "textColor": "#ffffff",
+      "animationParamIn": {
+        "lineDelayMillis": 366,
+        "textAnimatorGroups": [
+          {
+            "group": "uneven",
+            "animators": [
+              {
+                "type": "clip",
+                "direction": "none",
+                "durationMillis": 530
+              },
+              {
+                "type": "move_to_y",
+                "from": -1,
+                "to": 0,
+                "durationMillis": 530,
+                "interpolator": "easeOut"
+              }
+            ]
+          },
+          {
+            "group": "even",
+            "animators": [
+              {
+                "type": "clip",
+                "direction": "none",
+                "durationMillis": 530
+              },
+              {
+                "type": "move_to_y",
+                "from": 1,
+                "to": 0,
+                "durationMillis": 530,
+                "interpolator": "easeOut"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "path",
+      "width": "match_parent",
+      "height": "match_parent",
+      "color": "#FA8823",
+      "endColor": "#F24E7C",
+      "strokeCap": "ROUND",
+      "movementsConnected": false,
+      "paintStyle": "STROKE",
+      "strokeWidth": "0.005w",
+      "movements": [
+        {
+          "type": "line",
+          "fromX": 0,
+          "toX": 1,
+          "fromY": 0,
+          "toY": 0,
+          "startFrame": 0,
+          "durationMillis": 264,
+          "interpolator": "cubicOut"
+        }
+      ],
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "from": 1,
+          "to": 0,
+          "direction": "right_to_left",
+          "startTimeMillis": 186,
+          "clipDefault": false,
+          "durationMillis": 264,
+          "interpolator": "easeOut"
+        },
+        {
+          "type": "fade",
+          "startTimeMillis": 450,
+          "duration": 0,
+          "from": 1,
+          "to": 0
+        }
+      ]
+    },
+    {
+      "type": "path",
+      "width": "match_parent",
+      "height": "match_parent",
+      "color": "#FA8823",
+      "endColor": "#F24E7C",
+      "strokeCap": "ROUND",
+      "movementsConnected": false,
+      "paintStyle": "STROKE",
+      "strokeWidth": "0.005w",
+      "paddingStart": "0.02w",
+      "paddingEnd": "0.02w",
+      "paddingTop": "0.02w",
+      "paddingBottom": "0.02w",
+      "movements": [
+        {
+          "type": "line",
+          "fromX": 1,
+          "toX": 0,
+          "fromY": 1,
+          "toY": 1,
+          "startFrame": 8,
+          "duration": 8,
+          "interpolator": "cubicOut"
+        }
+      ]
+    }
+  ]
+}
+

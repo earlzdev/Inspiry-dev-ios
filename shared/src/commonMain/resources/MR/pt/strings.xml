@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- editar uma cena de modelo -->
+    <string name="save">Salvar</string>
+    <string name="back">Voltar</string>
+    <string name="background">Fundo</string>
+    <string name="edit">Editar</string>
+    <string name="share">Compartilhar</string>
+    <string name="animation_enabled">Vídeo</string>
+    <string name="animation_disabled">Imagem</string>
+
+    <!-- editar itens do menu de contexto do modelo -->
+    <string name="copy_action">Copiar</string>
+    <string name="rename">Renomear</string>
+    <string name="delete">Excluir</string>
+    <string name="context_delete_title">Tem certeza de que deseja excluir esta história?</string>
+    <string name="context_delete_message">Não há como retornar as alterações</string>
+
+    <!-- tela inicial, minhas histórias -->
+    <string name="tab_my_stories">MINHAS</string>
+    <string name="tab_templates">MODELOS</string>
+    <string name="tab_pro" translatable="false">PRO</string>
+    <string name="empty_my_stories">Você ainda não tem nenhuma história. Escolha um modelo nas guias Modelos, comece a editar e a história aparecerá aqui</string>
+    <string name="create_new_story">Crie uma nova história</string>
+    <string name="preview_long_press_hint">Pressione e segure para mostrar a interface do instagram</string>
+
+    <!-- tela de salvamento -->
+    <string name="preview_template_stories_profile">Modelo de visualização</string>
+    <string name="saving_activity_progress_title">Preparando seu design</string>
+    <string name="share_save_to_gallery">Salvo na galeria</string>
+    <string name="saving_activity_create_new">Criar novo</string>
+    <string name="subscribe_header_subtitle">com Inspiry Pro</string>
+    <string name="share_dialog_title">Compartilhar design via</string>
+    <string name="template_is_saved_message_without_copy">O modelo foi salvo no diretório DCIM / Inspiry</string>
+
+    <!-- tela de inscrição -->
+    <string name="subscribe_feature_watermark">Sem marca d\'água, sem anúncios</string>
+    <string name="subscribe_feature_all">Todos os modelos</string>
+    <string name="subscribe_feature_fonts">Todas as fontes. Envie o seu</string>
+    <string name="subscribe_feature_format">Todos os formatos</string>
+    <string name="subscribe_feature_text_animations">Animações de texto</string>
+
+    <string name="subscription_1_month">1 mês %s</string>
+    <string name="subscription_12_months">12 meses</string>
+    <string name="subscribe_option_forever">Para sempre %s</string>
+    <string name="subscribe">Inscreva-se</string>
+    <string name="subscribe_support">SUPORTE</string>
+    <string name="subscribe_terms">Ao assinar, você concorda com nossa Política de Privacidade e Termos de Uso.</string>
+    <string name="subscribe_conditions">Sem compromisso. Cancele a qualquer momento.</string>
+
+    <string name="subscribe_try_days_button">Experimente grátis</string>
+    <string name="subscribe_continue_button">CONTINUAR</string>
+
+    <string name="subscribe_try_days_b">%s GRATUITOS </string>
+    <string name="subscribe_after_trial_end"> / %s após</string>
+    <string name="subscribe_price_per_month"> %s por mês</string>
+
+    <string name="banner_trial_subtitle">Junte-se ao Pro</string>
+    <string name="banner_my_stories_title">Impulsione suas histórias</string>
+    <string name="banner_my_stories_subtitle">Teste gratuitamente</string>
+    <string name="subscription_1_year">1 ano %s</string>
+    <string name="subscription_save">salvar %s</string>
+
+    <!-- inscrever-se na tela do Instagram -->
+    <string name="follow_us_on_instagram">Siga-nos no Instagram</string>
+    <string name="to_instagram_subtitle">e obtenha acesso GRATUITO a modelos INCRÍVEIS</string>
+    <string name="button_follow">Seguir</string>
+
+    <!-- Logo screen -->
+    <string name="your_logo">O teu logotipo</string>
+    <string name="toast_db_logo">Adicionaste meios que já se encontram na biblioteca</string>
+    <string name="add_logo">Adicionar logótipo</string>
+
+    <!-- compre um modelo -->
+    <string name="unlock_1_template_subtitle">Desbloquear ótimo modelo para %s</string>
+    <string name="unlock_all_templates_button">Desbloquear todos os modelos</string>
+    <string name="unlock_1_template_button">Desbloquear 1 modelo</string>
+    <string name="button_get_all_subtitle">Obtenha todos os modelos atuais e futuros</string>
+
+    <!-- diálogos e mensagens de serviço -->
+    <string name="dialog_alert_title_no_save">Voltar sem salvar?</string>
+    <string name="dialog_alert_subtitle_no_save">Todas as alterações serão perdidas</string>
+    <string name="dialog_alert_confirm">Confirmar</string>
+    <string name="dialog_name_title">Nomeie sua história</string>
+    <string name="dialog_name_submit">Enviar</string>
+    <string name="error_to_load_template_subtitle">O erro aconteceu durante o carregamento. Verifique sua conexão de internet</string>
+    <string name="error_to_load_template_button">Tente novamente</string>
+    <string name="template_is_loading">Aguarde, o modelo está carregando</string>
+    <string name="media_loading_message">Carregando</string>
+    <string name="from_icloud">do iCloud</string>
+    <string name="error_general_check_internet">Não foi possível carregar os dados. Verifique sua conexão de internet</string>
+
+    <!-- instrumentos -->
+    <string name="instrument_text">Texto</string>
+    <string name="instrument_text_animation">Animação</string>
+    <string name="instrument_text_font">Fonte</string>
+    <string name="instrument_text_size">Tamanho</string>
+    <string name="instrument_text_color">Cor</string>
+    <string name="instrument_text_back">Fundo</string>
+    <string name="instrument_text_align">Alinhar</string>
+    <string name="instrument_music">Música</string>
+    <string name="instrument_timeline">Tempo</string>
+    <string name="instrument_add">Adicionar</string>
+    <string name="instrument_stickers">Adesivo</string>
+    <string name="instrument_remove">Remover fundo</string>
+    <string name="instrument_format">Formato</string>
+    <string name="format_square">Quadrado 1:1</string>
+    <string name="format_post">Postagem 4:5</string>
+    <string name="format_horizontal">Full HD 16:9</string>
+    <string name="format_story">História 9:16</string>
+
+    <string name="instrument_palette">Paleta</string>
+    <string name="instrument_opacity">Opacidade</string>
+    <string name="instrument_round">Ronda</string>
+    <string name="palette_option_image">Imagem</string>
+    <string name="palette_add_from_gallery">Adicionar da galeria</string>
+    <string name="palette_add_image">Adicionar\nimagem</string>
+    <string name="instrument_cut">Cortar</string>
+    <string name="instrument_page_volume">Volume</string>
+    <string name="instrument_logo">Logotipo</string>
+    <string name="instrument_media">Meios</string>
+    <string name="instrument_slide">Slide</string>
+
+    <string name="instrument_replace">Repor</string>
+    <string name="instrument_shape">Forma</string>
+    <string name="instrument_move">Move</string>
+    <string name="instrument_color">Cor</string>
+
+    <!-- trim video instruments -->
+    <string name="trim_template">Template</string>
+    <string name="trim_fullVideo">Video time</string>
+    
+    <!-- instrumentos de texto -->
+    <string name="empty_text_content">Digite seu texto aqui</string>
+    <string name="apply_to_background">Fundo</string>
+    <string name="done">Concluído</string>
+    <string name="cancel">Cancelar</string>
+
+    <!-- color filter mode-->
+    <string name="color_filter_default">Normal</string>
+    <string name="color_filter_screen">Tela</string>
+    <string name="color_filter_multiply">Multiply</string>
+    <string name="color_filter_darken">Escurecer</string>
+    <string name="color_filter_overlay">Cobrir</string>
+    <string name="color_filter_lighten">Illuminate</string>
+    <string name="color_filter_difference">Diferença</string>
+
+    <!-- categorias -->
+    <string name="category_free_this_week">Grátis esta semana</string>
+    <string name="category_trends">Tendência</string>
+    <string name="category_grid">Colagem</string>
+    <string name="category_minimal">Mínimo</string>
+    <string name="category_business">Negócios</string>
+    <string name="category_gradient">Gradiente</string>
+    <string name="category_film">Filme</string>
+    <string name="category_vhs">Vhs</string>
+    <string name="category_paper">Papel</string>
+    <string name="category_plastic">Plástico</string>
+    <string name="category_art">Arte</string>
+    <string name="category_typography">Tipografia</string>
+    <string name="category_halloween" translatable="false">Halloween</string>
+    <string name="category_christmas">Natal</string>
+    <string name="category_beauty">Beleza</string>
+    <string name="category_new">Novos</string>
+    <string name="category_love">Amor</string>
+    <string name="category_blank">Em branco</string>
+    <string name="category_social">Social</string>
+    <string name="category_classic">Clássico</string>
+    <string name="category_black_friday">Black Friday</string>
+    <string name="category_gentle">Suave</string>
+    <string name="category_portraits">Retratos</string>
+
+    <string name="weekly_notification_title">Presente para você - modelos profissionais gratuitos</string>
+    <string name="weekly_notification_subtitle">Novas histórias premium estão disponíveis gratuitamente 🔥</string>
+
+    <string name="notification_unfinished_story_title">Não se esqueça de sua história</string>
+    <string name="notification_unfinished_story_subtitle">É hora de completá-lo e publicar para instagram 🔔</string>
+
+    <string name="saving_share_as">Compartilhar como:</string>
+    <string name="saving_copied_clipboard">%s é copiado para a área de transferência</string>
+    <string name="saving_tag_us_inspiry1">Marque-nos com</string>
+    <string name="saving_tag_us_inspiry2">para ser postado novamente em nosso Instagram</string>
+    <string name="feedback_title">Envie-nos um e-mail</string>
+    <string name="feedback_message">Você tem dúvidas, problemas ou desejos? Teremos o maior prazer em saber!\n\nVersão inspiry %s</string>
+    <string name="feedback_positive_button">Escreva um e-mail</string>
+    <string name="save_project_negative">Saia sem salvar</string>
+    <string name="save_project_positive">Salvar e sair</string>
+    <string name="save_project_title">Deseja salvar o projeto?</string>
+    <string name="onboarding_text_1">Criar estórias\nexcepcionais</string>
+    <string name="onboarding_text_2">Há tudo para a criação\nde conteúdo</string>
+
+    <string name="tip_layers_panel">Em camadas você pode editar a duração do modelo e os textos</string>
+    <string name="dialog_free_message">Inspiry dá uso a um presente de mola. Use Pro absolutamente de graça agora e nos primeiros dias de março.</string>
+    <string name="dialog_free_title">Inspiry PRO grátis</string>
+
+    <string name="string_category_arrow">Flecha</string>
+    <string name="sticker_category_brush">Pincel</string>
+    <string name="sticker_category_social">Social</string>
+
+    <string name="rating_dialog_start_text">Gostaríamos de saber\na sua opinião</string>
+    <string name="rating_dialog_share_text">Fez um\ndesign fixe!</string>
+    <string name="rating_dialog_rateus_text">Como nos classificaria?</string>
+    <string name="rating_dialog_experience">Como foi sua experiência conosco?</string>
+    <string name="rating_dialog_maybe_later">Mais tarde</string>
+    <string name="rating_dialog_never">Nunca</string>
+    <string name="rating_dialog_feedback_title">Comentários</string>
+    <string name="rating_dialog_submit">Enviar</string>
+    <string name="rating_dialog_cancel">Cancelar</string>
+    <string name="rating_dialog_suggestions">Sugira-nos o que deu errado e vamos trabalhar nisso!</string>
+    <string name="rating_dialog_please_rate">Ajude-nos a deixar seu comentário no Google Play</string>
+
+    <string name="upload_font">CARREGAR\nFONTE</string>
+
+    <string name="music_preview_warning">Estas faixas não são para uso comercial</string>
+    <string name="music_search_hint">Filtro de faixas</string>
+    <string name="music_tab_preview">Preview</string>
+    <string name="music_tab_library">Biblioteca</string>
+    <string name="music_tab_my">Minha música</string>
+    <string name="music_error_message">Error aconteceu</string>
+    <string name="music_error_button">Tentar novamente</string>
+    <string name="music_progress_downloading_message">O áudio está baixando</string>
+    <string name="music_album_all_tracks">Todas as faixas</string>
+    <string name="music_unknown_artist">Artista desconhecido</string>
+    <string name="music_free_tracks_left">pistas livres que restam:</string>
+    <string name="music_royalty_free_description">Música livre de royalties para os criadores de conteúdo. Ele ajuda você a evitar a proibição de músicas com direitos autorais nas mídias sociais</string>
+
+    <string name="onboarding_quiz_skip">saltar</string>
+    <string name="onboarding_quiz_1_title">Como você planeja\nusar Inspiry?</string>
+    <string name="onboarding_quiz_1_option_1">business</string>
+    <string name="onboarding_quiz_1_option_2">pessoal</string>
+    <string name="onboarding_quiz_1_option_3">criatividade</string>
+    <string name="onboarding_quiz_1_hint">As respostas tornarão o aplicativo mais útil</string>
+    <string name="onboarding_quiz_2_title">Escolha uma área de conteúdo que você faz</string>
+    <string name="onboarding_quiz_2_hint">Escolha qualquer quantidade de opções</string>
+    <string name="onboarding_quiz_2_option_2">Tutoriais</string>
+    <string name="onboarding_quiz_2_option_3">Esporte e fitness</string>
+    <string name="onboarding_quiz_2_option_5">Alimentos</string>
+    <string name="onboarding_quiz_2_option_6">Moda</string>
+    <string name="onboarding_quiz_2_option_7">Blog pessoal</string>
+    <string name="onboarding_quiz_2_option_8">Viagens</string>
+    <string name="onboarding_quiz_2_option_9">Fotografia</string>
+    <string name="onboarding_quiz_2_option_additional">Você quer sugerir uma nova área? Isso nos ajudará a criar um projeto para você</string>
+    <string name="onboarding_quiz_2_option_hint">Sugira sua área...</string>
+
+    <string name="remove_bg_promo_title">Remover fundo</string>
+    <string name="remove_bg_promo_subtitle">Como um Pro</string>
+    <string name="remove_bg_loading">REMOVENDO\nO FUNDO</string>
+    <string name="feature_promo_button">Experimente</string>
+    <string name="remove_bg_notification_title">Tente remover o fundo em Inspiry</string>
+    <string name="remove_bg_notification_subtitle">Novo instrumento e novos modelos 🎉</string>
+
+    <string name="my_stories_subscribe_to_inst">Ideas de diseño. Noticias de Inspiry\nMira en nuestro Instagram</string>
+
+    <string name="bf_only_price">somente</string>
+    <string name="bf_12_months">12 meses</string>
+    <string name="bf_special_offer">Oferta especial</string>
+    <string name="bf_notification_subtitle">Grande desconto na assinatura do ano 🎉</string>
+    <string name="bf_banner_title_second">Desconto</string>
+    <string name="bf_banner_until">até</string>
+
+    <string name="export_option_gallery">Galeria</string>
+    <string name="export_option_more">Mais</string>
+
+    <!-- request permissions -->
+    <string name="media_library_request_title">Por favor, permita o acesso à biblioteca de mídia</string>
+    <string name="media_library_request_description">Acesso aberto à biblioteca de mídia para que você possa adicionar suas fotos ao modelo para criar suas histórias</string>
+    <string name="settings">Definições</string>
+</resources>

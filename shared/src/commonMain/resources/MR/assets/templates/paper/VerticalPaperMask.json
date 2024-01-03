@@ -1,0 +1,108 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "isAvailable": false
+  },
+  "timeForEdit": 90,
+  "medias": [
+    {
+      "type": "image",
+      "isEditable": true,
+      "demoSource": "https://images.unsplash.com/photo-1449614016987-8c215bb90b94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "width": "1w",
+      "height": "1h",
+      "minDuration": "as_template",
+      "templateMask": {
+        "textures": [
+          {
+            "type": "textureMedia",
+            "textureSource": "assets://template-resources/paper/VerticalPaperMask/mask.mp4",
+            "clipTextures": [
+              {
+                "left": 0,
+                "top": 1,
+                "right": 0.5,
+                "bottom": 0
+              },
+              {
+                "left": 0.5,
+                "top": 1,
+                "right": 1,
+                "bottom": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "startFrame": 23,
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorY": "center",
+      "anchorX": "center",
+      "translationX": 0.2326178,
+      "translationY": -0.32339022,
+      "type": "text",
+      "innerGravity": "center",
+      "text": "YOUR\nSTORY",
+      "font": {
+        "fontPath": "cormorant",
+        "fontStyle": "regular"
+      },
+      "textSize": "0.087000005m",
+      "minDuration": "as_template",
+      "textColor": "#ff6a3a31",
+      "animationParamIn": {
+        "textAnimators": [
+          {
+            "duration": 6,
+            "type": "clip",
+            "direction": "top_to_bottom",
+            "from": 0,
+            "to": 1,
+            "clipDefault": true
+          }
+        ],
+        "lineDelayMillis": 180
+      },
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2
+    },
+    {
+      "startFrame": 36,
+      "anchorY": "center",
+      "anchorX": "center",
+      "width": "0.38739946w",
+      "height": "0.31483322h",
+      "translationX": 0.23088077,
+      "translationY": 0.05186584,
+      "minDuration": "as_template",
+      "type": "text",
+      "innerGravity": "right",
+      "text": "The world is a book and those who don't travel read only a page",
+      "font": {
+        "fontPath": "cormorant",
+        "fontStyle": "regular"
+      },
+      "textSize": "5.4545455/100m",
+      "textColor": "#ff6a3a31",
+      "animationParamIn": {
+        "textAnimators": [
+          {
+            "durationMillis": 180,
+            "type": "clip",
+            "direction": "top_to_bottom",
+            "from": 0,
+            "to": 1,
+            "clipDefault": true
+          }
+        ],
+        "lineDelayMillis": 180
+      },
+      "backgroundMarginLeft": 0.2,
+      "backgroundMarginRight": 0.2
+    }
+  ]
+}

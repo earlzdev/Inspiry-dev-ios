@@ -1,0 +1,93 @@
+{
+  "id": "socialBox",
+  "type": "group",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "orientation": "H",
+  "anchorX": "center",
+  "anchorY": "center",
+  "forPremium": true,
+  "backgroundColor": "#FFFFFF",
+  "animatorsIn": [
+    {
+      "type": "radius",
+      "from": 1,
+      "to": 1,
+      "duration": 0
+    },
+    {
+      "type": "backgroundFade",
+      "from": 0,
+      "to": 1,
+      "duration": 15
+    }
+  ],
+  "medias": [
+    {
+      "type": "vector",
+      "originalSource": "assets://sticker-resources/social/Social_2.json",
+      "width": "100/1080w",
+      "height": "100/1080w",
+      "marginLeft": "0.07w",
+      "anchorY": "center",
+      "anchorX": "center",
+      "isSocialIcon": true,
+      "isLottieAnimEnabled":false,
+      "relativeToParent": false,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 15,
+          "interpolator": "flatIn30expOut",
+          "startFrame": 5
+        },
+        {
+          "type": "move_to_x",
+          "from": 0.32,
+          "to": 0,
+          "startFrame": 20,
+          "duration": 19,
+          "interpolator": "flatIn30expOut"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "@beautycentre",
+      "id": "socialText",
+      "innerGravity": "center",
+      "textSize": "1/16w",
+      "width": "491/1080w",
+      "height": "110/1080w",
+      "paddingTop": "0.025w",
+      "paddingBottom": "0.025w",
+      "backgroundMarginLeft": 0,
+      "backgroundMarginRight": 0,
+      "anchorX": "center",
+      "anchorY": "center",
+      "textColor": "#000000",
+      "dependsOnParent": true,
+      "relativeToParent": false,
+      "animationParamIn": {
+        "textAnimators": [
+          {
+            "startFrame": 22,
+            "type": "move_to_x",
+            "from": 0.5,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "flatIn30expOut"
+          },
+          {
+            "startFrame": 22,
+            "type": "clip",
+            "direction": "left_to_right",
+            "duration": 20
+          }
+        ]
+      }
+    }
+  ]
+}

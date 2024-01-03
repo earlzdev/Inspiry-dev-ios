@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+
+    <entry>
+        <key>notify_story_is_unfinished_allowed_interval_hours</key>
+        <value>96</value>
+    </entry>
+
+    <entry>
+        <key>weekly_free_templates_available_for_periods</key>
+        <value>3</value>
+    </entry>
+
+    <entry>
+        <key>make_free_weekly_templates_after_inactivity_days</key>
+        <value>-1</value>
+    </entry>
+
+    <entry>
+        <key>notify_story_is_unfinished_after_hours</key>
+        <value>24</value>
+    </entry>
+
+    <entry>
+        <key>trend_category</key>
+        <value>false</value>
+    </entry>
+
+    <entry>
+        <key>new_category</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>onboarding</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>itunes_music</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>free_cause_payments_failed</key>
+        <value>false</value>
+    </entry>
+
+    <entry>
+        <key>show_dialog_free_cause_payments_failed</key>
+        <value>false</value>
+    </entry>
+
+    <entry>
+        <key>default_adapty_paywall</key>
+        <value>default-2</value>
+    </entry>
+
+    <entry>
+        <key>support_email</key>
+        <value>inspiryapp@gmail.com</value>
+    </entry>
+
+    <entry>
+      <key>sticker_availability</key>
+      <value>0</value>
+    </entry>
+
+    <entry>
+        <key>new_rate_us_dialog</key>
+        <value>false</value>
+    </entry>
+
+    <entry>
+        <key>rate_us_dialog_after_share</key>
+        <value>false</value>
+    </entry>
+
+    <entry>
+        <key>my_stories_top_banner</key>
+        <value>premium</value>
+    </entry>
+
+    <entry>
+        <key>remove_bg_notify_after_days</key>
+        <value>3</value>
+    </entry>
+
+    <entry>
+        <key>remove_bg_free_tries</key>
+        <value>4</value>
+    </entry>
+
+    <entry>
+        <key>remove_bg_instantly_after_gallery</key>
+        <value>false</value>
+    </entry>
+
+    <entry>
+        <key>royalty_free_music_tries</key>
+        <value>5</value>
+    </entry>
+
+    <entry>
+        <key>show_instagram_subscribed_option</key>
+        <value>false</value>
+    </entry>
+
+    <entry>
+        <key>notify_discount_after_days</key>
+        <value>0</value>
+    </entry>
+
+    <entry>
+        <key>open_bf_promo_on_start_after_days</key>
+        <value>0</value>
+    </entry>
+
+    <entry>
+        <key>bf_show_banner_until_date</key>
+        <value>1638321750000</value>
+    </entry>
+
+    <entry>
+        <key>subscribe_screen_ui_version</key>
+        <value>1</value>
+    </entry>
+
+</defaultsMap>

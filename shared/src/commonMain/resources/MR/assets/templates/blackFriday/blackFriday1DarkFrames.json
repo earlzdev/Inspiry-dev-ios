@@ -1,0 +1,370 @@
+{
+  "availability": "PREMIUM",
+  "preferredDuration": 240,
+  "palette": {
+    "defaultTextColor": "#ffffff",
+    "choices": [
+      {
+        "color": "#1B1B1B",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#FFFFFF",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text1"
+          },
+          {
+            "type": "textColor",
+            "id": "text2"
+          },
+          {
+            "type": "textColor",
+            "id": "text3"
+          },
+          {
+            "type": "textColor",
+            "id": "text4"
+          },
+          {
+            "type": "textColor",
+            "id": "text5"
+          },
+          {
+            "type": "vector",
+            "id": "frames"
+          }
+        ]
+      },
+      {
+        "color": "#C60021",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "bottom_plane"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "isMovable": true,
+      "id": "frames",
+      "type": "vector",
+      "width": "1w",
+      "height": "1412/1920h",
+      "alignBy": "top_center",
+      "y": "242/1920h",
+      "originalSource": "assets://template-resources/blackFriday/blackFriday1DarkFrames/frame1.json",
+      "isLoopEnabled": true,
+      "startFrame": 10,
+      "staticFrameForEdit": 30
+    },
+    {
+      "type": "image",
+      "width": "659/1080w",
+      "height": "1017/1920h",
+      "y": "428/1920h",
+      "alignBy": "top_center",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1572804013427-4d7ca7268217?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=765&q=80",
+      "startFrame": 0,
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "center_to_top_and_bottom",
+          "duration": 25,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.05,
+            "y1": 0.1,
+            "x2": 0,
+            "y2": 1
+          }
+        },
+        {
+          "type": "scale_inner",
+          "from": 0.9,
+          "to": 1,
+          "duration": 60,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.05,
+            "y1": 0,
+            "x2": 0,
+            "y2": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "text1",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "GET MORE SALE",
+      "innerGravity": "center",
+      "font": {
+        "fontPath": "gilroy",
+        "fontStyle": "bold"
+      },
+      "y": "100/1920h",
+      "alignBy": "top_center",
+      "textSize": "0.072m",
+      "textColor": "#ffffff",
+      "minDuration": "as_template",
+      "startFrame": 30,
+      "animationParamIn": {
+        "wordDelay": 10,
+        "wordInterpolator": {
+          "type": "accelerate",
+          "factor": 0.98
+        },
+        "textAnimators": [
+          {
+            "type": "move_to_y",
+            "from": 0.3,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "cubicOut"
+          },
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 20,
+            "interpolator": "cubicOut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "text2",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "GREAT",
+      "innerGravity": "center",
+      "font": {
+        "fontPath": "gilroy",
+        "fontStyle": "bold"
+      },
+      "alignBy": "top_center",
+      "textColor": "#ffffff",
+      "minDuration": "as_template",
+      "textSize": "0.259m",
+      "y": "194/1920h",
+      "startFrame": 20,
+      "animationParamIn": {
+        "charDelay": 5,
+        "charInterpolator": {
+          "type": "accelerate",
+          "factor": 0.5
+        },
+        "textAnimators": [
+          {
+            "type": "move_to_y",
+            "from": 0.3,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "cubicOut"
+          },
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 20,
+            "interpolator": "cubicOut"
+          }
+        ]
+      }
+    },
+    {
+      "id": "text3",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "DISCOUNTS",
+      "innerGravity": "center",
+      "font": {
+        "fontPath": "gilroy",
+        "fontStyle": "bold"
+      },
+      "alignBy": "top_center",
+      "textColor": "#ffffff",
+      "minDuration": "as_template",
+      "textSize": "0.160m",
+      "y": "1375/1920h",
+      "startFrame": 25,
+      "animationParamIn": {
+        "charDelay": 3,
+        "charInterpolator": {
+          "type": "accelerate",
+          "factor": 0.5
+        },
+        "textAnimators": [
+          {
+            "type": "move_to_y",
+            "from": 0.3,
+            "to": 0,
+            "duration": 15,
+            "interpolator": "cubicOut"
+          },
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": "bottom_plane",
+      "type": "image",
+      "backgroundColor": "#C60021",
+      "isEditable": false,
+      "isMovable": true,
+      "alignBy": "top_center",
+      "width": "1w",
+      "height": "172/1920h",
+      "y": "1590/1920h",
+      "startFrame": 20,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "center_to_top_and_bottom",
+          "duration": 20,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.32,
+            "y1": 0,
+            "x2": 0.28,
+            "y2": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "text4",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "109$",
+      "innerGravity": "center",
+      "font": {
+        "fontPath": "gilroy",
+        "fontStyle": "bold"
+      },
+      "alignBy": "top_center",
+      "textColor": "#ffffff",
+      "minDuration": "as_template",
+      "textSize": "0.105m",
+      "startFrame": 40,
+      "y": "1593/1920h",
+      "x": "-150/1080w",
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 15,
+          "from": 0,
+          "to": 1
+        },
+        {
+          "type": "scale",
+          "interpolator": "flatIn25expOut",
+          "from": 0.3,
+          "to": 1,
+          "duration": 15
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "alignBy": "top_center",
+      "y": "1613/1920h",
+      "x": "150/1080w",
+      "medias": [
+        {
+          "type": "path",
+          "width": "match_parent",
+          "height": "match_parent",
+          "color": "#FBFF27",
+          "paintStyle": "STROKE",
+          "strokeWidth": "0.008m",
+          "startFrame": 40,
+          "movements": [
+            {
+              "type": "line",
+              "fromX": 0,
+              "toX": 1,
+              "fromY": 0.8,
+              "toY": 0.2,
+              "duration": 0
+            }
+          ],
+          "animatorsIn": [
+            {
+              "type": "clip",
+              "direction": "center_to_left_and_right",
+              "duration": 10,
+              "interpolator": {
+                "type": "path",
+                "x1": 0.32,
+                "y1": 0,
+                "x2": 0.28,
+                "y2": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "text5",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "type": "text",
+          "text": "299$",
+          "innerGravity": "center",
+          "font": {
+            "fontPath": "gilroy",
+            "fontStyle": "light"
+          },
+          "textColor": "#ffffff",
+          "paddingTop": "0.01m",
+          "paddingBottom": "0.01m",
+          "paddingStart": "0.01m",
+          "paddingEnd": "0.01m",
+          "minDuration": "as_template",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "textSize": "0.072m",
+          "startFrame": 30,
+          "animatorsIn": [
+            {
+              "type": "fade",
+              "duration": 15,
+              "from": 0,
+              "to": 1
+            },
+            {
+              "type": "scale",
+              "interpolator": "flatIn25expOut",
+              "from": 0.3,
+              "to": 1,
+              "duration": 15
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

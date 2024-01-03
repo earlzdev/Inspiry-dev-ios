@@ -1,0 +1,33 @@
+{
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "type": "text",
+  "text": "Text from right",
+  "innerGravity": "right",
+  "textSize": "0.1w",
+  "font": {
+    "fontStyle": "regular"
+  },
+  "animationParamIn": {
+    "lineDelayMillis": 1,
+    "textAnimators": [
+      {
+        "type": "fade",
+        "duration": 9,
+        "from": 0,
+        "to": 1
+      },
+      {
+        "type": "move_to_x",
+        "interpolator": "fastInSuperfastOut1Invert",
+        "relativity": "ROOT",
+        "from": 1,
+        "to": 0,
+        "duration": 30
+      }
+    ]
+  }
+}

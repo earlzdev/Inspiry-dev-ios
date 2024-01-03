@@ -1,0 +1,30 @@
+{
+  "innerGravity": "center",
+  "anchorY": "center",
+  "anchorX": "center",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "textColor": "#ffffff",
+  "type": "text",
+  "text": "TEXT APPEARS BY SCALE",
+  "font": {
+    "fontPath": "bebasneue"
+  },
+  "capsMode": "all",
+  "textSize": "1/10w",
+  "animatorsIn": [
+    {
+      "type": "fade",
+      "duration": 15,
+      "from": 0,
+      "to": 1
+    },
+    {
+      "type": "scale",
+      "interpolator": "flatIn25expOut",
+      "from": 3,
+      "to": 1,
+      "duration": 30
+    }
+  ]
+}

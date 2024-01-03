@@ -1,0 +1,190 @@
+{
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "palette": {
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          }
+        ]
+      },
+      {
+        "color": "#eeeeee",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "centerRect"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "centerRect",
+      "type": "path",
+      "width": "968/1080w",
+      "height": "1512/1920h",
+      "backgroundColor": "#eeeeee",
+      "anchorX": "center",
+      "anchorY": "center",
+      "isMovable": true,
+      "startFrame": 0,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "center_to_top_and_bottom",
+          "interpolator": "cubicOut",
+          "from": 0,
+          "to": 1,
+          "duration": 60
+        },
+        {
+          "type": "fade",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut",
+          "from": 0,
+          "to": 1
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1503278501277-e50457741130?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "816/1080w",
+      "height": "316/1080w",
+      "anchorX": "center",
+      "startFrame": 25,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut",
+          "relativity": "ROOT",
+          "from": -1,
+          "to": 0
+        },
+        {
+          "type": "fade",
+          "duration": 40,
+          "from": 0,
+          "to": 1
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1526413232644-8a40f03cc03b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "816/1080w",
+      "height": "816/1080w",
+      "anchorY": "center",
+      "anchorX": "center",
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "center_to_top_and_bottom",
+          "interpolator": "cubicOut",
+          "from": 0,
+          "to": 1,
+          "duration": 60
+        },
+        {
+          "type": "fade",
+          "duration": 30,
+          "from": 0,
+          "to": 1
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1521503862198-2ae9a997bbc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "816/1080w",
+      "height": "316/1080w",
+      "anchorY": "bottom",
+      "anchorX": "center",
+      "startFrame": 50,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut",
+          "relativity": "ROOT",
+          "from": 1,
+          "to": 0
+        },
+        {
+          "type": "fade",
+          "duration": 40,
+          "from": 0,
+          "to": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "JOIN US",
+      "anchorX": "center",
+      "anchorY": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "innerGravity": "center",
+      "textColor": "#000000",
+      "font": {
+        "fontPath": "garamond",
+        "fontStyle": "bold"
+      },
+      "minDuration": "as_template",
+      "textSize": "0.071m",
+      "translationY": -0.275,
+      "startFrame": 40,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 40,
+          "from": 0,
+          "to": 1
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "inspiry stories",
+      "anchorY": "center",
+      "anchorX": "center",
+      "width": "834/1080w",
+      "height": "wrap_content",
+      "textColor": "#000000",
+      "font": {
+        "fontPath": "garamond",
+        "fontStyle": "regular"
+      },
+      "minDuration": "as_template",
+      "textSize": "0.057m",
+      "innerGravity": "center",
+      "translationY": 0.2714,
+      "startFrame": 65,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "duration": 40,
+          "from": 0,
+          "to": 1
+        }
+      ]
+    }
+  ]
+}

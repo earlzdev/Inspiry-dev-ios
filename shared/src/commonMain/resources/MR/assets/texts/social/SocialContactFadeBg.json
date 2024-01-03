@@ -1,0 +1,94 @@
+{
+  "id": "socialBox",
+  "type": "group",
+  "orientation": "H",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "backgroundColor": "#FFFFFF",
+  "anchorX": "center",
+  "anchorY": "center",
+  "forPremium": true,
+  "animatorsIn": [
+    {
+      "type": "radius",
+      "from": 1,
+      "to": 1,
+      "duration": 0
+    },
+    {
+      "type": "backgroundFade",
+      "from": 0,
+      "to": 0.3,
+      "duration": 15
+    }
+  ],
+  "medias": [
+    {
+      "type": "vector",
+      "originalSource": "assets://sticker-resources/social/Social_1.json",
+      "width": "100/1080w",
+      "height": "100/1080w",
+      "anchorY": "center",
+      "anchorX": "center",
+      "marginLeft": "0.07w",
+      "isSocialIcon": true,
+      "keepAspect": true,
+      "isLottieAnimEnabled": false,
+      "relativeToParent": false,
+      "animatorsIn": [
+        {
+          "startFrame": 5,
+          "type": "scale",
+          "from": 0,
+          "to": 1,
+          "duration": 15,
+          "interpolator": "flatIn30expOut"
+        },
+        {
+          "type": "move_to_x",
+          "from": 0.32,
+          "to": 0,
+          "startFrame": 15,
+          "duration": 19,
+          "interpolator": "flatIn30expOut"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "socialText",
+      "text": "@smiledesign",
+      "innerGravity": "center",
+      "textSize": "1/16w",
+      "width": "491/1080w",
+      "height": "wrap_content",
+      "paddingTop": "0.025w",
+      "paddingBottom": "0.025w",
+      "backgroundMarginLeft": 0,
+      "backgroundMarginRight": 0,
+      "textColor": "#ffffff",
+      "anchorX": "center",
+      "anchorY": "center",
+      "dependsOnParent": true,
+      "relativeToParent": false,
+      "animationParamIn": {
+        "textAnimators": [
+          {
+            "startFrame": 15,
+            "type": "move_to_x",
+            "from": 0.5,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "flatIn30expOut"
+          },
+          {
+            "startFrame": 15,
+            "type": "clip",
+            "direction": "left_to_right",
+            "duration": 20
+          }
+        ]
+      }
+    }
+  ]
+}

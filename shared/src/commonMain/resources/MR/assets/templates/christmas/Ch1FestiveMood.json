@@ -1,0 +1,158 @@
+{
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "group",
+      "width": "1w",
+      "height": "1h",
+      "templateMask": {
+        "shaderType": "SINGLE_ADDITION",
+        "textures": [
+          {
+            "type": "textureMedia",
+            "isLoopEnabled": true,
+            "textureSource": "assets://template-resources/christmas/Ch1FestiveMood/mask.mp4"
+          }
+        ]
+      },
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.pexels.com/photos/1839755/pexels-photo-1839755.png?auto=compress&cs=tinysrgb&dpr=2&h=1200&w=720",
+          "width": "1w",
+          "height": "1h",
+          "minDuration": "as_template",
+          "animatorsAll": [
+            {
+              "type": "scale_inner",
+              "from": 1,
+              "to": 1.2,
+              "duration": "all"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "isEditable": false,
+          "originalSource": "assets://template-resources/christmas/Ch1FestiveMood/mask_vignette.png",
+          "width": "1w",
+          "height": "1h"
+        }
+      ]
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "Create",
+      "font": {
+        "fontPath": "chalista"
+      },
+      "anchorX": "center",
+      "anchorY": "center",
+      "innerGravity": "center",
+      "textSize": "0.17141002m",
+      "translationY": 0.25680655,
+      "textGradient": {
+        "orientation": "TOP_BOTTOM",
+        "colors": [
+          "#FFF4CC",
+          "#FF8A00"
+        ]
+      },
+      "paddingStart": "0.05w",
+      "paddingEnd": "0.05w",
+      "shadowOffset": 0.02,
+      "shadowColors": [
+        "#000000"
+      ],
+      "startFrame": 5,
+      "minDuration": "as_template",
+      "animationParamIn": {
+        "charDelay": 2
+      },
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 20,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.15,
+            "y1": 0,
+            "x2": 0.02,
+            "y2": 1
+          }
+        },
+        {
+          "type": "scale",
+          "from": 0.6,
+          "to": 1,
+          "duration": 20,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.15,
+            "y1": 0,
+            "x2": 0.02,
+            "y2": 1
+          }
+        }
+      ]
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "FESTIVE MOOD",
+      "font": {
+        "fontPath": "dinpro",
+        "fontStyle": "bold"
+      },
+      "anchorX": "center",
+      "anchorY": "center",
+      "innerGravity": "center",
+      "textSize": "0.12025761m",
+      "translationY": 0.34913218,
+      "textGradient": {
+        "orientation": "TOP_BOTTOM",
+        "colors": [
+          "#FFF4CC",
+          "#FF8A00"
+        ]
+      },
+      "shadowOffset": 0.04,
+      "shadowColors": [
+        "#000000"
+      ],
+      "startFrame": 15,
+      "minDuration": "as_template",
+      "animationParamIn": {
+        "charDelayMillis": 25,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "durationMillis": 50,
+            "from": 0,
+            "to": 1
+          },
+          {
+            "type": "move_to_y",
+            "interpolator": {
+              "type": "spring",
+              "amplitude": 0.12,
+              "frequency": 20
+            },
+            "from": 0.6,
+            "to": 0,
+            "durationMillis": 1800
+          }
+        ]
+      }
+    }
+  ]
+}

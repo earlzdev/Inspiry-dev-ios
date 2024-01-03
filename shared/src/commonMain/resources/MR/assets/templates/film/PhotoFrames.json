@@ -1,0 +1,71 @@
+{
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.pexels.com/photos/4690320/pexels-photo-4690320.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "width": "670/1080w",
+      "height": "647/1920h",
+      "x": "223/1080w",
+      "y": "103/1920h",
+      "demoScale": 1.3,
+      "demoOffsetY": 0.25,
+      "demoOffsetX": -0.15
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.pexels.com/photos/4684186/pexels-photo-4684186.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "width": "658/1080w",
+      "height": "654/1920h",
+      "anchorY": "bottom",
+      "x": "226/1080w",
+      "y": "232/1920h",
+      "demoScale": 1.1,
+      "demoOffsetY": 0.1,
+      "demoOffsetX": -0.1
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "originalSource": "assets://template-resources/film/PhotoFrames/front.png",
+      "width": "1w",
+      "height": "1h"
+    },
+    {
+      "type": "text",
+      "minDuration": "as_template",
+      "text": "the best day",
+      "font": "coconut",
+      "anchorX": "center",
+      "anchorY": "center",
+      "textColor": "#56534A",
+      "textSize": "0.09725m",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": -0.06152569,
+      "translationX": 0.012325757,
+      "paddingStart": "0.01w",
+      "paddingEnd": "0.01w"
+    },
+    {
+      "type": "text",
+      "minDuration": "as_template",
+      "text": "cute moments",
+      "font": "coconut",
+      "anchorX": "center",
+      "anchorY": "center",
+      "textColor": "#56534A",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": 0.42490613,
+      "translationX": 0.01778882,
+      "textSize": "0.1118624m",
+      "paddingStart": "0.01w",
+      "paddingEnd": "0.01w"
+    }
+  ]
+}

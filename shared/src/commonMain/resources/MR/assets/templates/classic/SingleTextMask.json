@@ -1,0 +1,112 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "palette": {
+    "choices": [
+      {
+        "color": "#C0000000",
+        "elements": [
+          {
+            "id": "textback",
+            "type": "elementBackgroundColor"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1501436513145-30f24e19fcc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "width": "1w",
+      "height": "1h",
+      "minDuration": "as_template"
+    },
+    {
+      "type": "group",
+      "width": "1w",
+      "height": "1h",
+      "minDuration": "as_template",
+      "templateMask": {
+        "shaderType": "COMMON_MASK",
+        "invertFragmentAlpha": true,
+        "texturesID": [
+          "mask"
+        ]
+      },
+      "medias": [
+        {
+          "id": "textback",
+          "type": "image",
+          "isEditable": false,
+          "width": "1w",
+          "height": "1h",
+          "minDuration": "as_template"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "id": "mask",
+      "width": "match_parent",
+      "height": "match_parent",
+      "backgroundColor": "#ffffff",
+      "medias": [
+        {
+          "type": "text",
+          "minDuration": "as_template",
+          "text": "NEW\nPOST",
+          "innerGravity": "center",
+          "anchorY": "center",
+          "anchorX": "center",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "font": {
+            "fontPath": "mont",
+            "fontStyle": "bold"
+          },
+          "textSize": "0.1944s",
+          "textColor": "#ff000000",
+          "animatorsIn": [
+            {
+              "type": "move_to_x",
+              "from": 1.2,
+              "to": 0,
+              "duration": 51,
+              "interpolator": "cubicOut"
+            },
+            {
+              "type": "scale",
+              "from": 2,
+              "to": 1,
+              "duration": 30,
+              "startFrame": 51,
+              "interpolator": "flatInExpOut"
+            }
+          ],
+          "animationParamIn": {
+            "charDelayMillis": 200,
+            "wordDelayMillis": 200,
+            "charDelayBetweenWords": true,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 0,
+                "duration": 0
+              },
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 5,
+                "interpolator": "cubicOut",
+                "startFrame": 9
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

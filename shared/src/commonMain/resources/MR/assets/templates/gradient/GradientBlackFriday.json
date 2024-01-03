@@ -1,0 +1,460 @@
+{
+  "backgroundColor": "#000000",
+  "availability": "PREMIUM",
+  "preferredDuration": 240,
+  "palette": {
+    "defaultTextColor": "#ffffff",
+    "backgroundImage": "assets://template-resources/gradient/GradientBlackFriday/back.mp4",
+    "backgroundVideoStartMs": 0,
+    "backgroundVideoLooped": true,
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "all_texts"
+          }
+        ]
+      },
+      {
+        "color": "#E2B365",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "pathBg"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "path",
+      "id": "pathBg",
+      "width": "824",
+      "height": "1148",
+      "y": "274",
+      "x": "16",
+      "anchorX": "end",
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 51,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.8,
+            "y1": 0,
+            "x2": 0.6,
+            "y2": 1
+          }
+        },
+        {
+          "type": "move_to_y",
+          "from": 0,
+          "to": 0.0625,
+          "duration": 51,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.8,
+            "y1": 0,
+            "x2": 0.6,
+            "y2": 1
+          }
+        },
+        {
+          "type": "scale",
+          "from": 0.85,
+          "to": 1,
+          "duration": 51,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.8,
+            "y1": 0,
+            "x2": 0.6,
+            "y2": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "width": "824",
+      "height": "1148",
+      "y": "255",
+      "anchorX": "end",
+      "slidesEnabled": true,
+      "demoSource": "https://images.pexels.com/photos/2884310/pexels-photo-2884310.jpeg?auto=compress&cs=tinysrgb&h=1148&w=824",
+      "startFrame": 10,
+      "minDuration": "as_template",
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 51,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.8,
+            "y1": 0,
+            "x2": 0.6,
+            "y2": 1
+          }
+        },
+        {
+          "type": "move_to_y",
+          "from": 0,
+          "to": 0.0625,
+          "duration": 51,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.8,
+            "y1": 0,
+            "x2": 0.6,
+            "y2": 1
+          }
+        },
+        {
+          "type": "scale",
+          "from": 0.85,
+          "to": 1,
+          "duration": 51,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.8,
+            "y1": 0,
+            "x2": 0.6,
+            "y2": 1
+          }
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "scale_inner",
+          "from": 1,
+          "to": 1.1,
+          "duration": "all",
+          "startFrame": 51
+        }
+      ]
+    },
+    {
+      "id": "textTitle",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "BLACK\nFRIDAY",
+      "innerGravity": "left",
+      "font": {
+        "fontPath": "mont",
+        "fontStyle": "bold"
+      },
+      "textShadowColor": "#66000000",
+      "textShadowDx": 0.02,
+      "textShadowDy": 0.02,
+      "textShadowBlurRadius": 15,
+      "translationX": -0.07643107,
+      "translationY": 0.03464366,
+      "y": "8/1080m",
+      "anchorX": "center",
+      "anchorY": "top",
+      "textSize": "0.18527561m",
+      "textColor": "#ffffff",
+      "minDuration": "as_template",
+      "startFrame": 25,
+      "animatorsIn": [
+        {
+          "type": "move_to_x",
+          "from": 0.4,
+          "to": 0,
+          "duration": 15,
+          "relativity": "ROOT",
+          "interpolator": "cubicOut"
+        }
+      ],
+      "animationParamIn": {
+        "charDelay": 3,
+        "textAnimators": [
+          {
+            "type": "move_to_x",
+            "from": 2,
+            "to": 0,
+            "duration": 5,
+            "interpolator": "cubicOut"
+          },
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 7
+          }
+        ]
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "BRAND",
+      "innerGravity": "center",
+      "font": {
+        "fontPath": "mont",
+        "fontStyle": "bold"
+      },
+      "textColor": "#ffffff",
+      "rotation": -90,
+      "paintStyle": "STROKE",
+      "strokeWidth": 0.012,
+      "minDuration": "as_template",
+      "translationX": -0.18414353,
+      "translationY": 0.5708253,
+      "textSize": "0.169m",
+      "letterSpacing": 0.03,
+      "animatorsIn": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 15
+        }
+      ]
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "WEBSITE",
+      "innerGravity": "center",
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "bold"
+      },
+      "anchorX": "center",
+      "anchorY": "center",
+      "textColor": "#ffffff",
+      "minDuration": "as_template",
+      "textSize": "0.0367m",
+      "translationX": -0.19704702,
+      "translationY": 0.33261985,
+      "lineSpacing": 0.9,
+      "startFrame": 25,
+      "animationParamIn": {
+        "lineDelay": 15,
+        "textAnimators": [
+          {
+            "type": "move_to_y",
+            "from": 0.6,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "cubicOut"
+          },
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 20,
+            "interpolator": "cubicOut"
+          }
+        ]
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "BRANDING",
+      "innerGravity": "center",
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "bold"
+      },
+      "anchorX": "center",
+      "anchorY": "center",
+      "textColor": "#ffffff",
+      "minDuration": "as_template",
+      "textSize": "0.0367m",
+      "translationX": 0.053056628,
+      "translationY": 0.33261985,
+      "lineSpacing": 0.9,
+      "startFrame": 30,
+      "animationParamIn": {
+        "lineDelay": 15,
+        "textAnimators": [
+          {
+            "type": "move_to_y",
+            "from": 0.6,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "cubicOut"
+          },
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 20,
+            "interpolator": "cubicOut"
+          }
+        ]
+      }
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "APPLICATIONS",
+      "innerGravity": "center",
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "bold"
+      },
+      "anchorX": "center",
+      "anchorY": "center",
+      "textColor": "#ffffff",
+      "minDuration": "as_template",
+      "textSize": "0.0367m",
+      "translationX": 0.3351641,
+      "translationY": 0.33261985,
+      "lineSpacing": 0.9,
+      "startFrame": 35,
+      "animationParamIn": {
+        "lineDelay": 15,
+        "textAnimators": [
+          {
+            "type": "move_to_y",
+            "from": 0.6,
+            "to": 0,
+            "duration": 20,
+            "interpolator": "cubicOut"
+          },
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 20,
+            "interpolator": "cubicOut"
+          }
+        ]
+      }
+    },
+    {
+      "type": "group",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "anchorX": "center",
+      "anchorY": "center",
+      "translationY": 0.44271368,
+      "medias": [
+        {
+          "type": "path",
+          "width": "match_parent",
+          "height": "match_parent",
+          "color": "#ffffff",
+          "paintStyle": "STROKE",
+          "strokeWidth": "0.0025m",
+          "id": "colorAsTextBrother1",
+          "movementsInterpolator": {
+            "type": "path",
+            "x1": 0.8,
+            "y1": 0,
+            "x2": 0.6,
+            "y2": 1
+          },
+          "startFrame": 40,
+          "movements": [
+            {
+              "type": "line",
+              "fromX": 0,
+              "toX": 0,
+              "fromY": 0.1,
+              "toY": 0.9,
+              "startFrame": 0,
+              "duration": 5
+            },
+            {
+              "type": "line",
+              "fromY": 0.9,
+              "toY": 0.9,
+              "fromX": 0.0,
+              "toX": 1,
+              "startFrame": 5,
+              "duration": 5
+            },
+            {
+              "type": "line",
+              "fromX": 1,
+              "toX": 1,
+              "fromY": 0.9,
+              "toY": 0.1,
+              "startFrame": 10,
+              "duration": 5
+            },
+            {
+              "type": "line",
+              "fromX": 1,
+              "toX": 0,
+              "fromY": 0.1,
+              "toY": 0.1,
+              "startFrame": 15,
+              "duration": 5
+            }
+          ]
+        },
+        {
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "type": "text",
+          "text": "LINK IN BIO",
+          "innerGravity": "center",
+          "font": {
+            "fontPath": "made",
+            "fontStyle": "bold"
+          },
+          "textColor": "#ffffff",
+          "paddingTop": "0.03m",
+          "paddingBottom": "0.03m",
+          "paddingStart": "0.03m",
+          "paddingEnd": "0.03m",
+          "minDuration": "as_template",
+          "dependsOnParent": true,
+          "relativeToParent": false,
+          "textSize": "0.0463m",
+          "lineSpacing": 0.9,
+          "startFrame": 40,
+          "animatorsIn": [
+            {
+              "type": "move_to_x",
+              "from": 0.1,
+              "to": 0,
+              "duration": 30,
+              "relativity": "ROOT",
+              "interpolator": "elegantlySlowOut"
+            }
+          ],
+          "animationParamIn": {
+            "charInterpolator": {
+              "type": "accelerate",
+              "factor": 0.8
+            },
+            "charDelay": 3,
+            "textAnimators": [
+              {
+                "type": "move_to_y",
+                "from": 0.5,
+                "to": 0,
+                "duration": 9,
+                "interpolator": "elegantlySlowOut"
+              },
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 9,
+                "interpolator": "elegantlySlowOut"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

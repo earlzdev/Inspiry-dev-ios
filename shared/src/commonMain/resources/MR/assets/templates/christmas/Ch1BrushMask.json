@@ -1,0 +1,244 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "timeForEdit": 90,
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+
+    {
+      "isEditable": false,
+      "type": "image",
+      "originalSource": "assets://template-resources/christmas/Ch1BrushMask/back_texture.jpg",
+      "width": "match_parent",
+      "height": "match_parent"
+    },
+    {
+      "type": "group",
+      "id": "groupImages",
+      "width": "1046/1080w",
+      "height": "1087/1920h",
+      "y": "180/1920h",
+      "templateMask": {
+        "shaderType": "COMMON_MASK",
+        "texturesID": [
+          "mask"
+        ]
+      },
+      "medias": [
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1607534174603-4051fff8ff72?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=720&q=80",
+          "width": "match_parent",
+          "height": "match_parent",
+          "minDuration": "as_template"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "id": "mask",
+      "width": "1046/1080w",
+      "height": "1087/1920h",
+      "y": "180/1920h",
+      "medias": [
+        {
+          "id": "vectorMask",
+          "type": "vector",
+          "width": "match_parent",
+          "height": "match_parent",
+          "isMovable": false,
+          "isLoopEnabled": false,
+          "originalSource": "assets://template-resources/christmas/Ch1BrushMask/mask.json",
+          "minDuration": "as_template"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/christmas/Ch1BrushMask/ribbon.png",
+      "width": "259",
+      "height": "712",
+      "x": "37",
+      "translationY": -0.01,
+      "anchorX": "end",
+      "innerPivotY": 0,
+      "animatorsIn": [
+        {
+          "type": "scale",
+          "fromX": 1,
+          "toX": 1,
+          "fromY": 0.7,
+          "toY": 1.06,
+          "duration": 20,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.19,
+            "y1": 0,
+            "x2": 0.6,
+            "y2": 1
+          }
+        },
+        {
+          "type": "scale",
+          "fromX": 1,
+          "toX": 1,
+          "fromY": 1.06,
+          "toY": 0.98,
+          "duration": 15,
+          "startFrame": 20,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.19,
+            "y1": 0,
+            "x2": 0.6,
+            "y2": 1
+          }
+        },
+        {
+          "type": "scale",
+          "fromX": 1,
+          "toX": 1,
+          "fromY": 0.98,
+          "toY": 1,
+          "duration": 10,
+          "startFrame": 35,
+          "interpolator": {
+            "type": "path",
+            "x1": 0.19,
+            "y1": 0,
+            "x2": 0.6,
+            "y2": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/christmas/Ch1BrushMask/snowflake.png",
+      "width": "87",
+      "height": "100",
+      "x": "108",
+      "y": "281",
+      "anchorY": "bottom",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 45,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": 0,
+          "to": 360,
+          "duration": 180
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 15
+        },
+        {
+          "type": "scale",
+          "from": 0.5,
+          "to": 1,
+          "duration": 15,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "isEditable": false,
+      "isMovable": true,
+      "originalSource": "assets://template-resources/christmas/Ch1BrushMask/snowflake.png",
+      "width": "87",
+      "height": "100",
+      "x": "108",
+      "y": "281",
+      "anchorY": "bottom",
+      "anchorX": "end",
+      "minDuration": "as_template",
+      "loopedAnimationInterval": 0,
+      "startFrame": 45,
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "from": 0,
+          "to": -360,
+          "duration": 180
+        }
+      ],
+      "animatorsAll": [
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 15
+        },
+        {
+          "type": "scale",
+          "from": 0.5,
+          "to": 1,
+          "duration": 15,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "type": "text",
+      "text": "Merry\nChristmas",
+      "font": "savoy",
+      "anchorX": "center",
+      "anchorY": "bottom",
+      "innerGravity": "center",
+      "lineSpacing": 0.72,
+      "textSize": "0.18376m",
+      "translationY": -0.06383761,
+      "textGradient": {
+        "colors": [
+          "#B2841B",
+          "#77451E"
+        ]
+      },
+      "startFrame": 30,
+      "minDuration": "as_template",
+      "animatorsAll": [
+        {
+          "type": "move_to_y",
+          "duration": 30,
+          "from": 0.0625,
+          "to": 0,
+          "interpolator": "elegantlySlowOut"
+        }
+      ],
+      "animationParamIn": {
+        "shuffle": true,
+        "charDelayMillis": 40,
+        "charInterpolator": "easeInOutLight",
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 165
+          },
+          {
+            "type": "scale",
+            "from": 0,
+            "to": 1,
+            "durationMillis": 165
+          }
+        ]
+      }
+    }
+  ]
+}

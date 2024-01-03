@@ -1,0 +1,63 @@
+{
+  "type": "group",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "anchorX": "center",
+  "anchorY": "center",
+  "forPremium": true,
+  "medias": [
+    {
+      "type": "vector",
+      "id": "vectorAsTextBg.vectorText3",
+      "width": "match_parent",
+      "height": "match_parent",
+      "minDuration": "as_template",
+      "scaleType": "FIT_XY",
+      "originalSource": "assets://template-resources/love/Love2SlidesDuplicates/back_text_3.json",
+      "staticFrameForEdit": "last"
+    },
+    {
+      "type": "text",
+      "text": "Life in every\nmoment",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "innerGravity": "center",
+      "dependsOnParent": true,
+      "relativeToParent": false,
+      "textSize": "0.13w",
+      "font": {
+        "fontPath": "nautilus"
+      },
+      "lineSpacing": 0.85,
+      "paddingStart": "0.15w",
+      "paddingEnd": "0.15w",
+      "paddingTop": "0.05w",
+      "paddingBottom": "0.05w",
+      "textColor": "#6720FF",
+      "delayBeforeEnd": 45,
+      "startFrame": 12,
+      "animationParamIn": {
+        "charDelayMillis": 25,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "durationMillis": 50,
+            "from": 0,
+            "to": 1
+          },
+          {
+            "type": "move_to_y",
+            "interpolator": {
+              "type": "spring",
+              "amplitude": 0.12,
+              "frequency": 20
+            },
+            "from": 0.5,
+            "to": 0,
+            "durationMillis": 1500
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "type": "group",
+  "width": "wrap_content",
+  "height": "wrap_content",
+  "anchorX": "center",
+  "anchorY": "center",
+  "minDuration": "as_template",
+  "loopedAnimationInterval": 0,
+  "animatorsIn": [
+    {
+      "type": "move_to_y",
+      "startFrame": 5,
+      "duration": 35,
+      "interpolator": "fastInSuperfastOut1Invert",
+      "from": 0.03,
+      "to": -0.03
+    },
+    {
+      "startFrame": 40,
+      "type": "move_to_y",
+      "duration": 30,
+      "interpolator": "fastInSuperfastOut1Invert",
+      "from": -0.03,
+      "to": 0.03
+    }
+  ],
+  "medias": [
+    {
+      "type": "vector",
+      "id": "vectorAsTextBg.vectorAfter",
+      "width": "match_parent",
+      "height": "match_parent",
+      "scaleType": "FIT_XY",
+      "originalSource": "assets://text-resources/swipeup/Swipe_7.json",
+      "staticFrameForEdit": 12,
+      "minDuration": "as_template",
+      "isLoopEnabled": true,
+      "mediaPalette": {
+        "choices": [
+          {
+            "elements": [
+              "Swipe7_Color_1"
+            ]
+          },
+          {
+            "elements": [
+              "Swipe7_Color_2"
+            ]
+          },
+          {
+            "elements": [
+              "Swipe7_Color_3"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "text": "SWIPE UP",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "innerGravity": "center",
+      "dependsOnParent": true,
+      "relativeToParent": false,
+      "textSize": "0.09w",
+      "font": {
+        "fontStyle": "bold",
+        "fontPath": "hero"
+      },
+      "paddingTop": "0.03w",
+      "paddingBottom": "0.03w",
+      "paddingStart": "0.08w",
+      "paddingEnd": "0.08w",
+      "textColor": "#ffffff",
+      "lineSpacing": 0.92,
+      "minDuration": "as_template"
+    }
+  ]
+}

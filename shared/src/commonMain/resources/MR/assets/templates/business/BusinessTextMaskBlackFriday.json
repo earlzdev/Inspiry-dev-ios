@@ -1,0 +1,217 @@
+{
+  "preferredDuration": 180,
+  "availability": "PREMIUM",
+  "backgroundColor": "#FFFFFF",
+  "palette": {
+    "bgImageOrGradientCanBeSet": false,
+    "choices": [
+      {
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "path1"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "path2"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "path3"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1549893536-ad1e0ea277b2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80",
+      "width": "1w",
+      "height": "1h",
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "center_to_top_and_bottom",
+          "duration": 50,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "width": "1w",
+      "height": "1h",
+      "id": "groupImage",
+      "templateMask": {
+        "shaderType": "COMMON_MASK",
+        "invertFragmentAlpha": true,
+        "texturesID": [
+          "mask"
+        ]
+      },
+      "medias": [
+        {
+          "type": "image",
+          "isEditable": false,
+          "width": "1200",
+          "anchorX": "center",
+          "anchorY": "top",
+          "height": "400",
+          "y": "-30",
+          "id": "path1",
+          "backgroundColor": "#7A2098",
+          "animatorsIn": [
+            {
+              "type": "rotate",
+              "to": -3
+            },
+            {
+              "startFrame": 30,
+              "type": "clip",
+              "direction": "bottom_to_top",
+              "duration": 25,
+              "interpolator": "easeOut"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "isEditable": false,
+          "width": "1200",
+          "anchorX": "center",
+          "anchorY": "bottom",
+          "height": "400",
+          "y": "-30",
+          "id": "path3",
+          "backgroundColor": "#7A2098",
+          "animatorsIn": [
+            {
+              "type": "rotate",
+              "to": -3
+            },
+            {
+              "startFrame": 30,
+              "type": "clip",
+              "direction": "bottom_to_top",
+              "duration": 25,
+              "interpolator": "easeOut"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "type": "image",
+      "isEditable": false,
+      "width": "1200",
+      "anchorX": "center",
+      "anchorY": "center",
+      "backgroundColor": "#69327A",
+      "height": "1120",
+      "id": "path2",
+      "animatorsIn": [
+        {
+          "type": "rotate",
+          "to": -3
+        },
+        {
+          "type": "fade",
+          "to": 0.3
+        },
+        {
+          "startFrame": 20,
+          "type": "clip",
+          "direction": "center_to_top_and_bottom",
+          "duration": 40,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "id": "mask",
+      "type": "group",
+      "width": "match_parent",
+      "height": "match_parent",
+      "backgroundColor": "#FFFFFF",
+      "medias": [
+        {
+          "type": "text",
+          "minDuration": "as_template",
+          "text": "BLACK",
+          "innerGravity": "center",
+          "anchorY": "top",
+          "anchorX": "center",
+          "backgroundMarginLeft": 0,
+          "backgroundMarginRight": 0,
+          "width": "1.142w",
+          "height": "0.36h",
+          "translationY": -0.1084,
+          "font": {
+            "fontPath": "dinpro",
+            "fontStyle": "bold"
+          },
+          "textSize": "0.19s",
+          "textColor": "#000000",
+          "startFrame": 40,
+          "animationParamIn": {
+            "lineDelay": 15,
+            "textAnimators": [
+              {
+                "type": "move_to_y",
+                "from": 1,
+                "to": 0,
+                "duration": 30,
+                "interpolator": "easeOut"
+              },
+              {
+                "type": "clip",
+                "direction": "none",
+                "duration": 30
+              }
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "minDuration": "as_template",
+          "text": "FRIDAY",
+          "innerGravity": "center",
+          "anchorY": "bottom",
+          "anchorX": "center",
+          "width": "1.1w",
+          "height": "0.329h",
+          "backgroundMarginLeft": 0,
+          "backgroundMarginRight": 0,
+          "translationY": 0.05735,
+          "translationX": -0.0001,
+          "font": {
+            "fontPath": "dinpro",
+            "fontStyle": "bold"
+          },
+          "textSize": "0.19s",
+          "textColor": "#000000",
+          "startFrame": 40,
+          "animationParamIn": {
+            "lineDelay": 15,
+            "textAnimators": [
+              {
+                "type": "move_to_y",
+                "from": -1,
+                "to": 0,
+                "duration": 30,
+                "interpolator": "easeOut"
+              },
+              {
+                "type": "clip",
+                "direction": "none",
+                "duration": 30
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

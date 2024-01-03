@@ -1,0 +1,727 @@
+{
+  "preferredDuration": 240,
+  "availability": "PREMIUM",
+  "palette": {
+    "choices": [
+      {
+        "color": "#ffffff",
+        "elements": [
+          {
+            "type": "background"
+          },
+          {
+            "type": "elementBackgroundColor",
+            "id": "mainGroup"
+          },
+          {
+            "type": "textColor",
+            "id": "text0"
+          }
+        ]
+      },
+      {
+        "color": "#000000",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text1"
+          },
+          {
+            "type": "textColor",
+            "id": "text2"
+          },
+          {
+            "type": "textColor",
+            "id": "text3"
+          },
+          {
+            "type": "textColor",
+            "id": "text4"
+          },
+          {
+            "type": "textColor",
+            "id": "text5"
+          },
+          {
+            "type": "textColor",
+            "id": "text6"
+          },
+          {
+            "type": "textColor",
+            "id": "text7"
+          },
+          {
+            "type": "textColor",
+            "id": "text8"
+          },
+          {
+            "type": "textColor",
+            "id": "text9"
+          },
+          {
+            "type": "textColor",
+            "id": "text10"
+          },
+          {
+            "type": "textColor",
+            "id": "text11"
+          }
+        ]
+      },
+      {
+        "color": "#FF1753",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "text0"
+          },
+          {
+            "type": "borderColor",
+            "id": "circle1"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "type": "vector",
+      "width": "1w",
+      "height": "1h",
+      "minDuration": "as_template",
+      "originalSource": "assets://template-resources/social/Social1FollowMe/backCircle.json",
+      "staticFrameForEdit": "last",
+      "isMovable": true,
+      "isLoopEnabled": true,
+      "mediaPalette": {
+        "choices": [
+          {
+            "elements": ["Color 1"]
+          },
+          {
+            "elements": ["Color 2"]
+          },
+          {
+            "elements": ["Color 3"]
+          }
+        ]
+      }
+    },
+    {
+      "isEditable": false,
+      "type": "image",
+      "originalSource": "assets://template-resources/social/Social1FollowMe/shadow.png",
+      "width": "930/1080w",
+      "height": "1260/1920h",
+      "y": "192/1920h",
+      "alignBy": "top_center",
+      "animatorsIn": [
+        {
+          "startFrame": 10,
+          "type": "move_to_y",
+          "from": -0.315,
+          "to": 0,
+          "duration": 15,
+          "interpolator": "smooth30InOut"
+        },
+        {
+          "startFrame": 10,
+          "type": "scale",
+          "duration": 15,
+          "fromX": 0.9,
+          "toX": 1,
+          "fromY": 0,
+          "toY": 1,
+          "interpolator": "smooth30InOut"
+        }
+      ]
+    },
+    {
+      "id": "mainGroup",
+      "type": "group",
+      "width": "900/1080w",
+      "height": "1200/1920h",
+      "y": "212/1920h",
+      "alignBy": "top_center",
+      "backgroundColor": "#FFFFFF",
+      "animatorsIn": [
+        {
+          "startFrame": 10,
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "stickCorners": true,
+          "clipDefault": true,
+          "duration": 15,
+          "interpolator": "smooth30InOut"
+        },
+        {
+          "type": "radius",
+          "from": 0.2,
+          "to": 0.2,
+          "duration": 0
+        }
+      ],
+      "medias": [
+        {
+          "id": "text1",
+          "type": "text",
+          "text": "WeddingTips",
+          "innerGravity": "center",
+          "textSize": "0.056m",
+          "minDuration": "as_template",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "y": "84/1200h",
+          "alignBy": "top_center",
+          "startFrame": 15,
+          "animationParamIn": {
+            "charDelay": 3,
+            "textAnimators": [
+              {
+                "type": "move_to_y",
+                "from": 1,
+                "to": 0,
+                "duration": 3,
+                "interpolator": "slowInExpOut"
+              },
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 3,
+                "interpolator": "slowInExpOut"
+              }
+            ]
+          }
+        },
+        {
+          "id": "circle1",
+          "isEditable": false,
+          "type": "image",
+          "width": "298/900w",
+          "height": "298/900w",
+          "alignBy": "top_center",
+          "y": "192/1200h",
+          "borderWidth": "0.012w",
+          "borderColor": "#FF0000",
+          "borderType": "inside",
+          "startFrame": 20,
+          "animatorsIn": [
+            {
+              "type": "move_to_y",
+              "from": 0.138,
+              "to": 0,
+              "duration": 15,
+              "interpolator": "fastOut"
+            },
+            {
+              "type": "size",
+              "fromWidth": 0,
+              "fromHeight": 0,
+              "toWidth": 1,
+              "toHeight": 1,
+              "duration": 15,
+              "interpolator": "fastOut"
+            },
+            {
+              "type": "radius",
+              "from": 1,
+              "to": 1,
+              "duration": 0
+            }
+          ]
+        },
+        {
+          "type": "vector",
+          "width": "491/900w",
+          "height": "393/1200h",
+          "y": "144/1200h",
+          "minDuration": "as_template",
+          "scaleType": "FIT_XY",
+          "alignBy": "top_center",
+          "originalSource": "assets://template-resources/social/Social1FollowMe/aroundObject.json",
+          "staticFrameForEdit": "last",
+          "isLoopEnabled": true
+        },
+        {
+          "type": "image",
+          "demoSource": "https://images.unsplash.com/photo-1596181243306-e02a1897afb1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+          "demoScale": 1.6,
+          "width": "262/900w",
+          "height": "262/900w",
+          "demoOffsetX": -0.37,
+          "demoOffsetY": 0.2,
+          "startFrame": 30,
+          "anchorX": "center",
+          "y": "210/1200h",
+          "animatorsIn": [
+            {
+              "type": "clip",
+              "direction": "circular",
+              "duration": 0,
+              "from": 1,
+              "to": 1
+            },
+            {
+              "type": "scale",
+              "from": 0,
+              "to": 1,
+              "interpolator": "lightOut",
+              "duration": 15
+            }
+          ]
+        },
+        {
+          "id": "text2",
+          "type": "text",
+          "text": "@WeddingTips",
+          "innerGravity": "center",
+          "textSize": "0.066m",
+          "minDuration": "as_template",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "y": "540/1200h",
+          "alignBy": "top_center",
+          "startFrame": 20,
+          "animationParamIn": {
+            "charDelay": 3,
+            "textAnimators": [
+              {
+                "type": "move_to_y",
+                "from": 1,
+                "to": 0,
+                "duration": 3,
+                "interpolator": "slowInExpOut"
+              },
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 3,
+                "interpolator": "slowInExpOut"
+              }
+            ]
+          }
+        },
+        {
+          "id": "text3",
+          "type": "text",
+          "text": "12",
+          "innerGravity": "center",
+          "textSize": "0.036m",
+          "minDuration": "as_template",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "alignBy": "top_center",
+          "y": "670/1200h",
+          "translationX": -0.2,
+          "font": {
+            "fontStyle": "bold"
+          },
+          "startFrame": 20,
+          "animationParamIn": {
+            "charDelay": 3,
+            "textAnimators": [
+              {
+                "type": "move_to_y",
+                "from": 1,
+                "to": 0,
+                "duration": 3,
+                "interpolator": "slowInExpOut"
+              },
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 3,
+                "interpolator": "slowInExpOut"
+              }
+            ]
+          }
+        },
+        {
+          "id": "text4",
+          "type": "text",
+          "text": "155k",
+          "innerGravity": "center",
+          "textSize": "0.036m",
+          "minDuration": "as_template",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "alignBy": "top_center",
+          "y": "670/1200h",
+          "font": {
+            "fontStyle": "bold"
+          },
+          "startFrame": 25,
+          "animationParamIn": {
+            "charDelay": 3,
+            "textAnimators": [
+              {
+                "type": "move_to_y",
+                "from": 1,
+                "to": 0,
+                "duration": 3,
+                "interpolator": "slowInExpOut"
+              },
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 3,
+                "interpolator": "slowInExpOut"
+              }
+            ]
+          }
+        },
+        {
+          "id": "text5",
+          "type": "text",
+          "text": "5.5M",
+          "innerGravity": "center",
+          "textSize": "0.036m",
+          "minDuration": "as_template",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "alignBy": "top_center",
+          "y": "670/1200h",
+          "translationX": 0.2,
+          "font": {
+            "fontStyle": "bold"
+          },
+          "startFrame": 30,
+          "animationParamIn": {
+            "charDelay": 3,
+            "textAnimators": [
+              {
+                "type": "move_to_y",
+                "from": 1,
+                "to": 0,
+                "duration": 3,
+                "interpolator": "slowInExpOut"
+              },
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 3,
+                "interpolator": "slowInExpOut"
+              }
+            ]
+          }
+        },
+        {
+          "id": "text6",
+          "type": "text",
+          "text": "Followers",
+          "innerGravity": "center",
+          "textSize": "0.036m",
+          "minDuration": "as_template",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "alignBy": "top_center",
+          "y": "723/1200h",
+          "font": {
+            "fontStyle": "light"
+          },
+          "startFrame": 30,
+          "animationParamIn": {
+            "shuffle": true,
+            "wordDelayMillis": 80,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 15,
+                "interpolator": "flatIn25expOut"
+              },
+              {
+                "type": "move_to_y",
+                "from": 1,
+                "to": 0,
+                "duration": 15,
+                "interpolator": "flatIn25expOut"
+              }
+            ]
+          }
+        },
+        {
+          "id": "text7",
+          "type": "text",
+          "text": "Following",
+          "innerGravity": "center",
+          "textSize": "0.036m",
+          "minDuration": "as_template",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "alignBy": "top_center",
+          "translationX": -0.2,
+          "y": "723/1200h",
+          "font": {
+            "fontStyle": "light"
+          },
+          "startFrame": 25,
+          "animationParamIn": {
+            "shuffle": true,
+            "wordDelayMillis": 80,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 15,
+                "interpolator": "flatIn25expOut"
+              },
+              {
+                "type": "move_to_y",
+                "from": 1,
+                "to": 0,
+                "duration": 15,
+                "interpolator": "flatIn25expOut"
+              }
+            ]
+          }
+        },
+        {
+          "id": "text8",
+          "type": "text",
+          "text": "Likes",
+          "innerGravity": "center",
+          "textSize": "0.036m",
+          "minDuration": "as_template",
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "alignBy": "top_center",
+          "translationX": 0.2,
+          "y": "723/1200h",
+          "font": {
+            "fontStyle": "light"
+          },
+          "startFrame": 35,
+          "animationParamIn": {
+            "shuffle": true,
+            "wordDelayMillis": 80,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 15,
+                "interpolator": "flatIn25expOut"
+              },
+              {
+                "type": "move_to_y",
+                "from": 1,
+                "to": 0,
+                "duration": 15,
+                "interpolator": "flatIn25expOut"
+              }
+            ]
+          }
+        },
+        {
+          "id": "text0",
+          "type": "text",
+          "text": "Follow",
+          "innerGravity": "center",
+          "textSize": "0.056m",
+          "minDuration": "as_template",
+          "startFrame": 40,
+          "width": "385/1080w",
+          "height": "100/1200h",
+          "y": "810/1200h",
+          "x": "252/1080w",
+          "paddingEnd": "0.03w",
+          "paddingStart": "0.03w",
+          "paddingTop": "0.005w",
+          "paddingBottom": "0.005w",
+          "alignBy": "top_start",
+          "backgroundColor": "#FF1753",
+          "textColor": "#FFFFFF",
+          "animatorsIn": [
+            {
+              "type": "clip",
+              "direction": "left_to_right",
+              "duration": 15,
+              "interpolator": "lightOut"
+            }
+          ],
+          "animationParamIn": {
+            "shuffle": true,
+            "wordDelayMillis": 80,
+            "textAnimators": [
+              {
+                "type": "fade",
+                "from": 0,
+                "to": 1,
+                "duration": 15,
+                "interpolator": "flatIn25expOut"
+              },
+              {
+                "type": "move_to_y",
+                "from": 1,
+                "to": 0,
+                "duration": 15,
+                "interpolator": "flatIn25expOut"
+              }
+            ]
+          }
+        },
+        {
+          "type": "vector",
+          "originalSource": "assets://template-resources/social/Social1FollowMe/blackIcon.json",
+          "width": "100/900w",
+          "height": "100/900w",
+          "y": "260/1200h",
+          "x": "163/900w",
+          "startFrame": 50,
+          "alignBy": "center",
+          "keepAspect": true,
+          "isSocialIcon": true,
+          "isLottieAnimEnabled": false,
+          "touchActions": ["button_scale", "button_rotate", "move"],
+          "minDuration": "as_template",
+          "animatorsIn": [
+            {
+              "type": "scale",
+              "from": 0,
+              "to": 1,
+              "duration": 15,
+              "interpolator": "lightOut"
+            }
+          ]
+        },
+        {
+          "id": "text9",
+          "type": "text",
+          "text": "Wedding Planners",
+          "y": "372/1200h",
+          "innerGravity": "center",
+          "font": {
+            "fontStyle": "light",
+            "fontPath": "gilroy"
+          },
+          "textSize": "0.038m",
+          "minDuration": "as_template",
+          "startFrame": 35,
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "alignBy": "center",
+          "animationParamIn": {
+            "lineDelayMillis": 100,
+            "reverse": true,
+            "textAnimators": [
+              {
+                "type": "move_to_y",
+                "from": 3,
+                "to": 0,
+                "duration": 15,
+                "interpolator": "slowInExpOut"
+              }
+            ]
+          }
+        },
+        {
+          "id": "text10",
+          "type": "text",
+          "text": "Wedding Tips + Tricks",
+          "y": "439/1200h",
+          "innerGravity": "center",
+          "font": {
+            "fontStyle": "light",
+            "fontPath": "gilroy"
+          },
+          "textSize": "0.038m",
+          "minDuration": "as_template",
+          "startFrame": 40,
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "alignBy": "center",
+          "animationParamIn": {
+            "lineDelayMillis": 100,
+            "reverse": true,
+            "textAnimators": [
+              {
+                "type": "move_to_y",
+                "from": 3,
+                "to": 0,
+                "duration": 15,
+                "interpolator": "slowInExpOut"
+              }
+            ]
+          }
+        },
+        {
+          "id": "text11",
+          "type": "text",
+          "text": "Wedding Planning Guide",
+          "y": "506/1200h",
+          "innerGravity": "center",
+          "font": {
+            "fontStyle": "light",
+            "fontPath": "gilroy"
+          },
+          "textSize": "0.038m",
+          "minDuration": "as_template",
+          "startFrame": 45,
+          "width": "wrap_content",
+          "height": "wrap_content",
+          "alignBy": "center",
+          "animationParamIn": {
+            "lineDelayMillis": 100,
+            "reverse": true,
+            "textAnimators": [
+              {
+                "type": "move_to_y",
+                "from": 3,
+                "to": 0,
+                "duration": 15,
+                "interpolator": "slowInExpOut"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "NEW TIPS\nCOMING UP",
+      "y": "1514/1920h",
+      "innerGravity": "center",
+      "font": {
+        "fontStyle": "bold",
+        "fontPath": "gilroy"
+      },
+      "textSize": "0.090m",
+      "minDuration": "as_template",
+      "startFrame": 60,
+      "textColor": "#FFFFFF",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "alignBy": "top_center",
+      "animationParamIn": {
+        "charDelayMillis": 25,
+        "textAnimators": [
+          {
+            "type": "fade",
+            "durationMillis": 50,
+            "from": 0,
+            "to": 1
+          },
+          {
+            "type": "move_to_y",
+            "interpolator": {
+              "type": "spring",
+              "amplitude": 0.12,
+              "frequency": 20
+            },
+            "from": 0.6,
+            "to": 0,
+            "durationMillis": 1800
+          }
+        ]
+      }
+    }
+  ]
+}

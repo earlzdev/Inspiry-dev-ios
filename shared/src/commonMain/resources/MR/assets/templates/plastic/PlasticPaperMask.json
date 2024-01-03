@@ -1,0 +1,47 @@
+{
+  "backgroundColor": "#000000",
+  "preferredDuration": 180,
+  "availability": "FREE",
+  "palette": {
+    "isAvailable": false
+  },
+  "medias": [
+    {
+      "type": "image",
+      "slidesEnabled": true,
+      "demoSource": "https://images.unsplash.com/photo-1599363987217-605ae31a9695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+      "width": "912/1080w",
+      "height": "1263/1920h",
+      "x": "82/1080w",
+      "y": "256/1920h"
+    },
+    {
+      "originalSource": "assets://template-resources/plastic/PlasticPaperMask/front.png",
+      "isEditable": false,
+      "type": "image",
+      "width": "1w",
+      "height": "1h"
+    },
+    {
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "translationY": 0.36307758,
+      "anchorX": "center",
+      "anchorY": "center",
+      "type": "text",
+      "minDuration": "as_template",
+      "minDuration": "as_template",
+      "innerGravity": "left",
+      "text": "JOIN NOW",
+      "font": {
+        "fontPath": "monument",
+        "fontStyle": "bold"
+      },
+      "textSize": "0.078m",
+      "textColor": "#B0B1DE",
+      "letterSpacing": 0.01,
+      "strokeWidth": 0.02,
+      "paintStyle": "STROKE"
+    }
+  ]
+}

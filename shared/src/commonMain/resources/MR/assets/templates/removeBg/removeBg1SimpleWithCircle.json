@@ -1,0 +1,137 @@
+{
+  "preferredDuration": 240,
+  "listDemoPreferredDuration": 105,
+  "availability": "PREMIUM",
+  "palette": {
+    "choices": [
+      {
+        "color": "#7D54F2",
+        "elements": [
+          {
+            "type": "background"
+          }
+        ]
+      },
+      {
+        "color": "#FFFFFF",
+        "elements": [
+          {
+            "type": "textColor",
+            "id": "text1"
+          }
+        ]
+      },
+      {
+        "color": "#95E0F0",
+        "elements": [
+          {
+            "type": "elementBackgroundColor",
+            "id": "circle1"
+          }
+        ]
+      }
+    ]
+  },
+  "medias": [
+    {
+      "id": "circle1",
+      "type": "image",
+      "backgroundColor": "#95E0F0",
+      "isMovable": true,
+      "isEditable": false,
+      "alignBy": "top_center",
+      "width": "1700/1080w",
+      "height": "1700/1920h",
+      "y": "450/1920h",
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "circular",
+          "duration": 0
+        },
+        {
+          "type": "move_to_y",
+          "from": 0.32,
+          "to": 0,
+          "duration": 25,
+          "interpolator": "flatIn30expOut"
+        },
+        {
+          "type": "fade",
+          "from": 0,
+          "to": 1,
+          "duration": 25,
+          "interpolator": "flatIn30expOut"
+        }
+      ]
+    },
+    {
+      "id": "text1",
+      "type": "text",
+      "text": "Come to see us\nat the shop",
+      "alignBy": "top_center",
+      "innerGravity": "center",
+      "width": "wrap_content",
+      "height": "wrap_content",
+      "y": "70/1920h",
+      "startFrame": 10,
+      "minDuration": "as_template",
+      "font": {
+        "fontPath": "made",
+        "fontStyle": "bold"
+      },
+      "textSize": "0.100m",
+      "textColor": "#FFFFFF",
+      "animationParamIn": {
+        "wordDelay": 5,
+        "wordInterpolator": {
+          "type": "accelerate",
+          "factor": 0.95
+        },
+        "textAnimators": [
+          {
+            "type": "fade",
+            "from": 0,
+            "to": 1,
+            "duration": 25,
+            "interpolator": "flatIn25expOut"
+          },
+          {
+            "type": "move_to_y",
+            "from": 0.5,
+            "to": 0,
+            "duration": 30,
+            "interpolator": "flatIn25expOut"
+          }
+        ]
+      }
+    },
+    {
+      "type": "image",
+      "demoSource": "assets://template-resources/removeBg/SimpleWithCircle/demoPhoto.png",
+      "width": "1027/1080w",
+      "height": "1661/1920h",
+      "y": "328/1920h",
+      "x": "75/1080w",
+      "isEditable": true,
+      "removeBgOnInsert": true,
+      "startFrame": 0,
+      "animatorsIn": [
+        {
+          "type": "move_to_y",
+          "from": 0.5,
+          "to": 0,
+          "duration": 40,
+          "interpolator": "flatIn30expOut"
+        },
+        {
+          "type": "fade",
+          "duration": 20,
+          "from": 0,
+          "to": 1,
+          "interpolator": "flatIn30expOut"
+        }
+      ]
+    }
+  ]
+}

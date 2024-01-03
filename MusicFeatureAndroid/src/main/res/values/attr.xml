@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InspiryWave">
+        <attr name="spacing" format="dimension" />
+        <attr name="waveWidth" format="dimension" />
+        <attr name="widthSign" format="dimension" />
+        <attr name="widthStrokeSign" format="dimension" />
+        <attr name="centerLeftMark" format="dimension" />
+
+        <attr name="wavePaint" format="color" />
+        <attr name="backgroundCroppedWave" format="color" />
+        <attr name="backgroundNotCroppedWave" format="color" />
+    </declare-styleable>
+</resources>

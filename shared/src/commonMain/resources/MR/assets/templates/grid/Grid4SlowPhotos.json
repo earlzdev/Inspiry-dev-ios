@@ -1,0 +1,84 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "availability": "INSTAGRAM_SUBSCRIBED",
+  "preferredDuration": 180,
+  "medias": [
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1522825397800-ddf6405fc258?ixlib=rb-1.2.1ixid=eyJhcHBfaWQiOjEyMDd9auto=formatfit=cropw=480q=80",
+      "x": "43/1080w",
+      "y": "61/1920h",
+      "width": "479/1080w",
+      "height": "708/1920h",
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 90,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1517269145736-a6e1ff92c2fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=480&q=80",
+      "anchorX": "end",
+      "x": "45/1080w",
+      "y": "189/1920h",
+      "width": "479/1080w",
+      "height": "932/1920h",
+      "startFrame": 10,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 90,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1504627298434-2119d6928e93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=480&q=80",
+      "x": "43/1080w",
+      "y": "171/1920h",
+      "anchorY": "bottom",
+      "width": "479/1080w",
+      "height": "940/1920h",
+      "demoScale": 1.6,
+      "demoOffsetX": 0,
+      "demoOffsetY": -0.4,
+      "startFrame": 30,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 80,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "demoSource": "https://images.unsplash.com/photo-1504627298434-2119d6928e93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=480&q=80",
+      "anchorX": "end",
+      "anchorY": "bottom",
+      "x": "38/1080w",
+      "y": "83/1920h",
+      "width": "479/1080w",
+      "height": "668/1920h",
+      "demoScale": 1.6,
+      "demoOffsetX": -0.6,
+      "demoOffsetY": -0.4,
+      "startFrame": 60,
+      "animatorsIn": [
+        {
+          "type": "clip",
+          "direction": "top_to_bottom",
+          "duration": 60,
+          "interpolator": "elegantlySlowOut"
+        }
+      ]
+    }
+  ]
+}
