@@ -39,30 +39,53 @@ class SubscribeViewModel: BaseSubscribeViewModel, ObservableObject {
 //        //DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
 //            self.onProductsLoaded(displayProducts: self.debugProductList)
 //        //}
-        Adapty.getPaywall(paywallId) { result in
-            
-            switch result {
-            case .failure(let error):
-                print("adapty error \(error.localizedDescription) for paywallId \(paywallId)")
-            case .success(let result):
-                Adapty.logShowPaywall(result)
-                print("aptempt to load paywall \(paywallId) \(result)")
-                Adapty.getPaywallProducts(paywall: result, fetchPolicy: .default) { productsResult in
-                    switch productsResult {
-                    case .failure(let error):
-                        print("Adapty error get products: \(error.localizedDescription)")
-                    case .success(let products):
-                        print("Adapty products loaded \(products.count)")
-                        if (products.count != 0) {
-                            self.onPaywallLoadedLocal(products: products)
-                        } else {
-                            self.onProductsLoaded(displayProducts: self.debugProductList)
+        
+        Adapty.getPaywall(paywallId, locale: "en") { result in
+                    switch result {
+                    case let .success(paywall):
+                        Adapty.logShowPaywall(paywall)
+                        Adapty.getPaywallProducts(paywall: paywall) { result in
+                            switch result {
+                            case let .success(products):
+                                print("Adapty products loaded \(products.count)")
+                                if (products.count != 0) {
+                                    self.onPaywallLoadedLocal(products: products)
+                                } else {
+                                    self.onProductsLoaded(displayProducts: self.debugProductList)
+                                }
+                            case let .failure(error):
+                                print("Adapty error get products: \(error.localizedDescription)")
+                            }
                         }
+                    case let .failure(error):
+                        print("adapty error \(error.localizedDescription) for paywallId \(paywallId)")
                     }
-
                 }
-            }
-        }
+                
+//        Adapty.getPaywall(paywallId) { result in
+//
+//            switch result {
+//            case .failure(let error):
+//                print("adapty error \(error.localizedDescription) for paywallId \(paywallId)")
+//            case .success(let result):
+//                Adapty.logShowPaywall(result)
+//                print("aptempt to load paywall \(paywallId) \(result)")
+//                Adapty.getPaywallProducts(paywall: result, fetchPolicy: .default) { productsResult in
+//                    switch productsResult {
+//                    case .failure(let error):
+//                        print("Adapty error get products: \(error.localizedDescription)")
+//                    case .success(let products):
+//                        print("Adapty products loaded \(products.count)")
+//                        if (products.count != 0) {
+//                            self.onPaywallLoadedLocal(products: products)
+//                        } else {
+//                            self.onProductsLoaded(displayProducts: self.debugProductList)
+//                        }
+//                    }
+//
+//                }
+//            }
+//        }
     }
     func onSubscribeTap(onFinished: @escaping (Bool) -> Void) {
         DispatchQueue.main.async {

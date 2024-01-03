@@ -17,7 +17,6 @@
 		1C9B6D6082C25BBA682CB8DE /* TabTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B67318E069B623EDA2461 /* TabTextView.swift */; };
 		1C9B6F20BB843D65461279FC /* ExportChoicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B661BF393411D24C58517 /* ExportChoicesView.swift */; };
 		1C9B6F265FA1D6FA617FD0CD /* ic_export_more.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1C9B6A57255086465281E7F7 /* ic_export_more.xml */; };
-		3D0469C328BE3823003F942F /* app-resources+remove_background_progress.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D0469C228BE3823003F942F /* app-resources+remove_background_progress.json */; };
 		3D0469CA28C0BDE4003F942F /* SlidesPanelUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0469C928C0BDE4003F942F /* SlidesPanelUI.swift */; };
 		3D0469CC28C0BE05003F942F /* SlidesInstrumentViewModelApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0469CB28C0BE05003F942F /* SlidesInstrumentViewModelApple.swift */; };
 		3D0469D128C71D2B003F942F /* MovableItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0469D028C71D2B003F942F /* MovableItemProvider.swift */; };
@@ -2552,7 +2551,6 @@
 				3D1D684B27A94AD100C97D99 /* ic_instrument_align_center.xml in Resources */,
 				3DD8E71D27AAAB6800B84AB8 /* ic_round_icon.xml in Resources */,
 				3DBE356528731E940027B1C0 /* ic_shape_square.xml in Resources */,
-				3D0469C328BE3823003F942F /* app-resources+remove_background_progress.json in Resources */,
 				3D26586F27E1EEA50013E1CC /* ic_sound_off_wave_from_dialog.xml in Resources */,
 				3D1D684927A94AD100C97D99 /* ic_instrument_align_right.xml in Resources */,
 				3DB05AE4286C48210076280C /* commonMain in Resources */,
@@ -2569,7 +2567,6 @@
 				3D1D682B27A80A8B00C97D99 /* ic_instrument_animation.xml in Resources */,
 				E3E8DC8A2623104400559A8F /* ic_music_play_placeholder.svg in Resources */,
 				3D707FEC29717C2A004A7828 /* move_anim_fade.xml in Resources */,
-				E368C32A262C75C30018FAEA /* GoogleService-Info.plist in Resources */,
 				3D1D684227A91EDF00C97D99 /* ic_edit_static.xml in Resources */,
 				3DB4882F277B38BE0050F486 /* ic_fire.xml in Resources */,
 				3D355D7727720E91005544E6 /* ic_pro_enabled.xml in Resources */,
@@ -3198,7 +3195,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 27;
 				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 2QU68755G7;
+				DEVELOPMENT_TEAM = J473GY97U7;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
@@ -3242,7 +3239,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 27;
 				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 2QU68755G7;
+				DEVELOPMENT_TEAM = J473GY97U7;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/../shared/build/xcode-frameworks/**",
@@ -3425,8 +3422,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/adaptyteam/AdaptySDK-iOS";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				kind = exactVersion;
+				version = 2.6.1;
 			};
 		};
 		E3A3A5A3269C19420056FC42 /* XCRemoteSwiftPackageReference "Swinject" */ = {
