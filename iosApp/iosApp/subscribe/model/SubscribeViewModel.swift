@@ -32,7 +32,7 @@ class SubscribeViewModel: BaseSubscribeViewModel, ObservableObject {
             self?.uiState = $0
         }
         
-        loadProducts(paywallId: "ios_default_2")
+        loadProducts(paywallId: "onboarding_placement_id")
     }
     
     override func loadProducts(paywallId: String) {

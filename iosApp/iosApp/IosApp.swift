@@ -22,7 +22,7 @@ struct IosApp: App {
     
     init() {
 //        Adapty.logLevel = .verbose
-        Adapty.activate("public_live_place_api_key_here_0000000000") { result in
+        Adapty.activate("public_live_nD5mRwwa.U4LwVGEHQNqBJJUVTads") { result in
             print("adapty activate result \(result?.localizedDescription)")
         }
         Amplitude.instance().initializeApiKey("amplitude_api_key")
